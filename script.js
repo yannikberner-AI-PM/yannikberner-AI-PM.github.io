@@ -199,7 +199,7 @@ const translations = {
       eyebrow: 'Kontakt',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
       text: 'Ich interessiere mich für Produktführung, digitale Transformation und KI-gestützte Prozessberatung.',
-      linkedin: 'LinkedIn Platzhalter – TODO'
+      linkedin: 'LinkedIn'
     },
     footer: {
       text: '© Yannik Berner. Produktmanagement, Digitale Transformation und Prozessberatung.',
@@ -410,7 +410,7 @@ const translations = {
       eyebrow: 'Contact',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
       text: 'I am interested in product leadership, digital transformation and AI-enabled process consulting opportunities.',
-      linkedin: 'LinkedIn placeholder – TODO'
+      linkedin: 'LinkedIn'
     },
     footer: {
       text: '© Yannik Berner. Product management, digital transformation and process consulting.',
