@@ -34,7 +34,12 @@ const translations = {
     },
     about: {
       eyebrow: 'Über mich',
-      heading: 'Komplexität in klare Produktentscheidungen übersetzen.',
+      heading: [
+        'KOMPLEXITÄT IN',
+        'KLARE PRODUKT-',
+        'ENTSCHEIDUNGEN',
+        'ÜBERSETZEN.'
+      ],
       p1: 'Ich arbeite an der Schnittstelle von Geschäftsmodell, Technologie, Regulatorik und Betrieb. Meine Karriere spannt Start-ups, internationale Konzerne und Energie-, IoT-, Daten- und CRM-Produktlandschaften zusammen.',
       p2: 'Ich kombiniere strategisches Produktdenken mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen Teams Struktur, Priorisierung und eine gemeinsame Produktrichtung brauchen.'
     },
@@ -245,7 +250,11 @@ const translations = {
     },
     about: {
       eyebrow: 'About',
-      heading: 'Turning complexity into clear product decisions.',
+      heading: [
+        'TURNING COMPLEXITY',
+        'INTO CLEAR PRODUCT',
+        'DECISIONS.'
+      ],
       p1: 'I work at the intersection of business models, technology, regulation and operations. My career spans start-ups, international corporations and energy, IoT, data and CRM product landscapes.',
       p2: 'I combine strategic product thinking with technical understanding and pragmatic execution. I am particularly effective in ambiguous environments where teams need structure, prioritisation and a shared product direction.'
     },
@@ -430,6 +439,8 @@ function getByPath(object, path) {
 function setTextContent(element, value) {
   if (typeof value === 'string') {
     element.innerHTML = value;
+  } else {
+    element.innerHTML = '';
   }
 }
 
@@ -440,9 +451,7 @@ function updateTranslations(language) {
 
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const value = getByPath(active, element.getAttribute('data-i18n'));
-    if (value !== undefined) {
-      setTextContent(element, value);
-    }
+    setTextContent(element, value ?? '');
   });
 
   document.querySelectorAll('[data-i18n-alt]').forEach((element) => {
