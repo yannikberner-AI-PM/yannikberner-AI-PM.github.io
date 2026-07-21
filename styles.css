@@ -359,6 +359,33 @@ h3 {
   align-items: start;
 }
 
+.about-layout {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(3rem, 7vw, 8rem);
+  align-items: start;
+}
+
+.about-heading,
+.about-content {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.about-heading h2 {
+  max-width: 100%;
+  margin: 0;
+  font-size: clamp(2.8rem, 5.3vw, 5.8rem);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  white-space: normal;
+  overflow-wrap: normal;
+  hyphens: auto;
+}
+
+.about-content {
+  min-width: 0;
+}
+
 .impact-grid {
   display: grid;
   grid-template-columns: repeat(
@@ -621,6 +648,15 @@ h3 {
   .case-body,
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-heading h2 {
+    font-size: clamp(2.6rem, 10vw, 4.8rem);
   }
 
   .hero-grid {
