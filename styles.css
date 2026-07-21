@@ -372,14 +372,15 @@ h3 {
 }
 
 .about-heading h2 {
-  max-width: 100%;
+  max-width: 11ch;
   margin: 0;
-  font-size: clamp(2.8rem, 5.3vw, 5.8rem);
-  line-height: 0.9;
-  letter-spacing: -0.04em;
+  font-size: clamp(2.8rem, 4.2vw, 4.8rem);
+  line-height: 0.92;
+  letter-spacing: -0.035em;
   white-space: normal;
   overflow-wrap: normal;
-  hyphens: auto;
+  word-break: normal;
+  hyphens: none;
 }
 
 .about-content {
@@ -656,7 +657,8 @@ h3 {
   }
 
   .about-heading h2 {
-    font-size: clamp(2.6rem, 10vw, 4.8rem);
+    font-size: clamp(2.5rem, 9vw, 4rem);
+    max-width: 100%;
   }
 
   .hero-grid {
