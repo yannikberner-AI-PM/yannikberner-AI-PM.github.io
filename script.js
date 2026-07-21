@@ -94,7 +94,7 @@ const translations = {
         viewDetails: 'Details anzeigen',
         hideDetails: 'Details ausblenden'
       },
-      energtrag: {
+      enertrag: {
         title: 'Product Orchestration Lead / Business Process Owner',
         meta: 'Strategische Digitalisierung über Business, IT, OT und Architektur.',
         overview: 'Als Product Orchestration Lead und Business Process Owner habe ich strategische Digitalisierungsinitiativen an der Schnittstelle von Business, IT, OT und Architektur über die Energie-Wertschöpfungskette von ENERTRAG geführt, mit Fokus auf Datenprodukte, Governance und Resilienz kritischer Geschäftsprozesse.',
@@ -139,7 +139,7 @@ const translations = {
       soniq: {
         title: 'Product Manager IoT & SaaS',
         meta: 'Digitale Plattform für professionelle Reinigungsdienstleistungen.',
-        overview: 'Bei soniq Services GmbH habe ich ein cross-funktionales Team bei der Entwicklung von soniq IQ geführt, einer Plattform für die Verbindung von IoT-Geräten, Betriebsdaten und externen Systemen.',
+        overview: 'Bei soniq Services GmbH habe ich ein cross-funktionales Team bei der Entwicklung von tool IQ geführt, einer Plattform für die Verbindung von IoT-Geräten, Betriebsdaten und externen Systemen.',
         periodLocation: 'Aug. 2022 – Aug. 2024 · Berlin',
         imageAlt: 'Collage zur IoT- und Datenplattform soniq IQ',
         mediaAriaLabel: 'Collage zur IoT- und Datenplattform soniq IQ',
@@ -309,7 +309,7 @@ const translations = {
         viewDetails: 'View details',
         hideDetails: 'Hide details'
       },
-      energtrag: {
+      enertrag: {
         title: 'Product Orchestration Lead / Business Process Owner',
         meta: 'Strategic digitalisation across Business, IT, OT and Architecture.',
         overview: 'As Product Orchestration Lead and Business Process Owner, I led strategic digitalisation initiatives at the intersection of Business, IT, OT and Architecture across ENERTRAG’s energy value chain, with a focus on data products, governance and resilience for critical business processes.',
@@ -354,7 +354,7 @@ const translations = {
       soniq: {
         title: 'Product Manager IoT & SaaS',
         meta: 'Digital platform for professional cleaning services.',
-        overview: 'At soniq Services GmbH, I led a cross-functional team developing soniq IQ, a platform connecting IoT devices, operational data and external systems.',
+        overview: 'At soniq Services GmbH, I led a cross-functional team developing tool IQ, a platform connecting IoT devices, operational data and external systems.',
         periodLocation: 'Aug 2022 – Aug 2024 · Berlin',
         imageAlt: 'Collage of the soniq IQ IoT and data platform',
         mediaAriaLabel: 'Collage of the soniq IQ IoT and data platform',
