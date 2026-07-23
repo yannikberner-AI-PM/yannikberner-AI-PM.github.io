@@ -233,6 +233,7 @@ h3 {
 }
 
 .hero-intro,
+.hero-intro-mobile,
 .prose p,
 .case-overview,
 .case-details p,
@@ -244,6 +245,10 @@ h3 {
   font-size: 1rem;
   color: var(--muted);
   max-width: 62ch;
+}
+
+.hero-intro-mobile {
+  display: none;
 }
 
 .hero-actions {
@@ -690,13 +695,20 @@ h3 {
 }
 
 @media (max-width: 720px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: calc(100% - 2rem);
+  }
+
   .section {
     padding: 4.25rem 0;
   }
 
   .nav-controls {
-    width: 100%;
-    justify-content: space-between;
+    width: auto;
   }
 
   .nav-toggle {
@@ -722,7 +734,85 @@ h3 {
 
   .nav-bar {
     position: relative;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    min-height: 4rem;
+    padding: 0.7rem 0;
+  }
+
+  .brand {
+    font-size: 0.8rem;
+  }
+
+  .nav-toggle {
+    padding: 0.45rem 0.65rem;
+    font-size: 0.8rem;
+  }
+
+  .hero.section {
+    padding: 1.75rem 0 4rem;
+  }
+
+  .hero-grid {
+    gap: 2rem;
+  }
+
+  .hero-copy {
+    order: 1;
+  }
+
+  .portrait-shell {
+    order: 2;
+    width: min(72vw, 250px);
+    margin: 0;
+  }
+
+  .hero .eyebrow {
+    margin-bottom: 0.65rem;
+    font-size: 0.66rem;
+    letter-spacing: 0.18em;
+  }
+
+  .hero h1 {
+    margin-bottom: 0.65rem;
+    font-size: clamp(2.9rem, 15vw, 4rem);
+    line-height: 0.86;
+  }
+
+  .hero-title {
+    margin: 0 0 0.75rem;
+    font-size: 0.86rem;
+  }
+
+  .hero-intro {
+    display: none;
+  }
+
+  .hero-intro-mobile {
+    display: block;
+    margin: 0;
+    max-width: 34ch;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .hero-actions {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0.6rem;
+    margin-top: 1.25rem;
+  }
+
+  .hero-actions .button {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0.7rem 0.55rem;
+    font-size: 0.72rem;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .section-intro h2 {
+    overflow-wrap: anywhere;
   }
 
   .impact-grid,
@@ -737,8 +827,16 @@ h3 {
     align-items: flex-start;
   }
 
-  .hero-actions {
-    flex-direction: column;
-    align-items: flex-start;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
