@@ -213,7 +213,20 @@ const translations = {
     },
     footer: {
       text: '© Yannik Berner. Produktmanagement, Digitale Transformation und Prozessberatung.',
+      privacy: 'Datenschutz',
       backToTop: 'Zum Anfang'
+    },
+    privacy: {
+      documentTitle: 'Datenschutzerklärung | Yannik Berner',
+      eyebrow: 'Rechtliche Informationen',
+      heading: 'Datenschutzerklärung',
+      backToPortfolio: 'Zurück zum Portfolio',
+      hostingHeading: 'Hosting über GitHub Pages',
+      hostingIntro: 'Diese Website wird über <strong>GitHub Pages</strong>, einen Hosting-Dienst der GitHub, Inc., bereitgestellt.',
+      processing: 'Beim Aufruf der Website werden technisch notwendige Informationen, wie beispielsweise die IP-Adresse, Datum und Uhrzeit des Zugriffs, Browsertyp sowie weitere technische Verbindungsdaten verarbeitet, um die Auslieferung der Website und den sicheren Betrieb zu ermöglichen. Diese Verarbeitung erfolgt durch GitHub als Hosting-Anbieter.',
+      moreInfo: 'Weitere Informationen zur Datenverarbeitung durch GitHub findest du unter:',
+      githubPrivacy: 'GitHub General Privacy Statement',
+      legalBasis: 'Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse besteht in der sicheren und zuverlässigen Bereitstellung dieser Website.'
     },
     lang: {
       de: 'DE',
@@ -433,7 +446,20 @@ const translations = {
     },
     footer: {
       text: '© Yannik Berner. Product management, digital transformation and process consulting.',
+      privacy: 'Privacy',
       backToTop: 'Back to top'
+    },
+    privacy: {
+      documentTitle: 'Privacy Policy | Yannik Berner',
+      eyebrow: 'Legal information',
+      heading: 'Privacy Policy',
+      backToPortfolio: 'Back to portfolio',
+      hostingHeading: 'Hosting via GitHub Pages',
+      hostingIntro: 'This website is hosted via <strong>GitHub Pages</strong>, a hosting service provided by GitHub, Inc.',
+      processing: 'When you access this website, technically necessary information such as your IP address, the date and time of access, browser type and other technical connection data is processed to deliver the website and ensure its secure operation. This processing is carried out by GitHub as the hosting provider.',
+      moreInfo: 'Further information about data processing by GitHub is available at:',
+      githubPrivacy: 'GitHub General Privacy Statement',
+      legalBasis: 'The legal basis for this processing is Article 6(1)(f) GDPR. The legitimate interest lies in providing this website securely and reliably.'
     },
     lang: {
       de: 'DE',
@@ -457,7 +483,9 @@ function setTextContent(element, value) {
 function updateTranslations(language) {
   const active = translations[language] || translations.de;
   document.documentElement.lang = language;
-  document.title = active.documentTitle;
+  document.title = document.body.dataset.page === 'privacy'
+    ? active.privacy.documentTitle
+    : active.documentTitle;
 
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const value = getByPath(active, element.getAttribute('data-i18n'));
