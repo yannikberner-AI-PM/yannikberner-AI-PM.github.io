@@ -5,7 +5,6 @@ const translations = {
     nav: {
       about: 'Über mich',
       capabilities: 'Kompetenzen',
-      projects: 'Eigene Projekte',
       experience: 'Berufserfahrung',
       contact: 'Kontakt',
       toggleLabel: 'Navigation umschalten'
@@ -56,17 +55,6 @@ const translations = {
         { title: 'Operationale Resilienz', text: 'Business Impact Analysis, NIS2-Readiness, BCM und Governance kritischer Prozesse.' },
         { title: 'Produkt-Operating Models', text: 'OKRs, Scrum, Kanban, Flight Levels und cross-funktionale Zusammenarbeit.' }
       ]
-    },
-    projects: {
-      eyebrow: 'Eigene Projekte',
-      heading: 'Produkte, die ich selbst konzipiere und umsetze.',
-      linkLabel: 'AI Job Search Agent in einem neuen Tab öffnen',
-      open: 'Projekt öffnen ↗',
-      agent: {
-        title: 'AI Job Search Agent',
-        text: 'Ein selbst entwickeltes Tool, das Stellenanzeigen strukturiert erfasst, bewertet und bei der Priorisierung passender Rollen unterstützt.',
-        meta: 'AI-assisted Development · Product Design · Streamlit'
-      }
     },
     skills: {
       eyebrow: 'Fähigkeiten',
@@ -238,7 +226,6 @@ const translations = {
     nav: {
       about: 'About',
       capabilities: 'Capabilities',
-      projects: 'Own Projects',
       experience: 'Experience',
       contact: 'Contact',
       toggleLabel: 'Toggle navigation'
@@ -288,17 +275,6 @@ const translations = {
         { title: 'Operational Resilience', text: 'Business Impact Analysis, NIS2 readiness, BCM and critical process governance.' },
         { title: 'Product Operating Models', text: 'OKRs, Scrum, Kanban, Flight Levels and cross-functional collaboration.' }
       ]
-    },
-    projects: {
-      eyebrow: 'Own Projects',
-      heading: 'Products I conceptualise and build myself.',
-      linkLabel: 'Open the AI Job Search Agent in a new tab',
-      open: 'Open project ↗',
-      agent: {
-        title: 'AI Job Search Agent',
-        text: 'A self-built tool that captures and evaluates job postings in a structured way and helps prioritise suitable roles.',
-        meta: 'AI-assisted Development · Product Design · Streamlit'
-      }
     },
     skills: {
       eyebrow: 'Skills',
