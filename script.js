@@ -102,6 +102,7 @@ const translations = {
         periodLocation: 'Feb. 2026 – heute · Berlin',
         imageAlt: 'Collage zu den Digitalisierungsprojekten bei ENERTRAG',
         mediaAriaLabel: 'Collage zu den Digitalisierungsprojekten bei ENERTRAG',
+        mediaLinkLabel: 'ENERTRAG-Website in einem neuen Tab öffnen',
         contributions: [
           'GPS/GIS-basierter Proof of Concept für die Standortbewertung im Kontext von Wind- und Photovoltaik-Projekten.',
           'Grundlagen für Datenprodukte und datenbasierte Entscheidungsprozesse von Konzeption bis nutzbarem MVP etabliert.',
@@ -123,6 +124,7 @@ const translations = {
         periodLocation: 'Sep. 2024 – Jan. 2026 · Leipzig / Remote',
         imageAlt: 'Collage zum Home Energy Management System bei SENEC',
         mediaAriaLabel: 'Collage zum Home Energy Management System bei SENEC',
+        mediaLinkLabel: 'SENEC PowerPilot in einem neuen Tab öffnen',
         contributions: [
           'Vernetzung von Embedded Software, Cloud-Backend und Drittanbieter-Edge-Geräten in einer gemeinsamen Produktplattform.',
           'Roadmap für sichere Yocto/Linux-Systemupdates und Integrationen externer Geräte definiert.',
@@ -144,6 +146,7 @@ const translations = {
         periodLocation: 'Aug. 2022 – Aug. 2024 · Berlin',
         imageAlt: 'Collage zur IoT- und Datenplattform soniq IQ',
         mediaAriaLabel: 'Collage zur IoT- und Datenplattform soniq IQ',
+        mediaLinkLabel: 'Kärcher Connected Cleaning in einem neuen Tab öffnen',
         contributions: [
           'Plattform für Echtzeit-Monitoring, Analyse und vorbeugende Wartung entwickelt.',
           'IoT-Technologien, ERP-Funktionalitäten, REST-APIs und Data-Lake-Komponenten integriert.',
@@ -186,6 +189,7 @@ const translations = {
         periodLocation: 'Dez. 2017 – Dez. 2020 · Berlin',
         imageAlt: 'Collage zur Energie- und Tarifplattform von remind.me',
         mediaAriaLabel: 'Collage zur Energie- und Tarifplattform von remind.me',
+        mediaLinkLabel: 'remind.me-Website in einem neuen Tab öffnen',
         contributions: [
           'Agile Produktentwicklung eingeführt und im Team etabliert.',
           'Kunden- und Serviceprozesse automatisiert und einfacher gestaltet.',
@@ -318,6 +322,7 @@ const translations = {
         periodLocation: 'Feb 2026 – Present · Berlin',
         imageAlt: 'Collage of digitalisation projects at ENERTRAG',
         mediaAriaLabel: 'Collage of digitalisation projects at ENERTRAG',
+        mediaLinkLabel: 'Open the ENERTRAG website in a new tab',
         contributions: [
           'GPS/GIS-based proof of concept for site assessment in wind and photovoltaic project planning.',
           'Established foundations for data products and data-driven decision-making from concept through to a usable MVP.',
@@ -339,6 +344,7 @@ const translations = {
         periodLocation: 'Sep 2024 – Jan 2026 · Leipzig / Remote',
         imageAlt: 'Collage of the Home Energy Management System at SENEC',
         mediaAriaLabel: 'Collage of the Home Energy Management System at SENEC',
+        mediaLinkLabel: 'Open SENEC PowerPilot in a new tab',
         contributions: [
           'Connected embedded software, cloud backends and third-party edge devices in a shared product platform.',
           'Defined a roadmap for secure Yocto/Linux system updates and third-party device integration.',
@@ -360,6 +366,7 @@ const translations = {
         periodLocation: 'Aug 2022 – Aug 2024 · Berlin',
         imageAlt: 'Collage of the soniq IQ IoT and data platform',
         mediaAriaLabel: 'Collage of the soniq IQ IoT and data platform',
+        mediaLinkLabel: 'Open Kärcher Connected Cleaning in a new tab',
         contributions: [
           'Developed a platform for real-time monitoring, analysis and preventive maintenance.',
           'Integrated IoT technologies, ERP capabilities, REST APIs and data lake components.',
@@ -402,6 +409,7 @@ const translations = {
         periodLocation: 'Dec 2017 – Dec 2020 · Berlin',
         imageAlt: 'Collage of the energy and tariff platform at remind.me',
         mediaAriaLabel: 'Collage of the energy and tariff platform at remind.me',
+        mediaLinkLabel: 'Open the remind.me website in a new tab',
         contributions: [
           'Introduced agile product development practices within the team.',
           'Automated customer and service-delivery processes.',
@@ -474,6 +482,13 @@ function updateTranslations(language) {
     const isActive = button.getAttribute('data-lang') === language;
     button.classList.toggle('is-active', isActive);
     button.setAttribute('aria-pressed', String(isActive));
+  });
+
+  document.querySelectorAll('[data-url-de][data-url-en]').forEach((link) => {
+    const localizedUrl = language === 'en' ? link.dataset.urlEn : link.dataset.urlDe;
+    if (localizedUrl) {
+      link.setAttribute('href', localizedUrl);
+    }
   });
 
   document.querySelectorAll('.details-toggle').forEach((button) => {

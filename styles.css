@@ -332,6 +332,18 @@ h3 {
   transform: scale(1.03);
 }
 
+.media-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.media-link:focus-visible {
+  outline: 3px solid var(--text);
+  outline-offset: 4px;
+}
+
 .image-placeholder {
   position: absolute;
   inset: 1rem;
