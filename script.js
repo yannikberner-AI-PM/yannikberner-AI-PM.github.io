@@ -29,12 +29,12 @@ const translations = {
     },
     proof: {
       ariaLabel: 'Ausgewählte Ergebnisse',
-      items: ['vernetzte Energiesysteme', 'aktive Kund:innen', 'erfolgreiche Tarifwechsel', 'europäische Märkte']
+      items: ['vernetzte Energiesysteme', 'aktive Kund:innen', 'höhere Kundenzufriedenheit', 'europäische Märkte']
     },
     impact: {
       eyebrow: 'Mehrwert',
       heading: 'Welche Mehrwerte ich liefere',
-      intro: 'Ich verbinde Produktstrategie, Nutzerzentrierung, technische Tiefe und operative Umsetzung, um komplexe Produkte messbar weiterzuentwickeln.',
+      intro: 'Ich verbinde Produktstrategie, Nutzerzentrierung, technische Tiefe und operative Umsetzung, um komplexe Produkte aufzubauen oder messbar weiterzuentwickeln.',
       valueHeading: 'Konkreter Mehrwert',
       environmentsHeading: 'Relevante Produktumfelder',
       proofLabel: 'Belegt durch',
@@ -220,7 +220,7 @@ const translations = {
           'Internationale Releases und Rollouts mit datenbasierter Priorisierung und cross-funktionaler Delivery gesteuert.'
         ],
         tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms'],
-        result: 'Ergebnis: Verbesserte Betriebsübersicht und stärkerer Produkt-Markt-Fit.',
+        result: 'Ergebnis: Kundenzufriedenheit um 60 % gesteigert und Supportaufwand um 50 % gesenkt – durch datenbasierte Serviceverbesserungen.',
         details: {
           context: 'Produkt- und Vertriebsarbeit in einer dynamischen B2B-Umgebung mit sich wandelnden Kundenanforderungen.',
           approach: 'Die Plattform wurde mit einem fokussierten MVP zur Validierung zentraler Nutzerprobleme, Produktannahmen und technischer Machbarkeit aufgebaut. Auf Basis realer Nutzer- und Kundenanforderungen entstand daraus ein Minimum Marketable Product mit eigenständigem End-to-End-Nutzen. Der Übergang wurde über klare Release-, Integrations- und Rollout-Schritte vorbereitet und kontrolliert umgesetzt.',
@@ -351,12 +351,12 @@ const translations = {
     },
     proof: {
       ariaLabel: 'Selected outcomes',
-      items: ['connected energy systems', 'active customers', 'successful tariff switches', 'European markets']
+      items: ['connected energy systems', 'active customers', 'higher customer satisfaction', 'European markets']
     },
     impact: {
       eyebrow: 'Value',
       heading: 'The value I deliver',
-      intro: 'I combine product strategy, user-centred thinking, technical depth and operational execution to advance complex products.',
+      intro: 'I combine product strategy, user-centred thinking, technical depth and operational execution to build complex products or advance them measurably.',
       valueHeading: 'Value delivered',
       environmentsHeading: 'Relevant product environments',
       proofLabel: 'Proven through',
@@ -542,7 +542,7 @@ const translations = {
           'Orchestrated international releases and rollouts through data-informed prioritisation and cross-functional delivery.'
         ],
         tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms'],
-        result: 'Outcome: Improved operational visibility and strengthened product-market fit.',
+        result: 'Outcome: Increased customer satisfaction by 60% and cut support effort by 50% through data-driven service improvements.',
         details: {
           context: 'Product and commercial work in a fast-moving B2B environment with evolving customer needs.',
           approach: 'The platform was built around a focused MVP to validate key user problems, product assumptions and technical feasibility. Real user and customer requirements then shaped a Minimum Marketable Product with independent end-to-end value. The transition was prepared and executed through clear release, integration and rollout steps.',
