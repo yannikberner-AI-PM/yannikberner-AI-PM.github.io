@@ -2,8 +2,8 @@ const translations = {
   de: {
     skipLink: 'Zum Inhalt springen',
     documentTitle: 'Yannik Berner | Senior Product Manager – Energy & Product Modernization',
-    metaDescription: 'Senior Product Manager und Product Lead für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung – von Discovery und Zielbild bis Migration und Rollout.',
-    socialDescription: 'Senior Product Manager und Product Lead für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung.',
+    metaDescription: 'Senior Product Manager für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung – von Discovery und Zielbild bis Migration und Rollout.',
+    socialDescription: 'Senior Product Manager für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung.',
     nav: {
       value: 'Mehrwert',
       about: 'Über mich',
@@ -15,7 +15,7 @@ const translations = {
       languageLabel: 'Sprache auswählen'
     },
     hero: {
-      eyebrow: 'SENIOR PRODUCT MANAGER / PRODUCT LEAD',
+      eyebrow: 'SENIOR PRODUCT MANAGER',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
       title: 'Vernetzte Energieprodukte & Software-Produktmodernisierung',
@@ -280,7 +280,7 @@ const translations = {
     contact: {
       eyebrow: 'Kontakt',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Offen für Senior- und Lead-Product-Rollen in Berlin, hybrid oder remote in Deutschland – mit Fokus auf Energy Systems, B2B SaaS und Product Modernization.',
+      text: 'Offen für Senior- und Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in Deutschland – mit Fokus auf Energy Systems, B2B SaaS und Product Modernization.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'LinkedIn-Profil in einem neuen Tab öffnen'
     },
@@ -324,8 +324,8 @@ const translations = {
   en: {
     skipLink: 'Skip to content',
     documentTitle: 'Yannik Berner | Senior Product Manager – Energy & Product Modernization',
-    metaDescription: 'Senior Product Manager and Product Lead for connected energy products, B2B SaaS and software product modernisation—from discovery and target state to migration and rollout.',
-    socialDescription: 'Senior Product Manager and Product Lead for connected energy products, B2B SaaS and software product modernisation.',
+    metaDescription: 'Senior Product Manager for connected energy products, B2B SaaS and software product modernisation—from discovery and target state to migration and rollout.',
+    socialDescription: 'Senior Product Manager for connected energy products, B2B SaaS and software product modernisation.',
     nav: {
       value: 'Value',
       about: 'About',
@@ -337,7 +337,7 @@ const translations = {
       languageLabel: 'Choose language'
     },
     hero: {
-      eyebrow: 'SENIOR PRODUCT MANAGER / PRODUCT LEAD',
+      eyebrow: 'SENIOR PRODUCT MANAGER',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
       title: 'Connected Energy & Software Product Modernization',
@@ -602,7 +602,7 @@ const translations = {
     contact: {
       eyebrow: 'Contact',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Open to senior and lead product roles in Berlin, hybrid or remote across Germany—with a focus on energy systems, B2B SaaS and product modernisation.',
+      text: 'Open to senior and mid-senior product roles in Berlin, hybrid or remote across Germany—with a focus on energy systems, B2B SaaS and product modernisation.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'Open LinkedIn profile in a new tab'
     },
