@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yannikberner-ai-pm.github.io/sitemap.xml

@@ -1,36 +1,85 @@
 const translations = {
   de: {
     skipLink: 'Zum Inhalt springen',
-    documentTitle: 'Yannik Berner | Energy Product Manager',
+    documentTitle: 'Yannik Berner | Senior Product Manager – Energy & Product Modernization',
+    metaDescription: 'Senior Product Manager und Product Lead für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung – von Discovery und Zielbild bis Migration und Rollout.',
+    socialDescription: 'Senior Product Manager und Product Lead für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung.',
     nav: {
+      value: 'Mehrwert',
       about: 'Über mich',
       capabilities: 'Kompetenzen',
       experience: 'Berufserfahrung',
       contact: 'Kontakt',
-      toggleLabel: 'Navigation umschalten'
+      toggleLabel: 'Navigation umschalten',
+      mainLabel: 'Hauptnavigation',
+      languageLabel: 'Sprache auswählen'
     },
     hero: {
-      eyebrow: 'ENERGIE • IOT • DATENPRODUKTE',
+      eyebrow: 'SENIOR PRODUCT MANAGER / PRODUCT LEAD',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
-      title: 'Energy Product Manager',
-      intro: 'Energy Product Manager mit über acht Jahren Erfahrung in der Entwicklung und Skalierung komplexer Energie-, IoT- und Datenprodukte. Übersetzt technische, regulatorische und kommerzielle Anforderungen in tragfähige Produktstrategien, priorisierte Roadmaps, Datenmodelle, Steuerungslogiken, skalierbare Schnittstellen sowie marktfähige Piloten und Produkte.',
-      introMobile: 'Ich verbinde Produktführung, Energiewissen und AI-assisted Development – von komplexen Anforderungen bis zum testbaren digitalen Produkt.',
-      ctaPrimary: 'Ergebnisse ansehen',
+      title: 'Vernetzte Energieprodukte & Software-Produktmodernisierung',
+      intro: 'Ich führe komplexe Energie-, SaaS- und Plattformprodukte von Discovery und Zielbild bis Delivery, Migration und Rollout – an der Schnittstelle von Nutzern, Business und Technologie.',
+      introMobile: 'Ich führe Energie-, SaaS- und Plattformprodukte von Discovery und Zielbild bis Migration und Rollout.',
+      ctaPrimary: 'Mehrwert ansehen',
       ctaSecondary: 'Kontakt aufnehmen',
       portraitAria: 'Porträt von Yannik Berner',
       portraitAlt: 'Porträt von Yannik Berner',
       portraitPlaceholder: 'Portraitbild<br />Platzhalter'
     },
+    proof: {
+      ariaLabel: 'Ausgewählte Ergebnisse',
+      items: ['vernetzte Energiesysteme', 'aktive Kund:innen', 'erfolgreiche Tarifwechsel', 'europäische Märkte']
+    },
     impact: {
-      eyebrow: 'Ausgewählte Ergebnisse',
-      heading: 'Ausgewählte Ergebnisse',
+      eyebrow: 'Mehrwert',
+      heading: 'Welche Mehrwerte ich liefere',
+      intro: 'Ich verbinde Produktstrategie, Nutzerzentrierung, technische Tiefe und operative Umsetzung, um komplexe Produkte messbar weiterzuentwickeln.',
+      valueHeading: 'Konkreter Mehrwert',
+      environmentsHeading: 'Relevante Produktumfelder',
+      proofLabel: 'Belegt durch',
+      approachSummary: 'Vorgehen',
       items: [
-        { value: '20.000+ vernetzte Energiesysteme', context: 'Produktverantwortung für zwei HEMS-Produktvarianten und die Integration von PV, Batteriespeichern, Wallboxen und Wärmepumpen.' },
-        { value: 'Rund 100.000 aktive Kund:innen', context: 'Skalierung einer datenbasierten Energie- und Tarifoptimierungsplattform.' },
-        { value: '98 % erfolgreiche Tarifwechsel', context: 'Automatisierte Tarifwechsel mit mehr als 20 Mio. Euro kumulierter Kundenersparnis.' },
-        { value: '60 % höhere Kundenzufriedenheit', context: 'Datenbasierte Produktverbesserungen bei einer internationalen B2B-IoT-Plattform.' },
-        { value: '50 % weniger Supportaufwand', context: 'Verbesserte Monitoring-, Analytics- und Wartungsprozesse.' }
+        {
+          title: 'Vernetzte Energieprodukte entwickeln und skalieren',
+          text: 'Ich entwickle und skaliere digitale Energieprodukte rund um EMS, HEMS, Smart Metering, Speicher, Flexibilität und intelligente Steuerung. Dabei verbinde ich energiewirtschaftliche Anforderungen mit Hardware, Embedded Software, Cloud-Plattformen und Daten.',
+          environments: ['EMS & HEMS', 'Smart Metering', 'PV & Speicher', 'Wallboxen & Wärmepumpen', 'Flexibilität & Steuerung', 'Betriebsführungssoftware', 'Asset Operations', 'Monitoring & Reporting', 'Leitwarte', 'Embedded-Systeme, IoT & Cloud'],
+          points: [
+            'Produktstrategie und Roadmaps für komplexe Energiesysteme entwickeln',
+            'Nutzer-, Markt-, Regulierungs- und Technologieanforderungen strukturieren',
+            'Produktvarianten, Integrationen und Partnerlösungen priorisieren',
+            'Hardware, Embedded Software, IoT, Cloud und Daten zusammenführen',
+            'Discovery, Engineering, Testing, Zertifizierung und Rollout orchestrieren',
+            'Entscheidungen anhand von Nutzerwert, Business Impact und technischer Machbarkeit treffen',
+            'Skalierbare Lösungen für PV, Speicher, Wallboxen, Wärmepumpen und Smart Metering entwickeln'
+          ],
+          approach: 'Je nach Produktreife, Nutzerproblem, regulatorischem Rahmen und technischer Ausgangslage strukturiere ich den passenden Weg vom MVP über Pilotierung und schrittweisen Launch bis zur Skalierung oder zum kontrollierten Relaunch.'
+        },
+        {
+          title: 'B2B-SaaS- und Plattformprodukte aufbauen und modernisieren',
+          text: 'Ich modernisiere komplexe B2B-SaaS-, IoT-, Daten- und Betriebsplattformen nutzerzentriert und mit klarem Blick auf Business-Ziele, technische Machbarkeit, laufende Geschäftsprozesse und bestehende technische Schulden.',
+          environments: [
+            'Betriebsführungssoftware',
+            'Asset Operations',
+            'Monitoring & Reporting',
+            'Leitwarte',
+            'Service & Wartung',
+            'Performance Analytics',
+            'CRM- & Prozessplattformen',
+            'IoT- & Datenprodukte'
+          ],
+          points: [
+            'Nutzerprobleme, Geschäftsprozesse und Systemlandschaften analysieren',
+            'Produktvision, Zielbild und Modernisierungsroadmap entwickeln',
+            'Nutzerwert, Business-Ziele, technische Anforderungen und Schulden priorisieren',
+            'MVPs und Minimum Marketable Products definieren',
+            'Modernisierung in messbare Produktinkremente und Releases zerlegen',
+            'Management, Nutzer, Operations, Engineering und Architektur ausrichten',
+            'OKRs, Meilensteine, Erfolgskriterien und Entscheidungszeitpunkte definieren',
+            'Migrationen, Schnittstellen, Qualitätssicherung und Rollouts planen'
+          ],
+          approach: 'Je nach Nutzerproblem, Business-Ziel, Systemarchitektur, technischen Schulden und Betriebsrisiken strukturiere ich den passenden Weg vom MVP über eine evolutionäre Weiterentwicklung bis zum kontrollierten Relaunch.'
+        }
       ]
     },
     about: {
@@ -46,187 +95,226 @@ const translations = {
     },
     capabilities: {
       eyebrow: 'Kompetenzen',
-      heading: 'Produktführung für Energie, Daten und digitale Transformation.',
+      heading: 'Strategische Produktführung für komplexe Systeme.',
       items: [
-        { title: 'Produktstrategie', text: 'Produktvision, Discovery, Roadmaps, Priorisierung und Business Cases.' },
-        { title: 'Digitale Transformation', text: 'Verbindung von Geschäftsprozessen, Technologie, Daten und organisatorischer Veränderung.' },
-        { title: 'Datenprodukte', text: 'Entwicklung von Produktkonzepten, Datenproduktblättern, Governance und nutzbaren MVPs.' },
-        { title: 'IoT, Edge und Cloud', text: 'Produkte, die eingebettete Systeme, Cloud-Dienste, APIs und externe Geräte verbinden.' },
-        { title: 'Operationale Resilienz', text: 'Business Impact Analysis, NIS2-Readiness, BCM und Governance kritischer Prozesse.' },
-        { title: 'Produkt-Operating Models', text: 'OKRs, Scrum, Kanban, Flight Levels und cross-funktionale Zusammenarbeit.' }
+        { title: 'Produkt- & Plattformstrategie', text: 'Produktvision, Zielbild, Discovery, Roadmaps und Business Cases.' },
+        { title: 'Modernisierung & Migration', text: 'Technische Schulden, Schnittstellen, Betriebsrisiken und kontrollierte Übergänge strukturieren.' },
+        { title: 'Discovery bis Rollout', text: 'Nutzerprobleme in priorisierte Produktinkremente, Releases und Rollouts übersetzen.' },
+        { title: 'Business-IT-Alignment', text: 'Nutzer, Management, Operations, Engineering und Architektur auf Entscheidungen ausrichten.' },
+        { title: 'Outcome- & KPI-Steuerung', text: 'Erfolgskriterien, Prioritäten und Entscheidungen an Nutzerwert und Business Impact ausrichten.' },
+        { title: 'Energie-, IoT- & Datenprodukte', text: 'Hardware, Embedded-Systeme, Cloud, APIs, Daten und Regulatorik produktseitig verbinden.' }
       ]
     },
     skills: {
-      eyebrow: 'Fähigkeiten',
-      heading: 'Energie, Systeme, Produktentwicklung und Zusammenarbeit.',
+      eyebrow: 'Vertiefung',
+      heading: 'Domänenwissen, Methoden und ausgewählte Tools',
       groups: [
         {
           title: 'Energie & Regulierung',
-          items: ['EMS/HEMS', 'Energy Intelligence', 'Smart Metering', 'CLS', '§14a EnWG', 'FNN control boxes', 'dynamic electricity tariffs', 'self-consumption optimisation', 'direct marketing', 'flexibility markets', 'EEG']
+          items: ['EMS/HEMS', 'Energy Intelligence', 'Smart Metering', 'CLS', '§14a EnWG', 'FNN-Steuerboxen', 'dynamische Stromtarife', 'Eigenverbrauchsoptimierung', 'Direktvermarktung', 'Flexibilitätsmärkte', 'EEG']
         },
         {
           title: 'Energiesysteme & Technologie',
-          items: ['PV', 'battery storage', 'EV chargers', 'heat pumps', 'IoT', 'edge devices', 'embedded systems', 'MQTT', 'EEBus', 'Modbus', 'RS485', 'REST APIs', 'data models', 'AWS']
+          items: ['PV', 'Batteriespeicher', 'Wallboxen', 'Wärmepumpen', 'IoT', 'Edge-Geräte', 'Embedded-Systeme', 'MQTT', 'EEBus', 'Modbus', 'RS485', 'REST-APIs', 'Datenmodelle', 'AWS']
         },
         {
-          title: 'Produktentwicklung',
-          items: ['product strategy', 'roadmapping', 'product discovery', 'specifications', 'user stories', 'acceptance criteria', 'pilots', 'Make/Partner/Buy', 'prioritisation', 'KPI management']
+          title: 'Produktmanagement',
+          items: ['Produktstrategie', 'Roadmaps', 'Product Discovery', 'Anforderungsmanagement & User Stories', 'Akzeptanzkriterien', 'MVP & MMP', 'Make / Partner / Buy', 'Priorisierung', 'KPIs & Outcomes']
         },
         {
           title: 'Zusammenarbeit',
-          items: ['Jira', 'Confluence', 'Xray', 'Python prototyping', 'AI-assisted prototyping', 'Claude Code', 'GitHub Copilot']
+          items: ['Stakeholder-Abstimmung', 'Cross-funktionale Zusammenarbeit', 'Nutzer- & Fachbereichsworkshops', 'Partner- & Anbietersteuerung', 'Management-Entscheidungsvorlagen', 'Internationale Zusammenarbeit']
         },
         {
-          title: 'Methoden & Tools',
-          items: ['Scrum', 'Kanban', 'Flight Levels', 'OKRs']
+          title: 'Arbeitsweisen & Methoden',
+          items: ['Scrum', 'Kanban', 'Flight Levels', 'OKRs', 'Evolutionäre Produktentwicklung', 'Inkrementelle Releases']
+        },
+        {
+          title: 'Tools & Prototyping',
+          items: ['Jira', 'Confluence', 'Xray', 'Python-Prototyping', 'KI-gestütztes Prototyping', 'Claude Code', 'GitHub Copilot']
         }
       ]
     },
     experience: {
       eyebrow: 'Berufserfahrung',
-      heading: 'Produktarbeit über Energie, IoT, Datenprodukte und digitale Transformation.',
+      heading: 'So habe ich Produkte aufgebaut und modernisiert',
+      intro: 'Der passende Ansatz ergab sich jeweils aus Nutzerbedürfnissen, Business-Zielen, technischer Ausgangslage und dem Risiko für den laufenden Betrieb.',
       common: {
         periodLocation: 'Zeitraum · Ort',
         contributions: 'Wichtige Beiträge',
         contextLabel: 'Kontext',
-        approachLabel: 'Ansatz',
+        approachLabel: 'Vorgehen',
         valueLabel: 'Wert',
         casePlaceholder: 'Case-Study-Bild<br />Platzhalter',
+        tagsLabel: 'Technologien und Methoden',
+        productLink: 'Produkt ansehen',
+        companyLink: 'Unternehmen ansehen',
         viewDetails: 'Details anzeigen',
         hideDetails: 'Details ausblenden'
       },
       enertrag: {
         title: 'Product Orchestration Lead / Business Process Owner',
         meta: 'Strategische Digitalisierung über Business, IT, OT und Architektur.',
-        overview: 'Als Product Orchestration Lead und Business Process Owner habe ich strategische Digitalisierungsinitiativen an der Schnittstelle von Business, IT, OT und Architektur über die Energie-Wertschöpfungskette von ENERTRAG geführt, mit Fokus auf Datenprodukte, Governance und Resilienz kritischer Geschäftsprozesse.',
+        valueLabel: 'Mehrwert: B2B-SaaS- und Plattformprodukte modernisieren · Betriebsführungssoftware und Datenprodukte konzipieren',
+        overview: 'Ich entwickle aus Anforderungen der technischen Betriebsführung, IT, OT und Architektur erste Zielbilder, Produktstrukturen und belastbare nächste Schritte für Betriebssoftware und Datenprodukte.',
+        approachTitle: 'Modularen Modernisierungsansatz vorbereitet',
+        approachText: 'Fachliche Domänen, operative Use Cases und Datenanforderungen strukturiert, damit Produktfähigkeiten und Datenprodukte schrittweise aus der bestehenden Landschaft heraus entwickelt werden konnten.',
         periodLocation: 'Feb. 2026 – heute · Berlin',
         imageAlt: 'Collage zu den Digitalisierungsprojekten bei ENERTRAG',
         mediaAriaLabel: 'Collage zu den Digitalisierungsprojekten bei ENERTRAG',
         mediaLinkLabel: 'ENERTRAG-Website in einem neuen Tab öffnen',
         contributions: [
-          'GPS/GIS-basierter Proof of Concept für die Standortbewertung im Kontext von Wind- und Photovoltaik-Projekten.',
-          'Grundlagen für Datenprodukte und datenbasierte Entscheidungsprozesse von Konzeption bis nutzbarem MVP etabliert.',
-          'NIS2- und BCM-Readiness durch Business Impact Analysis und Vorbereitung des ersten Steering Committee vorangetrieben.',
-          'Empfehlungen für resilienten Control-Room-Betrieb, CISO-Governance und Projektaufbau entwickelt.'
+          'Modernisierungsroadmap für PowerSystem begonnen und erste Zielbilder für Produktumfang und zukünftige Teamstruktur entwickelt.',
+          'Anforderungen aus technischer Betriebsführung, IT, OT und Architektur strukturiert sowie Anbieter und Lösungsoptionen analysiert.',
+          'Erste Grundlagen für Datenprodukte gelegt und einen laufenden Datenprodukt-Piloten mit französischen Stakeholdern begleitet.',
+          'Priorisierte nächste Schritte, Entscheidungsvorlagen sowie Anforderungen für resilienten Leitwartenbetrieb und Business Continuity entwickelt.'
         ],
         tags: ['Datenprodukte', 'GIS', 'NIS2', 'BCM', 'Governance'],
-        result: 'Ergebnis: Aufbau von Produkt- und Governance-Grundlagen für kritische Energie- und Transformationsprozesse.',
+        result: 'Ergebnis: Erste Zielbilder, Lösungsoptionen und Entscheidungsgrundlagen für Betriebssoftware, Datenprodukte und resiliente Betriebsprozesse.',
         details: {
-          context: 'Große Transformationsaufgabe über mehrere Domänen hinweg mit Bedarf an klarer Produktverantwortung.',
-          approach: 'Strukturierte Discovery, Governance-Design und pragmatische Umsetzungsplanung.',
-          value: 'Bessere Entscheidungsqualität, stärkere Resilienzplanung und bessere Abstimmung über Funktionsgrenzen hinweg.'
+          context: 'Die Modernisierung wurde vorbereitet, aber nach einer internen Prioritätsänderung nicht vollständig umgesetzt. Der Schwerpunkt verlagerte sich auf die Business-Process-Ownership für POLIS mit Cyber Security, NIS2 und Business Continuity Management.',
+          approach: 'Für die geplante Weiterentwicklung von PowerSystem strukturierte ich fachliche Domänen, operative Use Cases und Datenanforderungen. Einzelne Produktfähigkeiten und Datenprodukte sollten schrittweise aus der bestehenden System- und Prozesslandschaft heraus entwickelt werden. Dazu gehörten erste Zielbilder, eine Modernisierungsroadmap, Überlegungen zur Teamstruktur, eine Anbieteranalyse und ein laufender Datenprodukt-Pilot mit französischen Stakeholdern.',
+          value: 'Eine belastbare Grundlage für weitere Produktentscheidungen und die resiliente Ausrichtung kritischer Betriebsprozesse.'
         }
       },
       senec: {
         title: 'Product Owner HEMS & Energiesysteme',
         meta: 'HEMS-Produktplattform für Energiesysteme im Haus.',
-        overview: 'Als Product Owner HEMS & Energiesysteme habe ich die Weiterentwicklung des Home Energy Management Systems begleitet und die Produktstrategie für die Kontrolle von Batteriespeichern, PV-Anlagen, Wallboxen und Wärmepumpen gestaltet.',
+        valueLabel: 'Mehrwert: Vernetzte Energieprodukte entwickeln und skalieren · Plattformfähigkeiten und Integrationen entwickeln',
+        overview: 'Ich verbinde Produktstrategie, Geräteintegration und Delivery, um HEMS-Plattformen über Hardware, Embedded Software, Cloud und Daten skalierbar weiterzuentwickeln.',
+        approachTitle: 'Evolutionäre Weiterentwicklung mit Strangler-Elementen',
+        approachText: 'Neue Produktvarianten, Integrationen und Steuerungsfähigkeiten inkrementell aufgebaut und ausgerollt, während bestehende Plattformbestandteile weiter betrieben wurden.',
         periodLocation: 'Sep. 2024 – Jan. 2026 · Leipzig / Remote',
         imageAlt: 'Collage zum Home Energy Management System bei SENEC',
         mediaAriaLabel: 'Collage zum Home Energy Management System bei SENEC',
         mediaLinkLabel: 'SENEC PowerPilot in einem neuen Tab öffnen',
         contributions: [
-          'Vernetzung von Embedded Software, Cloud-Backend und Drittanbieter-Edge-Geräten in einer gemeinsamen Produktplattform.',
-          'Roadmap für sichere Yocto/Linux-Systemupdates und Integrationen externer Geräte definiert.',
-          'MQTT- und REST-Kommunikation zwischen Edge und Cloud unterstützt und weiterentwickelt.',
-          'Migration von HEMS-Diensten in SENEC-eigene Infrastruktur geleitet.'
+          'Produktverantwortung für zwei HEMS-Varianten und mehr als 20.000 vernetzte Energiesysteme übernommen.',
+          'PV, Batteriespeicher, Wallboxen, Wärmepumpen, Smart Metering und intelligente Steuerung in einer Plattform verbunden.',
+          'Labor-, System- und Integrationstests für Geräte, Schnittstellen und Steuerungslogiken strukturiert.',
+          'Produktvarianten, Partnerintegrationen und Roadmaps über Embedded Software, Cloud und Daten priorisiert.'
         ],
         tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs'],
-        result: 'Ergebnis: Aufbau eines skalierbaren HEMS-Produktmodells mit stärkerer Betriebsstabilität.',
+        result: 'Ergebnis: Skalierbare HEMS-Produktmodelle für mehr als 20.000 vernetzte Energiesysteme.',
         details: {
           context: 'Produktarbeit über Hardware, Software und Cloud mit hoher Abhängigkeit von Betriebssicherheit.',
-          approach: 'Cross-funktionale Auslieferung, disziplinierte Delivery-Organisation und inkrementelle Produktentwicklung.',
+          approach: 'Die bestehende HEMS-Plattform wurde schrittweise um neue Produktvarianten, Geräteintegrationen und Steuerungsfähigkeiten erweitert. Neue Funktionen und Partnerlösungen wurden inkrementell aufgebaut, getestet und ausgerollt, während bestehende Plattformbestandteile weiter betrieben wurden. Einzelne neue Fähigkeiten lösten bestehende Logiken schrittweise ab oder ergänzten sie.',
           value: 'Mehr Zuverlässigkeit, bessere Integration und eine skalierbare Plattformgrundlage.'
         }
       },
       soniq: {
         title: 'Product Manager IoT & SaaS',
         meta: 'Digitale Plattform für professionelle Reinigungsdienstleistungen.',
-        overview: 'Bei soniq Services GmbH habe ich ein cross-funktionales Team bei der Entwicklung von tool IQ geführt, einer Plattform für die Verbindung von IoT-Geräten, Betriebsdaten und externen Systemen.',
+        valueLabel: 'Mehrwert: B2B-SaaS- und IoT-Plattformen weiterentwickeln · Betriebs- und Serviceprozesse digitalisieren',
+        overview: 'Ich übersetze fragmentierte Betriebs-, IoT- und Nutzeranforderungen in skalierbare Plattformfähigkeiten, strukturierte Roadmaps und messbare Produktverbesserungen.',
+        approachTitle: 'Relaunch mit kontrolliertem Cutover – vom MVP zum MMP',
+        approachText: 'Mit einem fokussierten MVP zentrale Nutzer- und Produktannahmen validiert und die Plattform anschließend zu einem vermarktbaren End-to-End-Produktumfang ausgebaut.',
         periodLocation: 'Aug. 2022 – Aug. 2024 · Berlin',
         imageAlt: 'Collage zur IoT- und Datenplattform soniq IQ',
         mediaAriaLabel: 'Collage zur IoT- und Datenplattform soniq IQ',
         mediaLinkLabel: 'Kärcher Connected Cleaning in einem neuen Tab öffnen',
         contributions: [
-          'Plattform für Echtzeit-Monitoring, Analyse und vorbeugende Wartung entwickelt.',
-          'IoT-Technologien, ERP-Funktionalitäten, REST-APIs und Data-Lake-Komponenten integriert.',
-          'Cross-funktionales Produktoperating Model mit dem Unternehmen abgestimmt.',
-          'Go-to-Market-Planung, Partnerschaften und direkte Verkaufsunterstützung mitgestaltet.'
+          'Internationale B2B-IoT-Plattform für Monitoring, Analytics und vorbeugende Wartung weiterentwickelt.',
+          'IoT-Geräte, ERP-Funktionen, REST-APIs und Data-Lake-Komponenten integriert.',
+          'Digitale Wartungs- und Serviceprozesse in priorisierte Produktfähigkeiten übersetzt.',
+          'Internationale Releases und Rollouts mit datenbasierter Priorisierung und cross-funktionaler Delivery gesteuert.'
         ],
         tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms'],
         result: 'Ergebnis: Verbesserte Betriebsübersicht und stärkerer Produkt-Markt-Fit.',
         details: {
           context: 'Produkt- und Vertriebsarbeit in einer dynamischen B2B-Umgebung mit sich wandelnden Kundenanforderungen.',
-          approach: 'Kundenorientierte Produktentwicklung mit klarer operativer Struktur.',
-          value: 'Stärkere Produkt-Markt-Fit, bessere Sichtbarkeit von Abläufen und klarere Geschäftslogik.'
+          approach: 'Die Plattform wurde mit einem fokussierten MVP zur Validierung zentraler Nutzerprobleme, Produktannahmen und technischer Machbarkeit aufgebaut. Auf Basis realer Nutzer- und Kundenanforderungen entstand daraus ein Minimum Marketable Product mit eigenständigem End-to-End-Nutzen. Der Übergang wurde über klare Release-, Integrations- und Rollout-Schritte vorbereitet und kontrolliert umgesetzt.',
+          value: 'Stärkerer Produkt-Markt-Fit, bessere Sichtbarkeit von Abläufen und klarere Geschäftslogik.'
         }
       },
       mercedes: {
         title: 'Technical Product Manager CRM',
         meta: 'Internationale Ausrollung von One Touch Retail.',
-        overview: 'Als Technical Product Manager CRM habe ich die internationale Rollout-Strategie von One Touch Retail unterstützt und die Abstimmung von Geschäftsanforderungen, Produktentwicklung und technischen Integrationen im CRM-Kontext gestaltet.',
+        valueLabel: 'Mehrwert: Cloud-Plattformen modernisieren · Prozesse und Produktanforderungen harmonisieren',
+        overview: 'Ich strukturiere komplexe Markt- und Prozessanforderungen in skalierbare CRM-Fähigkeiten, technische Spezifikationen sowie steuerbare Releases und Rollouts.',
+        approachTitle: 'Relaunch und kontrollierter Cutover über mehrere Märkte',
+        approachText: 'Marktprozesse, technische Abhängigkeiten, Integrationen und Release-Zeitpunkte für kontrollierte, schrittweise Übergänge auf die neue Plattform koordiniert.',
         periodLocation: 'Feb. 2021 – Juli 2022 · Berlin',
         imageAlt: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         mediaAriaLabel: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         contributions: [
-          'Geschäftsanforderungen mit technischer Umsetzbarkeit unter engen Deadlines abgeglichen.',
-          'Scrum und OKRs genutzt, um Delivery und Priorisierung zu koordinieren.',
-          'CI/CD-Pipelines unterstützt, um Deployment-Reliability und Time-to-Market zu verbessern.',
-          'Skalierbare API-Integrationen mit Salesforce gestaltet und strategisch begleitet.'
+          'Cloudbasierte CRM- und Serviceplattform über mehr als sechs europäische Märkte ausgerollt.',
+          'Markt- und Serviceprozesse harmonisiert und in technische Spezifikationen übersetzt.',
+          'Skalierbare Salesforce- und API-Integrationen mit Produktentwicklung und Architektur abgestimmt.',
+          'Releases und Rollouts mit Scrum, OKRs und CI/CD-orientierten Abläufen gesteuert.'
         ],
         tags: ['Salesforce', 'APIs', 'CRM', 'CI/CD', 'Scrum'],
         result: 'Ergebnis: Einheitlichere digitale Prozesse über mehrere Märkte hinweg.',
         details: {
           context: 'Regulierte, schnelllebige Umgebung mit intensivem Abstimmungsbedarf zwischen Produkt und Delivery.',
-          approach: 'Pragmatische Stakeholder-Abstimmung, technische Koordination und phased Rollout-Planung.',
+          approach: 'Die cloudbasierte CRM- und Serviceplattform wurde für mehrere europäische Märkte harmonisiert, vorbereitet und schrittweise ausgerollt. Marktprozesse, technische Abhängigkeiten, Integrationen und Release-Zeitpunkte wurden so koordiniert, dass die jeweiligen Märkte kontrolliert auf die neue Plattform wechseln konnten.',
           value: 'Schnellere Verbreitung standardisierter Prozesse und konsequenterer Marktumsetzung.'
         }
       },
       remindme: {
         title: 'Product Manager Growth: Energie & Software',
         meta: 'B2C-Plattform für langfristige Energie- und Telekommunikationsverträge.',
-        overview: 'Bei remind.me GmbH habe ich die Produktentwicklung und das CRM-Wachstum über einen B2C-Produktkontext hinweg mitgestaltet und die Produktentwicklung entlang von Kundenbedürfnissen und Dienstleistungsprozessen weiterentwickelt.',
+        valueLabel: 'Mehrwert: Digitale Plattformen entwickeln und skalieren · Automatisierte End-to-End-Prozesse aufbauen',
+        overview: 'Ich verbinde Energieprodukt, Automatisierung und datenbasierte Priorisierung, um digitale Plattformen skalierbar weiterzuentwickeln und Kundennutzen messbar zu steigern.',
+        approachTitle: 'Launch und Skalierung einer digitalen Plattform',
+        approachText: 'Die Plattform datenbasiert aufgebaut, kontinuierlich verbessert und mitsamt automatisierten End-to-End-Prozessen auf rund 100.000 aktive Kund:innen skaliert.',
         periodLocation: 'Dez. 2017 – Dez. 2020 · Berlin',
         imageAlt: 'Collage zur Energie- und Tarifplattform von remind.me',
         mediaAriaLabel: 'Collage zur Energie- und Tarifplattform von remind.me',
         mediaLinkLabel: 'remind.me-Website in einem neuen Tab öffnen',
         contributions: [
-          'Agile Produktentwicklung eingeführt und im Team etabliert.',
-          'Kunden- und Serviceprozesse automatisiert und einfacher gestaltet.',
-          'CRM-Strategie für Kundenbindung und Akquise mitentwickelt.',
-          'Datenbasierte Marketingaktivitäten zur Kundenakquise unterstützt.'
+          'Digitale Energieplattform für rund 100.000 aktive Kund:innen skaliert.',
+          'Kunden-, Tarifwechsel- und Serviceprozesse automatisiert und produktseitig weiterentwickelt.',
+          'Datenbasierte Priorisierung für Produkt, CRM, Kundenbindung und Akquise etabliert.',
+          '98 Prozent erfolgreiche Tarifwechsel mit mehr als 20 Mio. Euro kumulierter Kundenersparnis unterstützt.'
         ],
         tags: ['B2C Platform', 'Process Automation', 'CRM', 'Kanban'],
-        result: 'Ergebnis: Stärkere Produktentwicklung und bessere Kundenprozesse.',
+        result: 'Ergebnis: Rund 100.000 aktive Kund:innen, 98 Prozent erfolgreiche Tarifwechsel und mehr als 20 Mio. Euro Kundenersparnis.',
         details: {
           context: 'Kundenorientierter Produktkontext mit Fokus auf Agilität und Transparenz.',
-          approach: 'Lean-Produktarbeit, Workflow-Verbesserungen und fokussierte CRM-Umsetzung.',
-          value: 'Bessere Delivery-Fluss, bessere Kundenerfahrung und stärkere Marktwirkung.'
+          approach: 'Die digitale Energieplattform wurde aufgebaut, anhand von Nutzungs-, Conversion- und Prozessdaten kontinuierlich verbessert und auf rund 100.000 aktive Kund:innen skaliert. Automatisierte End-to-End-Prozesse wurden schrittweise erweitert und hinsichtlich Erfolgsquote, Kundennutzen und operativer Effizienz optimiert.',
+          value: 'Besserer Delivery-Fluss, bessere Kundenerfahrung und stärkere Marktwirkung.'
         }
       }
     },
     contact: {
       eyebrow: 'Kontakt',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Ich interessiere mich für Produktführung, digitale Transformation und KI-gestützte Prozessberatung.',
-      linkedin: 'LinkedIn'
+      text: 'Offen für Senior- und Lead-Product-Rollen in Berlin, hybrid oder remote in Deutschland – mit Fokus auf Energy Systems, B2B SaaS und Product Modernization.',
+      linkedin: 'LinkedIn',
+      linkedinLabel: 'LinkedIn-Profil in einem neuen Tab öffnen'
     },
     footer: {
-      text: '© Yannik Berner. Produktmanagement, Digitale Transformation und Prozessberatung.',
+      text: '© Yannik Berner. Senior Product Management für Energy & Product Modernization.',
       privacy: 'Datenschutz',
       backToTop: 'Zum Anfang'
     },
     privacy: {
       documentTitle: 'Datenschutzerklärung | Yannik Berner',
+      metaDescription: 'Datenschutzhinweise für das Portfolio von Yannik Berner.',
       eyebrow: 'Rechtliche Informationen',
       heading: 'Datenschutzerklärung',
       backToPortfolio: 'Zurück zum Portfolio',
+      controllerHeading: 'Verantwortlicher',
+      controllerNote: 'Für datenschutzbezogene Anfragen kann die oben genannte E-Mail-Adresse genutzt werden.',
       hostingHeading: 'Hosting über GitHub Pages',
       hostingIntro: 'Diese Website wird über <strong>GitHub Pages</strong>, einen Hosting-Dienst der GitHub, Inc., bereitgestellt.',
       processing: 'Beim Aufruf der Website werden technisch notwendige Informationen, wie beispielsweise die IP-Adresse, Datum und Uhrzeit des Zugriffs, Browsertyp sowie weitere technische Verbindungsdaten verarbeitet, um die Auslieferung der Website und den sicheren Betrieb zu ermöglichen. Diese Verarbeitung erfolgt durch GitHub als Hosting-Anbieter.',
       moreInfo: 'Weitere Informationen zur Datenverarbeitung durch GitHub findest du unter:',
       githubPrivacy: 'GitHub General Privacy Statement',
-      legalBasis: 'Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse besteht in der sicheren und zuverlässigen Bereitstellung dieser Website.'
+      githubPrivacyLabel: 'GitHub General Privacy Statement in einem neuen Tab öffnen',
+      legalBasis: 'Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse besteht in der sicheren und zuverlässigen Bereitstellung dieser Website. Details zu Empfängern, internationalen Übermittlungen und Speicherfristen stellt GitHub in der verlinkten Datenschutzerklärung bereit.',
+      languageHeading: 'Spracheinstellung im Browser',
+      languageStorage: 'Bei Auswahl von Deutsch oder Englisch wird die gewählte Sprache im lokalen Speicher des Browsers (localStorage) unter dem Schlüssel „portfolio-lang“ gespeichert. Dies dient ausschließlich dazu, die ausdrücklich gewählte Sprache bei einem späteren Besuch wiederherzustellen. Die Einstellung verbleibt auf dem Endgerät, bis sie geändert oder über die Browser-Einstellungen gelöscht wird.',
+      languageBasis: 'Die Speicherung ist für die vom Nutzer gewünschte Sprachfunktion erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG). Eine Übermittlung dieses Werts an Yannik Berner findet nicht statt.',
+      externalLinksHeading: 'Externe Links',
+      externalLinks: 'Die Website enthält Links zu externen Angeboten, etwa zu LinkedIn und den dargestellten Unternehmen oder Produkten. Erst beim Anklicken wird die jeweilige externe Seite geöffnet; dort gelten die Datenschutzhinweise des jeweiligen Anbieters.',
+      noTrackingHeading: 'Keine eigenen Analytics- oder Marketing-Dienste',
+      noTracking: 'Auf dieser Website werden keine eigenen Analytics-, Tracking- oder Marketing-Dienste und keine eingebetteten Inhalte von Drittanbietern eingesetzt. Es werden keine Kontaktformulardaten erhoben.',
+      rightsHeading: 'Rechte betroffener Personen',
+      rights: 'Soweit die gesetzlichen Voraussetzungen vorliegen, bestehen insbesondere Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Außerdem besteht das Recht, sich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren.',
+      updatedHeading: 'Stand',
+      updated: 'Juli 2026'
     },
     lang: {
       de: 'DE',
@@ -235,43 +323,93 @@ const translations = {
   },
   en: {
     skipLink: 'Skip to content',
-    documentTitle: 'Yannik Berner | Energy Product Manager',
+    documentTitle: 'Yannik Berner | Senior Product Manager – Energy & Product Modernization',
+    metaDescription: 'Senior Product Manager and Product Lead for connected energy products, B2B SaaS and software product modernisation—from discovery and target state to migration and rollout.',
+    socialDescription: 'Senior Product Manager and Product Lead for connected energy products, B2B SaaS and software product modernisation.',
     nav: {
+      value: 'Value',
       about: 'About',
       capabilities: 'Capabilities',
       experience: 'Experience',
       contact: 'Contact',
-      toggleLabel: 'Toggle navigation'
+      toggleLabel: 'Toggle navigation',
+      mainLabel: 'Main navigation',
+      languageLabel: 'Choose language'
     },
     hero: {
-      eyebrow: 'ENERGY • IOT • DATA PRODUCTS',
+      eyebrow: 'SENIOR PRODUCT MANAGER / PRODUCT LEAD',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
-      title: 'Energy Product Manager',
-      intro: 'Energy Product Manager with over eight years of experience in developing and scaling complex energy, IoT, and data products. Translates technical, regulatory, and commercial requirements into viable product strategies, prioritized roadmaps, data models, control logic, scalable interfaces, and market-ready pilots and products.',
-      introMobile: 'I combine product leadership, energy expertise and AI-assisted development – from complex requirements to a testable digital product.',
-      ctaPrimary: 'See selected results',
+      title: 'Connected Energy & Software Product Modernization',
+      intro: 'I lead complex energy, SaaS and platform products from discovery and target state through delivery, migration and rollout—connecting users, business and technology.',
+      introMobile: 'I lead energy, SaaS and platform products from discovery and target state through migration and rollout.',
+      ctaPrimary: 'See value delivered',
       ctaSecondary: 'Get in touch',
       portraitAria: 'Portrait of Yannik Berner',
       portraitAlt: 'Portrait of Yannik Berner',
       portraitPlaceholder: 'Portrait image<br />placeholder'
     },
+    proof: {
+      ariaLabel: 'Selected outcomes',
+      items: ['connected energy systems', 'active customers', 'successful tariff switches', 'European markets']
+    },
     impact: {
-      eyebrow: 'Selected impact',
-      heading: 'Selected impact',
+      eyebrow: 'Value',
+      heading: 'The value I deliver',
+      intro: 'I combine product strategy, user-centred thinking, technical depth and operational execution to advance complex products.',
+      valueHeading: 'Value delivered',
+      environmentsHeading: 'Relevant product environments',
+      proofLabel: 'Proven through',
+      approachSummary: 'Approach',
       items: [
-        { value: '20,000+ connected energy systems', context: 'Product responsibility for two HEMS variants and the integration of PV, battery storage, EV chargers and heat pumps.' },
-        { value: 'Around 100,000 active customers', context: 'Scaled a data-driven energy and tariff optimisation platform.' },
-        { value: '98% successful tariff switches', context: 'Automated tariff switching with more than €20 million in cumulative customer savings.' },
-        { value: '60% increase in customer satisfaction', context: 'Data-driven product improvements for an international B2B IoT platform.' },
-        { value: '50% reduction in support effort', context: 'Improved monitoring, analytics and maintenance processes.' }
+        {
+          title: 'Develop and scale connected energy products',
+          text: 'I develop and scale digital energy products across EMS, HEMS, smart metering, storage, flexibility and intelligent control. I connect energy-market requirements with hardware, embedded software, cloud platforms and data.',
+          environments: ['EMS & HEMS', 'Smart metering', 'Solar & storage', 'EV charging & heat pumps', 'Flexibility & control', 'Operational management software', 'Asset operations', 'Monitoring & reporting', 'Control rooms', 'Embedded systems, IoT & cloud'],
+          points: [
+            'Develop product strategies and roadmaps for complex energy systems',
+            'Structure user, market, regulatory and technical requirements',
+            'Prioritise product variants, integrations and partner solutions',
+            'Connect hardware, embedded software, IoT, cloud and data',
+            'Orchestrate discovery, engineering, testing, certification and rollout',
+            'Make decisions based on user value, business impact and technical feasibility',
+            'Build scalable solutions for solar, storage, EV charging, heat pumps and smart metering'
+          ],
+          approach: 'Depending on product maturity, the user problem, the regulatory context and the technical starting point, I structure the path from MVP and piloting through an incremental launch to scaling or a controlled relaunch.'
+        },
+        {
+          title: 'Build and modernise B2B SaaS and platform products',
+          text: 'I modernise complex B2B SaaS, IoT, data and operational platforms around user needs while keeping business objectives, technical feasibility, ongoing operations and existing technical debt in view.',
+          environments: [
+            'Operational software',
+            'Asset operations',
+            'Monitoring & reporting',
+            'Control rooms',
+            'Service & maintenance',
+            'Performance analytics',
+            'CRM & process platforms',
+            'IoT & data products'
+          ],
+          points: [
+            'Analyse user problems, business processes and system landscapes',
+            'Develop product vision, target state and modernisation roadmap',
+            'Prioritise user value, business objectives, technical requirements and debt',
+            'Define MVPs and Minimum Marketable Products',
+            'Decompose modernisation into measurable product increments and releases',
+            'Align management, users, operations, engineering and architecture',
+            'Define OKRs, milestones, success criteria and decision points',
+            'Plan migrations, integrations, quality assurance and rollouts'
+          ],
+          approach: 'Depending on the user problem, business objective, system architecture, technical debt and operational risk, I structure an appropriate path from MVP delivery and evolutionary development to a controlled relaunch.'
+        }
       ]
     },
     about: {
       eyebrow: 'About',
       heading: [
         'TURNING COMPLEXITY',
-        'INTO CLEAR PRODUCT',
+        'INTO CLEAR',
+        'PRODUCT',
         'DECISIONS.'
       ],
       p1: 'I work at the intersection of business models, technology, regulation and operations. My career spans start-ups, international corporations and energy, IoT, data and CRM product landscapes.',
@@ -279,19 +417,19 @@ const translations = {
     },
     capabilities: {
       eyebrow: 'Capabilities',
-      heading: 'Product leadership for energy, data and digital transformation.',
+      heading: 'Strategic product leadership for complex systems.',
       items: [
-        { title: 'Product Strategy', text: 'Product vision, discovery, roadmaps, prioritisation and business cases.' },
-        { title: 'Digital Transformation', text: 'Connecting business processes, technology, data and organisational change.' },
-        { title: 'Data Products', text: 'Developing product concepts, data product sheets, governance and usable MVPs.' },
-        { title: 'IoT, Edge and Cloud', text: 'Products connecting embedded systems, cloud services, APIs and external devices.' },
-        { title: 'Operational Resilience', text: 'Business Impact Analysis, NIS2 readiness, BCM and critical process governance.' },
-        { title: 'Product Operating Models', text: 'OKRs, Scrum, Kanban, Flight Levels and cross-functional collaboration.' }
+        { title: 'Product & Platform Strategy', text: 'Product vision, target state, discovery, roadmaps and business cases.' },
+        { title: 'Modernisation & Migration', text: 'Structuring technical debt, integrations, operational risks and controlled transitions.' },
+        { title: 'Discovery to Rollout', text: 'Turning user problems into prioritised increments, releases and rollouts.' },
+        { title: 'Business–IT Alignment', text: 'Aligning users, management, operations, engineering and architecture around decisions.' },
+        { title: 'Outcome & KPI Steering', text: 'Linking success criteria, priorities and decisions to user value and business impact.' },
+        { title: 'Energy, IoT & Data Products', text: 'Connecting hardware, embedded systems, cloud, APIs, data and regulation from a product perspective.' }
       ]
     },
     skills: {
-      eyebrow: 'Skills',
-      heading: 'Energy, systems, product development and collaboration.',
+      eyebrow: 'Deep dive',
+      heading: 'Domain expertise, methods and selected tools',
       groups: [
         {
           title: 'Energy & Regulation',
@@ -302,22 +440,27 @@ const translations = {
           items: ['PV', 'battery storage', 'EV chargers', 'heat pumps', 'IoT', 'edge devices', 'embedded systems', 'MQTT', 'EEBus', 'Modbus', 'RS485', 'REST APIs', 'data models', 'AWS']
         },
         {
-          title: 'Product Development',
-          items: ['product strategy', 'roadmapping', 'product discovery', 'specifications', 'user stories', 'acceptance criteria', 'pilots', 'Make/Partner/Buy', 'prioritisation', 'KPI management']
+          title: 'Product Management',
+          items: ['Product strategy', 'Roadmaps', 'Product discovery', 'Requirements & user stories', 'Acceptance criteria', 'MVP & MMP', 'Make / Partner / Buy', 'Prioritisation', 'KPIs & outcomes']
         },
         {
           title: 'Collaboration',
-          items: ['Jira', 'Confluence', 'Xray', 'Python prototyping', 'AI-assisted prototyping', 'Claude Code', 'GitHub Copilot']
+          items: ['Stakeholder alignment', 'Cross-functional collaboration', 'User & domain workshops', 'Partner & vendor management', 'Management decision material', 'International collaboration']
         },
         {
-          title: 'Methods & Tools',
-          items: ['Scrum', 'Kanban', 'Flight Levels', 'OKRs']
+          title: 'Ways of Working & Methods',
+          items: ['Scrum', 'Kanban', 'Flight Levels', 'OKRs', 'Evolutionary product development', 'Incremental releases']
+        },
+        {
+          title: 'Tools & Prototyping',
+          items: ['Jira', 'Confluence', 'Xray', 'Python prototyping', 'AI-assisted prototyping', 'Claude Code', 'GitHub Copilot']
         }
       ]
     },
     experience: {
       eyebrow: 'Experience',
-      heading: 'Product work across energy, IoT, data products and digital transformation.',
+      heading: 'How I built and modernised products',
+      intro: 'The appropriate approach depended on user needs, business objectives, the technical starting point and the risk to ongoing operations.',
       common: {
         periodLocation: 'Period · Location',
         contributions: 'Key contributions',
@@ -325,115 +468,133 @@ const translations = {
         approachLabel: 'Approach',
         valueLabel: 'Value',
         casePlaceholder: 'Case study image<br />placeholder',
+        tagsLabel: 'Technologies and methods',
+        productLink: 'View product',
+        companyLink: 'View company',
         viewDetails: 'View details',
         hideDetails: 'Hide details'
       },
       enertrag: {
         title: 'Product Orchestration Lead / Business Process Owner',
         meta: 'Strategic digitalisation across Business, IT, OT and Architecture.',
-        overview: 'As Product Orchestration Lead and Business Process Owner, I led strategic digitalisation initiatives at the intersection of Business, IT, OT and Architecture across ENERTRAG’s energy value chain, with a focus on data products, governance and resilience for critical business processes.',
+        valueLabel: 'Value: Modernising B2B SaaS and platform products · Shaping operational software and data products',
+        overview: 'I turn requirements from technical operations, IT, OT and architecture into initial target states, product structures and robust next steps for operational software and data products.',
+        approachTitle: 'Prepared a modular modernisation approach',
+        approachText: 'Structured business domains, operational use cases and data requirements so product capabilities and data products could be developed incrementally from the existing landscape.',
         periodLocation: 'Feb 2026 – Present · Berlin',
         imageAlt: 'Collage of digitalisation projects at ENERTRAG',
         mediaAriaLabel: 'Collage of digitalisation projects at ENERTRAG',
         mediaLinkLabel: 'Open the ENERTRAG website in a new tab',
         contributions: [
-          'GPS/GIS-based proof of concept for site assessment in wind and photovoltaic project planning.',
-          'Established foundations for data products and data-driven decision-making from concept through to a usable MVP.',
-          'Advanced NIS2 and BCM readiness through Business Impact Analysis and preparation of the first Steering Committee.',
-          'Developed recommendations for resilient control-room operations, CISO governance and project setup.'
+          'Started the modernisation roadmap for PowerSystem and developed initial target states for product scope and the future team structure.',
+          'Structured requirements across technical operations, IT, OT and architecture, and assessed vendors and solution options.',
+          'Established initial foundations for data products and supported an ongoing data-product pilot with French stakeholders.',
+          'Developed prioritised next steps, decision material and requirements for resilient control-room operations and business continuity.'
         ],
         tags: ['Data Products', 'GIS', 'NIS2', 'BCM', 'Governance'],
-        result: 'Outcome: Built product and governance foundations for critical energy and transformation processes.',
+        result: 'Outcome: Initial target states, solution options and decision foundations for operational software, data products and resilient operations.',
         details: {
-          context: 'A large transformation initiative spanning multiple domains and requiring clear product ownership.',
-          approach: 'Structured discovery, governance design and pragmatic delivery planning.',
-          value: 'Better decision quality, stronger resilience planning and improved cross-functional alignment.'
+          context: 'The modernisation was prepared but not fully implemented following an internal reprioritisation. The role shifted towards business process ownership for POLIS, covering cyber security, NIS2 and business continuity management.',
+          approach: 'For the planned evolution of PowerSystem, I structured business domains, operational use cases and data requirements. Individual product capabilities and data products were intended to be developed incrementally from the existing system and process landscape. This included initial target states, a modernisation roadmap, team structure considerations, vendor analysis and an ongoing data-product pilot with French stakeholders.',
+          value: 'A robust foundation for further product decisions and the resilient development of critical operational processes.'
         }
       },
       senec: {
-        title: 'Product Owner HEMS & Energiesysteme',
+        title: 'Product Owner – HEMS & Energy Systems',
         meta: 'HEMS product platform for residential energy systems.',
-        overview: 'As Product Owner HEMS & Energiesysteme, I supported the evolution of the Home Energy Management System and shaped product strategy for the control of battery storage, PV systems, EV chargers and heat pumps.',
+        valueLabel: 'Value: Developing and scaling connected energy products · Building platform capabilities and integrations',
+        overview: 'I connect product strategy, device integration and delivery to scale HEMS platforms across hardware, embedded software, cloud platforms and data.',
+        approachTitle: 'Evolutionary development with strangler elements',
+        approachText: 'Built and rolled out new product variants, integrations and control capabilities incrementally while existing platform components remained operational.',
         periodLocation: 'Sep 2024 – Jan 2026 · Leipzig / Remote',
         imageAlt: 'Collage of the Home Energy Management System at SENEC',
         mediaAriaLabel: 'Collage of the Home Energy Management System at SENEC',
         mediaLinkLabel: 'Open SENEC PowerPilot in a new tab',
         contributions: [
-          'Connected embedded software, cloud backends and third-party edge devices in a shared product platform.',
-          'Defined a roadmap for secure Yocto/Linux system updates and third-party device integration.',
-          'Supported MQTT and REST communication between edge and cloud services.',
-          'Led the migration of HEMS services into SENEC-hosted infrastructure.'
+          'Held product responsibility for two HEMS variants and more than 20,000 connected energy systems.',
+          'Connected PV, battery storage, EV chargers, heat pumps, smart metering and intelligent control in one platform.',
+          'Structured laboratory, system and integration testing for devices, interfaces and control logic.',
+          'Prioritised product variants, partner integrations and roadmaps across embedded software, cloud and data.'
         ],
         tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs'],
-        result: 'Outcome: Built a scalable HEMS product model with stronger operational stability.',
+        result: 'Outcome: Scalable HEMS product models for more than 20,000 connected energy systems.',
         details: {
           context: 'Product work spanning hardware, software and cloud with a strong dependency on reliable operations.',
-          approach: 'Cross-functional delivery, disciplined delivery management and incremental product evolution.',
+          approach: 'The existing HEMS platform was gradually extended with new product variants, device integrations and control capabilities. New features and partner solutions were built, tested and rolled out incrementally while existing platform components remained operational. Individual new capabilities gradually replaced or complemented existing logic.',
           value: 'Higher reliability, better integration and a scalable platform foundation.'
         }
       },
       soniq: {
         title: 'Product Manager IoT & SaaS',
         meta: 'Digital platform for professional cleaning services.',
-        overview: 'At soniq Services GmbH, I led a cross-functional team developing tool IQ, a platform connecting IoT devices, operational data and external systems.',
+        valueLabel: 'Value: Advancing B2B SaaS and IoT platforms · Digitising operational and service processes',
+        overview: 'I turn fragmented operational, IoT and user requirements into scalable platform capabilities, structured roadmaps and measurable product improvements.',
+        approachTitle: 'Controlled relaunch and cutover – from MVP to MMP',
+        approachText: 'Validated core user and product assumptions with a focused MVP, then expanded the platform into a marketable end-to-end product scope.',
         periodLocation: 'Aug 2022 – Aug 2024 · Berlin',
         imageAlt: 'Collage of the soniq IQ IoT and data platform',
         mediaAriaLabel: 'Collage of the soniq IQ IoT and data platform',
         mediaLinkLabel: 'Open Kärcher Connected Cleaning in a new tab',
         contributions: [
-          'Developed a platform for real-time monitoring, analysis and preventive maintenance.',
-          'Integrated IoT technologies, ERP capabilities, REST APIs and data lake components.',
-          'Aligned a cross-functional product operating model with business objectives.',
-          'Contributed to go-to-market planning, partnerships and direct sales enablement.'
+          'Advanced an international B2B IoT platform for monitoring, analytics and preventive maintenance.',
+          'Integrated IoT devices, ERP capabilities, REST APIs and data lake components.',
+          'Translated digital maintenance and service processes into prioritised product capabilities.',
+          'Orchestrated international releases and rollouts through data-informed prioritisation and cross-functional delivery.'
         ],
         tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms'],
         result: 'Outcome: Improved operational visibility and strengthened product-market fit.',
         details: {
           context: 'Product and commercial work in a fast-moving B2B environment with evolving customer needs.',
-          approach: 'Customer-centred product development paired with clear operating structures.',
+          approach: 'The platform was built around a focused MVP to validate key user problems, product assumptions and technical feasibility. Real user and customer requirements then shaped a Minimum Marketable Product with independent end-to-end value. The transition was prepared and executed through clear release, integration and rollout steps.',
           value: 'Stronger product-market fit, better process visibility and clearer commercial logic.'
         }
       },
       mercedes: {
         title: 'Technical Product Manager CRM',
         meta: 'International rollout of One Touch Retail.',
-        overview: 'As Technical Product Manager CRM, I supported the international rollout of One Touch Retail and coordinated business requirements, product delivery and technical integrations in the CRM domain.',
+        valueLabel: 'Value: Modernising cloud platforms · Harmonising processes and product requirements',
+        overview: 'I structure complex market and process requirements into scalable CRM capabilities, technical specifications and manageable releases and rollouts.',
+        approachTitle: 'Relaunch and controlled cutover across multiple markets',
+        approachText: 'Coordinated market processes, technical dependencies, integrations and release timing for controlled, progressive transitions to the new platform.',
         periodLocation: 'Feb 2021 – Jul 2022 · Berlin',
         imageAlt: 'Collage of the CRM and sales platform at Mercedes-Benz',
         mediaAriaLabel: 'Collage of the CRM and sales platform at Mercedes-Benz',
         contributions: [
-          'Aligned business requirements with technical feasibility under tight deadlines.',
-          'Used Scrum and OKRs to coordinate delivery and prioritisation.',
-          'Supported CI/CD pipelines to improve deployment reliability and time to market.',
-          'Designed scalable API integrations with Salesforce and guided their delivery.'
+          'Rolled out a cloud-based CRM and service platform across more than six European markets.',
+          'Harmonised market and service processes and translated them into technical specifications.',
+          'Aligned scalable Salesforce and API integrations with product development and architecture.',
+          'Orchestrated releases and rollouts through Scrum, OKRs and CI/CD-oriented delivery practices.'
         ],
         tags: ['Salesforce', 'APIs', 'CRM', 'CI/CD', 'Scrum'],
         result: 'Outcome: Enabled more consistent digital processes across several markets.',
         details: {
           context: 'A regulated, fast-moving environment with high coordination demands between product and delivery.',
-          approach: 'Pragmatic stakeholder alignment, technical coordination and phased rollout planning.',
+          approach: 'The cloud-based CRM and service platform was harmonised, prepared and progressively rolled out across several European markets. Market processes, technical dependencies, integrations and release timing were coordinated to enable controlled transitions to the new platform.',
           value: 'Faster adoption of standardised processes and more consistent market execution.'
         }
       },
       remindme: {
-        title: 'Product Manager Growth: Energie & Software',
+        title: 'Product Manager Growth: Energy & Software',
         meta: 'B2C platform for long-term energy and telecommunications contracts.',
-        overview: 'At remind.me GmbH, I shaped product development and CRM growth across a B2C product context and supported the evolution of the product along customer needs and service processes.',
+        valueLabel: 'Value: Developing and scaling digital platforms · Building automated end-to-end processes',
+        overview: 'I connect energy products, automation and data-informed prioritisation to scale digital platforms and deliver measurable customer value.',
+        approachTitle: 'Launching and scaling a digital platform',
+        approachText: 'Built and continuously improved the platform through data, scaling it and its automated end-to-end processes to around 100,000 active customers.',
         periodLocation: 'Dec 2017 – Dec 2020 · Berlin',
         imageAlt: 'Collage of the energy and tariff platform at remind.me',
         mediaAriaLabel: 'Collage of the energy and tariff platform at remind.me',
         mediaLinkLabel: 'Open the remind.me website in a new tab',
         contributions: [
-          'Introduced agile product development practices within the team.',
-          'Automated customer and service-delivery processes.',
-          'Contributed to a CRM strategy for customer retention and acquisition.',
-          'Supported data-driven marketing initiatives for customer acquisition.'
+          'Scaled a digital energy platform serving around 100,000 active customers.',
+          'Automated and advanced customer, tariff-switching and service processes.',
+          'Established data-informed prioritisation across product, CRM, retention and acquisition.',
+          'Supported a 98 percent successful tariff-switching rate and more than €20 million in cumulative customer savings.'
         ],
         tags: ['B2C Platform', 'Process Automation', 'CRM', 'Kanban'],
-        result: 'Outcome: Strengthened product development and customer-facing processes.',
+        result: 'Outcome: Around 100,000 active customers, a 98 percent successful tariff-switching rate and more than €20 million in customer savings.',
         details: {
           context: 'A customer-centric product environment focused on agility and operational transparency.',
-          approach: 'Lean product work, workflow improvement and focused CRM execution.',
+          approach: 'The digital energy platform was built, continuously improved through usage, conversion and process data and scaled to around 100,000 active customers. Automated end-to-end processes were gradually expanded and optimised for success rate, customer value and operational efficiency.',
           value: 'Stronger delivery flow, better customer experience and more commercial impact.'
         }
       }
@@ -441,25 +602,41 @@ const translations = {
     contact: {
       eyebrow: 'Contact',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'I am interested in product leadership, digital transformation and AI-enabled process consulting opportunities.',
-      linkedin: 'LinkedIn'
+      text: 'Open to senior and lead product roles in Berlin, hybrid or remote across Germany—with a focus on energy systems, B2B SaaS and product modernisation.',
+      linkedin: 'LinkedIn',
+      linkedinLabel: 'Open LinkedIn profile in a new tab'
     },
     footer: {
-      text: '© Yannik Berner. Product management, digital transformation and process consulting.',
+      text: '© Yannik Berner. Senior product management for energy & product modernisation.',
       privacy: 'Privacy',
       backToTop: 'Back to top'
     },
     privacy: {
       documentTitle: 'Privacy Policy | Yannik Berner',
+      metaDescription: 'Privacy information for Yannik Berner’s portfolio.',
       eyebrow: 'Legal information',
       heading: 'Privacy Policy',
       backToPortfolio: 'Back to portfolio',
+      controllerHeading: 'Controller',
+      controllerNote: 'The email address above can be used for privacy-related enquiries.',
       hostingHeading: 'Hosting via GitHub Pages',
       hostingIntro: 'This website is hosted via <strong>GitHub Pages</strong>, a hosting service provided by GitHub, Inc.',
       processing: 'When you access this website, technically necessary information such as your IP address, the date and time of access, browser type and other technical connection data is processed to deliver the website and ensure its secure operation. This processing is carried out by GitHub as the hosting provider.',
       moreInfo: 'Further information about data processing by GitHub is available at:',
       githubPrivacy: 'GitHub General Privacy Statement',
-      legalBasis: 'The legal basis for this processing is Article 6(1)(f) GDPR. The legitimate interest lies in providing this website securely and reliably.'
+      githubPrivacyLabel: 'Open the GitHub General Privacy Statement in a new tab',
+      legalBasis: 'The legal basis for this processing is Article 6(1)(f) GDPR. The legitimate interest lies in providing this website securely and reliably. GitHub provides details about recipients, international transfers and retention in the linked privacy statement.',
+      languageHeading: 'Language preference in your browser',
+      languageStorage: 'When German or English is selected, the chosen language is stored in the browser’s local storage under the key “portfolio-lang”. This is used solely to restore the language explicitly selected during a later visit. The setting remains on the device until it is changed or deleted through the browser settings.',
+      languageBasis: 'This storage is necessary to provide the language function explicitly requested by the user (Section 25(2)(2) TDDDG). The value is not transmitted to Yannik Berner.',
+      externalLinksHeading: 'External links',
+      externalLinks: 'This website contains links to external services, including LinkedIn and the companies or products shown. The external website is opened only after the link is selected; the respective provider’s privacy information then applies.',
+      noTrackingHeading: 'No first-party analytics or marketing services',
+      noTracking: 'This website does not use first-party analytics, tracking or marketing services and does not embed third-party content. No contact-form data is collected.',
+      rightsHeading: 'Data subject rights',
+      rights: 'Where the legal requirements are met, rights may include access, rectification, erasure, restriction of processing, data portability and objection. You also have the right to lodge a complaint with a competent data protection supervisory authority.',
+      updatedHeading: 'Last updated',
+      updated: 'July 2026'
     },
     lang: {
       de: 'DE',
@@ -480,12 +657,56 @@ function setTextContent(element, value) {
   }
 }
 
+let activeLanguage = 'de';
+
+function readStoredLanguage() {
+  try {
+    return localStorage.getItem('portfolio-lang');
+  } catch {
+    return null;
+  }
+}
+
+function storeLanguage(language) {
+  try {
+    localStorage.setItem('portfolio-lang', language);
+  } catch {
+    // The URL parameter remains the shareable source of truth.
+  }
+}
+
+function updateLanguageUrl(language) {
+  try {
+    const url = new URL(window.location.href);
+    url.searchParams.set('lang', language);
+    window.history.replaceState({}, '', url);
+  } catch {
+    // Language switching still works when URL APIs are unavailable.
+  }
+}
+
+function updatePageMetadata(active, language) {
+  const isPrivacyPage = document.body.dataset.page === 'privacy';
+  const description = isPrivacyPage ? active.privacy.metaDescription : active.metaDescription;
+  const title = isPrivacyPage ? active.privacy.documentTitle : active.documentTitle;
+
+  document.title = title;
+  document.querySelector('meta[name="description"]')?.setAttribute('content', description);
+
+  if (!isPrivacyPage) {
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', title);
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', active.socialDescription);
+    document.querySelector('meta[property="og:locale"]')?.setAttribute('content', language === 'en' ? 'en_GB' : 'de_DE');
+    document.querySelector('meta[name="twitter:title"]')?.setAttribute('content', title);
+    document.querySelector('meta[name="twitter:description"]')?.setAttribute('content', active.socialDescription);
+  }
+}
+
 function updateTranslations(language) {
   const active = translations[language] || translations.de;
+  activeLanguage = language;
   document.documentElement.lang = language;
-  document.title = document.body.dataset.page === 'privacy'
-    ? active.privacy.documentTitle
-    : active.documentTitle;
+  updatePageMetadata(active, language);
 
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const value = getByPath(active, element.getAttribute('data-i18n'));
@@ -519,6 +740,14 @@ function updateTranslations(language) {
     }
   });
 
+  document.querySelectorAll('[data-portfolio-link]').forEach((link) => {
+    link.setAttribute('href', `index.html?lang=${language}`);
+  });
+
+  document.querySelectorAll('[data-privacy-link]').forEach((link) => {
+    link.setAttribute('href', `datenschutz.html?lang=${language}`);
+  });
+
   document.querySelectorAll('.details-toggle').forEach((button) => {
     const expanded = button.getAttribute('aria-expanded') === 'true';
     button.textContent = expanded ? active.experience.common.hideDetails : active.experience.common.viewDetails;
@@ -534,15 +763,22 @@ function setLanguage(language) {
     return;
   }
 
-  localStorage.setItem('portfolio-lang', language);
+  storeLanguage(language);
+  updateLanguageUrl(language);
   updateTranslations(language);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  document.documentElement.classList.add('js-ready');
   const navToggle = document.querySelector('.nav-toggle');
   const siteNav = document.querySelector('.site-nav');
-  const storedLanguage = localStorage.getItem('portfolio-lang');
-  const initialLanguage = storedLanguage === 'en' ? 'en' : 'de';
+  const urlLanguage = new URLSearchParams(window.location.search).get('lang');
+  const storedLanguage = readStoredLanguage();
+  const initialLanguage = urlLanguage === 'en' || urlLanguage === 'de'
+    ? urlLanguage
+    : storedLanguage === 'en'
+      ? 'en'
+      : 'de';
 
   setLanguage(initialLanguage);
 
@@ -553,9 +789,17 @@ document.addEventListener('DOMContentLoaded', () => {
       siteNav.classList.toggle('is-open');
     });
 
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && siteNav.classList.contains('is-open')) {
+        navToggle.setAttribute('aria-expanded', 'false');
+        siteNav.classList.remove('is-open');
+        navToggle.focus();
+      }
+    });
+
     siteNav.querySelectorAll('a, .lang-button').forEach((link) => {
       link.addEventListener('click', () => {
-        if (window.innerWidth <= 720) {
+        if (window.innerWidth <= 960) {
           navToggle.setAttribute('aria-expanded', 'false');
           siteNav.classList.remove('is-open');
         }
@@ -585,44 +829,56 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       event.preventDefault();
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+      target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
     });
   });
 
   const revealItems = document.querySelectorAll('.reveal');
-  const revealObserver = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          revealObserver.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.15 }
-  );
+  if ('IntersectionObserver' in window) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
 
-  revealItems.forEach((item) => revealObserver.observe(item));
+    revealItems.forEach((item) => revealObserver.observe(item));
+  } else {
+    revealItems.forEach((item) => item.classList.add('is-visible'));
+  }
 
   const sections = document.querySelectorAll('main section[id]');
   const navLinks = Array.from(document.querySelectorAll('.site-nav a[href^="#"]'));
-  const currentObserver = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) {
-          return;
-        }
+  if ('IntersectionObserver' in window) {
+    const currentObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) {
+            return;
+          }
 
-        navLinks.forEach((link) => {
-          const isActive = link.getAttribute('href') === `#${entry.target.id}`;
-          link.classList.toggle('active', isActive);
+          navLinks.forEach((link) => {
+            const isActive = link.getAttribute('href') === `#${entry.target.id}`;
+            link.classList.toggle('active', isActive);
+            if (isActive) {
+              link.setAttribute('aria-current', 'location');
+            } else {
+              link.removeAttribute('aria-current');
+            }
+          });
         });
-      });
-    },
-    { rootMargin: '-35% 0px -50% 0px', threshold: 0.1 }
-  );
+      },
+      { rootMargin: '-35% 0px -50% 0px', threshold: 0.1 }
+    );
 
-  sections.forEach((section) => currentObserver.observe(section));
+    sections.forEach((section) => currentObserver.observe(section));
+  }
 
   document.querySelectorAll('.portrait-shell img, .media-shell img').forEach((image) => {
     image.addEventListener('error', () => {
@@ -641,7 +897,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const target = targetId ? document.getElementById(targetId) : null;
 
       button.setAttribute('aria-expanded', String(!expanded));
-      const activeLanguage = localStorage.getItem('portfolio-lang') === 'en' ? 'en' : 'de';
       const active = translations[activeLanguage] || translations.de;
       button.textContent = expanded ? active.experience.common.viewDetails : active.experience.common.hideDetails;
 
