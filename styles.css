@@ -2,13 +2,13 @@
   --background: #d5cdbe;
   --surface: #fffdf7;
   --text: #111111;
-  --muted: #5f5a52;
+  --muted: #554f48;
   --enertrag: #ffcc00;
   --senec: #55ff66;
   --soniq: #f1c0fd;
   --mercedes: #a3abb3;
   --remindme: #d6a385;
-  --contact: #2197bd;
+  --contact: #0b6f8e;
 }
 
 * {
@@ -18,6 +18,20 @@
 html {
   scroll-behavior: smooth;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#top { order: 1; }
+.proof-section { order: 2; }
+#impact { order: 3; }
+#experience { order: 4; }
+#capabilities { order: 5; }
+.skills-section { order: 6; }
+#about { order: 7; }
+#contact { order: 8; }
 
 body {
   margin: 0;
@@ -29,6 +43,13 @@ body {
 
 a {
   color: inherit;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--text);
+  outline-offset: 4px;
 }
 
 img {
@@ -109,6 +130,9 @@ img {
 }
 
 .site-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.84rem;
@@ -142,6 +166,8 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
+  min-width: 44px;
+  min-height: 44px;
   padding: 0.25rem 0.45rem;
 }
 
@@ -251,11 +277,68 @@ h3 {
   display: none;
 }
 
+.section-lead {
+  margin: 0;
+  font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+  line-height: 1.55;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.9rem;
   margin-top: 1.8rem;
+}
+
+.proof-section {
+  border-block: 1px solid var(--text);
+  background: var(--surface);
+}
+
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.proof-item {
+  display: flex;
+  min-height: 7.5rem;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.25rem;
+  text-decoration: none;
+  border-right: 1px solid var(--text);
+}
+
+.proof-item:first-child {
+  border-left: 1px solid var(--text);
+}
+
+.proof-item strong {
+  font-size: clamp(1.65rem, 3vw, 2.5rem);
+  line-height: 1;
+}
+
+.proof-item span {
+  margin-top: 0.55rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.35;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.proof-item:hover,
+.proof-item:focus-visible {
+  background: var(--text);
+  color: var(--surface);
+  outline-offset: -4px;
+}
+
+.proof-item:hover span,
+.proof-item:focus-visible span {
+  color: var(--surface);
 }
 
 .button {
@@ -411,47 +494,154 @@ h3 {
 
 .impact-grid {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(min(100%, 280px), 1fr)
-  );
-  gap: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: stretch;
 }
 
 .impact-card {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
   padding: clamp(1.5rem, 3vw, 2.5rem);
   overflow: hidden;
+  color: inherit;
+  text-decoration: none;
+}
+
+.impact-card-index {
+  display: block;
+  margin-bottom: 2rem;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
 }
 
 .impact-card h3 {
   display: block;
   min-width: 0;
   max-width: 100%;
-  margin: 0 0 1.5rem;
+  margin: 0 0 1rem;
 
-  font-size: clamp(1.4rem, 2.3vw, 2.4rem);
+  font-size: clamp(1.25rem, 1.8vw, 1.75rem);
   line-height: 0.95;
 
   white-space: normal;
-  overflow-wrap: anywhere;
-  word-break: break-word;
-  hyphens: auto;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .impact-card p {
   max-width: 100%;
-  margin: 0;
+  margin: 0 0 1.5rem;
 
-  font-size: clamp(1rem, 1.8vw, 1.5rem);
+  font-size: 0.98rem;
   line-height: 1.5;
 
   white-space: normal;
   overflow-wrap: anywhere;
   hyphens: auto;
+}
+
+.impact-card h4 {
+  margin: 0 0 0.8rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+}
+
+.impact-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1.5rem;
+}
+
+.impact-tags span {
+  display: inline-block;
+  border: 1px solid var(--text);
+  padding: 0.28rem 0.48rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.impact-card ul {
+  margin: 0 0 1.5rem;
+  padding-left: 1.15rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.impact-card li + li {
+  margin-top: 0.5rem;
+}
+
+.impact-approach-note {
+  margin-bottom: 1.5rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--text);
+  background: var(--background);
+}
+
+.impact-approach-note summary {
+  min-height: 44px;
+  align-content: center;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.impact-approach-note p {
+  margin: 0.75rem 0 0;
+}
+
+.impact-proof {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--text);
+}
+
+.impact-proof > span {
+  display: block;
+  margin-bottom: 0.65rem;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.impact-proof-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.impact-proof-links a {
+  display: inline-block;
+  padding: 0.35rem 0.55rem;
+  border: 1px solid var(--text);
+  background: var(--surface);
+  font-size: 0.74rem;
+  font-weight: 800;
+  line-height: 1.3;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.impact-proof-links a:hover,
+.impact-proof-links a:focus-visible {
+  background: var(--text);
+  color: var(--surface);
 }
 
 .capabilities-grid,
@@ -466,6 +656,53 @@ h3 {
 
 .skills-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.skills-disclosure {
+  border: 1px solid var(--text);
+  background: var(--surface);
+}
+
+.skills-disclosure > summary {
+  display: flex;
+  min-height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.skills-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.skills-disclosure > summary::after {
+  content: "+";
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.skills-disclosure[open] > summary::after {
+  content: "–";
+}
+
+.skills-disclosure .eyebrow {
+  margin: 0;
+}
+
+.skills-summary-title {
+  flex: 1;
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.skills-disclosure .skills-grid {
+  padding: 0 1.25rem 1.25rem;
 }
 
 .capability,
@@ -494,6 +731,7 @@ h3 {
 .case-study {
   padding: 1.5rem;
   margin-bottom: 1.25rem;
+  scroll-margin-top: 6.5rem;
 }
 
 .case-accent {
@@ -536,6 +774,50 @@ h3 {
   max-width: 24ch;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.value-label {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 0 0.9rem;
+  padding: 0.38rem 0.62rem;
+  border: 1px solid var(--text);
+  background: var(--background);
+  font-size: 0.76rem;
+  font-weight: 800;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.case-approach {
+  margin: 1rem 0;
+  padding: 1rem 1.15rem;
+  border-left: 0.35rem solid var(--text);
+  background: var(--background);
+}
+
+.case-approach-label {
+  margin: 0 0 0.35rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.case-approach h4 {
+  margin-bottom: 0.45rem;
+  font-size: 0.95rem;
+  line-height: 1.15;
+}
+
+.case-approach > p:last-child {
+  max-width: 74ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
 }
 
 .job-meta {
@@ -588,10 +870,37 @@ h3 {
   letter-spacing: 0.04em;
 }
 
+.result-line {
+  max-width: 74ch;
+  margin: 0.8rem 0 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--text);
+  background: var(--text);
+  color: var(--surface);
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.case-external-link {
+  margin: 0.75rem 0 0;
+}
+
+.case-external-link a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--contact);
+  font-weight: 800;
+  text-underline-offset: 0.22em;
+}
+
 .details-toggle {
+  display: none;
   border: 1px solid var(--text);
   background: var(--surface);
   color: var(--text);
+  min-height: 44px;
   padding: 0.65rem 0.95rem;
   text-transform: uppercase;
   font: inherit;
@@ -599,10 +908,23 @@ h3 {
   cursor: pointer;
 }
 
+.js-ready .details-toggle {
+  display: inline-flex;
+  align-items: center;
+}
+
 .case-details {
   margin-top: 0.8rem;
   border-top: 1px solid var(--text);
   padding-top: 0.8rem;
+}
+
+.case-details[hidden] {
+  display: block !important;
+}
+
+.js-ready .case-details[hidden] {
+  display: none !important;
 }
 
 .contact-section {
@@ -684,8 +1006,12 @@ h3 {
 }
 
 .legal-copy h2 {
-  margin-bottom: 1.5rem;
-  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  margin: 2.5rem 0 1rem;
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
+}
+
+.legal-copy h2:first-child {
+  margin-top: 0;
 }
 
 .legal-copy p {
@@ -704,19 +1030,57 @@ h3 {
 }
 
 .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.js-ready .reveal {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 500ms ease, transform 500ms ease;
 }
 
-.reveal.is-visible {
+.js-ready .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-@media (max-width: 1100px) {
-  .impact-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+@media (max-width: 960px) {
+  .js-ready .nav-toggle {
+    display: inline-flex;
+  }
+
+  .js-ready .site-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1rem 1.25rem;
+    background: var(--background);
+    border-bottom: 1px solid var(--text);
+  }
+
+  .js-ready .site-nav.is-open {
+    display: flex;
+  }
+
+  .js-ready .site-nav:not(.is-open) {
+    display: none;
+  }
+
+  .nav-bar {
+    position: relative;
+  }
+
+  html:not(.js-ready) .nav-bar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  html:not(.js-ready) .site-nav {
+    flex-wrap: wrap;
   }
 }
 
@@ -759,6 +1123,22 @@ h3 {
   .skills-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .proof-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .proof-item:nth-child(3) {
+    border-left: 1px solid var(--text);
+  }
+
+  .proof-item:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--text);
+  }
 }
 
 @media (max-width: 720px) {
@@ -771,36 +1151,14 @@ h3 {
   }
 
   .section {
-    padding: 4.25rem 0;
+    padding: 3.25rem 0;
   }
 
   .nav-controls {
     width: auto;
   }
 
-  .nav-toggle {
-    display: inline-flex;
-  }
-
-  .site-nav {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem 1rem 1.25rem;
-    background: var(--background);
-    border-bottom: 1px solid var(--text);
-  }
-
-  .site-nav.is-open {
-    display: flex;
-  }
-
   .nav-bar {
-    position: relative;
     flex-wrap: nowrap;
     min-height: 4rem;
     padding: 0.7rem 0;
@@ -816,7 +1174,7 @@ h3 {
   }
 
   .hero.section {
-    padding: 1.75rem 0 4rem;
+    padding: 1.5rem 0 2.5rem;
   }
 
   .hero-grid {
@@ -829,7 +1187,7 @@ h3 {
 
   .portrait-shell {
     order: 2;
-    width: min(72vw, 250px);
+    width: min(56vw, 210px);
     margin: 0;
   }
 
@@ -888,6 +1246,49 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .impact-card {
+    padding: 1.25rem;
+  }
+
+  .proof-item {
+    min-height: 6.25rem;
+    padding: 1rem;
+  }
+
+  .proof-item strong {
+    font-size: 1.55rem;
+  }
+
+  .proof-item span {
+    font-size: 0.68rem;
+  }
+
+  .case-study {
+    padding: 1.1rem;
+  }
+
+  .case-overview,
+  .case-approach > p:last-child,
+  .tags {
+    display: none;
+  }
+
+  .case-approach {
+    margin: 0.8rem 0;
+  }
+
+  .experience-section {
+    padding-bottom: 2.5rem;
+  }
+
+  .skills-section {
+    padding-top: 0;
+  }
+
+  .impact-card-index {
+    margin-bottom: 1.25rem;
+  }
+
   .case-study-header,
   .footer-content {
     flex-direction: column;
@@ -907,6 +1308,12 @@ h3 {
     font-size: 0.72rem;
   }
 
+  .legal-content h1 {
+    font-size: clamp(2rem, 11vw, 3rem);
+    line-height: 0.95;
+    overflow-wrap: anywhere;
+  }
+
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -914,7 +1321,7 @@ h3 {
     scroll-behavior: auto;
   }
 
-  .reveal {
+  .js-ready .reveal {
     opacity: 1;
     transform: none;
     transition: none;

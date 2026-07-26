@@ -3,19 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="Datenschutzhinweise für das Portfolio von Yannik Berner." />
+    <meta name="theme-color" content="#d5cdbe" />
+    <link rel="canonical" href="https://yannikberner-ai-pm.github.io/datenschutz.html" />
     <title>Datenschutzerklärung | Yannik Berner</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body data-page="privacy">
-    <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
+    <a class="skip-link" href="#main-content" data-i18n="skipLink">Zum Inhalt springen</a>
 
     <header class="site-header">
       <div class="container nav-bar">
-        <a class="brand" href="index.html">Yannik Berner</a>
+        <a class="brand" href="index.html" data-portfolio-link>Yannik Berner</a>
         <div class="legal-nav-actions">
-          <a class="button button-secondary" href="index.html" data-i18n="privacy.backToPortfolio">Zurück zum Portfolio</a>
-          <div class="lang-switcher" role="group" aria-label="Sprachumschalter">
+          <a class="button button-secondary" href="index.html" data-portfolio-link data-i18n="privacy.backToPortfolio">Zurück zum Portfolio</a>
+          <div class="lang-switcher" role="group" aria-label="Sprachumschalter" data-i18n-aria="nav.languageLabel">
             <button class="lang-button is-active" type="button" data-lang="de" aria-pressed="true">DE</button>
             <button class="lang-button" type="button" data-lang="en" aria-pressed="false">EN</button>
           </div>
@@ -30,6 +34,15 @@
           <h1 data-i18n="privacy.heading">Datenschutzerklärung</h1>
 
           <article class="legal-copy">
+            <h2 data-i18n="privacy.controllerHeading">Verantwortlicher</h2>
+            <p>
+              Yannik Berner<br />
+              <a href="mailto:yannik_berner@icloud.com">yannik_berner@icloud.com</a>
+            </p>
+            <p data-i18n="privacy.controllerNote">
+              Für datenschutzbezogene Anfragen kann die oben genannte E-Mail-Adresse genutzt werden.
+            </p>
+
             <h2 data-i18n="privacy.hostingHeading">Hosting über GitHub Pages</h2>
             <p data-i18n="privacy.hostingIntro">
               Diese Website wird über <strong>GitHub Pages</strong>, einen Hosting-Dienst der GitHub, Inc., bereitgestellt.
@@ -44,6 +57,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 data-i18n="privacy.githubPrivacy"
+                data-i18n-aria="privacy.githubPrivacyLabel"
               >
                 GitHub General Privacy Statement
               </a>
@@ -51,6 +65,32 @@
             <p data-i18n="privacy.legalBasis">
               Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse besteht in der sicheren und zuverlässigen Bereitstellung dieser Website.
             </p>
+
+            <h2 data-i18n="privacy.languageHeading">Spracheinstellung im Browser</h2>
+            <p data-i18n="privacy.languageStorage">
+              Bei Auswahl von Deutsch oder Englisch wird die gewählte Sprache im lokalen Speicher des Browsers (localStorage) unter dem Schlüssel „portfolio-lang“ gespeichert. Dies dient ausschließlich dazu, die ausdrücklich gewählte Sprache bei einem späteren Besuch wiederherzustellen. Die Einstellung verbleibt auf dem Endgerät, bis sie geändert oder über die Browser-Einstellungen gelöscht wird.
+            </p>
+            <p data-i18n="privacy.languageBasis">
+              Die Speicherung ist für die vom Nutzer gewünschte Sprachfunktion erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG). Eine Übermittlung dieses Werts an Yannik Berner findet nicht statt.
+            </p>
+
+            <h2 data-i18n="privacy.externalLinksHeading">Externe Links</h2>
+            <p data-i18n="privacy.externalLinks">
+              Die Website enthält Links zu externen Angeboten, etwa zu LinkedIn und den dargestellten Unternehmen oder Produkten. Erst beim Anklicken wird die jeweilige externe Seite geöffnet; dort gelten die Datenschutzhinweise des jeweiligen Anbieters.
+            </p>
+
+            <h2 data-i18n="privacy.noTrackingHeading">Keine eigenen Analytics- oder Marketing-Dienste</h2>
+            <p data-i18n="privacy.noTracking">
+              Auf dieser Website werden keine eigenen Analytics-, Tracking- oder Marketing-Dienste und keine eingebetteten Inhalte von Drittanbietern eingesetzt. Es werden keine Kontaktformulardaten erhoben.
+            </p>
+
+            <h2 data-i18n="privacy.rightsHeading">Rechte betroffener Personen</h2>
+            <p data-i18n="privacy.rights">
+              Soweit die gesetzlichen Voraussetzungen vorliegen, bestehen insbesondere Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Außerdem besteht das Recht, sich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren.
+            </p>
+
+            <h2 data-i18n="privacy.updatedHeading">Stand</h2>
+            <p data-i18n="privacy.updated">Juli 2026</p>
           </article>
         </div>
       </section>
@@ -59,7 +99,7 @@
     <footer class="site-footer">
       <div class="container footer-content">
         <p>© Yannik Berner</p>
-        <a href="index.html" data-i18n="privacy.backToPortfolio">Zurück zum Portfolio</a>
+        <a href="index.html" data-portfolio-link data-i18n="privacy.backToPortfolio">Zurück zum Portfolio</a>
       </div>
     </footer>
     <script src="script.js"></script>
