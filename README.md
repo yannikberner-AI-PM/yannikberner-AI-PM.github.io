@@ -1,6 +1,6 @@
 # Yannik Berner – Product Portfolio
 
-Zweisprachige, statische Portfolio-Website für Bewerbungen auf Senior- und Lead-Product-Rollen. Die Positionierung verbindet zwei gleichwertige Schwerpunkte:
+Zweisprachige, statische Portfolio-Website für Bewerbungen auf Senior- und Mid-Senior-Product-Rollen. Die Positionierung verbindet zwei gleichwertige Schwerpunkte:
 
 - Connected Energy, HEMS, Smart Metering und Energy Platforms
 - Software Product Modernization, B2B SaaS sowie Enterprise- und Plattformtransformation

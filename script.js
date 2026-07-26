@@ -2,8 +2,8 @@ const translations = {
   de: {
     skipLink: 'Zum Inhalt springen',
     documentTitle: 'Yannik Berner | Senior Product Manager – Energy & Product Modernization',
-    metaDescription: 'Senior Product Manager und Product Lead für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung – von Discovery und Zielbild bis Migration und Rollout.',
-    socialDescription: 'Senior Product Manager und Product Lead für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung.',
+    metaDescription: 'Senior Product Manager für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung – von Discovery und Zielbild bis Migration und Rollout.',
+    socialDescription: 'Senior Product Manager für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung.',
     nav: {
       value: 'Mehrwert',
       about: 'Über mich',
@@ -15,7 +15,7 @@ const translations = {
       languageLabel: 'Sprache auswählen'
     },
     hero: {
-      eyebrow: 'SENIOR PRODUCT MANAGER / PRODUCT LEAD',
+      eyebrow: 'SENIOR PRODUCT MANAGER',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
       title: 'Vernetzte Energieprodukte & Software-Produktmodernisierung',
@@ -29,12 +29,12 @@ const translations = {
     },
     proof: {
       ariaLabel: 'Ausgewählte Ergebnisse',
-      items: ['vernetzte Energiesysteme', 'aktive Kund:innen', 'erfolgreiche Tarifwechsel', 'europäische Märkte']
+      items: ['vernetzte Energiesysteme', 'aktive Kund:innen', 'höhere Kundenzufriedenheit', 'europäische Märkte']
     },
     impact: {
       eyebrow: 'Mehrwert',
       heading: 'Welche Mehrwerte ich liefere',
-      intro: 'Ich verbinde Produktstrategie, Nutzerzentrierung, technische Tiefe und operative Umsetzung, um komplexe Produkte messbar weiterzuentwickeln.',
+      intro: 'Ich verbinde Produktstrategie, Nutzerzentrierung, technische Tiefe und operative Umsetzung, um komplexe Produkte aufzubauen oder messbar weiterzuentwickeln.',
       valueHeading: 'Konkreter Mehrwert',
       environmentsHeading: 'Relevante Produktumfelder',
       proofLabel: 'Belegt durch',
@@ -220,7 +220,7 @@ const translations = {
           'Internationale Releases und Rollouts mit datenbasierter Priorisierung und cross-funktionaler Delivery gesteuert.'
         ],
         tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms'],
-        result: 'Ergebnis: Verbesserte Betriebsübersicht und stärkerer Produkt-Markt-Fit.',
+        result: 'Ergebnis: Kundenzufriedenheit um 60 % gesteigert und Supportaufwand um 50 % gesenkt – durch datenbasierte Serviceverbesserungen.',
         details: {
           context: 'Produkt- und Vertriebsarbeit in einer dynamischen B2B-Umgebung mit sich wandelnden Kundenanforderungen.',
           approach: 'Die Plattform wurde mit einem fokussierten MVP zur Validierung zentraler Nutzerprobleme, Produktannahmen und technischer Machbarkeit aufgebaut. Auf Basis realer Nutzer- und Kundenanforderungen entstand daraus ein Minimum Marketable Product mit eigenständigem End-to-End-Nutzen. Der Übergang wurde über klare Release-, Integrations- und Rollout-Schritte vorbereitet und kontrolliert umgesetzt.',
@@ -280,7 +280,7 @@ const translations = {
     contact: {
       eyebrow: 'Kontakt',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Offen für Senior- und Lead-Product-Rollen in Berlin, hybrid oder remote in Deutschland – mit Fokus auf Energy Systems, B2B SaaS und Product Modernization.',
+      text: 'Offen für Senior- und Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in Deutschland – mit Fokus auf Energy Systems, B2B SaaS und Product Modernization.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'LinkedIn-Profil in einem neuen Tab öffnen'
     },
@@ -324,8 +324,8 @@ const translations = {
   en: {
     skipLink: 'Skip to content',
     documentTitle: 'Yannik Berner | Senior Product Manager – Energy & Product Modernization',
-    metaDescription: 'Senior Product Manager and Product Lead for connected energy products, B2B SaaS and software product modernisation—from discovery and target state to migration and rollout.',
-    socialDescription: 'Senior Product Manager and Product Lead for connected energy products, B2B SaaS and software product modernisation.',
+    metaDescription: 'Senior Product Manager for connected energy products, B2B SaaS and software product modernisation—from discovery and target state to migration and rollout.',
+    socialDescription: 'Senior Product Manager for connected energy products, B2B SaaS and software product modernisation.',
     nav: {
       value: 'Value',
       about: 'About',
@@ -337,7 +337,7 @@ const translations = {
       languageLabel: 'Choose language'
     },
     hero: {
-      eyebrow: 'SENIOR PRODUCT MANAGER / PRODUCT LEAD',
+      eyebrow: 'SENIOR PRODUCT MANAGER',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
       title: 'Connected Energy & Software Product Modernization',
@@ -351,12 +351,12 @@ const translations = {
     },
     proof: {
       ariaLabel: 'Selected outcomes',
-      items: ['connected energy systems', 'active customers', 'successful tariff switches', 'European markets']
+      items: ['connected energy systems', 'active customers', 'higher customer satisfaction', 'European markets']
     },
     impact: {
       eyebrow: 'Value',
       heading: 'The value I deliver',
-      intro: 'I combine product strategy, user-centred thinking, technical depth and operational execution to advance complex products.',
+      intro: 'I combine product strategy, user-centred thinking, technical depth and operational execution to build complex products or advance them measurably.',
       valueHeading: 'Value delivered',
       environmentsHeading: 'Relevant product environments',
       proofLabel: 'Proven through',
@@ -542,7 +542,7 @@ const translations = {
           'Orchestrated international releases and rollouts through data-informed prioritisation and cross-functional delivery.'
         ],
         tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms'],
-        result: 'Outcome: Improved operational visibility and strengthened product-market fit.',
+        result: 'Outcome: Increased customer satisfaction by 60% and cut support effort by 50% through data-driven service improvements.',
         details: {
           context: 'Product and commercial work in a fast-moving B2B environment with evolving customer needs.',
           approach: 'The platform was built around a focused MVP to validate key user problems, product assumptions and technical feasibility. Real user and customer requirements then shaped a Minimum Marketable Product with independent end-to-end value. The transition was prepared and executed through clear release, integration and rollout steps.',
@@ -602,7 +602,7 @@ const translations = {
     contact: {
       eyebrow: 'Contact',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Open to senior and lead product roles in Berlin, hybrid or remote across Germany—with a focus on energy systems, B2B SaaS and product modernisation.',
+      text: 'Open to senior and mid-senior product roles in Berlin, hybrid or remote across Germany—with a focus on energy systems, B2B SaaS and product modernisation.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'Open LinkedIn profile in a new tab'
     },
