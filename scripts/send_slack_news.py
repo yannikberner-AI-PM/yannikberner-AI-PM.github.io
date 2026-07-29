@@ -13,9 +13,9 @@ import requests
 # energy and regulation coverage, with AI/PM as a smaller share.
 FEEDS = [
     ("PV Magazine Deutschland", "https://www.pv-magazine.de/feed/", 3),
+    ("IWR", "https://www.iwr.de/news/rss", 2),
+    ("Erneuerbare Energien Magazin", "https://www.erneuerbareenergien.de/rss.xml", 2),
     ("Tagesschau Wirtschaft", "https://www.tagesschau.de/wirtschaft/index~rss2.xml", 2),
-    ("Utility Dive", "https://www.utilitydive.com/feeds/news/", 2),
-    ("Energy Storage News", "https://www.energy-storage.news/feed/", 2),
     ("Mind the Product", "https://www.mindtheproduct.com/feed/", 1),
     ("Lenny's Newsletter", "https://www.lennysnewsletter.com/feed", 1),
     ("SaaStr", "https://www.saastr.com/feed/", 1),
