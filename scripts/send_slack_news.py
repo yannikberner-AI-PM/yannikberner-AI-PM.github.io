@@ -1,43 +1,55 @@
 #!/usr/bin/env python3
-"""Fetch the latest AI/PM career news via Claude's web search and post it to Slack."""
+"""Fetch the latest career news via free Google News RSS feeds and post them to Slack."""
 import os
 import sys
+import xml.etree.ElementTree as ET
+from urllib.parse import quote
 
-import anthropic
 import requests
 
-NEWS_TOPIC = os.environ.get(
-    "NEWS_TOPIC",
-    "AI in product management; connected energy, HEMS (home energy management) "
-    "and smart metering; B2B SaaS product strategy; software product "
-    "modernization and platform transformation",
-)
+QUERIES = [q.strip() for q in os.environ.get(
+    "NEWS_QUERIES",
+    "AI product management|"
+    "connected energy OR smart metering OR HEMS home energy management|"
+    "B2B SaaS product strategy|"
+    "software product modernization OR platform transformation",
+).split("|")]
+
+MAX_ITEMS_PER_QUERY = 2
+MAX_TOTAL_ITEMS = 8
+
 SLACK_CHANNEL_ID = os.environ["SLACK_CHANNEL_ID"]
 SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 
 
-def fetch_news_summary() -> str:
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    response = client.messages.create(
-        model="claude-sonnet-5",
-        max_tokens=1024,
-        tools=[{"type": "web_search_20250305", "name": "web_search"}],
-        messages=[
-            {
-                "role": "user",
-                "content": (
-                    f"Search the web for the most important news from the last 7 days "
-                    f"about: {NEWS_TOPIC}. Summarize the 3-5 most relevant items as a "
-                    "short Slack message in German, using bullet points with an emoji "
-                    "prefix, one line per item, each with a source link. Keep it concise."
-                ),
-            }
-        ],
-    )
-    return "".join(
-        block.text for block in response.content if block.type == "text"
-    ).strip()
+def fetch_items_for_query(query: str) -> list[tuple[str, str]]:
+    url = f"https://news.google.com/rss/search?q={quote(query)}+when:7d&hl=de&gl=DE&ceid=DE:de"
+    resp = requests.get(url, timeout=30)
+    resp.raise_for_status()
+    root = ET.fromstring(resp.content)
+    items = []
+    for item in root.findall("./channel/item")[:MAX_ITEMS_PER_QUERY]:
+        title = item.findtext("title", "").strip()
+        link = item.findtext("link", "").strip()
+        if title and link:
+            items.append((title, link))
+    return items
+
+
+def build_message() -> str:
+    seen_titles = set()
+    lines = []
+    for query in QUERIES:
+        for title, link in fetch_items_for_query(query):
+            if title in seen_titles:
+                continue
+            seen_titles.add(title)
+            lines.append(f"• <{link}|{title}>")
+            if len(lines) >= MAX_TOTAL_ITEMS:
+                break
+        if len(lines) >= MAX_TOTAL_ITEMS:
+            break
+    return "\n".join(lines)
 
 
 def post_to_slack(text: str) -> None:
@@ -54,11 +66,11 @@ def post_to_slack(text: str) -> None:
 
 
 def main() -> None:
-    summary = fetch_news_summary()
-    if not summary:
-        print("No summary generated, aborting.", file=sys.stderr)
+    news_lines = build_message()
+    if not news_lines:
+        print("No news items found, aborting.", file=sys.stderr)
         sys.exit(1)
-    post_to_slack(f"*Latest Career News* :newspaper:\n\n{summary}")
+    post_to_slack(f"*Latest Career News* :newspaper:\n\n{news_lines}")
     print("Posted to Slack successfully.")
 
 
