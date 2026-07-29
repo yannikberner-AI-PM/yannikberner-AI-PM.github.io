@@ -24,4 +24,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          NEWS_TOPIC: >-
+            AI in product management; connected energy, HEMS (home energy
+            management) and smart metering; B2B SaaS product strategy;
+            software product modernization and platform transformation
         run: python scripts/send_slack_news.py

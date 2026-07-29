@@ -7,7 +7,10 @@ import anthropic
 import requests
 
 NEWS_TOPIC = os.environ.get(
-    "NEWS_TOPIC", "AI product management, AI careers and hiring trends"
+    "NEWS_TOPIC",
+    "AI in product management; connected energy, HEMS (home energy management) "
+    "and smart metering; B2B SaaS product strategy; software product "
+    "modernization and platform transformation",
 )
 SLACK_CHANNEL_ID = os.environ["SLACK_CHANNEL_ID"]
 SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
