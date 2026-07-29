@@ -9,28 +9,31 @@ from urllib.parse import quote
 
 import requests
 
-# Direct RSS feeds from relevant trade sites.
+# Direct RSS feeds from relevant trade sites, weighted towards German/European
+# energy and regulation coverage, with AI/PM as a smaller share.
 FEEDS = [
-    ("Mind the Product", "https://www.mindtheproduct.com/feed/"),
-    ("Lenny's Newsletter", "https://www.lennysnewsletter.com/feed"),
-    ("SaaStr", "https://www.saastr.com/feed/"),
-    ("Utility Dive", "https://www.utilitydive.com/feeds/news/"),
-    ("PV Magazine", "https://www.pv-magazine.com/feed/"),
-    ("Energy Storage News", "https://www.energy-storage.news/feed/"),
-    ("VentureBeat AI", "https://venturebeat.com/category/ai/feed/"),
+    ("PV Magazine Deutschland", "https://www.pv-magazine.de/feed/", 3),
+    ("Tagesschau Wirtschaft", "https://www.tagesschau.de/wirtschaft/index~rss2.xml", 2),
+    ("Utility Dive", "https://www.utilitydive.com/feeds/news/", 2),
+    ("Energy Storage News", "https://www.energy-storage.news/feed/", 2),
+    ("Mind the Product", "https://www.mindtheproduct.com/feed/", 1),
+    ("Lenny's Newsletter", "https://www.lennysnewsletter.com/feed", 1),
+    ("SaaStr", "https://www.saastr.com/feed/", 1),
 ]
 
-# Broader topic searches via Google News, to catch things the trade feeds miss.
+# Broader topic searches via Google News (German results), to catch things the
+# trade feeds miss. Weighted towards Germany/Europe, energy and regulation.
 QUERIES = [q.strip() for q in os.environ.get(
     "NEWS_QUERIES",
-    "AI product management|"
-    "connected energy OR smart metering OR HEMS home energy management|"
-    "B2B SaaS product strategy|"
-    "software product modernization OR platform transformation",
+    "Energiewende Regulierung Deutschland:3|"
+    "Smart Meter Rollout Deutschland:2|"
+    "EU Energiepolitik Regulierung:2|"
+    "Bundesnetzagentur Energie:2|"
+    "B2B SaaS Produktstrategie:1|"
+    "AI Produktmanagement:1",
 ).split("|")]
 
 MAX_AGE_DAYS = 7
-MAX_ITEMS_PER_SOURCE = 2
 MAX_TOTAL_ITEMS = 12
 
 SLACK_CHANNEL_ID = os.environ["SLACK_CHANNEL_ID"]
@@ -63,7 +66,7 @@ def fetch_feed_items(url: str) -> list[tuple[str, str, datetime | None]]:
     return items
 
 
-def recent_items_from_feed(name: str, url: str) -> list[tuple[str, str, str]]:
+def recent_items_from_feed(name: str, url: str, limit: int) -> list[tuple[str, str, str]]:
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
     try:
         items = fetch_feed_items(url)
@@ -71,25 +74,34 @@ def recent_items_from_feed(name: str, url: str) -> list[tuple[str, str, str]]:
         print(f"Skipping feed {name} ({url}): {exc}", file=sys.stderr)
         return []
     fresh = [(t, l, name) for t, l, d in items if d is None or d >= cutoff]
-    return fresh[:MAX_ITEMS_PER_SOURCE]
+    return fresh[:limit]
 
 
-def recent_items_from_query(query: str) -> list[tuple[str, str, str]]:
+def recent_items_from_query(query: str, limit: int) -> list[tuple[str, str, str]]:
     url = f"https://news.google.com/rss/search?q={quote(query)}+when:{MAX_AGE_DAYS}d&hl=de&gl=DE&ceid=DE:de"
     try:
         items = fetch_feed_items(url)
     except (requests.RequestException, ET.ParseError) as exc:
         print(f"Skipping query '{query}': {exc}", file=sys.stderr)
         return []
-    return [(t, l, "Google News") for t, l, _ in items[:MAX_ITEMS_PER_SOURCE]]
+    return [(t, l, "Google News") for t, l, _ in items[:limit]]
+
+
+def parse_weighted_query(entry: str) -> tuple[str, int]:
+    query, _, weight = entry.rpartition(":")
+    if query and weight.isdigit():
+        return query, int(weight)
+    return entry, 1
 
 
 def build_message() -> str:
     seen_titles = set()
     lines = []
 
-    sources = [recent_items_from_feed(name, url) for name, url in FEEDS]
-    sources += [recent_items_from_query(q) for q in QUERIES]
+    sources = [recent_items_from_feed(name, url, limit) for name, url, limit in FEEDS]
+    sources += [
+        recent_items_from_query(*parse_weighted_query(q)) for q in QUERIES
+    ]
 
     for items in sources:
         for title, link, source in items:
