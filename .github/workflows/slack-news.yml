@@ -1,0 +1,27 @@
+name: Slack Career News
+
+on:
+  schedule:
+    # Every Monday at 07:00 UTC
+    - cron: "0 7 * * 1"
+  workflow_dispatch: {}
+
+jobs:
+  send-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install anthropic requests
+
+      - name: Send latest news to Slack
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+        run: python scripts/send_slack_news.py
