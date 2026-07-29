@@ -2,9 +2,15 @@ name: Slack Career News
 
 on:
   schedule:
-    # Every Monday at 07:00 UTC
-    - cron: "0 7 * * 1"
+    # Every day at 05:00 UTC (~06:00-07:00 German time, depending on DST)
+    - cron: "0 5 * * *"
   workflow_dispatch: {}
+
+concurrency:
+  group: slack-career-news
+
+permissions:
+  contents: write
 
 jobs:
   send-news:
@@ -24,3 +30,15 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
         run: python scripts/send_slack_news.py
+
+      - name: Persist news cache
+        run: |
+          if ! git diff --quiet -- scripts/.news_cache.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add scripts/.news_cache.json
+            git commit -m "Update sent-news cache [skip ci]"
+            git push
+          else
+            echo "No cache changes to commit."
+          fi

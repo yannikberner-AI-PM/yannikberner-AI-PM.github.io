@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Fetch the latest career news from several free RSS sources and post them to Slack."""
+"""Fetch the latest career news from several free RSS sources and post only
+the items that haven't been sent to Slack before (tracked in a cache file
+that this script updates and the workflow commits back to the repo)."""
+import json
 import os
 import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from pathlib import Path
 from urllib.parse import quote
 
 import requests
@@ -16,6 +20,7 @@ FEEDS = [
     ("IWR", "https://www.iwr.de/news/rss", 2),
     ("Erneuerbare Energien Magazin", "https://www.erneuerbareenergien.de/rss.xml", 2),
     ("Tagesschau Wirtschaft", "https://www.tagesschau.de/wirtschaft/index~rss2.xml", 2),
+    ("Handelsblatt", "https://www.handelsblatt.com/contentexport/feed/schlagzeilen", 2),
     ("Mind the Product", "https://www.mindtheproduct.com/feed/", 1),
     ("Lenny's Newsletter", "https://www.lennysnewsletter.com/feed", 1),
     ("SaaStr", "https://www.saastr.com/feed/", 1),
@@ -35,6 +40,9 @@ QUERIES = [q.strip() for q in os.environ.get(
 
 MAX_AGE_DAYS = 7
 MAX_TOTAL_ITEMS = 12
+MAX_CACHE_ENTRIES = 1000
+
+CACHE_PATH = Path(os.environ.get("NEWS_CACHE_PATH", "scripts/.news_cache.json"))
 
 SLACK_CHANNEL_ID = os.environ["SLACK_CHANNEL_ID"]
 SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
@@ -94,9 +102,24 @@ def parse_weighted_query(entry: str) -> tuple[str, int]:
     return entry, 1
 
 
-def build_message() -> str:
+def load_cache() -> set[str]:
+    if not CACHE_PATH.exists():
+        return set()
+    try:
+        return set(json.loads(CACHE_PATH.read_text()))
+    except (json.JSONDecodeError, OSError):
+        return set()
+
+
+def save_cache(links: set[str]) -> None:
+    trimmed = list(links)[-MAX_CACHE_ENTRIES:]
+    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CACHE_PATH.write_text(json.dumps(trimmed, indent=2))
+
+
+def collect_new_items(already_sent: set[str]) -> list[tuple[str, str, str]]:
     seen_titles = set()
-    lines = []
+    new_items = []
 
     sources = [recent_items_from_feed(name, url, limit) for name, url, limit in FEEDS]
     sources += [
@@ -105,13 +128,13 @@ def build_message() -> str:
 
     for items in sources:
         for title, link, source in items:
-            if title in seen_titles:
+            if title in seen_titles or link in already_sent:
                 continue
             seen_titles.add(title)
-            lines.append(f"• <{link}|{title}> _({source})_")
-            if len(lines) >= MAX_TOTAL_ITEMS:
-                return "\n".join(lines)
-    return "\n".join(lines)
+            new_items.append((title, link, source))
+            if len(new_items) >= MAX_TOTAL_ITEMS:
+                return new_items
+    return new_items
 
 
 def post_to_slack(text: str) -> None:
@@ -128,12 +151,18 @@ def post_to_slack(text: str) -> None:
 
 
 def main() -> None:
-    news_lines = build_message()
-    if not news_lines:
-        print("No news items found, aborting.", file=sys.stderr)
-        sys.exit(1)
-    post_to_slack(f"*Latest Career News* :newspaper:\n\n{news_lines}")
-    print("Posted to Slack successfully.")
+    already_sent = load_cache()
+    new_items = collect_new_items(already_sent)
+
+    if not new_items:
+        print("No new items since last run, nothing to post.")
+        return
+
+    lines = [f"• <{link}|{title}> _({source})_" for title, link, source in new_items]
+    post_to_slack(f"*Latest Career News* :newspaper:\n\n" + "\n".join(lines))
+    print(f"Posted {len(new_items)} new item(s) to Slack.")
+
+    save_cache(already_sent | {link for _, link, _ in new_items})
 
 
 if __name__ == "__main__":
