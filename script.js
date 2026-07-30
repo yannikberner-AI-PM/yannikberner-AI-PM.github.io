@@ -91,7 +91,8 @@ const translations = {
         'ÜBERSETZEN.'
       ],
       p1: 'Ich arbeite an der Schnittstelle von Geschäftsmodell, Technologie, Regulatorik und Betrieb. Meine Karriere spannt Start-ups, internationale Konzerne und Energie-, IoT-, Daten- und CRM-Produktlandschaften zusammen.',
-      p2: 'Ich kombiniere strategisches Produktdenken mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen Teams Struktur, Priorisierung und eine gemeinsame Produktrichtung brauchen.'
+      p2: 'Ich kombiniere strategisches Produktdenken mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen Teams Struktur, Priorisierung und eine gemeinsame Produktrichtung brauchen.',
+      p3: 'Ein wiederkehrendes Thema in meiner Arbeit ist die Nutzung von Reliability- und Prognosedaten für Produkt- und Investitionsentscheidungen – von Leistungskurven-Analysen über prognosebasierte Steuerungslogik bis zu Reliability-Daten aus Hardware-Monitoring.'
     },
     capabilities: {
       eyebrow: 'Kompetenzen',
@@ -166,14 +167,14 @@ const translations = {
         contributions: [
           'Modernisierungsroadmap für PowerSystem begonnen und erste Zielbilder für Produktumfang und zukünftige Teamstruktur entwickelt.',
           'Anforderungen aus technischer Betriebsführung, IT, OT und Architektur strukturiert sowie Anbieter und Lösungsoptionen analysiert.',
-          'Erste Grundlagen für Datenprodukte gelegt und einen laufenden Datenprodukt-Piloten mit französischen Stakeholdern begleitet.',
+          'Datenprodukt zur Leistungskurven-Analyse mit französischen Stakeholdern entwickelt und umgesetzt – seither dort im Einsatz; eine belastbare Reliability-Engineering-Datengrundlage für Investitionsentscheidungen war in Abstimmung und Vorbereitung.',
           'Priorisierte nächste Schritte, Entscheidungsvorlagen sowie Anforderungen für resilienten Leitwartenbetrieb und Business Continuity entwickelt.'
         ],
-        tags: ['Datenprodukte', 'GIS', 'NIS2', 'BCM', 'Governance'],
-        result: 'Ergebnis: Erste Zielbilder, Lösungsoptionen und Entscheidungsgrundlagen für Betriebssoftware, Datenprodukte und resiliente Betriebsprozesse.',
+        tags: ['Datenprodukte', 'Reliability Engineering', 'NIS2', 'BCM', 'Governance'],
+        result: 'Ergebnis: Datenprodukt zur Leistungskurven-Analyse umgesetzt und in Frankreich im Einsatz, plus erste Zielbilder und Entscheidungsgrundlagen für Betriebssoftware und resiliente Betriebsprozesse.',
         details: {
-          context: 'Die Modernisierung wurde vorbereitet, aber nach einer internen Prioritätsänderung nicht vollständig umgesetzt. Der Schwerpunkt verlagerte sich auf die Business-Process-Ownership für POLIS mit Cyber Security, NIS2 und Business Continuity Management.',
-          approach: 'Für die geplante Weiterentwicklung von PowerSystem strukturierte ich fachliche Domänen, operative Use Cases und Datenanforderungen. Einzelne Produktfähigkeiten und Datenprodukte sollten schrittweise aus der bestehenden System- und Prozesslandschaft heraus entwickelt werden. Dazu gehörten erste Zielbilder, eine Modernisierungsroadmap, Überlegungen zur Teamstruktur, eine Anbieteranalyse und ein laufender Datenprodukt-Pilot mit französischen Stakeholdern.',
+          context: 'Die geplante Systemmodernisierung wurde vorbereitet, aber nach einer internen Prioritätsänderung nicht vollständig umgesetzt; der Schwerpunkt verlagerte sich auf die Business-Process-Ownership für POLIS mit Cyber Security, NIS2 und Business Continuity Management. Das Datenprodukt zur Leistungskurven-Analyse wurde davon unabhängig entwickelt und ausgeliefert und ist in Frankreich im Einsatz. Ein Anschlussthema – Reliability Engineering mit Prognosemodellen – wurde vorbereitet und als funktionsfähiger Prototyp umgesetzt, landete mangels Ressourcen aber zunächst im Backlog.',
+          approach: 'Für die geplante Weiterentwicklung von PowerSystem strukturierte ich fachliche Domänen, operative Use Cases und Datenanforderungen. Ein Datenprodukt zur Leistungskurven-Analyse wurde gemeinsam mit französischen Stakeholdern entwickelt, ausgeliefert und ist dort im Einsatz; eine belastbare Reliability-Engineering-Datengrundlage für Investitionsentscheidungen war in Abstimmung und Vorbereitung. Weitere Bestandteile waren erste Zielbilder, eine Modernisierungsroadmap, Überlegungen zur Teamstruktur und eine Anbieteranalyse.',
           value: 'Eine belastbare Grundlage für weitere Produktentscheidungen und die resiliente Ausrichtung kritischer Betriebsprozesse.'
         }
       },
@@ -192,9 +193,10 @@ const translations = {
           'Produktverantwortung für zwei HEMS-Varianten und mehr als 20.000 vernetzte Energiesysteme übernommen.',
           'PV, Batteriespeicher, Wallboxen, Wärmepumpen, Smart Metering und intelligente Steuerung in einer Plattform verbunden.',
           'Labor-, System- und Integrationstests für Geräte, Schnittstellen und Steuerungslogiken strukturiert.',
-          'Produktvarianten, Partnerintegrationen und Roadmaps über Embedded Software, Cloud und Daten priorisiert.'
+          'Produktvarianten, Partnerintegrationen und Roadmaps über Embedded Software, Cloud und Daten priorisiert.',
+          'Prognosebasierte Lade- und Steuerungslogik (PV-, Preis- und Lastprognosen) in die HEMS-Produktlogik integriert.'
         ],
-        tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs'],
+        tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs', 'Prognosedaten'],
         result: 'Ergebnis: Skalierbare HEMS-Produktmodelle für mehr als 20.000 vernetzte Energiesysteme.',
         details: {
           context: 'Produktarbeit über Hardware, Software und Cloud mit hoher Abhängigkeit von Betriebssicherheit.',
@@ -217,9 +219,10 @@ const translations = {
           'Internationale B2B-IoT-Plattform für Monitoring, Analytics und vorbeugende Wartung weiterentwickelt.',
           'IoT-Geräte, ERP-Funktionen, REST-APIs und Data-Lake-Komponenten integriert.',
           'Digitale Wartungs- und Serviceprozesse in priorisierte Produktfähigkeiten übersetzt.',
-          'Internationale Releases und Rollouts mit datenbasierter Priorisierung und cross-funktionaler Delivery gesteuert.'
+          'Internationale Releases und Rollouts mit datenbasierter Priorisierung und cross-funktionaler Delivery gesteuert.',
+          'Reliability-Daten aus Hardware-Monitoring für vorausschauende Wartung und Ausfallprognosen genutzt.'
         ],
-        tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms'],
+        tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms', 'Predictive Maintenance'],
         result: 'Ergebnis: Kundenzufriedenheit um 60 % gesteigert und Supportaufwand um 50 % gesenkt – durch datenbasierte Serviceverbesserungen.',
         details: {
           context: 'Produkt- und Vertriebsarbeit in einer dynamischen B2B-Umgebung mit sich wandelnden Kundenanforderungen.',
@@ -413,7 +416,8 @@ const translations = {
         'DECISIONS.'
       ],
       p1: 'I work at the intersection of business models, technology, regulation and operations. My career spans start-ups, international corporations and energy, IoT, data and CRM product landscapes.',
-      p2: 'I combine strategic product thinking with technical understanding and pragmatic execution. I am particularly effective in ambiguous environments where teams need structure, prioritisation and a shared product direction.'
+      p2: 'I combine strategic product thinking with technical understanding and pragmatic execution. I am particularly effective in ambiguous environments where teams need structure, prioritisation and a shared product direction.',
+      p3: 'A recurring thread in my work is using reliability and forecast data to inform product and investment decisions—from power curve analysis to forecast-based control logic and reliability data from hardware monitoring.'
     },
     capabilities: {
       eyebrow: 'Capabilities',
@@ -488,14 +492,14 @@ const translations = {
         contributions: [
           'Started the modernisation roadmap for PowerSystem and developed initial target states for product scope and the future team structure.',
           'Structured requirements across technical operations, IT, OT and architecture, and assessed vendors and solution options.',
-          'Established initial foundations for data products and supported an ongoing data-product pilot with French stakeholders.',
+          'Developed and delivered a power curve analysis data product with French stakeholders—now in use there; a solid reliability-engineering data foundation for investment decisions was being coordinated and prepared.',
           'Developed prioritised next steps, decision material and requirements for resilient control-room operations and business continuity.'
         ],
-        tags: ['Data Products', 'GIS', 'NIS2', 'BCM', 'Governance'],
-        result: 'Outcome: Initial target states, solution options and decision foundations for operational software, data products and resilient operations.',
+        tags: ['Data Products', 'Reliability Engineering', 'NIS2', 'BCM', 'Governance'],
+        result: 'Outcome: Delivered a power curve analysis data product now in use in France, plus initial target states and decision foundations for operational software and resilient operations.',
         details: {
-          context: 'The modernisation was prepared but not fully implemented following an internal reprioritisation. The role shifted towards business process ownership for POLIS, covering cyber security, NIS2 and business continuity management.',
-          approach: 'For the planned evolution of PowerSystem, I structured business domains, operational use cases and data requirements. Individual product capabilities and data products were intended to be developed incrementally from the existing system and process landscape. This included initial target states, a modernisation roadmap, team structure considerations, vendor analysis and an ongoing data-product pilot with French stakeholders.',
+          context: 'The planned system modernisation was prepared but not fully implemented following an internal reprioritisation; the role shifted towards business process ownership for POLIS, covering cyber security, NIS2 and business continuity management. The power curve analysis data product was developed and delivered independently of that shift and is in use in France. A follow-on topic—reliability engineering with forecasting models—was prepared and implemented as a working prototype, but ended up in the backlog for the time being due to limited resources.',
+          approach: 'For the planned evolution of PowerSystem, I structured business domains, operational use cases and data requirements. A power curve analysis data product was developed with French stakeholders, delivered and is in use there; a solid reliability-engineering data foundation for investment decisions was being coordinated and prepared. Further components included initial target states, a modernisation roadmap, team structure considerations and vendor analysis.',
           value: 'A robust foundation for further product decisions and the resilient development of critical operational processes.'
         }
       },
@@ -514,9 +518,10 @@ const translations = {
           'Held product responsibility for two HEMS variants and more than 20,000 connected energy systems.',
           'Connected PV, battery storage, EV chargers, heat pumps, smart metering and intelligent control in one platform.',
           'Structured laboratory, system and integration testing for devices, interfaces and control logic.',
-          'Prioritised product variants, partner integrations and roadmaps across embedded software, cloud and data.'
+          'Prioritised product variants, partner integrations and roadmaps across embedded software, cloud and data.',
+          'Integrated forecast-based charging and control logic (solar, price and load forecasts) into the HEMS product logic.'
         ],
-        tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs'],
+        tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs', 'Forecast Data'],
         result: 'Outcome: Scalable HEMS product models for more than 20,000 connected energy systems.',
         details: {
           context: 'Product work spanning hardware, software and cloud with a strong dependency on reliable operations.',
@@ -539,9 +544,10 @@ const translations = {
           'Advanced an international B2B IoT platform for monitoring, analytics and preventive maintenance.',
           'Integrated IoT devices, ERP capabilities, REST APIs and data lake components.',
           'Translated digital maintenance and service processes into prioritised product capabilities.',
-          'Orchestrated international releases and rollouts through data-informed prioritisation and cross-functional delivery.'
+          'Orchestrated international releases and rollouts through data-informed prioritisation and cross-functional delivery.',
+          'Used reliability data from hardware monitoring to drive predictive maintenance and failure forecasting.'
         ],
-        tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms'],
+        tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms', 'Predictive Maintenance'],
         result: 'Outcome: Increased customer satisfaction by 60% and cut support effort by 50% through data-driven service improvements.',
         details: {
           context: 'Product and commercial work in a fast-moving B2B environment with evolving customer needs.',
