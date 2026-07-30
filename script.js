@@ -92,7 +92,7 @@ const translations = {
       ],
       p1: 'Ich arbeite an der Schnittstelle von Geschäftsmodell, Technologie, Regulatorik und Betrieb. Meine Karriere spannt Start-ups, internationale Konzerne und Energie-, IoT-, Daten- und CRM-Produktlandschaften zusammen.',
       p2: 'Ich kombiniere strategisches Produktdenken mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen Teams Struktur, Priorisierung und eine gemeinsame Produktrichtung brauchen.',
-      p3: 'Ein wiederkehrendes Thema in meiner Arbeit ist die Nutzung von Prognosedaten für Produkt- und Investitionsentscheidungen – von Wind- und PV-Erzeugungsprognosen über prognosebasierte Steuerungslogik bis zu Reliability-Daten aus Hardware-Monitoring.'
+      p3: 'Ein wiederkehrendes Thema in meiner Arbeit ist die Nutzung von Reliability- und Prognosedaten für Produkt- und Investitionsentscheidungen – von Leistungskurven-Analysen über prognosebasierte Steuerungslogik bis zu Reliability-Daten aus Hardware-Monitoring.'
     },
     capabilities: {
       eyebrow: 'Kompetenzen',
@@ -167,14 +167,14 @@ const translations = {
         contributions: [
           'Modernisierungsroadmap für PowerSystem begonnen und erste Zielbilder für Produktumfang und zukünftige Teamstruktur entwickelt.',
           'Anforderungen aus technischer Betriebsführung, IT, OT und Architektur strukturiert sowie Anbieter und Lösungsoptionen analysiert.',
-          'Datenprodukt zu Wind- und PV-Prognosedaten mit französischen Stakeholdern entwickelt und umgesetzt – seither dort im Einsatz; eine datenbasierte Investitionsentscheidung befand sich in Vorbereitung.',
+          'Datenprodukt zur Leistungskurven-Analyse mit französischen Stakeholdern entwickelt und umgesetzt – seither dort im Einsatz; eine belastbare Reliability-Engineering-Datengrundlage für Investitionsentscheidungen war in Abstimmung und Vorbereitung.',
           'Priorisierte nächste Schritte, Entscheidungsvorlagen sowie Anforderungen für resilienten Leitwartenbetrieb und Business Continuity entwickelt.'
         ],
-        tags: ['Datenprodukte', 'Prognosedaten', 'NIS2', 'BCM', 'Governance'],
-        result: 'Ergebnis: Datenprodukt zu Wind-/PV-Prognosedaten umgesetzt und in Frankreich im Einsatz, plus erste Zielbilder und Entscheidungsgrundlagen für Betriebssoftware und resiliente Betriebsprozesse.',
+        tags: ['Datenprodukte', 'Reliability Engineering', 'NIS2', 'BCM', 'Governance'],
+        result: 'Ergebnis: Datenprodukt zur Leistungskurven-Analyse umgesetzt und in Frankreich im Einsatz, plus erste Zielbilder und Entscheidungsgrundlagen für Betriebssoftware und resiliente Betriebsprozesse.',
         details: {
-          context: 'Die geplante Systemmodernisierung wurde vorbereitet, aber nach einer internen Prioritätsänderung nicht vollständig umgesetzt; der Schwerpunkt verlagerte sich auf die Business-Process-Ownership für POLIS mit Cyber Security, NIS2 und Business Continuity Management. Das Datenprodukt zu Wind-/PV-Prognosedaten wurde davon unabhängig entwickelt und ausgeliefert und ist in Frankreich im Einsatz.',
-          approach: 'Für die geplante Weiterentwicklung von PowerSystem strukturierte ich fachliche Domänen, operative Use Cases und Datenanforderungen. Ein Datenprodukt zu Wind- und PV-Prognosedaten wurde gemeinsam mit französischen Stakeholdern entwickelt, ausgeliefert und ist dort im Einsatz; eine datenbasierte Investitionsentscheidung befand sich in Vorbereitung. Weitere Bestandteile waren erste Zielbilder, eine Modernisierungsroadmap, Überlegungen zur Teamstruktur und eine Anbieteranalyse.',
+          context: 'Die geplante Systemmodernisierung wurde vorbereitet, aber nach einer internen Prioritätsänderung nicht vollständig umgesetzt; der Schwerpunkt verlagerte sich auf die Business-Process-Ownership für POLIS mit Cyber Security, NIS2 und Business Continuity Management. Das Datenprodukt zur Leistungskurven-Analyse wurde davon unabhängig entwickelt und ausgeliefert und ist in Frankreich im Einsatz. Ein Anschlussthema – Reliability Engineering mit Prognosemodellen – wurde vorbereitet und als funktionsfähiger Prototyp umgesetzt, landete mangels Ressourcen aber zunächst im Backlog.',
+          approach: 'Für die geplante Weiterentwicklung von PowerSystem strukturierte ich fachliche Domänen, operative Use Cases und Datenanforderungen. Ein Datenprodukt zur Leistungskurven-Analyse wurde gemeinsam mit französischen Stakeholdern entwickelt, ausgeliefert und ist dort im Einsatz; eine belastbare Reliability-Engineering-Datengrundlage für Investitionsentscheidungen war in Abstimmung und Vorbereitung. Weitere Bestandteile waren erste Zielbilder, eine Modernisierungsroadmap, Überlegungen zur Teamstruktur und eine Anbieteranalyse.',
           value: 'Eine belastbare Grundlage für weitere Produktentscheidungen und die resiliente Ausrichtung kritischer Betriebsprozesse.'
         }
       },
@@ -417,7 +417,7 @@ const translations = {
       ],
       p1: 'I work at the intersection of business models, technology, regulation and operations. My career spans start-ups, international corporations and energy, IoT, data and CRM product landscapes.',
       p2: 'I combine strategic product thinking with technical understanding and pragmatic execution. I am particularly effective in ambiguous environments where teams need structure, prioritisation and a shared product direction.',
-      p3: 'A recurring thread in my work is using forecast data to inform product and investment decisions—from wind and solar generation forecasts to forecast-based control logic and reliability data from hardware monitoring.'
+      p3: 'A recurring thread in my work is using reliability and forecast data to inform product and investment decisions—from power curve analysis to forecast-based control logic and reliability data from hardware monitoring.'
     },
     capabilities: {
       eyebrow: 'Capabilities',
@@ -492,14 +492,14 @@ const translations = {
         contributions: [
           'Started the modernisation roadmap for PowerSystem and developed initial target states for product scope and the future team structure.',
           'Structured requirements across technical operations, IT, OT and architecture, and assessed vendors and solution options.',
-          'Developed and delivered a data product for wind and solar generation forecasts with French stakeholders—now in use there; a data-informed investment decision was in preparation.',
+          'Developed and delivered a power curve analysis data product with French stakeholders—now in use there; a solid reliability-engineering data foundation for investment decisions was being coordinated and prepared.',
           'Developed prioritised next steps, decision material and requirements for resilient control-room operations and business continuity.'
         ],
-        tags: ['Data Products', 'Forecast Data', 'NIS2', 'BCM', 'Governance'],
-        result: 'Outcome: Delivered a wind/solar forecast data product now in use in France, plus initial target states and decision foundations for operational software and resilient operations.',
+        tags: ['Data Products', 'Reliability Engineering', 'NIS2', 'BCM', 'Governance'],
+        result: 'Outcome: Delivered a power curve analysis data product now in use in France, plus initial target states and decision foundations for operational software and resilient operations.',
         details: {
-          context: 'The planned system modernisation was prepared but not fully implemented following an internal reprioritisation; the role shifted towards business process ownership for POLIS, covering cyber security, NIS2 and business continuity management. The wind/solar forecast data product was developed and delivered independently of that shift and is in use in France.',
-          approach: 'For the planned evolution of PowerSystem, I structured business domains, operational use cases and data requirements. A data product for wind and solar generation forecasts was developed with French stakeholders, delivered and is in use there; a data-informed investment decision was in preparation. Further components included initial target states, a modernisation roadmap, team structure considerations and vendor analysis.',
+          context: 'The planned system modernisation was prepared but not fully implemented following an internal reprioritisation; the role shifted towards business process ownership for POLIS, covering cyber security, NIS2 and business continuity management. The power curve analysis data product was developed and delivered independently of that shift and is in use in France. A follow-on topic—reliability engineering with forecasting models—was prepared and implemented as a working prototype, but ended up in the backlog for the time being due to limited resources.',
+          approach: 'For the planned evolution of PowerSystem, I structured business domains, operational use cases and data requirements. A power curve analysis data product was developed with French stakeholders, delivered and is in use there; a solid reliability-engineering data foundation for investment decisions was being coordinated and prepared. Further components included initial target states, a modernisation roadmap, team structure considerations and vendor analysis.',
           value: 'A robust foundation for further product decisions and the resilient development of critical operational processes.'
         }
       },
