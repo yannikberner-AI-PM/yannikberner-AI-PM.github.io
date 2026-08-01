@@ -232,16 +232,16 @@ const translations = {
       },
       mercedes: {
         title: 'Technical Product Manager CRM',
-        meta: 'Migration von T-Systems On-Premise zu AWS und internationale Ausrollung von One Touch Retail.',
-        valueLabel: 'Mehrwert: On-Premise-zu-AWS-Migration (T-Systems) · Cloud-Plattformen modernisieren und international ausrollen',
+        meta: 'Migration von Managed Hosting zu AWS und internationale Ausrollung von One Touch Retail.',
+        valueLabel: 'Mehrwert: Managed-Hosting-zu-AWS-Migration · Cloud-Plattformen modernisieren und international ausrollen',
         overview: 'Komplexe Markt- und Prozessanforderungen strukturiere ich in skalierbare CRM-Fähigkeiten, technische Spezifikationen sowie steuerbare Releases und Rollouts.',
-        approachTitle: 'Cloud-Migration (T-Systems zu AWS) und kontrollierter Cutover über mehrere Märkte',
-        approachText: 'On-Premise-Infrastruktur bei T-Systems zu AWS migriert und Marktprozesse, technische Abhängigkeiten, Integrationen sowie Release-Zeitpunkte für kontrollierte, schrittweise Übergänge auf die neue Plattform koordiniert.',
+        approachTitle: 'Cloud-Migration (Managed Hosting zu AWS) und kontrollierter Cutover über mehrere Märkte',
+        approachText: 'Managed-Hosting-Infrastruktur zu AWS migriert und Marktprozesse, technische Abhängigkeiten, Integrationen sowie Release-Zeitpunkte für kontrollierte, schrittweise Übergänge auf die neue Plattform koordiniert.',
         periodLocation: 'Feb. 2021 – Juli 2022 · Berlin',
         imageAlt: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         mediaAriaLabel: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         contributions: [
-          'On-Premise-Infrastruktur bei T-Systems zu AWS migriert und als skalierbare Grundlage für den internationalen Rollout etabliert.',
+          'Managed-Hosting-Infrastruktur zu AWS migriert und als skalierbare Grundlage für den internationalen Rollout etabliert.',
           'Cloudbasierte CRM- und Serviceplattform über mehr als sechs europäische Märkte ausgerollt.',
           'Markt- und Serviceprozesse harmonisiert und in technische Spezifikationen übersetzt.',
           'Skalierbare Salesforce- und API-Integrationen mit Produktentwicklung und Architektur abgestimmt.',
@@ -250,8 +250,8 @@ const translations = {
         tags: ['Salesforce', 'AWS', 'APIs', 'CRM', 'CI/CD', 'Scrum'],
         result: 'Ergebnis: Einheitlichere digitale Prozesse über mehrere Märkte hinweg.',
         details: {
-          context: 'Regulierte, schnelllebige Umgebung mit intensivem Abstimmungsbedarf zwischen Produkt und Delivery, inklusive Migration der bestehenden On-Premise-Infrastruktur bei T-Systems zu AWS.',
-          approach: 'Die On-Premise-Infrastruktur bei T-Systems wurde zu AWS migriert und die cloudbasierte CRM- und Serviceplattform für mehrere europäische Märkte harmonisiert, vorbereitet und schrittweise ausgerollt. Marktprozesse, technische Abhängigkeiten, Integrationen und Release-Zeitpunkte wurden so koordiniert, dass die jeweiligen Märkte kontrolliert auf die neue Plattform wechseln konnten.',
+          context: 'Regulierte, schnelllebige Umgebung mit intensivem Abstimmungsbedarf zwischen Produkt und Delivery, inklusive Migration der bestehenden Managed-Hosting-Infrastruktur zu AWS.',
+          approach: 'Die Managed-Hosting-Infrastruktur wurde zu AWS migriert und die cloudbasierte CRM- und Serviceplattform für mehrere europäische Märkte harmonisiert, vorbereitet und schrittweise ausgerollt. Marktprozesse, technische Abhängigkeiten, Integrationen und Release-Zeitpunkte wurden so koordiniert, dass die jeweiligen Märkte kontrolliert auf die neue Plattform wechseln konnten.',
           value: 'Schnellere Verbreitung standardisierter Prozesse und konsequenterer Marktumsetzung.'
         }
       },
@@ -558,16 +558,16 @@ const translations = {
       },
       mercedes: {
         title: 'Technical Product Manager CRM',
-        meta: 'Migrated from T-Systems on-premise to AWS and rolled out One Touch Retail internationally.',
-        valueLabel: 'Value: On-premise-to-AWS migration (T-Systems) · Modernising and internationally rolling out cloud platforms',
+        meta: 'Migrated from managed hosting to AWS and rolled out One Touch Retail internationally.',
+        valueLabel: 'Value: Managed-hosting-to-AWS migration · Modernising and internationally rolling out cloud platforms',
         overview: 'I structure complex market and process requirements into scalable CRM capabilities, technical specifications and manageable releases and rollouts.',
-        approachTitle: 'Cloud migration (T-Systems to AWS) and controlled cutover across multiple markets',
-        approachText: 'Migrated on-premise infrastructure at T-Systems to AWS and coordinated market processes, technical dependencies, integrations and release timing for controlled, progressive transitions to the new platform.',
+        approachTitle: 'Cloud migration (managed hosting to AWS) and controlled cutover across multiple markets',
+        approachText: 'Migrated managed hosting infrastructure to AWS and coordinated market processes, technical dependencies, integrations and release timing for controlled, progressive transitions to the new platform.',
         periodLocation: 'Feb 2021 – Jul 2022 · Berlin',
         imageAlt: 'Collage of the CRM and sales platform at Mercedes-Benz',
         mediaAriaLabel: 'Collage of the CRM and sales platform at Mercedes-Benz',
         contributions: [
-          'Migrated on-premise infrastructure at T-Systems to AWS, establishing a scalable foundation for the international rollout.',
+          'Migrated managed hosting infrastructure to AWS, establishing a scalable foundation for the international rollout.',
           'Rolled out a cloud-based CRM and service platform across more than six European markets.',
           'Harmonised market and service processes and translated them into technical specifications.',
           'Aligned scalable Salesforce and API integrations with product development and architecture.',
@@ -576,8 +576,8 @@ const translations = {
         tags: ['Salesforce', 'AWS', 'APIs', 'CRM', 'CI/CD', 'Scrum'],
         result: 'Outcome: Enabled more consistent digital processes across several markets.',
         details: {
-          context: 'A regulated, fast-moving environment with high coordination demands between product and delivery, including migrating the existing on-premise infrastructure at T-Systems to AWS.',
-          approach: 'The on-premise infrastructure at T-Systems was migrated to AWS, and the cloud-based CRM and service platform was harmonised, prepared and progressively rolled out across several European markets. Market processes, technical dependencies, integrations and release timing were coordinated to enable controlled transitions to the new platform.',
+          context: 'A regulated, fast-moving environment with high coordination demands between product and delivery, including migrating the existing managed hosting infrastructure to AWS.',
+          approach: 'The managed hosting infrastructure was migrated to AWS, and the cloud-based CRM and service platform was harmonised, prepared and progressively rolled out across several European markets. Market processes, technical dependencies, integrations and release timing were coordinated to enable controlled transitions to the new platform.',
           value: 'Faster adoption of standardised processes and more consistent market execution.'
         }
       },
