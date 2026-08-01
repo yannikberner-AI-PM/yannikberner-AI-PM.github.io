@@ -19,8 +19,8 @@ const translations = {
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
       title: 'Vernetzte Energieprodukte & Software-Produktmodernisierung',
-      intro: 'Ich führe komplexe Energie-, SaaS- und Plattformprodukte von Discovery und Zielbild bis Delivery, Migration und Rollout – an der Schnittstelle von Nutzern, Business und Technologie.',
-      introMobile: 'Ich führe Energie-, SaaS- und Plattformprodukte von Discovery und Zielbild bis Migration und Rollout.',
+      intro: 'Komplexe Energie-, SaaS- und Plattformprodukte führe ich von Discovery und Zielbild bis Delivery, Migration und Rollout – an der Schnittstelle von Nutzern, Business und Technologie.',
+      introMobile: 'Energie-, SaaS- und Plattformprodukte führe ich von Discovery und Zielbild bis Migration und Rollout.',
       ctaPrimary: 'Mehrwert ansehen',
       ctaSecondary: 'Kontakt aufnehmen',
       portraitAria: 'Porträt von Yannik Berner',
@@ -34,7 +34,7 @@ const translations = {
     impact: {
       eyebrow: 'Mehrwert',
       heading: 'Welche Mehrwerte ich liefere',
-      intro: 'Ich verbinde Produktstrategie, Nutzerzentrierung, technische Tiefe und operative Umsetzung, um komplexe Produkte aufzubauen oder messbar weiterzuentwickeln.',
+      intro: 'Produktstrategie, Nutzerzentrierung, technische Tiefe und operative Umsetzung verbinde ich, um komplexe Produkte aufzubauen oder messbar weiterzuentwickeln.',
       valueHeading: 'Konkreter Mehrwert',
       environmentsHeading: 'Relevante Produktumfelder',
       proofLabel: 'Belegt durch',
@@ -42,7 +42,7 @@ const translations = {
       items: [
         {
           title: 'Vernetzte Energieprodukte entwickeln und skalieren',
-          text: 'Ich entwickle und skaliere digitale Energieprodukte rund um EMS, HEMS, Smart Metering, Speicher, Flexibilität und intelligente Steuerung. Dabei verbinde ich energiewirtschaftliche Anforderungen mit Hardware, Embedded Software, Cloud-Plattformen und Daten.',
+          text: 'Digitale Energieprodukte rund um EMS, HEMS, Smart Metering, Speicher, Flexibilität und intelligente Steuerung entwickle und skaliere ich. Dabei verbinde ich energiewirtschaftliche Anforderungen mit Hardware, Embedded Software, Cloud-Plattformen und Daten.',
           environments: ['EMS & HEMS', 'Smart Metering', 'PV & Speicher', 'Wallboxen & Wärmepumpen', 'Flexibilität & Steuerung', 'Betriebsführungssoftware', 'Asset Operations', 'Monitoring & Reporting', 'Leitwarte', 'Embedded-Systeme, IoT & Cloud'],
           points: [
             'Produktstrategie und Roadmaps für komplexe Energiesysteme entwickeln',
@@ -57,7 +57,7 @@ const translations = {
         },
         {
           title: 'B2B-SaaS- und Plattformprodukte aufbauen und modernisieren',
-          text: 'Ich modernisiere komplexe B2B-SaaS-, IoT-, Daten- und Betriebsplattformen nutzerzentriert und mit klarem Blick auf Business-Ziele, technische Machbarkeit, laufende Geschäftsprozesse und bestehende technische Schulden.',
+          text: 'Komplexe B2B-SaaS-, IoT-, Daten- und Betriebsplattformen modernisiere ich nutzerzentriert und mit klarem Blick auf Business-Ziele, technische Machbarkeit, laufende Geschäftsprozesse und bestehende technische Schulden.',
           environments: [
             'Betriebsführungssoftware',
             'Asset Operations',
@@ -90,8 +90,8 @@ const translations = {
         'ENTSCHEIDUNGEN',
         'ÜBERSETZEN.'
       ],
-      p1: 'Ich arbeite an der Schnittstelle von Geschäftsmodell, Technologie, Regulatorik und Betrieb. Meine Karriere spannt Start-ups, internationale Konzerne und Energie-, IoT-, Daten- und CRM-Produktlandschaften zusammen.',
-      p2: 'Ich kombiniere strategisches Produktdenken mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen Teams Struktur, Priorisierung und eine gemeinsame Produktrichtung brauchen.',
+      p1: 'An der Schnittstelle von Geschäftsmodell, Technologie, Regulatorik und Betrieb arbeite ich. Meine Karriere spannt Start-ups, internationale Konzerne und Energie-, IoT-, Daten- und CRM-Produktlandschaften zusammen.',
+      p2: 'Strategisches Produktdenken kombiniere ich mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen Teams Struktur, Priorisierung und eine gemeinsame Produktrichtung brauchen.',
       p3: 'Ein wiederkehrendes Thema in meiner Arbeit ist die Nutzung von Reliability- und Prognosedaten für Produkt- und Investitionsentscheidungen – von Leistungskurven-Analysen über prognosebasierte Steuerungslogik bis zu Reliability-Daten aus Hardware-Monitoring.'
     },
     capabilities: {
@@ -157,7 +157,7 @@ const translations = {
         title: 'Product Orchestration Lead / Business Process Owner',
         meta: 'Strategische Digitalisierung über Business, IT, OT und Architektur.',
         valueLabel: 'Mehrwert: B2B-SaaS- und Plattformprodukte modernisieren · Betriebsführungssoftware und Datenprodukte konzipieren',
-        overview: 'Ich entwickle aus Anforderungen der technischen Betriebsführung, IT, OT und Architektur erste Zielbilder, Produktstrukturen und belastbare nächste Schritte für Betriebssoftware und Datenprodukte.',
+        overview: 'Aus Anforderungen der technischen Betriebsführung, IT, OT und Architektur entwickle ich erste Zielbilder, Produktstrukturen und belastbare nächste Schritte für Betriebssoftware und Datenprodukte.',
         approachTitle: 'Modularen Modernisierungsansatz vorbereitet',
         approachText: 'Fachliche Domänen, operative Use Cases und Datenanforderungen strukturiert, damit Produktfähigkeiten und Datenprodukte schrittweise aus der bestehenden Landschaft heraus entwickelt werden konnten.',
         periodLocation: 'Feb. 2026 – heute · Berlin',
@@ -182,7 +182,7 @@ const translations = {
         title: 'Product Owner HEMS & Energiesysteme',
         meta: 'HEMS-Produktplattform für Energiesysteme im Haus.',
         valueLabel: 'Mehrwert: Vernetzte Energieprodukte entwickeln und skalieren · Plattformfähigkeiten und Integrationen entwickeln',
-        overview: 'Ich verbinde Produktstrategie, Geräteintegration und Delivery, um HEMS-Plattformen über Hardware, Embedded Software, Cloud und Daten skalierbar weiterzuentwickeln.',
+        overview: 'Produktstrategie, Geräteintegration und Delivery bringe ich zusammen, um HEMS-Plattformen über Hardware, Embedded Software, Cloud und Daten skalierbar weiterzuentwickeln.',
         approachTitle: 'Evolutionäre Weiterentwicklung mit Strangler-Elementen',
         approachText: 'Neue Produktvarianten, Integrationen und Steuerungsfähigkeiten inkrementell aufgebaut und ausgerollt, während bestehende Plattformbestandteile weiter betrieben wurden.',
         periodLocation: 'Sep. 2024 – Jan. 2026 · Leipzig / Remote',
@@ -208,7 +208,7 @@ const translations = {
         title: 'Product Manager IoT & SaaS',
         meta: 'Digitale Plattform für professionelle Reinigungsdienstleistungen.',
         valueLabel: 'Mehrwert: B2B-SaaS- und IoT-Plattformen weiterentwickeln · Betriebs- und Serviceprozesse digitalisieren',
-        overview: 'Ich übersetze fragmentierte Betriebs-, IoT- und Nutzeranforderungen in skalierbare Plattformfähigkeiten, strukturierte Roadmaps und messbare Produktverbesserungen.',
+        overview: 'Fragmentierte Betriebs-, IoT- und Nutzeranforderungen übersetze ich in skalierbare Plattformfähigkeiten, strukturierte Roadmaps und messbare Produktverbesserungen.',
         approachTitle: 'Relaunch mit kontrolliertem Cutover – vom MVP zum MMP',
         approachText: 'Mit einem fokussierten MVP zentrale Nutzer- und Produktannahmen validiert und die Plattform anschließend zu einem vermarktbaren End-to-End-Produktumfang ausgebaut.',
         periodLocation: 'Aug. 2022 – Aug. 2024 · Berlin',
@@ -234,7 +234,7 @@ const translations = {
         title: 'Technical Product Manager CRM',
         meta: 'Internationale Ausrollung von One Touch Retail.',
         valueLabel: 'Mehrwert: Cloud-Plattformen modernisieren · Prozesse und Produktanforderungen harmonisieren',
-        overview: 'Ich strukturiere komplexe Markt- und Prozessanforderungen in skalierbare CRM-Fähigkeiten, technische Spezifikationen sowie steuerbare Releases und Rollouts.',
+        overview: 'Komplexe Markt- und Prozessanforderungen strukturiere ich in skalierbare CRM-Fähigkeiten, technische Spezifikationen sowie steuerbare Releases und Rollouts.',
         approachTitle: 'Relaunch und kontrollierter Cutover über mehrere Märkte',
         approachText: 'Marktprozesse, technische Abhängigkeiten, Integrationen und Release-Zeitpunkte für kontrollierte, schrittweise Übergänge auf die neue Plattform koordiniert.',
         periodLocation: 'Feb. 2021 – Juli 2022 · Berlin',
@@ -258,7 +258,7 @@ const translations = {
         title: 'Product Manager Growth: Energie & Software',
         meta: 'B2C-Plattform für langfristige Energie- und Telekommunikationsverträge.',
         valueLabel: 'Mehrwert: Digitale Plattformen entwickeln und skalieren · Automatisierte End-to-End-Prozesse aufbauen',
-        overview: 'Ich verbinde Energieprodukt, Automatisierung und datenbasierte Priorisierung, um digitale Plattformen skalierbar weiterzuentwickeln und Kundennutzen messbar zu steigern.',
+        overview: 'Energieprodukt, Automatisierung und datenbasierte Priorisierung führe ich zusammen, um digitale Plattformen skalierbar weiterzuentwickeln und Kundennutzen messbar zu steigern.',
         approachTitle: 'Launch und Skalierung einer digitalen Plattform',
         approachText: 'Die Plattform datenbasiert aufgebaut, kontinuierlich verbessert und mitsamt automatisierten End-to-End-Prozessen auf rund 100.000 aktive Kund:innen skaliert.',
         periodLocation: 'Dez. 2017 – Dez. 2020 · Berlin',
