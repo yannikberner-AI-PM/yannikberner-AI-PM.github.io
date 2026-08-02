@@ -297,6 +297,8 @@ const translations = {
         approachTitle: 'Vom Skript zum mehrschichtigen System',
         approachText: 'Begonnen als einfaches Scan-Skript, iterativ zu einer sauber getrennten Architektur weiterentwickelt: Datenquellen-Layer, testbare Business-Logik ohne UI-Abhängigkeit und ein Dashboard, das ausschließlich aufbereitete Modelle rendert.',
         periodLocation: 'Privates Projekt, lokal betrieben',
+        imageAlt: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
+        mediaAriaLabel: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
         result: 'Ergebnis: Transparentes, erklärbares Scoring statt Bauchgefühl, vollständig lokal, ohne Cloud-Abhängigkeit für sensible Daten.',
         contributions: [
           'Datenmodell und Architektur für Datenquellen-, Business-Logik- und UI-Schicht sauber getrennt konzipiert.',
@@ -321,6 +323,8 @@ const translations = {
         approachTitle: 'Zwei Einordnungsmodelle in einem Board verbunden',
         approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zum Auftrag ein, mit den Stufen Core, Direct und Indirect, bezogen auf Produkt, Projekt oder Programm. Eine wechselbare 2×2-Matrix ordnet sie zusätzlich nach Zusammenarbeitsbedarf ein. Anders als bei getrennten Einzel-Whiteboards verbindet ein gemeinsames Profil beide Positionen zu einem konkreten Rückschluss: wie sich die Zusammenarbeit mit den Stakeholdern gezielter gestalten lässt.',
         periodLocation: 'Privates Projekt, lokal betrieben',
+        imageAlt: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
+        mediaAriaLabel: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
         result: 'Ergebnis: Funktionsfähiges MVP mit zwei verbundenen Einordnungsmodellen: interaktives Board, strukturiertes Datenmodell, vollständig lokale Datenhaltung.',
         contributions: [
           'Zwei unabhängige, aber verbundene Einordnungsmodelle umgesetzt: Kreis-Modell (Nähe zum Auftrag: Core, Direct, Indirect) und 2×2-Matrix (Zusammenarbeitsbedarf), pro Stakeholder unabhängig positionierbar.',
@@ -679,6 +683,8 @@ const translations = {
         approachTitle: 'From script to a layered system',
         approachText: 'Started as a simple scan script, iteratively evolved into a cleanly separated architecture: a data-source layer, testable business logic with no UI dependency, and a dashboard that renders only prepared models.',
         periodLocation: 'Personal project, run locally',
+        imageAlt: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
+        mediaAriaLabel: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
         result: 'Outcome: Transparent, explainable scoring instead of gut feel, fully local, with no cloud dependency for sensitive data.',
         contributions: [
           'Designed a data model and architecture with a clean separation between data-source, business-logic and UI layers.',
@@ -703,6 +709,8 @@ const translations = {
         approachTitle: 'Two classification models connected in one board',
         approachText: 'A circle model classifies stakeholders by closeness to the mandate, with the levels Core, Direct and Indirect, relative to the product, project or programme. A switchable 2×2 matrix additionally classifies them by collaboration needs. Unlike separate single-purpose whiteboards, a shared profile connects both positions into one concrete takeaway: how collaboration with stakeholders can be shaped more deliberately.',
         periodLocation: 'Personal project, run locally',
+        imageAlt: 'Screenshot of the Stakeholder Intelligence board in circle-model view with fictional demo contacts',
+        mediaAriaLabel: 'Screenshot of the Stakeholder Intelligence board in circle-model view with fictional demo contacts',
         result: 'Outcome: Working MVP with two connected classification models: interactive board, structured data model, fully local data storage.',
         contributions: [
           'Implemented two independent but connected classification models: a circle model (closeness to the mandate: Core, Direct, Indirect) and a 2×2 matrix (collaboration needs), positioned independently per stakeholder.',
