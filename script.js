@@ -1027,12 +1027,20 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   document.querySelectorAll('details > summary').forEach((summary) => {
+    let capturedScrollY = null;
+
+    summary.addEventListener('pointerdown', () => {
+      capturedScrollY = window.scrollY;
+    });
+
     summary.addEventListener('click', (event) => {
       event.preventDefault();
       const details = summary.parentElement;
-      const scrollY = window.scrollY;
+      const scrollY = capturedScrollY !== null ? capturedScrollY : window.scrollY;
+      capturedScrollY = null;
       details.open = !details.open;
       window.scrollTo(0, scrollY);
+      requestAnimationFrame(() => window.scrollTo(0, scrollY));
     });
   });
 });
