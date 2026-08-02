@@ -286,9 +286,9 @@ const translations = {
       eyebrow: 'Eigene Projekte',
       heading: 'Selbst gebaut, nicht nur beauftragt',
       intro: 'Ein privates, selbst initiiertes Tool zeigt, wie ich Produktdenken auch ohne Auftrag in ein nutzbares System übersetze.',
-      stakeholderIntelligence: {
+      careerIntelligence: {
         eyebrow: 'Eigenes Projekt',
-        title: 'Stakeholder Intelligence',
+        title: 'Career Intelligence',
         meta: 'Agentenbasierter Recherche-, Klassifizierungs- und Priorisierungs-Monitor.',
         valueLabel: 'Mehrwert: Eigenständige End-to-End-Produktarbeit – von Datenmodell bis nutzbarem Tool',
         overview: 'Weil öffentlich indexierte Job-, Kontakt- und Unternehmenssignale über viele Quellen verstreut sind, habe ich einen privaten, lokal laufenden Agenten gebaut, der sie bündelt, dedupliziert, regelbasiert klassifiziert und nach vier selbst definierten Kriterien-Tracks transparent bewertet.',
@@ -641,9 +641,9 @@ const translations = {
       eyebrow: 'Personal Projects',
       heading: 'Built on my own, not just delivered',
       intro: 'A private, self-initiated tool shows how I turn product thinking into a working system without a mandate to do so.',
-      stakeholderIntelligence: {
+      careerIntelligence: {
         eyebrow: 'Personal Project',
-        title: 'Stakeholder Intelligence',
+        title: 'Career Intelligence',
         meta: 'Agent-based research, classification and prioritisation monitor.',
         valueLabel: 'Value: Independent end-to-end product work—from data model to usable tool',
         overview: 'Because publicly indexed job, contact and company signals are scattered across many sources, I built a private, locally run agent that aggregates, deduplicates, rule-classifies and transparently scores them against four self-defined criteria tracks.',
