@@ -316,7 +316,7 @@ const translations = {
         valueLabel: 'Mehrwert: Zwei Einordnungsmodelle – Nähe zum Auftrag und Zusammenarbeitsbedarf – in einem Werkzeug verbunden',
         overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungs-Ebenen: wie zentral, direkt oder indirekt ein Stakeholder zum jeweiligen Auftrag steht – Produkt, Projekt oder Programm (Kreis-Modell) –, und wie ich die Zusammenarbeit mit dieser Person gezielt gestalte (Matrix-Modell) – strukturiert festgehalten in einem Profil pro Stakeholder, bewusst als Werkzeug zur eigenen Anpassung, nicht zur Bewertung oder zum Profiling anderer.',
         approachTitle: 'Zwei Einordnungsmodelle in einem Board verbunden',
-        approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zum Auftrag ein – Core, Direct, Indirect, bezogen auf Produkt, Projekt oder Programm –, eine wechselbare 2×2-Matrix nach Zusammenarbeitsbedarf – beide Positionen bleiben pro Stakeholder unabhängig erhalten, während ein gemeinsames Profil mit strukturierten Notizfeldern beide Modelle verbindet.',
+        approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zum Auftrag ein – Core, Direct, Indirect, bezogen auf Produkt, Projekt oder Programm –, eine wechselbare 2×2-Matrix nach Zusammenarbeitsbedarf. Anders als bei getrennten Einzel-Whiteboards verbindet ein gemeinsames Profil beide Positionen zu einem konkreten Rückschluss: wie ich die Zusammenarbeit mit der jeweiligen Person gezielt verbessere.',
         periodLocation: 'Seit Juli 2026 · privates Projekt, lokal betrieben',
         result: 'Ergebnis: Funktionsfähiges MVP mit zwei verbundenen Einordnungsmodellen – interaktives Board, strukturiertes Datenmodell, vollständig lokale Datenhaltung.',
         contributions: [
@@ -327,9 +327,9 @@ const translations = {
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
         details: {
-          context: 'Ich wollte die eigene Zusammenarbeit mit unterschiedlichen Stakeholdern bewusster gestalten, statt Kommunikationsstil intuitiv und unstrukturiert anzupassen – ohne sensible Einschätzungen über echte Kolleg:innen in ein Cloud-Tool zu geben.',
-          approach: 'Bewusste Leitplanke von Anfang an: Das Tool bewertet nicht die andere Person, sondern hält strukturiert fest, wie ich selbst kommunizieren möchte. Technisch orientiert an der lokal-first-Architektur des Schwester-Projekts Career Intelligence, aber mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche umgesetzt. Als nächste, noch nicht umgesetzte Ausbaustufe ist eine Typisierung nach einem Farben-Modell (Rot/Gelb/Grün/Blau: dominant, initiativ, stetig, gewissenhaft) sowie lokal-LLM-gestützte Kommunikationsempfehlungen geplant – weiterhin ohne Cloud-Anbindung.',
-          value: 'Ein Werkzeug, das strategisches Stakeholder-Denken sichtbar und wiederverwendbar macht statt es nur im Kopf zu behalten – mit einem von Anfang an bewusst gewählten, ethisch vertretbaren Framing.'
+          context: 'Bestehende Stakeholder-Whiteboards decken meist nur eines der beiden Modelle ab und verbinden Nähe- und Zusammenarbeits-Einordnung nicht zu einem gemeinsamen Rückschluss. Ich wollte die eigene Zusammenarbeit mit unterschiedlichen Stakeholdern bewusster gestalten, statt Kommunikationsstil intuitiv und unstrukturiert anzupassen – ohne sensible Einschätzungen über echte Kolleg:innen in ein Cloud-Tool zu geben.',
+          approach: 'Bewusste Leitplanke von Anfang an: Das Tool bewertet nicht die andere Person, sondern hält strukturiert fest, wie ich selbst kommunizieren möchte. Technisch orientiert an der lokal-first-Architektur des Schwester-Projekts Career Intelligence, aber mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche umgesetzt. Als Nächstes geplant: ein lokal laufendes LLM für eine Typisierung nach Farben-Modell (Rot/Gelb/Grün/Blau: dominant, initiativ, stetig, gewissenhaft) und daraus abgeleitete Kommunikationsempfehlungen, sowie Reminder-Funktionen für offene Follow-ups – weiterhin ohne Cloud-Anbindung.',
+          value: 'Ein Werkzeug, das die beiden Einordnungen nicht nur nebeneinander zeigt, sondern zu einem konkreten Zusammenarbeitsmodell je Stakeholder verdichtet – anders als klassische Einzel-Whiteboards, die nur eine Sicht abbilden. So wird strategisches Stakeholder-Denken sichtbar und wiederverwendbar statt nur im Kopf behalten – mit einem von Anfang an bewusst gewählten, ethisch vertretbaren Framing.'
         }
       }
     },
@@ -694,7 +694,7 @@ const translations = {
         valueLabel: 'Value: Two classification models—closeness to the mandate and collaboration needs—connected in one tool',
         overview: 'A private, locally run board connects two classification layers: how central, direct or indirect a stakeholder is to the mandate at hand—product, project or programme (circle model)—and how I deliberately shape collaboration with that person (matrix model)—structured in one profile per stakeholder, deliberately a tool for adapting my own approach, not for judging or profiling other people.',
         approachTitle: 'Two classification models connected in one board',
-        approachText: 'A circle model classifies stakeholders by closeness to the mandate—Core, Direct, Indirect, relative to the product, project or programme—a switchable 2×2 matrix by collaboration needs—both positions are kept independently per stakeholder, while a shared profile with structured note fields connects both models.',
+        approachText: 'A circle model classifies stakeholders by closeness to the mandate—Core, Direct, Indirect, relative to the product, project or programme—a switchable 2×2 matrix by collaboration needs. Unlike separate single-purpose whiteboards, a shared profile connects both positions into one concrete takeaway: how I deliberately improve collaboration with that person.',
         periodLocation: 'Since July 2026 · personal project, run locally',
         result: 'Outcome: Working MVP with two connected classification models—interactive board, structured data model, fully local data storage.',
         contributions: [
@@ -705,9 +705,9 @@ const translations = {
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
         details: {
-          context: 'I wanted to approach collaboration with different stakeholders more deliberately instead of adapting my communication style intuitively and unstructured—without putting sensitive assessments of real colleagues into a cloud tool.',
-          approach: 'A deliberate guardrail from the start: the tool does not evaluate the other person, it structures how I want to communicate myself. Technically modelled on the local-first architecture of the sister project Career Intelligence, but implemented with its own Next.js/TypeScript stack for the interactive board interface. The next, not-yet-built stage plans a colour-based typing model (red/yellow/green/blue: dominant, initiating, steady, conscientious) plus local-LLM-supported communication recommendations—still with no cloud connection.',
-          value: 'A tool that makes strategic stakeholder thinking visible and reusable instead of keeping it in my head—with a deliberately ethical framing chosen from day one.'
+          context: 'Existing stakeholder whiteboards usually cover only one of the two models and don’t connect closeness and collaboration classification into a shared takeaway. I wanted to approach collaboration with different stakeholders more deliberately instead of adapting my communication style intuitively and unstructured—without putting sensitive assessments of real colleagues into a cloud tool.',
+          approach: 'A deliberate guardrail from the start: the tool does not evaluate the other person, it structures how I want to communicate myself. Technically modelled on the local-first architecture of the sister project Career Intelligence, but implemented with its own Next.js/TypeScript stack for the interactive board interface. Next planned: a locally run LLM for colour-based typing (red/yellow/green/blue: dominant, initiating, steady, conscientious) and derived communication recommendations, plus reminder functions for open follow-ups—still with no cloud connection.',
+          value: 'A tool that doesn’t just show both classifications side by side but distils them into one concrete collaboration model per stakeholder—unlike classic single-purpose whiteboards that only cover one view. This makes strategic stakeholder thinking visible and reusable instead of keeping it in my head—with a deliberately ethical framing chosen from day one.'
         }
       }
     },
