@@ -304,12 +304,13 @@ const translations = {
           'Datenmodell und Architektur für Datenquellen-, Business-Logik- und UI-Schicht sauber getrennt konzipiert.',
           'Regelbasierte Klassifizierung und transparentes, gewichtetes Scoring ohne Blackbox-Bewertung entwickelt.',
           'Persistente Historie für neue, aktualisierte, entfernte und wiedereröffnete Einträge umgesetzt: Datenqualitätsprobleme werden markiert statt still gelöscht.',
-          'Automatisierten täglichen Lauf mit lokalem Dashboard, Tabellen-Export und Chat-Digest verbunden.'
+          'Automatisierten täglichen Lauf mit lokalem Dashboard verbunden.',
+          'Den bisher manuellen Ablauf zum Sichten von LinkedIn-Job-Mails automatisiert: Treffer werden in eine Google-Tabelle übernommen, regelbasiert bewertet und bei gutem Fit direkt als Slack-Nachricht gemeldet.'
         ],
-        tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source-Aggregation', 'Regelbasiertes Scoring'],
+        tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source-Aggregation', 'Regelbasiertes Scoring', 'Google Sheets API', 'Slack API'],
         details: {
           context: 'Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert, ohne auf ein proprietäres SaaS-Tool oder eine Cloud-Lösung für sensible Bewerbungsdaten angewiesen zu sein. So werden Nischen und Potenziale erkennbar und Möglichkeiten im Markt gezielt aufgedeckt.',
-          approach: 'Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem ergänzt zusätzliche Quellen und Recherche, aktualisiert unabhängig eine Tabelle und postet eine Chat-Zusammenfassung.',
+          approach: 'Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem liest zusätzlich LinkedIn-Job-Mails ein, übernimmt Treffer in eine Google-Tabelle, bewertet sie regelbasiert und meldet neue Treffer mit gutem Fit direkt als Slack-Nachricht.',
           value: 'Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht, sensible Daten lokal hält und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.',
           next: 'Den Fit-Algorithmus weiter schulen, Netzwerk aktiv erweitern (Hiring Manager, Recruiter, Fachkontakte) und die Weiterbildungsvorschläge je Track vertiefen (Skill-Gaps, kuratierte Kurse und Veranstaltungen).'
         }
@@ -690,12 +691,13 @@ const translations = {
           'Designed a data model and architecture with a clean separation between data-source, business-logic and UI layers.',
           'Built rule-based classification and transparent, weighted scoring with no black-box evaluation.',
           'Implemented persistent history for new, updated, removed and reopened entries: data-quality issues are flagged rather than silently deleted.',
-          'Connected an automated daily run to a local dashboard, a spreadsheet export and a chat digest.'
+          'Connected an automated daily run to a local dashboard.',
+          'Automated what used to be a manual process for screening LinkedIn job alert emails: matches are captured in a Google Sheet, rule-scored, and reported directly as a Slack message when the fit is strong.'
         ],
-        tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source Aggregation', 'Rule-Based Scoring'],
+        tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source Aggregation', 'Rule-Based Scoring', 'Google Sheets API', 'Slack API'],
         details: {
           context: 'My own research across multiple job boards, company pages and contacts was highly fragmented, without relying on a proprietary SaaS tool or a cloud solution for sensitive application data. This makes niches and untapped potential visible and helps uncover market opportunities in a targeted way.',
-          approach: 'The interface reads only prepared, tested models; raw imports, classification and scoring are decoupled from the UI as standalone, testable services. A companion system adds further sources and research, updates a spreadsheet independently and posts a chat summary.',
+          approach: 'The interface reads only prepared, tested models; raw imports, classification and scoring are decoupled from the UI as standalone, testable services. A companion system also ingests LinkedIn job alert emails, captures matches in a Google Sheet, rule-scores them and reports new matches with a strong fit directly as a Slack message.',
           value: 'A tool that makes my own prioritisation decisions traceable, keeps sensitive data local, and could be extended iteratively without endangering the existing business logic.',
           next: 'Keep refining the fit algorithm, actively grow the network (hiring managers, recruiters, domain contacts), and deepen the per-track upskilling recommendations (skill gaps, curated courses and events).'
         }

@@ -715,7 +715,8 @@
                   <li data-i18n="projects.careerIntelligence.contributions.0">Datenmodell und Architektur für Datenquellen-, Business-Logik- und UI-Schicht sauber getrennt konzipiert.</li>
                   <li data-i18n="projects.careerIntelligence.contributions.1">Regelbasierte Klassifizierung und transparentes, gewichtetes Scoring ohne Blackbox-Bewertung entwickelt.</li>
                   <li data-i18n="projects.careerIntelligence.contributions.2">Persistente Historie für neue, aktualisierte, entfernte und wiedereröffnete Einträge umgesetzt: Datenqualitätsprobleme werden markiert statt still gelöscht.</li>
-                  <li data-i18n="projects.careerIntelligence.contributions.3">Automatisierten täglichen Lauf mit lokalem Dashboard, Tabellen-Export und Chat-Digest verbunden.</li>
+                  <li data-i18n="projects.careerIntelligence.contributions.3">Automatisierten täglichen Lauf mit lokalem Dashboard verbunden.</li>
+                  <li data-i18n="projects.careerIntelligence.contributions.4">Den bisher manuellen Ablauf zum Sichten von LinkedIn-Job-Mails automatisiert: Treffer werden in eine Google-Tabelle übernommen, regelbasiert bewertet und bei gutem Fit direkt als Slack-Nachricht gemeldet.</li>
                 </ul>
               </div>
               <div class="media-shell" data-i18n-aria="projects.careerIntelligence.mediaAriaLabel">
@@ -731,11 +732,13 @@
               <span>SQLite</span>
               <span data-i18n="projects.careerIntelligence.tags.3">Multi-Source-Aggregation</span>
               <span data-i18n="projects.careerIntelligence.tags.4">Regelbasiertes Scoring</span>
+              <span>Google Sheets API</span>
+              <span>Slack API</span>
             </div>
             <button class="details-toggle" type="button" aria-expanded="false" aria-controls="details-career-intelligence" data-i18n="experience.common.viewDetails">Details anzeigen</button>
             <div id="details-career-intelligence" class="case-details" hidden>
               <p><strong data-i18n="experience.common.contextLabel">Kontext</strong>: <span data-i18n="projects.careerIntelligence.details.context">Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert, ohne auf ein proprietäres SaaS-Tool oder eine Cloud-Lösung für sensible Bewerbungsdaten angewiesen zu sein. So werden Nischen und Potenziale erkennbar und Möglichkeiten im Markt gezielt aufgedeckt.</span></p>
-              <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="projects.careerIntelligence.details.approach">Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem ergänzt zusätzliche Quellen und Recherche, aktualisiert unabhängig eine Tabelle und postet eine Chat-Zusammenfassung.</span></p>
+              <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="projects.careerIntelligence.details.approach">Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem liest zusätzlich LinkedIn-Job-Mails ein, übernimmt Treffer in eine Google-Tabelle, bewertet sie regelbasiert und meldet neue Treffer mit gutem Fit direkt als Slack-Nachricht.</span></p>
               <p><strong data-i18n="experience.common.valueLabel">Wert</strong>: <span data-i18n="projects.careerIntelligence.details.value">Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht, sensible Daten lokal hält und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.</span></p>
               <p><strong data-i18n="experience.common.nextLabel">Next</strong>: <span data-i18n="projects.careerIntelligence.details.next">Den Fit-Algorithmus weiter schulen, Netzwerk aktiv erweitern (Hiring Manager, Recruiter, Fachkontakte) und die Weiterbildungsvorschläge je Track vertiefen (Skill-Gaps, kuratierte Kurse und Veranstaltungen).</span></p>
             </div>
