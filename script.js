@@ -312,15 +312,15 @@ const translations = {
       stakeholderIntelligence: {
         eyebrow: 'Eigenes Projekt',
         title: 'Stakeholder Intelligence',
-        meta: 'Verbindet Nähe-Einordnung (Kreis-Modell) und Zusammenarbeits-Einordnung (Matrix) in einem Board.',
-        valueLabel: 'Mehrwert: Zwei Einordnungsmodelle – Nähe zu mir und Zusammenarbeitsbedarf – in einem Werkzeug verbunden',
-        overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungs-Ebenen: wie zentral, direkt oder indirekt ein Stakeholder zu mir steht (Kreis-Modell), und wie ich die Zusammenarbeit mit dieser Person gezielt gestalte (Matrix-Modell) – strukturiert festgehalten in einem Profil pro Stakeholder, bewusst als Werkzeug zur eigenen Anpassung, nicht zur Bewertung oder zum Profiling anderer.',
+        meta: 'Verbindet Nähe zum Auftrag (Kreis-Modell) und Zusammenarbeits-Einordnung (Matrix) in einem Board.',
+        valueLabel: 'Mehrwert: Zwei Einordnungsmodelle – Nähe zum Auftrag und Zusammenarbeitsbedarf – in einem Werkzeug verbunden',
+        overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungs-Ebenen: wie zentral, direkt oder indirekt ein Stakeholder zum jeweiligen Auftrag steht – Produkt, Projekt oder Programm (Kreis-Modell) –, und wie ich die Zusammenarbeit mit dieser Person gezielt gestalte (Matrix-Modell) – strukturiert festgehalten in einem Profil pro Stakeholder, bewusst als Werkzeug zur eigenen Anpassung, nicht zur Bewertung oder zum Profiling anderer.',
         approachTitle: 'Zwei Einordnungsmodelle in einem Board verbunden',
-        approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zu mir ein (Core, Direct, Indirect), eine wechselbare 2×2-Matrix nach Zusammenarbeitsbedarf – beide Positionen bleiben pro Stakeholder unabhängig erhalten, während ein gemeinsames Profil mit strukturierten Notizfeldern beide Modelle verbindet.',
+        approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zum Auftrag ein – Core, Direct, Indirect, bezogen auf Produkt, Projekt oder Programm –, eine wechselbare 2×2-Matrix nach Zusammenarbeitsbedarf – beide Positionen bleiben pro Stakeholder unabhängig erhalten, während ein gemeinsames Profil mit strukturierten Notizfeldern beide Modelle verbindet.',
         periodLocation: 'Seit Juli 2026 · privates Projekt, lokal betrieben',
         result: 'Ergebnis: Funktionsfähiges MVP mit zwei verbundenen Einordnungsmodellen – interaktives Board, strukturiertes Datenmodell, vollständig lokale Datenhaltung.',
         contributions: [
-          'Zwei unabhängige, aber verbundene Einordnungsmodelle umgesetzt: Kreis-Modell (Nähe zu mir) und 2×2-Matrix (Zusammenarbeitsbedarf), pro Stakeholder unabhängig positionierbar.',
+          'Zwei unabhängige, aber verbundene Einordnungsmodelle umgesetzt: Kreis-Modell (Nähe zum Auftrag: Core, Direct, Indirect) und 2×2-Matrix (Zusammenarbeitsbedarf), pro Stakeholder unabhängig positionierbar.',
           'Datenmodell und REST-API für Stakeholder, Board-Positionen und Board-Konfigurationen mit Tests aufgebaut.',
           'Strukturiertes Notizfeld-Set je Stakeholder entwickelt (Beobachtungen, Kommunikationsansatz, Kontext, Follow-ups) – bewusst ohne automatische Bewertung oder Profiling der Person.',
           'Erste Code-Review-Runde durchlaufen und Ergebnisse zu Connection-Handling, Autosave und serverseitiger Validierung eingearbeitet.'
@@ -690,15 +690,15 @@ const translations = {
       stakeholderIntelligence: {
         eyebrow: 'Personal Project',
         title: 'Stakeholder Intelligence',
-        meta: 'Connects closeness classification (circle model) and collaboration classification (matrix) in one board.',
-        valueLabel: 'Value: Two classification models—closeness to me and collaboration needs—connected in one tool',
-        overview: 'A private, locally run board connects two classification layers: how central, direct or indirect a stakeholder is to me (circle model), and how I deliberately shape collaboration with that person (matrix model)—structured in one profile per stakeholder, deliberately a tool for adapting my own approach, not for judging or profiling other people.',
+        meta: 'Connects closeness-to-mandate classification (circle model) and collaboration classification (matrix) in one board.',
+        valueLabel: 'Value: Two classification models—closeness to the mandate and collaboration needs—connected in one tool',
+        overview: 'A private, locally run board connects two classification layers: how central, direct or indirect a stakeholder is to the mandate at hand—product, project or programme (circle model)—and how I deliberately shape collaboration with that person (matrix model)—structured in one profile per stakeholder, deliberately a tool for adapting my own approach, not for judging or profiling other people.',
         approachTitle: 'Two classification models connected in one board',
-        approachText: 'A circle model classifies stakeholders by closeness to me (Core, Direct, Indirect), a switchable 2×2 matrix by collaboration needs—both positions are kept independently per stakeholder, while a shared profile with structured note fields connects both models.',
+        approachText: 'A circle model classifies stakeholders by closeness to the mandate—Core, Direct, Indirect, relative to the product, project or programme—a switchable 2×2 matrix by collaboration needs—both positions are kept independently per stakeholder, while a shared profile with structured note fields connects both models.',
         periodLocation: 'Since July 2026 · personal project, run locally',
         result: 'Outcome: Working MVP with two connected classification models—interactive board, structured data model, fully local data storage.',
         contributions: [
-          'Implemented two independent but connected classification models: a circle model (closeness to me) and a 2×2 matrix (collaboration needs), positioned independently per stakeholder.',
+          'Implemented two independent but connected classification models: a circle model (closeness to the mandate: Core, Direct, Indirect) and a 2×2 matrix (collaboration needs), positioned independently per stakeholder.',
           'Built a data model and REST API for stakeholders, board positions and board configurations, with tests.',
           'Developed a structured note-field set per stakeholder (observations, communication approach, context, follow-ups)—deliberately with no automated evaluation or profiling of the person.',
           'Went through a first code-review round and incorporated findings on connection handling, autosave and server-side validation.'
