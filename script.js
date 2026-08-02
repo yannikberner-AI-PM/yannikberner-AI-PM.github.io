@@ -1,14 +1,15 @@
 const translations = {
   de: {
     skipLink: 'Zum Inhalt springen',
-    documentTitle: 'Yannik Berner | Senior Product Manager – Energy & Product Modernization',
-    metaDescription: 'Senior Product Manager für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung – von Discovery und Zielbild bis Migration und Rollout.',
+    documentTitle: 'Yannik Berner | Senior Product Manager · Energy & Product Modernization',
+    metaDescription: 'Senior Product Manager für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung: von Discovery und Zielbild bis Migration und Rollout.',
     socialDescription: 'Senior Product Manager für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung.',
     nav: {
       value: 'Mehrwert',
       about: 'Über mich',
       capabilities: 'Kompetenzen',
       experience: 'Berufserfahrung',
+      projects: 'Projekte',
       contact: 'Kontakt',
       toggleLabel: 'Navigation umschalten',
       mainLabel: 'Hauptnavigation',
@@ -19,7 +20,7 @@ const translations = {
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
       title: 'Vernetzte Energieprodukte & Software-Produktmodernisierung',
-      intro: 'Komplexe Energie-, SaaS- und Plattformprodukte führe ich von Discovery und Zielbild bis Delivery, Migration und Rollout – an der Schnittstelle von Nutzern, Business und Technologie.',
+      intro: 'Komplexe Energie-, SaaS- und Plattformprodukte führe ich von Discovery und Zielbild bis Delivery, Migration und Rollout, an der Schnittstelle von Nutzern, Business und Technologie.',
       introMobile: 'Energie-, SaaS- und Plattformprodukte führe ich von Discovery und Zielbild bis Migration und Rollout.',
       ctaPrimary: 'Mehrwert ansehen',
       ctaSecondary: 'Kontakt aufnehmen',
@@ -92,7 +93,7 @@ const translations = {
       ],
       p1: 'An der Schnittstelle von Geschäftsmodell, Technologie, Regulatorik und Betrieb arbeite ich. Meine Karriere spannt Start-ups, internationale Konzerne und Energie-, IoT-, Daten- und CRM-Produktlandschaften zusammen.',
       p2: 'Strategisches Produktdenken kombiniere ich mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen Teams Struktur, Priorisierung und eine gemeinsame Produktrichtung brauchen.',
-      p3: 'Ein wiederkehrendes Thema in meiner Arbeit ist die Nutzung von Reliability- und Prognosedaten für Produkt- und Investitionsentscheidungen – von Leistungskurven-Analysen über prognosebasierte Steuerungslogik bis zu Reliability-Daten aus Hardware-Monitoring.'
+      p3: 'Ein wiederkehrendes Thema in meiner Arbeit ist die Nutzung von Reliability- und Prognosedaten für Produkt- und Investitionsentscheidungen: von Leistungskurven-Analysen über prognosebasierte Steuerungslogik bis zu Reliability-Daten aus Hardware-Monitoring.'
     },
     capabilities: {
       eyebrow: 'Kompetenzen',
@@ -142,10 +143,12 @@ const translations = {
       intro: 'Der passende Ansatz ergab sich jeweils aus Nutzerbedürfnissen, Business-Zielen, technischer Ausgangslage und dem Risiko für den laufenden Betrieb.',
       common: {
         periodLocation: 'Zeitraum · Ort',
+        setupLabel: 'Setup',
         contributions: 'Wichtige Beiträge',
         contextLabel: 'Kontext',
         approachLabel: 'Vorgehen',
         valueLabel: 'Wert',
+        nextLabel: 'Next',
         casePlaceholder: 'Case-Study-Bild<br />Platzhalter',
         tagsLabel: 'Technologien und Methoden',
         productLink: 'Produkt ansehen',
@@ -167,13 +170,13 @@ const translations = {
         contributions: [
           'Modernisierungsroadmap für PowerSystem begonnen und erste Zielbilder für Produktumfang und zukünftige Teamstruktur entwickelt.',
           'Anforderungen aus technischer Betriebsführung, IT, OT und Architektur strukturiert sowie Anbieter und Lösungsoptionen analysiert.',
-          'Datenprodukt zur Leistungskurven-Analyse mit französischen Stakeholdern entwickelt und umgesetzt – seither dort im Einsatz; eine belastbare Reliability-Engineering-Datengrundlage für Investitionsentscheidungen war in Abstimmung und Vorbereitung.',
+          'Datenprodukt zur Leistungskurven-Analyse mit französischen Stakeholdern entwickelt und umgesetzt, seither dort im Einsatz; eine belastbare Reliability-Engineering-Datengrundlage für Investitionsentscheidungen war in Abstimmung und Vorbereitung.',
           'Priorisierte nächste Schritte, Entscheidungsvorlagen sowie Anforderungen für resilienten Leitwartenbetrieb und Business Continuity entwickelt.'
         ],
         tags: ['Datenprodukte', 'Reliability Engineering', 'NIS2', 'BCM', 'Governance'],
         result: 'Ergebnis: Datenprodukt zur Leistungskurven-Analyse umgesetzt und in Frankreich im Einsatz, plus erste Zielbilder und Entscheidungsgrundlagen für Betriebssoftware und resiliente Betriebsprozesse.',
         details: {
-          context: 'Die geplante Systemmodernisierung wurde vorbereitet, aber nach einer internen Prioritätsänderung nicht vollständig umgesetzt; der Schwerpunkt verlagerte sich auf die Business-Process-Ownership für POLIS mit Cyber Security, NIS2 und Business Continuity Management. Das Datenprodukt zur Leistungskurven-Analyse wurde davon unabhängig entwickelt und ausgeliefert und ist in Frankreich im Einsatz. Ein Anschlussthema – Reliability Engineering mit Prognosemodellen – wurde vorbereitet und als funktionsfähiger Prototyp umgesetzt, landete mangels Ressourcen aber zunächst im Backlog.',
+          context: 'Die geplante Systemmodernisierung wurde vorbereitet, aber nach einer internen Prioritätsänderung nicht vollständig umgesetzt; der Schwerpunkt verlagerte sich auf die Business-Process-Ownership für POLIS mit Cyber Security, NIS2 und Business Continuity Management. Das Datenprodukt zur Leistungskurven-Analyse wurde davon unabhängig entwickelt und ausgeliefert und ist in Frankreich im Einsatz. Das Anschlussthema Reliability Engineering mit Prognosemodellen wurde vorbereitet und als funktionsfähiger Prototyp umgesetzt, landete mangels Ressourcen aber zunächst im Backlog.',
           approach: 'Für die geplante Weiterentwicklung von PowerSystem strukturierte ich fachliche Domänen, operative Use Cases und Datenanforderungen. Ein Datenprodukt zur Leistungskurven-Analyse wurde gemeinsam mit französischen Stakeholdern entwickelt, ausgeliefert und ist dort im Einsatz; eine belastbare Reliability-Engineering-Datengrundlage für Investitionsentscheidungen war in Abstimmung und Vorbereitung. Weitere Bestandteile waren erste Zielbilder, eine Modernisierungsroadmap, Überlegungen zur Teamstruktur und eine Anbieteranalyse.',
           value: 'Eine belastbare Grundlage für weitere Produktentscheidungen und die resiliente Ausrichtung kritischer Betriebsprozesse.'
         }
@@ -209,7 +212,7 @@ const translations = {
         meta: 'Digitale Plattform für professionelle Reinigungsdienstleistungen.',
         valueLabel: 'Mehrwert: B2B-SaaS- und IoT-Plattformen weiterentwickeln · Betriebs- und Serviceprozesse digitalisieren',
         overview: 'Fragmentierte Betriebs-, IoT- und Nutzeranforderungen übersetze ich in skalierbare Plattformfähigkeiten, strukturierte Roadmaps und messbare Produktverbesserungen.',
-        approachTitle: 'Relaunch mit kontrolliertem Cutover – vom MVP zum MMP',
+        approachTitle: 'Relaunch mit kontrolliertem Cutover: vom MVP zum MMP',
         approachText: 'Mit einem fokussierten MVP zentrale Nutzer- und Produktannahmen validiert und die Plattform anschließend zu einem vermarktbaren End-to-End-Produktumfang ausgebaut.',
         periodLocation: 'Aug. 2022 – Aug. 2024 · Berlin',
         imageAlt: 'Collage zur IoT- und Datenplattform soniq IQ',
@@ -223,7 +226,7 @@ const translations = {
           'Reliability-Daten aus Hardware-Monitoring für vorausschauende Wartung und Ausfallprognosen genutzt.'
         ],
         tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms', 'Predictive Maintenance'],
-        result: 'Ergebnis: Kundenzufriedenheit um 60 % gesteigert und Supportaufwand um 50 % gesenkt – durch datenbasierte Serviceverbesserungen.',
+        result: 'Ergebnis: Kundenzufriedenheit um 60 % gesteigert und Supportaufwand um 50 % gesenkt, durch datenbasierte Serviceverbesserungen.',
         details: {
           context: 'Produkt- und Vertriebsarbeit in einer dynamischen B2B-Umgebung mit sich wandelnden Kundenanforderungen.',
           approach: 'Die Plattform wurde mit einem fokussierten MVP zur Validierung zentraler Nutzerprobleme, Produktannahmen und technischer Machbarkeit aufgebaut. Auf Basis realer Nutzer- und Kundenanforderungen entstand daraus ein Minimum Marketable Product mit eigenständigem End-to-End-Nutzen. Der Übergang wurde über klare Release-, Integrations- und Rollout-Schritte vorbereitet und kontrolliert umgesetzt.',
@@ -281,10 +284,67 @@ const translations = {
         }
       }
     },
+    projects: {
+      eyebrow: 'Eigene Projekte',
+      heading: 'KI-Praxis vertiefen, Lücken schließen',
+      intro: 'Private Projekte, um meine KI-Nutzung zu vertiefen und Lücken mit echtem Mehrwert zu schließen.',
+      careerIntelligence: {
+        eyebrow: 'Eigenes Projekt',
+        title: 'Career Intelligence',
+        meta: 'Agentenbasierter Recherche-, Klassifizierungs- und Priorisierungs-Monitor.',
+        valueLabel: 'Mehrwert: Eigenständige End-to-End-Produktarbeit, von Datenmodell bis nutzbarem Tool',
+        overview: 'Weil öffentlich indexierte Job-, Kontakt- und Unternehmenssignale über viele Quellen verstreut sind, habe ich einen privaten, lokal laufenden Agenten gebaut, der sie bündelt, dedupliziert, regelbasiert klassifiziert und nach vier selbst definierten Kriterien-Tracks transparent bewertet.',
+        approachTitle: 'Vom Skript zum mehrschichtigen System',
+        approachText: 'Begonnen als einfaches Scan-Skript, iterativ zu einer sauber getrennten Architektur weiterentwickelt: Datenquellen-Layer, testbare Business-Logik ohne UI-Abhängigkeit und ein Dashboard, das ausschließlich aufbereitete Modelle rendert.',
+        periodLocation: 'Privates Projekt, lokal betrieben',
+        imageAlt: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
+        mediaAriaLabel: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
+        result: 'Ergebnis: Transparentes, erklärbares Scoring statt Bauchgefühl, vollständig lokal, ohne Cloud-Abhängigkeit für sensible Daten.',
+        contributions: [
+          'Datenmodell und Architektur für Datenquellen-, Business-Logik- und UI-Schicht sauber getrennt konzipiert.',
+          'Regelbasierte Klassifizierung und transparentes, gewichtetes Scoring ohne Blackbox-Bewertung entwickelt.',
+          'Persistente Historie für neue, aktualisierte, entfernte und wiedereröffnete Einträge umgesetzt: Datenqualitätsprobleme werden markiert statt still gelöscht.',
+          'Automatisierten täglichen Lauf mit lokalem Dashboard, Tabellen-Export und Chat-Digest verbunden.'
+        ],
+        tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source-Aggregation', 'Regelbasiertes Scoring'],
+        details: {
+          context: 'Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert, ohne auf ein proprietäres SaaS-Tool oder eine Cloud-Lösung für sensible Bewerbungsdaten angewiesen zu sein. So werden Nischen und Potenziale erkennbar und Möglichkeiten im Markt gezielt aufgedeckt.',
+          approach: 'Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem ergänzt zusätzliche Quellen und Recherche, aktualisiert unabhängig eine Tabelle und postet eine Chat-Zusammenfassung.',
+          value: 'Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht, sensible Daten lokal hält und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.',
+          next: 'Den Fit-Algorithmus weiter schulen, Netzwerk aktiv erweitern (Hiring Manager, Recruiter, Fachkontakte) und die Weiterbildungsvorschläge je Track vertiefen (Skill-Gaps, kuratierte Kurse und Veranstaltungen).'
+        }
+      },
+      stakeholderIntelligence: {
+        eyebrow: 'Eigenes Projekt',
+        title: 'Stakeholder Intelligence',
+        meta: 'Verbindet Nähe zum Auftrag (Kreis-Modell) und Zusammenarbeits-Einordnung (Matrix) in einem Board.',
+        valueLabel: 'Mehrwert: Zwei Einordnungsmodelle, Nähe zum Auftrag und Zusammenarbeitsbedarf, in einem Werkzeug verbunden',
+        overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungs-Ebenen: wie zentral, direkt oder indirekt ein Stakeholder zum jeweiligen Auftrag steht, also Produkt, Projekt oder Programm (Kreis-Modell), und wie ich die Zusammenarbeit mit dieser Person gezielt gestalte (Matrix-Modell). Beides wird strukturiert in einem Profil pro Stakeholder festgehalten, bewusst als Werkzeug zur eigenen Anpassung, nicht zur Bewertung oder zum Profiling anderer.',
+        approachTitle: 'Zwei Einordnungsmodelle in einem Board verbunden',
+        approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zum Auftrag ein, mit den Stufen Core, Direct und Indirect, bezogen auf Produkt, Projekt oder Programm. Eine wechselbare 2×2-Matrix ordnet sie zusätzlich nach Zusammenarbeitsbedarf ein. Anders als bei getrennten Einzel-Whiteboards verbindet ein gemeinsames Profil beide Positionen zu einem konkreten Rückschluss: wie sich die Zusammenarbeit mit den Stakeholdern gezielter gestalten lässt.',
+        periodLocation: 'Privates Projekt, lokal betrieben',
+        imageAlt: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
+        mediaAriaLabel: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
+        result: 'Ergebnis: Funktionsfähiges MVP mit zwei verbundenen Einordnungsmodellen: interaktives Board, strukturiertes Datenmodell, vollständig lokale Datenhaltung.',
+        contributions: [
+          'Zwei unabhängige, aber verbundene Einordnungsmodelle umgesetzt: Kreis-Modell (Nähe zum Auftrag: Core, Direct, Indirect) und 2×2-Matrix (Zusammenarbeitsbedarf), pro Stakeholder unabhängig positionierbar.',
+          'Datenmodell und REST-API für Stakeholder, Board-Positionen und Board-Konfigurationen mit Tests aufgebaut.',
+          'Strukturiertes Notizfeld-Set je Stakeholder entwickelt (Beobachtungen, Kommunikationsansatz, Kontext, Follow-ups), bewusst ohne automatische Bewertung oder Profiling der Person.',
+          'Erste Code-Review-Runde durchlaufen und Ergebnisse zu Connection-Handling, Autosave und serverseitiger Validierung eingearbeitet.'
+        ],
+        tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
+        details: {
+          context: 'Bestehende Stakeholder-Whiteboards decken meist nur eines der beiden Modelle ab und verbinden Nähe- und Zusammenarbeits-Einordnung nicht zu einem gemeinsamen Rückschluss. Ich wollte die eigene Zusammenarbeit mit unterschiedlichen Stakeholdern bewusster gestalten, statt Kommunikationsstil intuitiv und unstrukturiert anzupassen, ohne sensible Einschätzungen über echte Kolleg:innen in ein Cloud-Tool zu geben.',
+          approach: 'Bewusste Leitplanke von Anfang an: Das Tool bewertet nicht die andere Person, sondern hält strukturiert fest, wie ich selbst kommunizieren möchte. Technisch orientiert an einer lokal-first-Architektur, insbesondere in Bezug auf personenbezogene Daten und DSGVO, aber mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche umgesetzt.',
+          value: 'Ein Werkzeug, das die beiden Einordnungen nebeneinander zeigt und zu einem konkreten Zusammenarbeitsmodell je Stakeholder verdichtet, anders als klassische Einzel-Whiteboards, die nur eine Sicht abbilden. So wird strategisches Stakeholder-Denken sichtbar und wiederverwendbar statt nur im Kopf behalten, mit einem von Anfang an bewusst gewählten, ethisch vertretbaren Framing.',
+          next: 'Ein lokal laufendes LLM für Farben-Modell-Typisierung (Rot/Gelb/Grün/Blau: dominant, initiativ, stetig, gewissenhaft) und daraus abgeleitete Vorschläge für den Stakeholder-Umgang (weiterhin mit Local-LLM), eine nur lesende Anbindung an Kommunikations- und Kalender-Tools (Mail, Slack, Teams, Kalender) für mehr Kontext sowie Reminder-Funktionen für offene Follow-ups.'
+        }
+      }
+    },
     contact: {
       eyebrow: 'Kontakt',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Offen für Senior- und Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in Deutschland – mit Fokus auf Energy Systems, B2B SaaS und Product Modernization.',
+      text: 'Offen für Senior- und Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in Deutschland, mit Fokus auf Energy Systems, B2B SaaS und Product Modernization.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'LinkedIn-Profil in einem neuen Tab öffnen'
     },
@@ -327,14 +387,15 @@ const translations = {
   },
   en: {
     skipLink: 'Skip to content',
-    documentTitle: 'Yannik Berner | Senior Product Manager – Energy & Product Modernization',
-    metaDescription: 'Senior Product Manager for connected energy products, B2B SaaS and software product modernisation—from discovery and target state to migration and rollout.',
+    documentTitle: 'Yannik Berner | Senior Product Manager · Energy & Product Modernization',
+    metaDescription: 'Senior Product Manager for connected energy products, B2B SaaS and software product modernisation: from discovery and target state to migration and rollout.',
     socialDescription: 'Senior Product Manager for connected energy products, B2B SaaS and software product modernisation.',
     nav: {
       value: 'Value',
       about: 'About',
       capabilities: 'Capabilities',
       experience: 'Experience',
+      projects: 'Projects',
       contact: 'Contact',
       toggleLabel: 'Toggle navigation',
       mainLabel: 'Main navigation',
@@ -345,7 +406,7 @@ const translations = {
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
       title: 'Connected Energy & Software Product Modernization',
-      intro: 'I lead complex energy, SaaS and platform products from discovery and target state through delivery, migration and rollout—connecting users, business and technology.',
+      intro: 'I lead complex energy, SaaS and platform products from discovery and target state through delivery, migration and rollout, connecting users, business and technology.',
       introMobile: 'I lead energy, SaaS and platform products from discovery and target state through migration and rollout.',
       ctaPrimary: 'See value delivered',
       ctaSecondary: 'Get in touch',
@@ -418,7 +479,7 @@ const translations = {
       ],
       p1: 'I work at the intersection of business models, technology, regulation and operations. My career spans start-ups, international corporations and energy, IoT, data and CRM product landscapes.',
       p2: 'I combine strategic product thinking with technical understanding and pragmatic execution. I am particularly effective in ambiguous environments where teams need structure, prioritisation and a shared product direction.',
-      p3: 'A recurring thread in my work is using reliability and forecast data to inform product and investment decisions—from power curve analysis to forecast-based control logic and reliability data from hardware monitoring.'
+      p3: 'A recurring thread in my work is using reliability and forecast data to inform product and investment decisions: from power curve analysis to forecast-based control logic and reliability data from hardware monitoring.'
     },
     capabilities: {
       eyebrow: 'Capabilities',
@@ -427,7 +488,7 @@ const translations = {
         { title: 'Product & Platform Strategy', text: 'Product vision, target state, discovery, roadmaps and business cases.' },
         { title: 'Modernisation & Migration', text: 'Structuring technical debt, integrations, operational risks and controlled transitions.' },
         { title: 'Discovery to Rollout', text: 'Turning user problems into prioritised increments, releases and rollouts.' },
-        { title: 'Business–IT Alignment', text: 'Aligning users, management, operations, engineering and architecture around decisions.' },
+        { title: 'Business-IT Alignment', text: 'Aligning users, management, operations, engineering and architecture around decisions.' },
         { title: 'Outcome & KPI Steering', text: 'Linking success criteria, priorities and decisions to user value and business impact.' },
         { title: 'Energy, IoT & Data Products', text: 'Connecting hardware, embedded systems, cloud, APIs, data and regulation from a product perspective.' }
       ]
@@ -468,10 +529,12 @@ const translations = {
       intro: 'The appropriate approach depended on user needs, business objectives, the technical starting point and the risk to ongoing operations.',
       common: {
         periodLocation: 'Period · Location',
+        setupLabel: 'Setup',
         contributions: 'Key contributions',
         contextLabel: 'Context',
         approachLabel: 'Approach',
         valueLabel: 'Value',
+        nextLabel: 'Next',
         casePlaceholder: 'Case study image<br />placeholder',
         tagsLabel: 'Technologies and methods',
         productLink: 'View product',
@@ -493,19 +556,19 @@ const translations = {
         contributions: [
           'Started the modernisation roadmap for PowerSystem and developed initial target states for product scope and the future team structure.',
           'Structured requirements across technical operations, IT, OT and architecture, and assessed vendors and solution options.',
-          'Developed and delivered a power curve analysis data product with French stakeholders—now in use there; a solid reliability-engineering data foundation for investment decisions was being coordinated and prepared.',
+          'Developed and delivered a power curve analysis data product with French stakeholders, now in use there; a solid reliability-engineering data foundation for investment decisions was being coordinated and prepared.',
           'Developed prioritised next steps, decision material and requirements for resilient control-room operations and business continuity.'
         ],
         tags: ['Data Products', 'Reliability Engineering', 'NIS2', 'BCM', 'Governance'],
         result: 'Outcome: Delivered a power curve analysis data product now in use in France, plus initial target states and decision foundations for operational software and resilient operations.',
         details: {
-          context: 'The planned system modernisation was prepared but not fully implemented following an internal reprioritisation; the role shifted towards business process ownership for POLIS, covering cyber security, NIS2 and business continuity management. The power curve analysis data product was developed and delivered independently of that shift and is in use in France. A follow-on topic—reliability engineering with forecasting models—was prepared and implemented as a working prototype, but ended up in the backlog for the time being due to limited resources.',
+          context: 'The planned system modernisation was prepared but not fully implemented following an internal reprioritisation; the role shifted towards business process ownership for POLIS, covering cyber security, NIS2 and business continuity management. The power curve analysis data product was developed and delivered independently of that shift and is in use in France. The follow-on topic of reliability engineering with forecasting models was prepared and implemented as a working prototype, but ended up in the backlog for the time being due to limited resources.',
           approach: 'For the planned evolution of PowerSystem, I structured business domains, operational use cases and data requirements. A power curve analysis data product was developed with French stakeholders, delivered and is in use there; a solid reliability-engineering data foundation for investment decisions was being coordinated and prepared. Further components included initial target states, a modernisation roadmap, team structure considerations and vendor analysis.',
           value: 'A robust foundation for further product decisions and the resilient development of critical operational processes.'
         }
       },
       senec: {
-        title: 'Product Owner – HEMS & Energy Systems',
+        title: 'Product Owner, HEMS & Energy Systems',
         meta: 'HEMS product platform for residential energy systems.',
         valueLabel: 'Value: Developing and scaling connected energy products · Building platform capabilities and integrations',
         overview: 'I connect product strategy, device integration and delivery to scale HEMS platforms across hardware, embedded software, cloud platforms and data.',
@@ -535,7 +598,7 @@ const translations = {
         meta: 'Digital platform for professional cleaning services.',
         valueLabel: 'Value: Advancing B2B SaaS and IoT platforms · Digitising operational and service processes',
         overview: 'I turn fragmented operational, IoT and user requirements into scalable platform capabilities, structured roadmaps and measurable product improvements.',
-        approachTitle: 'Controlled relaunch and cutover – from MVP to MMP',
+        approachTitle: 'Controlled relaunch and cutover: from MVP to MMP',
         approachText: 'Validated core user and product assumptions with a focused MVP, then expanded the platform into a marketable end-to-end product scope.',
         periodLocation: 'Aug 2022 – Aug 2024 · Berlin',
         imageAlt: 'Collage of the soniq IQ IoT and data platform',
@@ -607,10 +670,67 @@ const translations = {
         }
       }
     },
+    projects: {
+      eyebrow: 'Personal Projects',
+      heading: 'Deepening AI practice, closing gaps',
+      intro: 'Private projects to deepen my hands-on AI use and close gaps that create real value.',
+      careerIntelligence: {
+        eyebrow: 'Personal Project',
+        title: 'Career Intelligence',
+        meta: 'Agent-based research, classification and prioritisation monitor.',
+        valueLabel: 'Value: Independent end-to-end product work, from data model to usable tool',
+        overview: 'Because publicly indexed job, contact and company signals are scattered across many sources, I built a private, locally run agent that aggregates, deduplicates, rule-classifies and transparently scores them against four self-defined criteria tracks.',
+        approachTitle: 'From script to a layered system',
+        approachText: 'Started as a simple scan script, iteratively evolved into a cleanly separated architecture: a data-source layer, testable business logic with no UI dependency, and a dashboard that renders only prepared models.',
+        periodLocation: 'Personal project, run locally',
+        imageAlt: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
+        mediaAriaLabel: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
+        result: 'Outcome: Transparent, explainable scoring instead of gut feel, fully local, with no cloud dependency for sensitive data.',
+        contributions: [
+          'Designed a data model and architecture with a clean separation between data-source, business-logic and UI layers.',
+          'Built rule-based classification and transparent, weighted scoring with no black-box evaluation.',
+          'Implemented persistent history for new, updated, removed and reopened entries: data-quality issues are flagged rather than silently deleted.',
+          'Connected an automated daily run to a local dashboard, a spreadsheet export and a chat digest.'
+        ],
+        tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source Aggregation', 'Rule-Based Scoring'],
+        details: {
+          context: 'My own research across multiple job boards, company pages and contacts was highly fragmented, without relying on a proprietary SaaS tool or a cloud solution for sensitive application data. This makes niches and untapped potential visible and helps uncover market opportunities in a targeted way.',
+          approach: 'The interface reads only prepared, tested models; raw imports, classification and scoring are decoupled from the UI as standalone, testable services. A companion system adds further sources and research, updates a spreadsheet independently and posts a chat summary.',
+          value: 'A tool that makes my own prioritisation decisions traceable, keeps sensitive data local, and could be extended iteratively without endangering the existing business logic.',
+          next: 'Keep refining the fit algorithm, actively grow the network (hiring managers, recruiters, domain contacts), and deepen the per-track upskilling recommendations (skill gaps, curated courses and events).'
+        }
+      },
+      stakeholderIntelligence: {
+        eyebrow: 'Personal Project',
+        title: 'Stakeholder Intelligence',
+        meta: 'Connects closeness-to-mandate classification (circle model) and collaboration classification (matrix) in one board.',
+        valueLabel: 'Value: Two classification models, closeness to the mandate and collaboration needs, connected in one tool',
+        overview: 'A private, locally run board connects two classification layers: how central, direct or indirect a stakeholder is to the mandate at hand, be it a product, project or programme (circle model), and how I deliberately shape collaboration with that person (matrix model). Both are structured in one profile per stakeholder, deliberately a tool for adapting my own approach, not for judging or profiling other people.',
+        approachTitle: 'Two classification models connected in one board',
+        approachText: 'A circle model classifies stakeholders by closeness to the mandate, with the levels Core, Direct and Indirect, relative to the product, project or programme. A switchable 2×2 matrix additionally classifies them by collaboration needs. Unlike separate single-purpose whiteboards, a shared profile connects both positions into one concrete takeaway: how collaboration with stakeholders can be shaped more deliberately.',
+        periodLocation: 'Personal project, run locally',
+        imageAlt: 'Screenshot of the Stakeholder Intelligence board in circle-model view with fictional demo contacts',
+        mediaAriaLabel: 'Screenshot of the Stakeholder Intelligence board in circle-model view with fictional demo contacts',
+        result: 'Outcome: Working MVP with two connected classification models: interactive board, structured data model, fully local data storage.',
+        contributions: [
+          'Implemented two independent but connected classification models: a circle model (closeness to the mandate: Core, Direct, Indirect) and a 2×2 matrix (collaboration needs), positioned independently per stakeholder.',
+          'Built a data model and REST API for stakeholders, board positions and board configurations, with tests.',
+          'Developed a structured note-field set per stakeholder (observations, communication approach, context, follow-ups), deliberately with no automated evaluation or profiling of the person.',
+          'Went through a first code-review round and incorporated findings on connection handling, autosave and server-side validation.'
+        ],
+        tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
+        details: {
+          context: 'Existing stakeholder whiteboards usually cover only one of the two models and don’t connect closeness and collaboration classification into a shared takeaway. I wanted to approach collaboration with different stakeholders more deliberately instead of adapting my communication style intuitively and unstructured, without putting sensitive assessments of real colleagues into a cloud tool.',
+          approach: 'A deliberate guardrail from the start: the tool does not evaluate the other person, it structures how I want to communicate myself. Technically modelled on a local-first architecture, particularly with regard to personal data and GDPR, but implemented with its own Next.js/TypeScript stack for the interactive board interface.',
+          value: 'A tool that shows both classifications side by side and distils them into one concrete collaboration model per stakeholder, unlike classic single-purpose whiteboards that only cover one view. This makes strategic stakeholder thinking visible and reusable instead of keeping it in my head, with a deliberately ethical framing chosen from day one.',
+          next: 'A locally run LLM for colour-based typing (red/yellow/green/blue: dominant, initiating, steady, conscientious) and derived suggestions for how to engage with the stakeholder (still with a local LLM), read-only integration with communication and calendar tools (mail, Slack, Teams, calendar) for more context, plus reminder functions for open follow-ups.'
+        }
+      }
+    },
     contact: {
       eyebrow: 'Contact',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Open to senior and mid-senior product roles in Berlin, hybrid or remote across Germany—with a focus on energy systems, B2B SaaS and product modernisation.',
+      text: 'Open to senior and mid-senior product roles in Berlin, hybrid or remote across Germany, with a focus on energy systems, B2B SaaS and product modernisation.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'Open LinkedIn profile in a new tab'
     },
@@ -899,7 +1019,16 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   document.querySelectorAll('.details-toggle').forEach((button) => {
+    let capturedScrollY = null;
+
+    button.addEventListener('pointerdown', () => {
+      capturedScrollY = window.scrollY;
+    });
+
     button.addEventListener('click', () => {
+      const scrollY = capturedScrollY !== null ? capturedScrollY : window.scrollY;
+      capturedScrollY = null;
+
       const expanded = button.getAttribute('aria-expanded') === 'true';
       const targetId = button.getAttribute('aria-controls');
       const target = targetId ? document.getElementById(targetId) : null;
@@ -911,6 +1040,27 @@ document.addEventListener('DOMContentLoaded', () => {
       if (target) {
         target.hidden = expanded;
       }
+
+      window.scrollTo(0, scrollY);
+      requestAnimationFrame(() => window.scrollTo(0, scrollY));
+    });
+  });
+
+  document.querySelectorAll('details > summary').forEach((summary) => {
+    let capturedScrollY = null;
+
+    summary.addEventListener('pointerdown', () => {
+      capturedScrollY = window.scrollY;
+    });
+
+    summary.addEventListener('click', (event) => {
+      event.preventDefault();
+      const details = summary.parentElement;
+      const scrollY = capturedScrollY !== null ? capturedScrollY : window.scrollY;
+      capturedScrollY = null;
+      details.open = !details.open;
+      window.scrollTo(0, scrollY);
+      requestAnimationFrame(() => window.scrollTo(0, scrollY));
     });
   });
 });

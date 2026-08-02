@@ -28,10 +28,11 @@ main {
 .proof-section { order: 2; }
 #impact { order: 3; }
 #experience { order: 4; }
-#capabilities { order: 5; }
-.skills-section { order: 6; }
-#about { order: 7; }
-#contact { order: 8; }
+#projects { order: 5; }
+#capabilities { order: 6; }
+.skills-section { order: 7; }
+#about { order: 8; }
+#contact { order: 9; }
 
 body {
   margin: 0;
@@ -927,6 +928,7 @@ h3 {
   margin-top: 0.8rem;
   border-top: 1px solid var(--text);
   padding-top: 0.8rem;
+  overflow-anchor: none;
 }
 
 .case-details[hidden] {
