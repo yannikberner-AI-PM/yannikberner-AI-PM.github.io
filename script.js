@@ -92,7 +92,7 @@ const translations = {
         'ÜBERSETZEN.'
       ],
       p1: 'An der Schnittstelle von Geschäftsmodell, Technologie, Regulatorik und Betrieb arbeite ich. Meine Karriere spannt Start-ups, internationale Konzerne und Energie-, IoT-, Daten- und CRM-Produktlandschaften zusammen.',
-      p2: 'Strategisches Produktdenken kombiniere ich mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen Teams Struktur, Priorisierung und eine gemeinsame Produktrichtung brauchen.',
+      p2: 'Strategisches Produktdenken kombiniere ich mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen ich komplizierte Zusammenhänge durchdringe, Menschen auf eine gemeinsame Produktrichtung einschwöre und zielgerichtet zur Umsetzung bringe.',
       p3: 'Ein wiederkehrendes Thema in meiner Arbeit ist die Nutzung von Reliability- und Prognosedaten für Produkt- und Investitionsentscheidungen: von Leistungskurven-Analysen über prognosebasierte Steuerungslogik bis zu Reliability-Daten aus Hardware-Monitoring.'
     },
     capabilities: {
@@ -479,7 +479,7 @@ const translations = {
         'DECISIONS.'
       ],
       p1: 'I work at the intersection of business models, technology, regulation and operations. My career spans start-ups, international corporations and energy, IoT, data and CRM product landscapes.',
-      p2: 'I combine strategic product thinking with technical understanding and pragmatic execution. I am particularly effective in ambiguous environments where teams need structure, prioritisation and a shared product direction.',
+      p2: 'I combine strategic product thinking with technical understanding and pragmatic execution. I am particularly effective in ambiguous environments, where I cut through complicated dependencies, rally people around a shared product direction and drive it through to execution.',
       p3: 'A recurring thread in my work is using reliability and forecast data to inform product and investment decisions: from power curve analysis to forecast-based control logic and reliability data from hardware monitoring.'
     },
     capabilities: {
