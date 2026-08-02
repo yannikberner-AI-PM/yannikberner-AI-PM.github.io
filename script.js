@@ -42,24 +42,14 @@ const translations = {
       approachSummary: 'Vorgehen',
       items: [
         {
-          title: 'Komplexe Produkte aus Software, Hardware und Prozessen entwickeln und skalieren',
-          text: 'Komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten entwickle und skaliere ich, am tiefsten bewährt in regulierten Energiesystemen rund um EMS, HEMS, Smart Metering, Speicher, Flexibilität und intelligente Steuerung. Dabei verbinde ich fachliche Anforderungen mit Hardware, Embedded Software, Cloud-Plattformen und Daten.',
-          environments: ['EMS & HEMS', 'Smart Metering', 'PV & Speicher', 'Wallboxen & Wärmepumpen', 'Flexibilität & Steuerung', 'Betriebsführungssoftware', 'Asset Operations', 'Monitoring & Reporting', 'Leitwarte', 'Embedded-Systeme, IoT & Cloud'],
-          points: [
-            'Produktstrategie und Roadmaps für komplexe Produkte entwickeln',
-            'Nutzer-, Markt-, Regulierungs- und Technologieanforderungen strukturieren',
-            'Produktvarianten, Integrationen und Partnerlösungen priorisieren',
-            'Hardware, Embedded Software, IoT, Cloud und Daten zusammenführen',
-            'Discovery, Engineering, Testing, Zertifizierung und Rollout orchestrieren',
-            'Entscheidungen anhand von Nutzerwert, Business Impact und technischer Machbarkeit treffen',
-            'Skalierbare Lösungen für PV, Speicher, Wallboxen, Wärmepumpen und Smart Metering entwickeln'
-          ],
-          approach: 'Je nach Produktreife, Nutzerproblem, regulatorischem Rahmen und technischer Ausgangslage strukturiere ich den passenden Weg vom MVP über Pilotierung und schrittweisen Launch bis zur Skalierung oder zum kontrollierten Relaunch.'
-        },
-        {
-          title: 'B2B-SaaS- und Plattformprodukte aufbauen und modernisieren',
-          text: 'Komplexe B2B-SaaS-, IoT-, Daten- und Betriebsplattformen modernisiere ich nutzerzentriert und mit klarem Blick auf Business-Ziele, technische Machbarkeit, laufende Geschäftsprozesse und bestehende technische Schulden.',
+          title: 'Komplexe Produkte aus Software, Hardware und Prozessen entwickeln, skalieren und modernisieren',
+          text: 'Komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten baue ich neu auf, skaliere sie und modernisiere bestehende Systeme, mit klarem Blick auf Business-Ziele, technische Machbarkeit und bestehende technische Schulden. Am tiefsten bewährt ist das in regulierten Energiesystemen rund um EMS, HEMS, Smart Metering, Speicher, Flexibilität und intelligente Steuerung.',
           environments: [
+            'EMS & HEMS',
+            'Smart Metering',
+            'PV & Speicher',
+            'Wallboxen & Wärmepumpen',
+            'Flexibilität & Steuerung',
             'Betriebsführungssoftware',
             'Asset Operations',
             'Monitoring & Reporting',
@@ -67,9 +57,17 @@ const translations = {
             'Service & Wartung',
             'Performance Analytics',
             'CRM- & Prozessplattformen',
-            'IoT- & Datenprodukte'
+            'IoT- & Datenprodukte',
+            'Embedded-Systeme, IoT & Cloud'
           ],
           points: [
+            'Produktstrategie und Roadmaps für komplexe Produkte entwickeln',
+            'Nutzer-, Markt-, Regulierungs- und Technologieanforderungen strukturieren',
+            'Produktvarianten, Integrationen und Partnerlösungen priorisieren',
+            'Hardware, Embedded Software, IoT, Cloud und Daten zusammenführen',
+            'Discovery, Engineering, Testing, Zertifizierung und Rollout orchestrieren',
+            'Entscheidungen anhand von Nutzerwert, Business Impact und technischer Machbarkeit treffen',
+            'Skalierbare Lösungen für PV, Speicher, Wallboxen, Wärmepumpen und Smart Metering entwickeln',
             'Nutzerprobleme, Geschäftsprozesse und Systemlandschaften analysieren',
             'Produktvision, Zielbild und Modernisierungsroadmap entwickeln',
             'Nutzerwert, Business-Ziele, technische Anforderungen und Schulden priorisieren',
@@ -79,7 +77,7 @@ const translations = {
             'OKRs, Meilensteine, Erfolgskriterien und Entscheidungszeitpunkte definieren',
             'Migrationen, Schnittstellen, Qualitätssicherung und Rollouts planen'
           ],
-          approach: 'Je nach Nutzerproblem, Business-Ziel, Systemarchitektur, technischen Schulden und Betriebsrisiken strukturiere ich den passenden Weg vom MVP über eine evolutionäre Weiterentwicklung bis zum kontrollierten Relaunch.'
+          approach: 'Je nach Produktreife, Nutzerproblem, regulatorischem Rahmen, Systemarchitektur, technischen Schulden und Betriebsrisiken strukturiere ich den passenden Weg vom MVP über Pilotierung, evolutionäre Weiterentwicklung und schrittweisen Launch bis zur Skalierung oder zum kontrollierten Relaunch.'
         }
       ]
     },
@@ -429,9 +427,24 @@ const translations = {
       approachSummary: 'Approach',
       items: [
         {
-          title: 'Develop and scale complex software, hardware and process products',
-          text: 'I develop and scale complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy systems across EMS, HEMS, smart metering, storage, flexibility and intelligent control. I connect domain requirements with hardware, embedded software, cloud platforms and data.',
-          environments: ['EMS & HEMS', 'Smart metering', 'Solar & storage', 'EV charging & heat pumps', 'Flexibility & control', 'Operational management software', 'Asset operations', 'Monitoring & reporting', 'Control rooms', 'Embedded systems, IoT & cloud'],
+          title: 'Develop, scale and modernise complex software, hardware and process products',
+          text: 'I build complex B2B and B2B2C products spanning software, hardware, process and data, scale them, and modernise existing systems, keeping business objectives, technical feasibility and existing technical debt in view. This is proven most deeply in regulated energy systems across EMS, HEMS, smart metering, storage, flexibility and intelligent control.',
+          environments: [
+            'EMS & HEMS',
+            'Smart metering',
+            'Solar & storage',
+            'EV charging & heat pumps',
+            'Flexibility & control',
+            'Operational management software',
+            'Asset operations',
+            'Monitoring & reporting',
+            'Control rooms',
+            'Service & maintenance',
+            'Performance analytics',
+            'CRM & process platforms',
+            'IoT & data products',
+            'Embedded systems, IoT & cloud'
+          ],
           points: [
             'Develop product strategies and roadmaps for complex products',
             'Structure user, market, regulatory and technical requirements',
@@ -439,24 +452,7 @@ const translations = {
             'Connect hardware, embedded software, IoT, cloud and data',
             'Orchestrate discovery, engineering, testing, certification and rollout',
             'Make decisions based on user value, business impact and technical feasibility',
-            'Build scalable solutions for solar, storage, EV charging, heat pumps and smart metering'
-          ],
-          approach: 'Depending on product maturity, the user problem, the regulatory context and the technical starting point, I structure the path from MVP and piloting through an incremental launch to scaling or a controlled relaunch.'
-        },
-        {
-          title: 'Build and modernise B2B SaaS and platform products',
-          text: 'I modernise complex B2B SaaS, IoT, data and operational platforms around user needs while keeping business objectives, technical feasibility, ongoing operations and existing technical debt in view.',
-          environments: [
-            'Operational software',
-            'Asset operations',
-            'Monitoring & reporting',
-            'Control rooms',
-            'Service & maintenance',
-            'Performance analytics',
-            'CRM & process platforms',
-            'IoT & data products'
-          ],
-          points: [
+            'Build scalable solutions for solar, storage, EV charging, heat pumps and smart metering',
             'Analyse user problems, business processes and system landscapes',
             'Develop product vision, target state and modernisation roadmap',
             'Prioritise user value, business objectives, technical requirements and debt',
@@ -466,7 +462,7 @@ const translations = {
             'Define OKRs, milestones, success criteria and decision points',
             'Plan migrations, integrations, quality assurance and rollouts'
           ],
-          approach: 'Depending on the user problem, business objective, system architecture, technical debt and operational risk, I structure an appropriate path from MVP delivery and evolutionary development to a controlled relaunch.'
+          approach: 'Depending on product maturity, the user problem, the regulatory context, system architecture, technical debt and operational risk, I structure the path from MVP and piloting, evolutionary development and an incremental launch to scaling or a controlled relaunch.'
         }
       ]
     },
