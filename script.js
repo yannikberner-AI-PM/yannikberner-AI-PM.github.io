@@ -121,7 +121,7 @@ const translations = {
         },
         {
           title: 'Produktmanagement',
-          items: ['Produktstrategie', 'Roadmaps', 'Product Discovery', 'Anforderungsmanagement & User Stories', 'Akzeptanzkriterien', 'MVP & MMP', 'Make / Partner / Buy', 'Priorisierung', 'KPIs & Outcomes']
+          items: ['Produktstrategie', 'Roadmaps', 'Product Discovery', 'Anforderungsmanagement & User Stories', 'Akzeptanzkriterien', 'MVP & MMP', 'Make / Partner / Buy', 'Priorisierung', 'KPIs & Outcomes', 'Prozessoptimierung']
         },
         {
           title: 'Zusammenarbeit',
@@ -197,7 +197,8 @@ const translations = {
           'Reihenfolge für die Integration von PV, Batteriespeicher, Wallboxen, Wärmepumpen, Smart Metering und intelligenter Steuerung in eine gemeinsame Plattform priorisiert, statt alle Gerätetypen gleichzeitig anzugehen.',
           'Testumfang für Labor-, System- und Integrationstests je Gerät, Schnittstelle und Steuerungslogik so strukturiert, dass Integrationsrisiken vor dem Rollout sichtbar wurden.',
           'Roadmap-Priorität zwischen neuen Produktvarianten, Partnerintegrationen und bestehender Plattformstabilität abgewogen, mit Strangler-Ansatz statt Rewrite.',
-          'Entschieden, prognosebasierte Lade- und Steuerungslogik (PV-, Preis- und Lastprognosen) in die bestehende HEMS-Logik zu integrieren statt eine separate Steuerungsschicht aufzubauen.'
+          'Entschieden, prognosebasierte Lade- und Steuerungslogik (PV-, Preis- und Lastprognosen) in die bestehende HEMS-Logik zu integrieren statt eine separate Steuerungsschicht aufzubauen.',
+          'Onboarding-Workflow für neue Geräte und Partnerintegrationen standardisiert, um Integrationszeit für künftige Gerätetypen zu verkürzen.'
         ],
         tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs', 'Prognosedaten'],
         result: 'Ergebnis: Skalierbare HEMS-Produktmodelle für mehr als 20.000 vernetzte Energiesysteme.',
@@ -221,7 +222,7 @@ const translations = {
         contributions: [
           'Entschieden, die internationale B2B-IoT-Plattform zuerst an einem fokussierten MVP zu validieren, bevor Monitoring, Analytics und vorbeugende Wartung zum vollen Produktumfang ausgebaut wurden.',
           'Integrationsreihenfolge von IoT-Geräten, ERP-Funktionen, REST-APIs und Data-Lake-Komponenten nach Abhängigkeit und MVP-Nutzen priorisiert.',
-          'Fragmentierte Wartungs- und Serviceprozesse bewertet und in ein priorisiertes Set an Produktfähigkeiten übersetzt, statt jede Einzelanforderung direkt umzusetzen.',
+          'Service- und Nachschubrouten für Geräte und Verbrauchsgüter datenbasiert optimiert, statt Techniker pauschal nach festen Touren einzusetzen.',
           'Release- und Rollout-Reihenfolge über mehrere Länder anhand von Nutzungs- und Kundendaten priorisiert, um Kapazität zuerst auf die wirkungsvollsten Märkte zu lenken.',
           'Entschieden, Reliability-Daten aus Hardware-Monitoring für vorausschauende Wartung und Ausfallprognosen zu nutzen statt auf rein reaktiven Support zu setzen.'
         ],
@@ -507,7 +508,7 @@ const translations = {
         },
         {
           title: 'Product Management',
-          items: ['Product strategy', 'Roadmaps', 'Product discovery', 'Requirements & user stories', 'Acceptance criteria', 'MVP & MMP', 'Make / Partner / Buy', 'Prioritisation', 'KPIs & outcomes']
+          items: ['Product strategy', 'Roadmaps', 'Product discovery', 'Requirements & user stories', 'Acceptance criteria', 'MVP & MMP', 'Make / Partner / Buy', 'Prioritisation', 'KPIs & outcomes', 'Process optimisation']
         },
         {
           title: 'Collaboration',
@@ -583,7 +584,8 @@ const translations = {
           'Prioritised the integration sequence for PV, battery storage, EV chargers, heat pumps, smart metering and intelligent control into one platform, rather than tackling every device type at once.',
           'Structured the scope of laboratory, system and integration testing per device, interface and control logic so integration risk surfaced before rollout.',
           'Weighed roadmap priority between new product variants, partner integrations and existing platform stability, choosing a strangler approach over a rewrite.',
-          'Decided to integrate forecast-based charging and control logic (solar, price and load forecasts) into the existing HEMS logic rather than building a separate control layer.'
+          'Decided to integrate forecast-based charging and control logic (solar, price and load forecasts) into the existing HEMS logic rather than building a separate control layer.',
+          'Standardised the onboarding workflow for new devices and partner integrations, to shorten integration time for future device types.'
         ],
         tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs', 'Forecast Data'],
         result: 'Outcome: Scalable HEMS product models for more than 20,000 connected energy systems.',
@@ -607,7 +609,7 @@ const translations = {
         contributions: [
           'Decided to validate the international B2B IoT platform with a focused MVP first, before expanding monitoring, analytics and preventive maintenance into the full product scope.',
           'Prioritised the integration sequence for IoT devices, ERP capabilities, REST APIs and data lake components by dependency and MVP value.',
-          'Assessed fragmented maintenance and service processes and translated them into a prioritised set of product capabilities, rather than building every individual request directly.',
+          'Optimised service and replenishment routes for devices and consumables using data, rather than assigning technicians to fixed round-based schedules.',
           'Prioritised release and rollout sequencing across markets using usage and customer data, to direct capacity to the highest-impact markets first.',
           'Decided to use reliability data from hardware monitoring for predictive maintenance and failure forecasting rather than relying on purely reactive support.'
         ],
