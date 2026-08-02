@@ -1,9 +1,9 @@
 const translations = {
   de: {
     skipLink: 'Zum Inhalt springen',
-    documentTitle: 'Yannik Berner | Senior Product Manager · Energy Systems, Regulated Markets',
-    metaDescription: 'Senior Product Manager für Energieprodukte in regulierten Märkten: Product-Market-Fit finden und bewahren für komplexe Systeme aus Prozessen, Hardware und Software, von Discovery bis Rollout.',
-    socialDescription: 'Senior Product Manager für Energieprodukte in regulierten Märkten: Product-Market-Fit für komplexe Systeme aus Prozessen, Hardware und Software.',
+    documentTitle: 'Yannik Berner | Senior Product Manager · Complex Software & Hardware Products',
+    metaDescription: 'Senior Product Manager für komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten: Product-Market-Fit finden und bewahren, von Discovery bis Rollout.',
+    socialDescription: 'Senior Product Manager für komplexe Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten.',
     nav: {
       value: 'Mehrwert',
       about: 'Über mich',
@@ -19,9 +19,9 @@ const translations = {
       eyebrow: 'SENIOR PRODUCT MANAGER',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
-      title: 'Energieprodukte in regulierten Märkten',
-      intro: 'Als Product Manager für Energieprodukte in regulierten Märkten finde und bewahre ich Product-Market-Fit für komplexe Systeme aus Prozessen, Hardware und Software, von Discovery und Zielbild bis Rollout und Skalierung.',
-      introMobile: 'Für Energieprodukte in regulierten Märkten finde und bewahre ich Product-Market-Fit, von Discovery bis Rollout.',
+      title: 'Komplexe Produkte aus Software, Hardware und Prozessen',
+      intro: 'Als Product Manager finde und bewahre ich Product-Market-Fit für komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten, von Discovery und Zielbild bis Rollout und Skalierung.',
+      introMobile: 'Ich finde und bewahre Product-Market-Fit für komplexe Produkte aus Software, Hardware und Prozessen, von Discovery bis Rollout.',
       ctaPrimary: 'Mehrwert ansehen',
       ctaSecondary: 'Kontakt aufnehmen',
       portraitAria: 'Porträt von Yannik Berner',
@@ -42,11 +42,11 @@ const translations = {
       approachSummary: 'Vorgehen',
       items: [
         {
-          title: 'Vernetzte Energieprodukte entwickeln und skalieren',
-          text: 'Digitale Energieprodukte rund um EMS, HEMS, Smart Metering, Speicher, Flexibilität und intelligente Steuerung entwickle und skaliere ich. Dabei verbinde ich energiewirtschaftliche Anforderungen mit Hardware, Embedded Software, Cloud-Plattformen und Daten.',
+          title: 'Komplexe Produkte aus Software, Hardware und Prozessen entwickeln und skalieren',
+          text: 'Komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten entwickle und skaliere ich, am tiefsten bewährt in regulierten Energiesystemen rund um EMS, HEMS, Smart Metering, Speicher, Flexibilität und intelligente Steuerung. Dabei verbinde ich fachliche Anforderungen mit Hardware, Embedded Software, Cloud-Plattformen und Daten.',
           environments: ['EMS & HEMS', 'Smart Metering', 'PV & Speicher', 'Wallboxen & Wärmepumpen', 'Flexibilität & Steuerung', 'Betriebsführungssoftware', 'Asset Operations', 'Monitoring & Reporting', 'Leitwarte', 'Embedded-Systeme, IoT & Cloud'],
           points: [
-            'Produktstrategie und Roadmaps für komplexe Energiesysteme entwickeln',
+            'Produktstrategie und Roadmaps für komplexe Produkte entwickeln',
             'Nutzer-, Markt-, Regulierungs- und Technologieanforderungen strukturieren',
             'Produktvarianten, Integrationen und Partnerlösungen priorisieren',
             'Hardware, Embedded Software, IoT, Cloud und Daten zusammenführen',
@@ -345,12 +345,12 @@ const translations = {
     contact: {
       eyebrow: 'Kontakt',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Offen für Senior- und Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in Deutschland, mit Fokus auf Energieprodukte in regulierten Märkten und komplexe Systeme aus Prozessen, Hardware und Software.',
+      text: 'Offen für Senior- und Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in Deutschland, mit Fokus auf komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'LinkedIn-Profil in einem neuen Tab öffnen'
     },
     footer: {
-      text: '© Yannik Berner. Senior Product Management für Energieprodukte in regulierten Märkten.',
+      text: '© Yannik Berner. Senior Product Management für komplexe Produkte aus Software, Hardware und Prozessen.',
       privacy: 'Datenschutz',
       backToTop: 'Zum Anfang'
     },
@@ -388,9 +388,9 @@ const translations = {
   },
   en: {
     skipLink: 'Skip to content',
-    documentTitle: 'Yannik Berner | Senior Product Manager · Energy Systems, Regulated Markets',
-    metaDescription: 'Senior Product Manager for energy products in highly regulated markets: finding and protecting product-market fit for complex systems spanning processes, hardware and software, from discovery to rollout.',
-    socialDescription: 'Senior Product Manager for energy products in highly regulated markets: product-market fit for complex systems spanning processes, hardware and software.',
+    documentTitle: 'Yannik Berner | Senior Product Manager · Complex Software & Hardware Products',
+    metaDescription: 'Senior Product Manager for complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy markets: finding and protecting product-market fit, from discovery to rollout.',
+    socialDescription: 'Senior Product Manager for complex products spanning software, hardware, process and data, proven most deeply in regulated energy markets.',
     nav: {
       value: 'Value',
       about: 'About',
@@ -406,9 +406,9 @@ const translations = {
       eyebrow: 'SENIOR PRODUCT MANAGER',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
-      title: 'Energy products in highly regulated markets',
-      intro: 'As a Product Manager for energy products in highly regulated markets, I find and protect product-market fit for complex systems spanning processes, hardware and software, from discovery and target state through rollout and scaling.',
-      introMobile: 'For energy products in highly regulated markets, I find and protect product-market fit, from discovery through rollout.',
+      title: 'Complex products spanning software, hardware and process',
+      intro: 'As a Product Manager, I find and protect product-market fit for complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy markets, from discovery and target state through rollout and scaling.',
+      introMobile: 'I find and protect product-market fit for complex products spanning software, hardware and process, from discovery through rollout.',
       ctaPrimary: 'See value delivered',
       ctaSecondary: 'Get in touch',
       portraitAria: 'Portrait of Yannik Berner',
@@ -429,11 +429,11 @@ const translations = {
       approachSummary: 'Approach',
       items: [
         {
-          title: 'Develop and scale connected energy products',
-          text: 'I develop and scale digital energy products across EMS, HEMS, smart metering, storage, flexibility and intelligent control. I connect energy-market requirements with hardware, embedded software, cloud platforms and data.',
+          title: 'Develop and scale complex software, hardware and process products',
+          text: 'I develop and scale complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy systems across EMS, HEMS, smart metering, storage, flexibility and intelligent control. I connect domain requirements with hardware, embedded software, cloud platforms and data.',
           environments: ['EMS & HEMS', 'Smart metering', 'Solar & storage', 'EV charging & heat pumps', 'Flexibility & control', 'Operational management software', 'Asset operations', 'Monitoring & reporting', 'Control rooms', 'Embedded systems, IoT & cloud'],
           points: [
-            'Develop product strategies and roadmaps for complex energy systems',
+            'Develop product strategies and roadmaps for complex products',
             'Structure user, market, regulatory and technical requirements',
             'Prioritise product variants, integrations and partner solutions',
             'Connect hardware, embedded software, IoT, cloud and data',
@@ -732,12 +732,12 @@ const translations = {
     contact: {
       eyebrow: 'Contact',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Open to senior and mid-senior product roles in Berlin, hybrid or remote across Germany, with a focus on energy products in regulated markets and complex systems spanning processes, hardware and software.',
+      text: 'Open to senior and mid-senior product roles in Berlin, hybrid or remote across Germany, with a focus on complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy markets.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'Open LinkedIn profile in a new tab'
     },
     footer: {
-      text: '© Yannik Berner. Senior product management for energy products in regulated markets.',
+      text: '© Yannik Berner. Senior product management for complex products spanning software, hardware and process.',
       privacy: 'Privacy',
       backToTop: 'Back to top'
     },
