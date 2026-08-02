@@ -1011,7 +1011,16 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   document.querySelectorAll('.details-toggle').forEach((button) => {
+    let capturedScrollY = null;
+
+    button.addEventListener('pointerdown', () => {
+      capturedScrollY = window.scrollY;
+    });
+
     button.addEventListener('click', () => {
+      const scrollY = capturedScrollY !== null ? capturedScrollY : window.scrollY;
+      capturedScrollY = null;
+
       const expanded = button.getAttribute('aria-expanded') === 'true';
       const targetId = button.getAttribute('aria-controls');
       const target = targetId ? document.getElementById(targetId) : null;
@@ -1023,6 +1032,9 @@ document.addEventListener('DOMContentLoaded', () => {
       if (target) {
         target.hidden = expanded;
       }
+
+      window.scrollTo(0, scrollY);
+      requestAnimationFrame(() => window.scrollTo(0, scrollY));
     });
   });
 
