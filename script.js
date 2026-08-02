@@ -1,9 +1,9 @@
 const translations = {
   de: {
     skipLink: 'Zum Inhalt springen',
-    documentTitle: 'Yannik Berner | Senior Product Manager · Energy & Product Modernization',
-    metaDescription: 'Senior Product Manager für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung: von Discovery und Zielbild bis Migration und Rollout.',
-    socialDescription: 'Senior Product Manager für vernetzte Energieprodukte, B2B SaaS und Software-Produktmodernisierung.',
+    documentTitle: 'Yannik Berner | Senior Product Manager · Complex Software & Hardware Products',
+    metaDescription: 'Senior Product Manager für komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten: Product-Market-Fit finden und bewahren, von Discovery bis Rollout.',
+    socialDescription: 'Senior Product Manager für komplexe Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten.',
     nav: {
       value: 'Mehrwert',
       about: 'Über mich',
@@ -19,9 +19,9 @@ const translations = {
       eyebrow: 'SENIOR PRODUCT MANAGER',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
-      title: 'Vernetzte Energieprodukte & Software-Produktmodernisierung',
-      intro: 'Komplexe Energie-, SaaS- und Plattformprodukte führe ich von Discovery und Zielbild bis Delivery, Migration und Rollout, an der Schnittstelle von Nutzern, Business und Technologie.',
-      introMobile: 'Energie-, SaaS- und Plattformprodukte führe ich von Discovery und Zielbild bis Migration und Rollout.',
+      title: 'Komplexe Produkte aus Software, Hardware und Prozessen',
+      intro: 'Als Product Manager finde und bewahre ich Product-Market-Fit für komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten, von Discovery und Zielbild bis Rollout und Skalierung.',
+      introMobile: 'Ich finde und bewahre Product-Market-Fit für komplexe Produkte aus Software, Hardware und Prozessen, von Discovery bis Rollout.',
       ctaPrimary: 'Mehrwert ansehen',
       ctaSecondary: 'Kontakt aufnehmen',
       portraitAria: 'Porträt von Yannik Berner',
@@ -42,24 +42,14 @@ const translations = {
       approachSummary: 'Vorgehen',
       items: [
         {
-          title: 'Vernetzte Energieprodukte entwickeln und skalieren',
-          text: 'Digitale Energieprodukte rund um EMS, HEMS, Smart Metering, Speicher, Flexibilität und intelligente Steuerung entwickle und skaliere ich. Dabei verbinde ich energiewirtschaftliche Anforderungen mit Hardware, Embedded Software, Cloud-Plattformen und Daten.',
-          environments: ['EMS & HEMS', 'Smart Metering', 'PV & Speicher', 'Wallboxen & Wärmepumpen', 'Flexibilität & Steuerung', 'Betriebsführungssoftware', 'Asset Operations', 'Monitoring & Reporting', 'Leitwarte', 'Embedded-Systeme, IoT & Cloud'],
-          points: [
-            'Produktstrategie und Roadmaps für komplexe Energiesysteme entwickeln',
-            'Nutzer-, Markt-, Regulierungs- und Technologieanforderungen strukturieren',
-            'Produktvarianten, Integrationen und Partnerlösungen priorisieren',
-            'Hardware, Embedded Software, IoT, Cloud und Daten zusammenführen',
-            'Discovery, Engineering, Testing, Zertifizierung und Rollout orchestrieren',
-            'Entscheidungen anhand von Nutzerwert, Business Impact und technischer Machbarkeit treffen',
-            'Skalierbare Lösungen für PV, Speicher, Wallboxen, Wärmepumpen und Smart Metering entwickeln'
-          ],
-          approach: 'Je nach Produktreife, Nutzerproblem, regulatorischem Rahmen und technischer Ausgangslage strukturiere ich den passenden Weg vom MVP über Pilotierung und schrittweisen Launch bis zur Skalierung oder zum kontrollierten Relaunch.'
-        },
-        {
-          title: 'B2B-SaaS- und Plattformprodukte aufbauen und modernisieren',
-          text: 'Komplexe B2B-SaaS-, IoT-, Daten- und Betriebsplattformen modernisiere ich nutzerzentriert und mit klarem Blick auf Business-Ziele, technische Machbarkeit, laufende Geschäftsprozesse und bestehende technische Schulden.',
+          title: 'Komplexe Produkte aus Software, Hardware und Prozessen entwickeln, skalieren und modernisieren',
+          text: 'Komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten baue ich neu auf, skaliere sie und modernisiere bestehende Systeme, mit klarem Blick auf Business-Ziele, technische Machbarkeit und bestehende technische Schulden. Am tiefsten bewährt ist das in regulierten Energiesystemen rund um EMS, HEMS, Smart Metering, Speicher, Flexibilität und intelligente Steuerung.',
           environments: [
+            'EMS & HEMS',
+            'Smart Metering',
+            'PV & Speicher',
+            'Wallboxen & Wärmepumpen',
+            'Flexibilität & Steuerung',
             'Betriebsführungssoftware',
             'Asset Operations',
             'Monitoring & Reporting',
@@ -67,9 +57,17 @@ const translations = {
             'Service & Wartung',
             'Performance Analytics',
             'CRM- & Prozessplattformen',
-            'IoT- & Datenprodukte'
+            'IoT- & Datenprodukte',
+            'Embedded-Systeme, IoT & Cloud'
           ],
           points: [
+            'Produktstrategie und Roadmaps für komplexe Produkte entwickeln',
+            'Nutzer-, Markt-, Regulierungs- und Technologieanforderungen strukturieren',
+            'Produktvarianten, Integrationen und Partnerlösungen priorisieren',
+            'Hardware, Embedded Software, IoT, Cloud und Daten zusammenführen',
+            'Discovery, Engineering, Testing, Zertifizierung und Rollout orchestrieren',
+            'Entscheidungen anhand von Nutzerwert, Business Impact und technischer Machbarkeit treffen',
+            'Skalierbare Lösungen für PV, Speicher, Wallboxen, Wärmepumpen und Smart Metering entwickeln',
             'Nutzerprobleme, Geschäftsprozesse und Systemlandschaften analysieren',
             'Produktvision, Zielbild und Modernisierungsroadmap entwickeln',
             'Nutzerwert, Business-Ziele, technische Anforderungen und Schulden priorisieren',
@@ -79,7 +77,7 @@ const translations = {
             'OKRs, Meilensteine, Erfolgskriterien und Entscheidungszeitpunkte definieren',
             'Migrationen, Schnittstellen, Qualitätssicherung und Rollouts planen'
           ],
-          approach: 'Je nach Nutzerproblem, Business-Ziel, Systemarchitektur, technischen Schulden und Betriebsrisiken strukturiere ich den passenden Weg vom MVP über eine evolutionäre Weiterentwicklung bis zum kontrollierten Relaunch.'
+          approach: 'Je nach Produktreife, Nutzerproblem, regulatorischem Rahmen, Systemarchitektur, technischen Schulden und Betriebsrisiken strukturiere ich den passenden Weg vom MVP über Pilotierung, evolutionäre Weiterentwicklung und schrittweisen Launch bis zur Skalierung oder zum kontrollierten Relaunch.'
         }
       ]
     },
@@ -92,7 +90,7 @@ const translations = {
         'ÜBERSETZEN.'
       ],
       p1: 'An der Schnittstelle von Geschäftsmodell, Technologie, Regulatorik und Betrieb arbeite ich. Meine Karriere spannt Start-ups, internationale Konzerne und Energie-, IoT-, Daten- und CRM-Produktlandschaften zusammen.',
-      p2: 'Strategisches Produktdenken kombiniere ich mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen Teams Struktur, Priorisierung und eine gemeinsame Produktrichtung brauchen.',
+      p2: 'Strategisches Produktdenken kombiniere ich mit technischem Verständnis und pragmatischer Umsetzung. Besonders wirksam bin ich in unklaren Umfeldern, in denen ich komplizierte Zusammenhänge durchdringe, Menschen auf eine gemeinsame Produktrichtung einschwöre und zielgerichtet zur Umsetzung bringe.',
       p3: 'Ein wiederkehrendes Thema in meiner Arbeit ist die Nutzung von Reliability- und Prognosedaten für Produkt- und Investitionsentscheidungen: von Leistungskurven-Analysen über prognosebasierte Steuerungslogik bis zu Reliability-Daten aus Hardware-Monitoring.'
     },
     capabilities: {
@@ -101,7 +99,7 @@ const translations = {
       items: [
         { title: 'Produkt- & Plattformstrategie', text: 'Produktvision, Zielbild, Discovery, Roadmaps und Business Cases.' },
         { title: 'Modernisierung & Migration', text: 'Technische Schulden, Schnittstellen, Betriebsrisiken und kontrollierte Übergänge strukturieren.' },
-        { title: 'Discovery bis Rollout', text: 'Nutzerprobleme in priorisierte Produktinkremente, Releases und Rollouts übersetzen.' },
+        { title: 'Discovery bis Rollout', text: 'Nutzerprobleme in priorisierte Produktinkremente, Releases und Rollouts übersetzen, konsistent über Mobile, Tablet und Desktop hinweg.' },
         { title: 'Business-IT-Alignment', text: 'Nutzer, Management, Operations, Engineering und Architektur auf Entscheidungen ausrichten.' },
         { title: 'Outcome- & KPI-Steuerung', text: 'Erfolgskriterien, Prioritäten und Entscheidungen an Nutzerwert und Business Impact ausrichten.' },
         { title: 'Energie-, IoT- & Datenprodukte', text: 'Hardware, Embedded-Systeme, Cloud, APIs, Daten und Regulatorik produktseitig verbinden.' }
@@ -121,7 +119,7 @@ const translations = {
         },
         {
           title: 'Produktmanagement',
-          items: ['Produktstrategie', 'Roadmaps', 'Product Discovery', 'Anforderungsmanagement & User Stories', 'Akzeptanzkriterien', 'MVP & MMP', 'Make / Partner / Buy', 'Priorisierung', 'KPIs & Outcomes']
+          items: ['Produktstrategie', 'Roadmaps', 'Product Discovery', 'Anforderungsmanagement & User Stories', 'Akzeptanzkriterien', 'MVP & MMP', 'Make / Partner / Buy', 'Priorisierung', 'KPIs & Outcomes', 'Prozessoptimierung', 'Mobile/Tablet/Desktop']
         },
         {
           title: 'Zusammenarbeit',
@@ -168,10 +166,10 @@ const translations = {
         mediaAriaLabel: 'Collage zu den Digitalisierungsprojekten bei ENERTRAG',
         mediaLinkLabel: 'ENERTRAG-Website in einem neuen Tab öffnen',
         contributions: [
-          'Modernisierungsroadmap für PowerSystem begonnen und erste Zielbilder für Produktumfang und zukünftige Teamstruktur entwickelt.',
-          'Anforderungen aus technischer Betriebsführung, IT, OT und Architektur strukturiert sowie Anbieter und Lösungsoptionen analysiert.',
-          'Datenprodukt zur Leistungskurven-Analyse mit französischen Stakeholdern entwickelt und umgesetzt, seither dort im Einsatz; eine belastbare Reliability-Engineering-Datengrundlage für Investitionsentscheidungen war in Abstimmung und Vorbereitung.',
-          'Priorisierte nächste Schritte, Entscheidungsvorlagen sowie Anforderungen für resilienten Leitwartenbetrieb und Business Continuity entwickelt.'
+          'PowerSystem-Modernisierung modular statt als Big-Bang-Vorhaben aufgesetzt, um trotz wechselnder Priorität schrittweise nutzbare Zielbilder für Produktumfang und Teamstruktur zu liefern.',
+          'Anbieter- und Lösungsoptionen für die technische Betriebsführung bewertet, um eine Build-vs-Buy-Richtung für IT, OT und Architektur einzugrenzen.',
+          'Trade-off zwischen langfristigem Reliability-Engineering-Aufbau und kurzfristig lieferbarem Nutzen aufgelöst: Datenprodukt zur Leistungskurven-Analyse zuerst mit französischen Stakeholdern ausgeliefert, während die breitere Datengrundlage für Investitionsentscheidungen parallel vorbereitet wurde.',
+          'Nach der internen Priorisierung von Cyber Security, NIS2 und Business Continuity die nächsten Schritte neu geordnet und Entscheidungsvorlagen für resilienten Leitwartenbetrieb vorgezogen.'
         ],
         tags: ['Datenprodukte', 'Reliability Engineering', 'NIS2', 'BCM', 'Governance'],
         result: 'Ergebnis: Datenprodukt zur Leistungskurven-Analyse umgesetzt und in Frankreich im Einsatz, plus erste Zielbilder und Entscheidungsgrundlagen für Betriebssoftware und resiliente Betriebsprozesse.',
@@ -193,11 +191,12 @@ const translations = {
         mediaAriaLabel: 'Collage zum Home Energy Management System bei SENEC',
         mediaLinkLabel: 'SENEC PowerPilot in einem neuen Tab öffnen',
         contributions: [
-          'Produktverantwortung für zwei HEMS-Varianten und mehr als 20.000 vernetzte Energiesysteme übernommen.',
-          'PV, Batteriespeicher, Wallboxen, Wärmepumpen, Smart Metering und intelligente Steuerung in einer Plattform verbunden.',
-          'Labor-, System- und Integrationstests für Geräte, Schnittstellen und Steuerungslogiken strukturiert.',
-          'Produktvarianten, Partnerintegrationen und Roadmaps über Embedded Software, Cloud und Daten priorisiert.',
-          'Prognosebasierte Lade- und Steuerungslogik (PV-, Preis- und Lastprognosen) in die HEMS-Produktlogik integriert.'
+          'Produktverantwortung für zwei HEMS-Varianten mit mehr als 20.000 vernetzten Energiesystemen übernommen und entschieden, welche Varianten parallel weiterliefen und welche schrittweise zusammengeführt wurden.',
+          'Reihenfolge für die Integration von PV, Batteriespeicher, Wallboxen, Wärmepumpen, Smart Metering und intelligenter Steuerung in eine gemeinsame Plattform priorisiert, statt alle Gerätetypen gleichzeitig anzugehen.',
+          'Testumfang für Labor-, System- und Integrationstests je Gerät, Schnittstelle und Steuerungslogik so strukturiert, dass Integrationsrisiken vor dem Rollout sichtbar wurden.',
+          'Roadmap-Priorität zwischen neuen Produktvarianten, Partnerintegrationen und bestehender Plattformstabilität abgewogen, mit Strangler-Ansatz statt Rewrite.',
+          'Entschieden, prognosebasierte Lade- und Steuerungslogik (PV-, Preis- und Lastprognosen) in die bestehende HEMS-Logik zu integrieren statt eine separate Steuerungsschicht aufzubauen.',
+          'Onboarding-Workflow für neue Geräte und Partnerintegrationen standardisiert, um Integrationszeit für künftige Gerätetypen zu verkürzen.'
         ],
         tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs', 'Prognosedaten'],
         result: 'Ergebnis: Skalierbare HEMS-Produktmodelle für mehr als 20.000 vernetzte Energiesysteme.',
@@ -219,11 +218,11 @@ const translations = {
         mediaAriaLabel: 'Collage zur IoT- und Datenplattform soniq IQ',
         mediaLinkLabel: 'Kärcher Connected Cleaning in einem neuen Tab öffnen',
         contributions: [
-          'Internationale B2B-IoT-Plattform für Monitoring, Analytics und vorbeugende Wartung weiterentwickelt.',
-          'IoT-Geräte, ERP-Funktionen, REST-APIs und Data-Lake-Komponenten integriert.',
-          'Digitale Wartungs- und Serviceprozesse in priorisierte Produktfähigkeiten übersetzt.',
-          'Internationale Releases und Rollouts mit datenbasierter Priorisierung und cross-funktionaler Delivery gesteuert.',
-          'Reliability-Daten aus Hardware-Monitoring für vorausschauende Wartung und Ausfallprognosen genutzt.'
+          'Entschieden, die internationale B2B-IoT-Plattform zuerst an einem fokussierten MVP zu validieren, bevor Monitoring, Analytics und vorbeugende Wartung zum vollen Produktumfang ausgebaut wurden.',
+          'Integrationsreihenfolge von IoT-Geräten, ERP-Funktionen, REST-APIs und Data-Lake-Komponenten nach Abhängigkeit und MVP-Nutzen priorisiert.',
+          'Service- und Nachschubrouten für Geräte und Verbrauchsgüter datenbasiert optimiert, statt Techniker pauschal nach festen Touren einzusetzen.',
+          'Release- und Rollout-Reihenfolge über mehrere Länder anhand von Nutzungs- und Kundendaten priorisiert, um Kapazität zuerst auf die wirkungsvollsten Märkte zu lenken.',
+          'Entschieden, Reliability-Daten aus Hardware-Monitoring für vorausschauende Wartung und Ausfallprognosen zu nutzen statt auf rein reaktiven Support zu setzen.'
         ],
         tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms', 'Predictive Maintenance'],
         result: 'Ergebnis: Kundenzufriedenheit um 60 % gesteigert und Supportaufwand um 50 % gesenkt, durch datenbasierte Serviceverbesserungen.',
@@ -244,11 +243,11 @@ const translations = {
         imageAlt: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         mediaAriaLabel: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         contributions: [
-          'Managed-Hosting-Infrastruktur zu AWS migriert und als skalierbare Grundlage für den internationalen Rollout etabliert.',
-          'Cloudbasierte CRM- und Serviceplattform über mehr als sechs europäische Märkte ausgerollt.',
-          'Markt- und Serviceprozesse harmonisiert und in technische Spezifikationen übersetzt.',
-          'Skalierbare Salesforce- und API-Integrationen mit Produktentwicklung und Architektur abgestimmt.',
-          'Releases und Rollouts mit Scrum, OKRs und CI/CD-orientierten Abläufen gesteuert.'
+          'Entschieden, die Managed-Hosting-Infrastruktur vor dem internationalen Rollout zu AWS zu migrieren, um erst danach auf einer skalierbaren Grundlage weiter auszurollen.',
+          'Rollout-Reihenfolge über mehr als sechs europäische Märkte so priorisiert, dass jeder Markt kontrolliert statt gleichzeitig auf die neue Plattform wechselte.',
+          'Unterschiedliche Markt- und Serviceprozesse auf einen gemeinsamen Nenner gebracht und in technische Spezifikationen übersetzt, statt marktspezifische Sonderlösungen zu bauen.',
+          'Umfang skalierbarer Salesforce- und API-Integrationen mit Produktentwicklung und Architektur abgestimmt und gegen individuelle Marktanforderungen abgewogen.',
+          'Release-Taktung mit Scrum, OKRs und CI/CD-orientierten Abläufen gesteuert, um Fortschritt über mehrere Märkte vergleichbar zu machen.'
         ],
         tags: ['Salesforce', 'AWS', 'APIs', 'CRM', 'CI/CD', 'Scrum'],
         result: 'Ergebnis: Einheitlichere digitale Prozesse über mehrere Märkte hinweg.',
@@ -270,10 +269,10 @@ const translations = {
         mediaAriaLabel: 'Collage zur Energie- und Tarifplattform von remind.me',
         mediaLinkLabel: 'remind.me-Website in einem neuen Tab öffnen',
         contributions: [
-          'Digitale Energieplattform für rund 100.000 aktive Kund:innen skaliert.',
-          'Kunden-, Tarifwechsel- und Serviceprozesse automatisiert und produktseitig weiterentwickelt.',
-          'Datenbasierte Priorisierung für Produkt, CRM, Kundenbindung und Akquise etabliert.',
-          '98 Prozent erfolgreiche Tarifwechsel mit mehr als 20 Mio. Euro kumulierter Kundenersparnis unterstützt.'
+          'Entschieden, die digitale Energieplattform datenbasiert statt anhand von Annahmen weiterzuentwickeln, und darüber auf rund 100.000 aktive Kund:innen skaliert.',
+          'Automatisierungsgrad für Kunden-, Tarifwechsel- und Serviceprozesse schrittweise erhöht, priorisiert nach Erfolgsquote, Kundennutzen und operativer Effizienz.',
+          'Priorisierung für Produkt, CRM, Kundenbindung und Akquise auf Nutzungs- und Conversion-Daten statt auf Bauchgefühl gestellt.',
+          'Automatisierte Prozesse so optimiert, dass 98 Prozent der Tarifwechsel erfolgreich abgeschlossen wurden und sich über 20 Mio. Euro Kundenersparnis kumulierten.'
         ],
         tags: ['B2C Platform', 'Process Automation', 'CRM', 'Kanban'],
         result: 'Ergebnis: Rund 100.000 aktive Kund:innen, 98 Prozent erfolgreiche Tarifwechsel und mehr als 20 Mio. Euro Kundenersparnis.',
@@ -344,12 +343,12 @@ const translations = {
     contact: {
       eyebrow: 'Kontakt',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Offen für Senior- und Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in Deutschland, mit Fokus auf Energy Systems, B2B SaaS und Product Modernization.',
+      text: 'Offen für Senior- und Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in Deutschland, mit Fokus auf komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'LinkedIn-Profil in einem neuen Tab öffnen'
     },
     footer: {
-      text: '© Yannik Berner. Senior Product Management für Energy & Product Modernization.',
+      text: '© Yannik Berner. Senior Product Management für komplexe Produkte aus Software, Hardware und Prozessen.',
       privacy: 'Datenschutz',
       backToTop: 'Zum Anfang'
     },
@@ -387,9 +386,9 @@ const translations = {
   },
   en: {
     skipLink: 'Skip to content',
-    documentTitle: 'Yannik Berner | Senior Product Manager · Energy & Product Modernization',
-    metaDescription: 'Senior Product Manager for connected energy products, B2B SaaS and software product modernisation: from discovery and target state to migration and rollout.',
-    socialDescription: 'Senior Product Manager for connected energy products, B2B SaaS and software product modernisation.',
+    documentTitle: 'Yannik Berner | Senior Product Manager · Complex Software & Hardware Products',
+    metaDescription: 'Senior Product Manager for complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy markets: finding and protecting product-market fit, from discovery to rollout.',
+    socialDescription: 'Senior Product Manager for complex products spanning software, hardware, process and data, proven most deeply in regulated energy markets.',
     nav: {
       value: 'Value',
       about: 'About',
@@ -405,9 +404,9 @@ const translations = {
       eyebrow: 'SENIOR PRODUCT MANAGER',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
-      title: 'Connected Energy & Software Product Modernization',
-      intro: 'I lead complex energy, SaaS and platform products from discovery and target state through delivery, migration and rollout, connecting users, business and technology.',
-      introMobile: 'I lead energy, SaaS and platform products from discovery and target state through migration and rollout.',
+      title: 'Complex products spanning software, hardware and process',
+      intro: 'As a Product Manager, I find and protect product-market fit for complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy markets, from discovery and target state through rollout and scaling.',
+      introMobile: 'I find and protect product-market fit for complex products spanning software, hardware and process, from discovery through rollout.',
       ctaPrimary: 'See value delivered',
       ctaSecondary: 'Get in touch',
       portraitAria: 'Portrait of Yannik Berner',
@@ -428,34 +427,32 @@ const translations = {
       approachSummary: 'Approach',
       items: [
         {
-          title: 'Develop and scale connected energy products',
-          text: 'I develop and scale digital energy products across EMS, HEMS, smart metering, storage, flexibility and intelligent control. I connect energy-market requirements with hardware, embedded software, cloud platforms and data.',
-          environments: ['EMS & HEMS', 'Smart metering', 'Solar & storage', 'EV charging & heat pumps', 'Flexibility & control', 'Operational management software', 'Asset operations', 'Monitoring & reporting', 'Control rooms', 'Embedded systems, IoT & cloud'],
-          points: [
-            'Develop product strategies and roadmaps for complex energy systems',
-            'Structure user, market, regulatory and technical requirements',
-            'Prioritise product variants, integrations and partner solutions',
-            'Connect hardware, embedded software, IoT, cloud and data',
-            'Orchestrate discovery, engineering, testing, certification and rollout',
-            'Make decisions based on user value, business impact and technical feasibility',
-            'Build scalable solutions for solar, storage, EV charging, heat pumps and smart metering'
-          ],
-          approach: 'Depending on product maturity, the user problem, the regulatory context and the technical starting point, I structure the path from MVP and piloting through an incremental launch to scaling or a controlled relaunch.'
-        },
-        {
-          title: 'Build and modernise B2B SaaS and platform products',
-          text: 'I modernise complex B2B SaaS, IoT, data and operational platforms around user needs while keeping business objectives, technical feasibility, ongoing operations and existing technical debt in view.',
+          title: 'Develop, scale and modernise complex software, hardware and process products',
+          text: 'I build complex B2B and B2B2C products spanning software, hardware, process and data, scale them, and modernise existing systems, keeping business objectives, technical feasibility and existing technical debt in view. This is proven most deeply in regulated energy systems across EMS, HEMS, smart metering, storage, flexibility and intelligent control.',
           environments: [
-            'Operational software',
+            'EMS & HEMS',
+            'Smart metering',
+            'Solar & storage',
+            'EV charging & heat pumps',
+            'Flexibility & control',
+            'Operational management software',
             'Asset operations',
             'Monitoring & reporting',
             'Control rooms',
             'Service & maintenance',
             'Performance analytics',
             'CRM & process platforms',
-            'IoT & data products'
+            'IoT & data products',
+            'Embedded systems, IoT & cloud'
           ],
           points: [
+            'Develop product strategies and roadmaps for complex products',
+            'Structure user, market, regulatory and technical requirements',
+            'Prioritise product variants, integrations and partner solutions',
+            'Connect hardware, embedded software, IoT, cloud and data',
+            'Orchestrate discovery, engineering, testing, certification and rollout',
+            'Make decisions based on user value, business impact and technical feasibility',
+            'Build scalable solutions for solar, storage, EV charging, heat pumps and smart metering',
             'Analyse user problems, business processes and system landscapes',
             'Develop product vision, target state and modernisation roadmap',
             'Prioritise user value, business objectives, technical requirements and debt',
@@ -465,7 +462,7 @@ const translations = {
             'Define OKRs, milestones, success criteria and decision points',
             'Plan migrations, integrations, quality assurance and rollouts'
           ],
-          approach: 'Depending on the user problem, business objective, system architecture, technical debt and operational risk, I structure an appropriate path from MVP delivery and evolutionary development to a controlled relaunch.'
+          approach: 'Depending on product maturity, the user problem, the regulatory context, system architecture, technical debt and operational risk, I structure the path from MVP and piloting, evolutionary development and an incremental launch to scaling or a controlled relaunch.'
         }
       ]
     },
@@ -478,7 +475,7 @@ const translations = {
         'DECISIONS.'
       ],
       p1: 'I work at the intersection of business models, technology, regulation and operations. My career spans start-ups, international corporations and energy, IoT, data and CRM product landscapes.',
-      p2: 'I combine strategic product thinking with technical understanding and pragmatic execution. I am particularly effective in ambiguous environments where teams need structure, prioritisation and a shared product direction.',
+      p2: 'I combine strategic product thinking with technical understanding and pragmatic execution. I am particularly effective in ambiguous environments, where I cut through complicated dependencies, rally people around a shared product direction and drive it through to execution.',
       p3: 'A recurring thread in my work is using reliability and forecast data to inform product and investment decisions: from power curve analysis to forecast-based control logic and reliability data from hardware monitoring.'
     },
     capabilities: {
@@ -487,7 +484,7 @@ const translations = {
       items: [
         { title: 'Product & Platform Strategy', text: 'Product vision, target state, discovery, roadmaps and business cases.' },
         { title: 'Modernisation & Migration', text: 'Structuring technical debt, integrations, operational risks and controlled transitions.' },
-        { title: 'Discovery to Rollout', text: 'Turning user problems into prioritised increments, releases and rollouts.' },
+        { title: 'Discovery to Rollout', text: 'Turning user problems into prioritised increments, releases and rollouts, consistently across mobile, tablet and desktop.' },
         { title: 'Business-IT Alignment', text: 'Aligning users, management, operations, engineering and architecture around decisions.' },
         { title: 'Outcome & KPI Steering', text: 'Linking success criteria, priorities and decisions to user value and business impact.' },
         { title: 'Energy, IoT & Data Products', text: 'Connecting hardware, embedded systems, cloud, APIs, data and regulation from a product perspective.' }
@@ -507,7 +504,7 @@ const translations = {
         },
         {
           title: 'Product Management',
-          items: ['Product strategy', 'Roadmaps', 'Product discovery', 'Requirements & user stories', 'Acceptance criteria', 'MVP & MMP', 'Make / Partner / Buy', 'Prioritisation', 'KPIs & outcomes']
+          items: ['Product strategy', 'Roadmaps', 'Product discovery', 'Requirements & user stories', 'Acceptance criteria', 'MVP & MMP', 'Make / Partner / Buy', 'Prioritisation', 'KPIs & outcomes', 'Process optimisation', 'Mobile/tablet/desktop']
         },
         {
           title: 'Collaboration',
@@ -554,10 +551,10 @@ const translations = {
         mediaAriaLabel: 'Collage of digitalisation projects at ENERTRAG',
         mediaLinkLabel: 'Open the ENERTRAG website in a new tab',
         contributions: [
-          'Started the modernisation roadmap for PowerSystem and developed initial target states for product scope and the future team structure.',
-          'Structured requirements across technical operations, IT, OT and architecture, and assessed vendors and solution options.',
-          'Developed and delivered a power curve analysis data product with French stakeholders, now in use there; a solid reliability-engineering data foundation for investment decisions was being coordinated and prepared.',
-          'Developed prioritised next steps, decision material and requirements for resilient control-room operations and business continuity.'
+          'Structured the PowerSystem modernisation as modular rather than a big-bang effort, so incrementally usable target states for product scope and team structure could ship despite shifting priorities.',
+          'Assessed vendor and solution options for technical operations to narrow down a build-vs-buy direction for IT, OT and architecture.',
+          'Resolved the trade-off between long-term reliability-engineering investment and near-term deliverable value: shipped the power curve analysis data product with French stakeholders first, while the broader data foundation for investment decisions was prepared in parallel.',
+          'After the internal reprioritisation toward cyber security, NIS2 and business continuity, reordered next steps and moved decision material for resilient control-room operations ahead of other modernisation topics.'
         ],
         tags: ['Data Products', 'Reliability Engineering', 'NIS2', 'BCM', 'Governance'],
         result: 'Outcome: Delivered a power curve analysis data product now in use in France, plus initial target states and decision foundations for operational software and resilient operations.',
@@ -579,11 +576,12 @@ const translations = {
         mediaAriaLabel: 'Collage of the Home Energy Management System at SENEC',
         mediaLinkLabel: 'Open SENEC PowerPilot in a new tab',
         contributions: [
-          'Held product responsibility for two HEMS variants and more than 20,000 connected energy systems.',
-          'Connected PV, battery storage, EV chargers, heat pumps, smart metering and intelligent control in one platform.',
-          'Structured laboratory, system and integration testing for devices, interfaces and control logic.',
-          'Prioritised product variants, partner integrations and roadmaps across embedded software, cloud and data.',
-          'Integrated forecast-based charging and control logic (solar, price and load forecasts) into the HEMS product logic.'
+          'Held product responsibility for two HEMS variants with more than 20,000 connected energy systems and decided which variants continued running in parallel versus which were gradually consolidated.',
+          'Prioritised the integration sequence for PV, battery storage, EV chargers, heat pumps, smart metering and intelligent control into one platform, rather than tackling every device type at once.',
+          'Structured the scope of laboratory, system and integration testing per device, interface and control logic so integration risk surfaced before rollout.',
+          'Weighed roadmap priority between new product variants, partner integrations and existing platform stability, choosing a strangler approach over a rewrite.',
+          'Decided to integrate forecast-based charging and control logic (solar, price and load forecasts) into the existing HEMS logic rather than building a separate control layer.',
+          'Standardised the onboarding workflow for new devices and partner integrations, to shorten integration time for future device types.'
         ],
         tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs', 'Forecast Data'],
         result: 'Outcome: Scalable HEMS product models for more than 20,000 connected energy systems.',
@@ -605,11 +603,11 @@ const translations = {
         mediaAriaLabel: 'Collage of the soniq IQ IoT and data platform',
         mediaLinkLabel: 'Open Kärcher Connected Cleaning in a new tab',
         contributions: [
-          'Advanced an international B2B IoT platform for monitoring, analytics and preventive maintenance.',
-          'Integrated IoT devices, ERP capabilities, REST APIs and data lake components.',
-          'Translated digital maintenance and service processes into prioritised product capabilities.',
-          'Orchestrated international releases and rollouts through data-informed prioritisation and cross-functional delivery.',
-          'Used reliability data from hardware monitoring to drive predictive maintenance and failure forecasting.'
+          'Decided to validate the international B2B IoT platform with a focused MVP first, before expanding monitoring, analytics and preventive maintenance into the full product scope.',
+          'Prioritised the integration sequence for IoT devices, ERP capabilities, REST APIs and data lake components by dependency and MVP value.',
+          'Optimised service and replenishment routes for devices and consumables using data, rather than assigning technicians to fixed round-based schedules.',
+          'Prioritised release and rollout sequencing across markets using usage and customer data, to direct capacity to the highest-impact markets first.',
+          'Decided to use reliability data from hardware monitoring for predictive maintenance and failure forecasting rather than relying on purely reactive support.'
         ],
         tags: ['IoT', 'SaaS', 'ERP', 'REST APIs', 'Data Platforms', 'Predictive Maintenance'],
         result: 'Outcome: Increased customer satisfaction by 60% and cut support effort by 50% through data-driven service improvements.',
@@ -630,11 +628,11 @@ const translations = {
         imageAlt: 'Collage of the CRM and sales platform at Mercedes-Benz',
         mediaAriaLabel: 'Collage of the CRM and sales platform at Mercedes-Benz',
         contributions: [
-          'Migrated managed hosting infrastructure to AWS, establishing a scalable foundation for the international rollout.',
-          'Rolled out a cloud-based CRM and service platform across more than six European markets.',
-          'Harmonised market and service processes and translated them into technical specifications.',
-          'Aligned scalable Salesforce and API integrations with product development and architecture.',
-          'Orchestrated releases and rollouts through Scrum, OKRs and CI/CD-oriented delivery practices.'
+          'Decided to migrate the managed hosting infrastructure to AWS ahead of the international rollout, to only then roll out further on a scalable foundation.',
+          'Prioritised the rollout sequence across more than six European markets so each market transitioned in a controlled way rather than all at once.',
+          'Brought differing market and service processes onto a common baseline and translated them into technical specifications, rather than building market-specific one-offs.',
+          'Aligned the scope of scalable Salesforce and API integrations with product development and architecture, weighed against individual market requirements.',
+          'Steered release cadence through Scrum, OKRs and CI/CD-oriented practices, to make progress comparable across markets.'
         ],
         tags: ['Salesforce', 'AWS', 'APIs', 'CRM', 'CI/CD', 'Scrum'],
         result: 'Outcome: Enabled more consistent digital processes across several markets.',
@@ -656,10 +654,10 @@ const translations = {
         mediaAriaLabel: 'Collage of the energy and tariff platform at remind.me',
         mediaLinkLabel: 'Open the remind.me website in a new tab',
         contributions: [
-          'Scaled a digital energy platform serving around 100,000 active customers.',
-          'Automated and advanced customer, tariff-switching and service processes.',
-          'Established data-informed prioritisation across product, CRM, retention and acquisition.',
-          'Supported a 98 percent successful tariff-switching rate and more than €20 million in cumulative customer savings.'
+          'Decided to advance the digital energy platform through data rather than assumptions, scaling it to around 100,000 active customers.',
+          'Increased the automation level of customer, tariff-switching and service processes step by step, prioritised by success rate, customer value and operational efficiency.',
+          'Grounded prioritisation for product, CRM, retention and acquisition in usage and conversion data rather than gut feel.',
+          'Optimised automated processes so that 98 percent of tariff switches completed successfully, accumulating more than €20 million in customer savings.'
         ],
         tags: ['B2C Platform', 'Process Automation', 'CRM', 'Kanban'],
         result: 'Outcome: Around 100,000 active customers, a 98 percent successful tariff-switching rate and more than €20 million in customer savings.',
@@ -730,12 +728,12 @@ const translations = {
     contact: {
       eyebrow: 'Contact',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Open to senior and mid-senior product roles in Berlin, hybrid or remote across Germany, with a focus on energy systems, B2B SaaS and product modernisation.',
+      text: 'Open to senior and mid-senior product roles in Berlin, hybrid or remote across Germany, with a focus on complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy markets.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'Open LinkedIn profile in a new tab'
     },
     footer: {
-      text: '© Yannik Berner. Senior product management for energy & product modernisation.',
+      text: '© Yannik Berner. Senior product management for complex products spanning software, hardware and process.',
       privacy: 'Privacy',
       backToTop: 'Back to top'
     },
