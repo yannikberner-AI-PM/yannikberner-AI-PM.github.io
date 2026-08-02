@@ -28,10 +28,11 @@ main {
 .proof-section { order: 2; }
 #impact { order: 3; }
 #experience { order: 4; }
-#capabilities { order: 5; }
-.skills-section { order: 6; }
-#about { order: 7; }
-#contact { order: 8; }
+#projects { order: 5; }
+#capabilities { order: 6; }
+.skills-section { order: 7; }
+#about { order: 8; }
+#contact { order: 9; }
 
 body {
   margin: 0;
@@ -846,6 +847,10 @@ h3 {
   grid-template-columns: 1.1fr 0.9fr;
   gap: 1.25rem;
   margin-top: 1rem;
+}
+
+.case-body--no-media {
+  grid-template-columns: 1fr;
 }
 
 .case-list ul {

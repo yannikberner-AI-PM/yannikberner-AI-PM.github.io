@@ -52,6 +52,7 @@
           <nav id="site-nav" class="site-nav" aria-label="Hauptnavigation" data-i18n-aria="nav.mainLabel">
             <a href="#impact" data-i18n="nav.value">Mehrwert</a>
             <a href="#experience" data-i18n="nav.experience">Berufserfahrung</a>
+            <a href="#projects" data-i18n="nav.projects">Projekte</a>
             <a href="#capabilities" data-i18n="nav.capabilities">Kompetenzen</a>
             <a href="#about" data-i18n="nav.about">Über mich</a>
             <a href="#contact" data-i18n="nav.contact">Kontakt</a>
@@ -672,6 +673,64 @@
               <p><strong data-i18n="experience.common.contextLabel">Kontext</strong>: <span data-i18n="experience.remindme.details.context">Kundenorientierter Produktkontext mit Fokus auf Agilität und Transparenz.</span></p>
               <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="experience.remindme.details.approach">Lean-Produktarbeit, Workflow-Verbesserungen und fokussierte CRM-Umsetzung.</span></p>
               <p><strong data-i18n="experience.common.valueLabel">Wert</strong>: <span data-i18n="experience.remindme.details.value">Besserer Delivery-Fluss, bessere Kundenerfahrung und stärkere Marktwirkung.</span></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-intro reveal">
+            <p class="eyebrow" data-i18n="projects.eyebrow">Eigene Projekte</p>
+            <h2 data-i18n="projects.heading">Selbst gebaut, nicht nur beauftragt</h2>
+            <p class="section-lead" data-i18n="projects.intro">Ein privates, selbst initiiertes Tool zeigt, wie ich Produktdenken auch ohne Auftrag in ein nutzbares System übersetze.</p>
+          </div>
+
+          <article class="case-study project reveal" id="stakeholder-intelligence">
+            <div class="case-accent"></div>
+            <div class="case-study-header">
+              <div>
+                <p class="eyebrow" data-i18n="projects.stakeholderIntelligence.eyebrow">Eigenes Projekt</p>
+                <h3 data-i18n="projects.stakeholderIntelligence.title">Stakeholder Intelligence</h3>
+              </div>
+              <p class="case-context" data-i18n="projects.stakeholderIntelligence.meta">Agentenbasierter Recherche-, Klassifizierungs- und Priorisierungs-Monitor.</p>
+            </div>
+            <p class="value-label" data-i18n="projects.stakeholderIntelligence.valueLabel">Mehrwert: Eigenständige End-to-End-Produktarbeit – von Datenmodell bis nutzbarem Tool</p>
+            <p class="case-overview" data-i18n="projects.stakeholderIntelligence.overview">
+              Weil öffentlich indexierte Job-, Kontakt- und Unternehmenssignale über viele Quellen verstreut sind, habe ich einen privaten, lokal laufenden Agenten gebaut, der sie bündelt, dedupliziert, regelbasiert klassifiziert und nach vier selbst definierten Kriterien-Tracks transparent bewertet.
+            </p>
+            <div class="case-approach">
+              <p class="case-approach-label" data-i18n="experience.common.approachLabel">Vorgehen</p>
+              <h4 data-i18n="projects.stakeholderIntelligence.approachTitle">Vom Skript zum mehrschichtigen System</h4>
+              <p data-i18n="projects.stakeholderIntelligence.approachText">Begonnen als einfaches Scan-Skript, iterativ zu einer sauber getrennten Architektur weiterentwickelt: Datenquellen-Layer, testbare Business-Logik ohne UI-Abhängigkeit und ein Dashboard, das ausschließlich aufbereitete Modelle rendert.</p>
+            </div>
+            <div class="job-meta">
+              <p><strong data-i18n="experience.common.periodLocation">Zeitraum · Ort</strong>: <span data-i18n="projects.stakeholderIntelligence.periodLocation">Seit Juli 2026 · privates Projekt, lokal betrieben</span></p>
+            </div>
+            <p class="result-line" data-i18n="projects.stakeholderIntelligence.result">Ergebnis: Transparentes, erklärbares Scoring statt Bauchgefühl – vollständig lokal, ohne Cloud-Abhängigkeit für sensible Daten.</p>
+            <div class="case-body case-body--no-media">
+              <div class="case-list">
+                <h4 data-i18n="experience.common.contributions">Wichtige Beiträge</h4>
+                <ul>
+                  <li data-i18n="projects.stakeholderIntelligence.contributions.0">Datenmodell und Architektur für Datenquellen-, Business-Logik- und UI-Schicht sauber getrennt konzipiert.</li>
+                  <li data-i18n="projects.stakeholderIntelligence.contributions.1">Regelbasierte Klassifizierung und transparentes, gewichtetes Scoring ohne Blackbox-Bewertung entwickelt.</li>
+                  <li data-i18n="projects.stakeholderIntelligence.contributions.2">Persistente Historie für neue, aktualisierte, entfernte und wiedereröffnete Einträge umgesetzt – Datenqualitätsprobleme werden markiert statt still gelöscht.</li>
+                  <li data-i18n="projects.stakeholderIntelligence.contributions.3">Automatisierten täglichen Lauf mit lokalem Dashboard, Tabellen-Export und Chat-Digest verbunden.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="tags" aria-label="Technologie und Methoden" data-i18n-aria="experience.common.tagsLabel">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>SQLite</span>
+              <span data-i18n="projects.stakeholderIntelligence.tags.3">Multi-Source-Aggregation</span>
+              <span data-i18n="projects.stakeholderIntelligence.tags.4">Regelbasiertes Scoring</span>
+            </div>
+            <button class="details-toggle" type="button" aria-expanded="false" aria-controls="details-stakeholder-intelligence" data-i18n="experience.common.viewDetails">Details anzeigen</button>
+            <div id="details-stakeholder-intelligence" class="case-details" hidden>
+              <p><strong data-i18n="experience.common.contextLabel">Kontext</strong>: <span data-i18n="projects.stakeholderIntelligence.details.context">Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert – ohne auf ein proprietäres SaaS-Tool oder eine Cloud-Lösung für sensible Bewerbungsdaten angewiesen zu sein.</span></p>
+              <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="projects.stakeholderIntelligence.details.approach">Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem ergänzt zusätzliche Quellen und Recherche, aktualisiert unabhängig eine Tabelle und postet eine Chat-Zusammenfassung.</span></p>
+              <p><strong data-i18n="experience.common.valueLabel">Wert</strong>: <span data-i18n="projects.stakeholderIntelligence.details.value">Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht, sensible Daten lokal hält und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.</span></p>
             </div>
           </article>
         </div>

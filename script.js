@@ -9,6 +9,7 @@ const translations = {
       about: 'Über mich',
       capabilities: 'Kompetenzen',
       experience: 'Berufserfahrung',
+      projects: 'Projekte',
       contact: 'Kontakt',
       toggleLabel: 'Navigation umschalten',
       mainLabel: 'Hauptnavigation',
@@ -281,6 +282,34 @@ const translations = {
         }
       }
     },
+    projects: {
+      eyebrow: 'Eigene Projekte',
+      heading: 'Selbst gebaut, nicht nur beauftragt',
+      intro: 'Ein privates, selbst initiiertes Tool zeigt, wie ich Produktdenken auch ohne Auftrag in ein nutzbares System übersetze.',
+      stakeholderIntelligence: {
+        eyebrow: 'Eigenes Projekt',
+        title: 'Stakeholder Intelligence',
+        meta: 'Agentenbasierter Recherche-, Klassifizierungs- und Priorisierungs-Monitor.',
+        valueLabel: 'Mehrwert: Eigenständige End-to-End-Produktarbeit – von Datenmodell bis nutzbarem Tool',
+        overview: 'Weil öffentlich indexierte Job-, Kontakt- und Unternehmenssignale über viele Quellen verstreut sind, habe ich einen privaten, lokal laufenden Agenten gebaut, der sie bündelt, dedupliziert, regelbasiert klassifiziert und nach vier selbst definierten Kriterien-Tracks transparent bewertet.',
+        approachTitle: 'Vom Skript zum mehrschichtigen System',
+        approachText: 'Begonnen als einfaches Scan-Skript, iterativ zu einer sauber getrennten Architektur weiterentwickelt: Datenquellen-Layer, testbare Business-Logik ohne UI-Abhängigkeit und ein Dashboard, das ausschließlich aufbereitete Modelle rendert.',
+        periodLocation: 'Seit Juli 2026 · privates Projekt, lokal betrieben',
+        result: 'Ergebnis: Transparentes, erklärbares Scoring statt Bauchgefühl – vollständig lokal, ohne Cloud-Abhängigkeit für sensible Daten.',
+        contributions: [
+          'Datenmodell und Architektur für Datenquellen-, Business-Logik- und UI-Schicht sauber getrennt konzipiert.',
+          'Regelbasierte Klassifizierung und transparentes, gewichtetes Scoring ohne Blackbox-Bewertung entwickelt.',
+          'Persistente Historie für neue, aktualisierte, entfernte und wiedereröffnete Einträge umgesetzt – Datenqualitätsprobleme werden markiert statt still gelöscht.',
+          'Automatisierten täglichen Lauf mit lokalem Dashboard, Tabellen-Export und Chat-Digest verbunden.'
+        ],
+        tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source-Aggregation', 'Regelbasiertes Scoring'],
+        details: {
+          context: 'Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert – ohne auf ein proprietäres SaaS-Tool oder eine Cloud-Lösung für sensible Bewerbungsdaten angewiesen zu sein.',
+          approach: 'Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem ergänzt zusätzliche Quellen und Recherche, aktualisiert unabhängig eine Tabelle und postet eine Chat-Zusammenfassung.',
+          value: 'Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht, sensible Daten lokal hält und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.'
+        }
+      }
+    },
     contact: {
       eyebrow: 'Kontakt',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
@@ -335,6 +364,7 @@ const translations = {
       about: 'About',
       capabilities: 'Capabilities',
       experience: 'Experience',
+      projects: 'Projects',
       contact: 'Contact',
       toggleLabel: 'Toggle navigation',
       mainLabel: 'Main navigation',
@@ -604,6 +634,34 @@ const translations = {
           context: 'A customer-centric product environment focused on agility and operational transparency.',
           approach: 'The digital energy platform was built, continuously improved through usage, conversion and process data and scaled to around 100,000 active customers. Automated end-to-end processes were gradually expanded and optimised for success rate, customer value and operational efficiency.',
           value: 'Stronger delivery flow, better customer experience and more commercial impact.'
+        }
+      }
+    },
+    projects: {
+      eyebrow: 'Personal Projects',
+      heading: 'Built on my own, not just delivered',
+      intro: 'A private, self-initiated tool shows how I turn product thinking into a working system without a mandate to do so.',
+      stakeholderIntelligence: {
+        eyebrow: 'Personal Project',
+        title: 'Stakeholder Intelligence',
+        meta: 'Agent-based research, classification and prioritisation monitor.',
+        valueLabel: 'Value: Independent end-to-end product work—from data model to usable tool',
+        overview: 'Because publicly indexed job, contact and company signals are scattered across many sources, I built a private, locally run agent that aggregates, deduplicates, rule-classifies and transparently scores them against four self-defined criteria tracks.',
+        approachTitle: 'From script to a layered system',
+        approachText: 'Started as a simple scan script, iteratively evolved into a cleanly separated architecture: a data-source layer, testable business logic with no UI dependency, and a dashboard that renders only prepared models.',
+        periodLocation: 'Since July 2026 · personal project, run locally',
+        result: 'Outcome: Transparent, explainable scoring instead of gut feel—fully local, with no cloud dependency for sensitive data.',
+        contributions: [
+          'Designed a data model and architecture with a clean separation between data-source, business-logic and UI layers.',
+          'Built rule-based classification and transparent, weighted scoring with no black-box evaluation.',
+          'Implemented persistent history for new, updated, removed and reopened entries—data-quality issues are flagged rather than silently deleted.',
+          'Connected an automated daily run to a local dashboard, a spreadsheet export and a chat digest.'
+        ],
+        tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source Aggregation', 'Rule-Based Scoring'],
+        details: {
+          context: 'My own research across multiple job boards, company pages and contacts was highly fragmented—without relying on a proprietary SaaS tool or a cloud solution for sensitive application data.',
+          approach: 'The interface reads only prepared, tested models; raw imports, classification and scoring are decoupled from the UI as standalone, testable services. A companion system adds further sources and research, updates a spreadsheet independently and posts a chat summary.',
+          value: 'A tool that makes my own prioritisation decisions traceable, keeps sensitive data local, and could be extended iteratively without endangering the existing business logic.'
         }
       }
     },
