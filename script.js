@@ -317,7 +317,7 @@ const translations = {
         overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungs-Ebenen: wie zentral, direkt oder indirekt ein Stakeholder zum jeweiligen Auftrag steht, also Produkt, Projekt oder Programm (Kreis-Modell), und wie ich die Zusammenarbeit mit dieser Person gezielt gestalte (Matrix-Modell). Beides wird strukturiert in einem Profil pro Stakeholder festgehalten, bewusst als Werkzeug zur eigenen Anpassung, nicht zur Bewertung oder zum Profiling anderer.',
         approachTitle: 'Zwei Einordnungsmodelle in einem Board verbunden',
         approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zum Auftrag ein, mit den Stufen Core, Direct und Indirect, bezogen auf Produkt, Projekt oder Programm. Eine wechselbare 2×2-Matrix ordnet sie zusätzlich nach Zusammenarbeitsbedarf ein. Anders als bei getrennten Einzel-Whiteboards verbindet ein gemeinsames Profil beide Positionen zu einem konkreten Rückschluss: wie sich die Zusammenarbeit mit den Stakeholdern gezielter gestalten lässt.',
-        periodLocation: 'Seit Juli 2026 · privates Projekt, lokal betrieben',
+        periodLocation: 'Privates Projekt, lokal betrieben',
         result: 'Ergebnis: Funktionsfähiges MVP mit zwei verbundenen Einordnungsmodellen: interaktives Board, strukturiertes Datenmodell, vollständig lokale Datenhaltung.',
         contributions: [
           'Zwei unabhängige, aber verbundene Einordnungsmodelle umgesetzt: Kreis-Modell (Nähe zum Auftrag: Core, Direct, Indirect) und 2×2-Matrix (Zusammenarbeitsbedarf), pro Stakeholder unabhängig positionierbar.',
@@ -695,7 +695,7 @@ const translations = {
         overview: 'A private, locally run board connects two classification layers: how central, direct or indirect a stakeholder is to the mandate at hand, be it a product, project or programme (circle model), and how I deliberately shape collaboration with that person (matrix model). Both are structured in one profile per stakeholder, deliberately a tool for adapting my own approach, not for judging or profiling other people.',
         approachTitle: 'Two classification models connected in one board',
         approachText: 'A circle model classifies stakeholders by closeness to the mandate, with the levels Core, Direct and Indirect, relative to the product, project or programme. A switchable 2×2 matrix additionally classifies them by collaboration needs. Unlike separate single-purpose whiteboards, a shared profile connects both positions into one concrete takeaway: how collaboration with stakeholders can be shaped more deliberately.',
-        periodLocation: 'Since July 2026 · personal project, run locally',
+        periodLocation: 'Personal project, run locally',
         result: 'Outcome: Working MVP with two connected classification models: interactive board, structured data model, fully local data storage.',
         contributions: [
           'Implemented two independent but connected classification models: a circle model (closeness to the mandate: Core, Direct, Indirect) and a 2×2 matrix (collaboration needs), positioned independently per stakeholder.',
