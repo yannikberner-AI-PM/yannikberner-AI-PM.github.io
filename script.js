@@ -312,23 +312,23 @@ const translations = {
       stakeholderIntelligence: {
         eyebrow: 'Eigenes Projekt',
         title: 'Stakeholder Intelligence',
-        meta: 'Visuelles Stakeholder-Mapping-Board mit Fokus auf eigene Kommunikationsstrategie.',
-        valueLabel: 'Mehrwert: Eigenständige End-to-End-Produktarbeit – von Datenmodell bis interaktivem Board',
-        overview: 'Ein privates, lokal laufendes Board hilft mir, berufliche Stakeholder visuell zu positionieren und strukturiert festzuhalten, wie ich mit der jeweiligen Person effektiver kommuniziere – bewusst als Werkzeug zur eigenen Anpassung, nicht zur Bewertung oder zum Profiling anderer.',
-        approachTitle: 'Vom Schwester-Projekt architektonisch gelernt, eigenständig umgesetzt',
-        approachText: 'Am bestehenden Career-Intelligence-Projekt orientiert (lokal-first, keine Cloud-Daten), aber mit eigenem Next.js/TypeScript-Stack für ein interaktives Drag-and-drop-Board über wechselbare Visualisierungsvorlagen.',
+        meta: 'Verbindet Nähe-Einordnung (Kreis-Modell) und Zusammenarbeits-Einordnung (Matrix) in einem Board.',
+        valueLabel: 'Mehrwert: Zwei Einordnungsmodelle – Nähe zu mir und Zusammenarbeitsbedarf – in einem Werkzeug verbunden',
+        overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungs-Ebenen: wie zentral, direkt oder indirekt ein Stakeholder zu mir steht (Kreis-Modell), und wie ich die Zusammenarbeit mit dieser Person gezielt gestalte (Matrix-Modell) – strukturiert festgehalten in einem Profil pro Stakeholder, bewusst als Werkzeug zur eigenen Anpassung, nicht zur Bewertung oder zum Profiling anderer.',
+        approachTitle: 'Zwei Einordnungsmodelle in einem Board verbunden',
+        approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zu mir ein (Core, Direct, Indirect), eine wechselbare 2×2-Matrix nach Zusammenarbeitsbedarf – beide Positionen bleiben pro Stakeholder unabhängig erhalten, während ein gemeinsames Profil mit strukturierten Notizfeldern beide Modelle verbindet.',
         periodLocation: 'Seit Juli 2026 · privates Projekt, lokal betrieben',
-        result: 'Ergebnis: Funktionsfähiges MVP – interaktives Board, strukturiertes Datenmodell, vollständig lokale Datenhaltung.',
+        result: 'Ergebnis: Funktionsfähiges MVP mit zwei verbundenen Einordnungsmodellen – interaktives Board, strukturiertes Datenmodell, vollständig lokale Datenhaltung.',
         contributions: [
+          'Zwei unabhängige, aber verbundene Einordnungsmodelle umgesetzt: Kreis-Modell (Nähe zu mir) und 2×2-Matrix (Zusammenarbeitsbedarf), pro Stakeholder unabhängig positionierbar.',
           'Datenmodell und REST-API für Stakeholder, Board-Positionen und Board-Konfigurationen mit Tests aufgebaut.',
-          'Interaktives Drag-and-drop-Board mit zwei wechselbaren Visualisierungsvorlagen (Kreis, Matrix) umgesetzt.',
           'Strukturiertes Notizfeld-Set je Stakeholder entwickelt (Beobachtungen, Kommunikationsansatz, Kontext, Follow-ups) – bewusst ohne automatische Bewertung oder Profiling der Person.',
           'Erste Code-Review-Runde durchlaufen und Ergebnisse zu Connection-Handling, Autosave und serverseitiger Validierung eingearbeitet.'
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
         details: {
           context: 'Ich wollte die eigene Zusammenarbeit mit unterschiedlichen Stakeholdern bewusster gestalten, statt Kommunikationsstil intuitiv und unstrukturiert anzupassen – ohne sensible Einschätzungen über echte Kolleg:innen in ein Cloud-Tool zu geben.',
-          approach: 'Bewusste Leitplanke von Anfang an: Das Tool bewertet nicht die andere Person, sondern hält strukturiert fest, wie ich selbst kommunizieren möchte. Technisch orientiert an der lokal-first-Architektur des Schwester-Projekts Career Intelligence, aber mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche umgesetzt.',
+          approach: 'Bewusste Leitplanke von Anfang an: Das Tool bewertet nicht die andere Person, sondern hält strukturiert fest, wie ich selbst kommunizieren möchte. Technisch orientiert an der lokal-first-Architektur des Schwester-Projekts Career Intelligence, aber mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche umgesetzt. Als nächste, noch nicht umgesetzte Ausbaustufe ist eine Typisierung nach einem Farben-Modell (Rot/Gelb/Grün/Blau: dominant, initiativ, stetig, gewissenhaft) sowie lokal-LLM-gestützte Kommunikationsempfehlungen geplant – weiterhin ohne Cloud-Anbindung.',
           value: 'Ein Werkzeug, das strategisches Stakeholder-Denken sichtbar und wiederverwendbar macht statt es nur im Kopf zu behalten – mit einem von Anfang an bewusst gewählten, ethisch vertretbaren Framing.'
         }
       }
@@ -690,23 +690,23 @@ const translations = {
       stakeholderIntelligence: {
         eyebrow: 'Personal Project',
         title: 'Stakeholder Intelligence',
-        meta: 'Visual stakeholder-mapping board focused on my own communication strategy.',
-        valueLabel: 'Value: Independent end-to-end product work—from data model to interactive board',
-        overview: 'A private, locally run board helps me visually position professional stakeholders and structure how I communicate more effectively with each one—deliberately a tool for adapting my own approach, not for judging or profiling other people.',
-        approachTitle: 'Learned architecturally from the sister project, built independently',
-        approachText: 'Modelled on the existing Career Intelligence project (local-first, no cloud data), but implemented with its own Next.js/TypeScript stack for an interactive drag-and-drop board across switchable visualisation templates.',
+        meta: 'Connects closeness classification (circle model) and collaboration classification (matrix) in one board.',
+        valueLabel: 'Value: Two classification models—closeness to me and collaboration needs—connected in one tool',
+        overview: 'A private, locally run board connects two classification layers: how central, direct or indirect a stakeholder is to me (circle model), and how I deliberately shape collaboration with that person (matrix model)—structured in one profile per stakeholder, deliberately a tool for adapting my own approach, not for judging or profiling other people.',
+        approachTitle: 'Two classification models connected in one board',
+        approachText: 'A circle model classifies stakeholders by closeness to me (Core, Direct, Indirect), a switchable 2×2 matrix by collaboration needs—both positions are kept independently per stakeholder, while a shared profile with structured note fields connects both models.',
         periodLocation: 'Since July 2026 · personal project, run locally',
-        result: 'Outcome: Working MVP—interactive board, structured data model, fully local data storage.',
+        result: 'Outcome: Working MVP with two connected classification models—interactive board, structured data model, fully local data storage.',
         contributions: [
+          'Implemented two independent but connected classification models: a circle model (closeness to me) and a 2×2 matrix (collaboration needs), positioned independently per stakeholder.',
           'Built a data model and REST API for stakeholders, board positions and board configurations, with tests.',
-          'Implemented an interactive drag-and-drop board with two switchable visualisation templates (circle, matrix).',
           'Developed a structured note-field set per stakeholder (observations, communication approach, context, follow-ups)—deliberately with no automated evaluation or profiling of the person.',
           'Went through a first code-review round and incorporated findings on connection handling, autosave and server-side validation.'
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
         details: {
           context: 'I wanted to approach collaboration with different stakeholders more deliberately instead of adapting my communication style intuitively and unstructured—without putting sensitive assessments of real colleagues into a cloud tool.',
-          approach: 'A deliberate guardrail from the start: the tool does not evaluate the other person, it structures how I want to communicate myself. Technically modelled on the local-first architecture of the sister project Career Intelligence, but implemented with its own Next.js/TypeScript stack for the interactive board interface.',
+          approach: 'A deliberate guardrail from the start: the tool does not evaluate the other person, it structures how I want to communicate myself. Technically modelled on the local-first architecture of the sister project Career Intelligence, but implemented with its own Next.js/TypeScript stack for the interactive board interface. The next, not-yet-built stage plans a colour-based typing model (red/yellow/green/blue: dominant, initiating, steady, conscientious) plus local-LLM-supported communication recommendations—still with no cloud connection.',
           value: 'A tool that makes strategic stakeholder thinking visible and reusable instead of keeping it in my head—with a deliberately ethical framing chosen from day one.'
         }
       }
