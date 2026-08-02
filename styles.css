@@ -600,7 +600,6 @@ h3 {
   padding: 0.9rem 1rem;
   border: 1px solid var(--text);
   background: var(--background);
-  overflow-anchor: none;
 }
 
 .impact-approach-note summary {
@@ -673,7 +672,6 @@ h3 {
 .skills-disclosure {
   border: 1px solid var(--text);
   background: var(--surface);
-  overflow-anchor: none;
 }
 
 .skills-disclosure > summary {

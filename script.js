@@ -148,6 +148,7 @@ const translations = {
         contextLabel: 'Kontext',
         approachLabel: 'Vorgehen',
         valueLabel: 'Wert',
+        nextLabel: 'Next',
         casePlaceholder: 'Case-Study-Bild<br />Platzhalter',
         tagsLabel: 'Technologien und Methoden',
         productLink: 'Produkt ansehen',
@@ -285,8 +286,8 @@ const translations = {
     },
     projects: {
       eyebrow: 'Eigene Projekte',
-      heading: 'Selbst gebaut, nicht nur beauftragt',
-      intro: 'Ein privates, selbst initiiertes Tool zeigt, wie ich Produktdenken auch ohne Auftrag in ein nutzbares System übersetze.',
+      heading: 'Aus eigenem Antrieb gebaut',
+      intro: 'Zwei private Projekte, entstanden aus eigenem Antrieb neben der Anstellung.',
       careerIntelligence: {
         eyebrow: 'Eigenes Projekt',
         title: 'Career Intelligence',
@@ -305,7 +306,7 @@ const translations = {
         ],
         tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source-Aggregation', 'Regelbasiertes Scoring'],
         details: {
-          context: 'Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert, ohne auf ein proprietäres SaaS-Tool oder eine Cloud-Lösung für sensible Bewerbungsdaten angewiesen zu sein.',
+          context: 'Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert, ohne auf ein proprietäres SaaS-Tool oder eine Cloud-Lösung für sensible Bewerbungsdaten angewiesen zu sein. So werden Nischen und Potenziale erkennbar und Möglichkeiten im Markt gezielt aufgedeckt.',
           approach: 'Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem ergänzt zusätzliche Quellen und Recherche, aktualisiert unabhängig eine Tabelle und postet eine Chat-Zusammenfassung.',
           value: 'Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht, sensible Daten lokal hält und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.'
         }
@@ -329,8 +330,9 @@ const translations = {
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
         details: {
           context: 'Bestehende Stakeholder-Whiteboards decken meist nur eines der beiden Modelle ab und verbinden Nähe- und Zusammenarbeits-Einordnung nicht zu einem gemeinsamen Rückschluss. Ich wollte die eigene Zusammenarbeit mit unterschiedlichen Stakeholdern bewusster gestalten, statt Kommunikationsstil intuitiv und unstrukturiert anzupassen, ohne sensible Einschätzungen über echte Kolleg:innen in ein Cloud-Tool zu geben.',
-          approach: 'Bewusste Leitplanke von Anfang an: Das Tool bewertet nicht die andere Person, sondern hält strukturiert fest, wie ich selbst kommunizieren möchte. Technisch orientiert an der lokal-first-Architektur des Schwester-Projekts Career Intelligence, aber mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche umgesetzt. Als Nächstes geplant: ein lokal laufendes LLM für Farben-Modell-Typisierung (Rot/Gelb/Grün/Blau: dominant, initiativ, stetig, gewissenhaft) und daraus abgeleitete Vorschläge für den Stakeholder-Umgang (weiterhin ohne Cloud-LLM), eine nur lesende Anbindung an Kommunikations- und Kalender-Tools (Mail, Slack, Teams, Kalender) für mehr Kontext sowie Reminder-Funktionen für offene Follow-ups.',
-          value: 'Ein Werkzeug, das die beiden Einordnungen nicht nur nebeneinander zeigt, sondern zu einem konkreten Zusammenarbeitsmodell je Stakeholder verdichtet, anders als klassische Einzel-Whiteboards, die nur eine Sicht abbilden. So wird strategisches Stakeholder-Denken sichtbar und wiederverwendbar statt nur im Kopf behalten, mit einem von Anfang an bewusst gewählten, ethisch vertretbaren Framing.'
+          approach: 'Bewusste Leitplanke von Anfang an: Das Tool bewertet nicht die andere Person, sondern hält strukturiert fest, wie ich selbst kommunizieren möchte. Technisch orientiert an einer lokal-first-Architektur, insbesondere in Bezug auf personenbezogene Daten und DSGVO, aber mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche umgesetzt.',
+          value: 'Ein Werkzeug, das die beiden Einordnungen nebeneinander zeigt und zu einem konkreten Zusammenarbeitsmodell je Stakeholder verdichtet, anders als klassische Einzel-Whiteboards, die nur eine Sicht abbilden. So wird strategisches Stakeholder-Denken sichtbar und wiederverwendbar statt nur im Kopf behalten, mit einem von Anfang an bewusst gewählten, ethisch vertretbaren Framing.',
+          next: 'Ein lokal laufendes LLM für Farben-Modell-Typisierung (Rot/Gelb/Grün/Blau: dominant, initiativ, stetig, gewissenhaft) und daraus abgeleitete Vorschläge für den Stakeholder-Umgang (weiterhin mit Local-LLM), eine nur lesende Anbindung an Kommunikations- und Kalender-Tools (Mail, Slack, Teams, Kalender) für mehr Kontext sowie Reminder-Funktionen für offene Follow-ups.'
         }
       }
     },
@@ -527,6 +529,7 @@ const translations = {
         contextLabel: 'Context',
         approachLabel: 'Approach',
         valueLabel: 'Value',
+        nextLabel: 'Next',
         casePlaceholder: 'Case study image<br />placeholder',
         tagsLabel: 'Technologies and methods',
         productLink: 'View product',
@@ -664,8 +667,8 @@ const translations = {
     },
     projects: {
       eyebrow: 'Personal Projects',
-      heading: 'Built on my own, not just delivered',
-      intro: 'A private, self-initiated tool shows how I turn product thinking into a working system without a mandate to do so.',
+      heading: 'Built on my own initiative',
+      intro: 'Two private projects, built on my own initiative alongside my job.',
       careerIntelligence: {
         eyebrow: 'Personal Project',
         title: 'Career Intelligence',
@@ -684,7 +687,7 @@ const translations = {
         ],
         tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source Aggregation', 'Rule-Based Scoring'],
         details: {
-          context: 'My own research across multiple job boards, company pages and contacts was highly fragmented, without relying on a proprietary SaaS tool or a cloud solution for sensitive application data.',
+          context: 'My own research across multiple job boards, company pages and contacts was highly fragmented, without relying on a proprietary SaaS tool or a cloud solution for sensitive application data. This makes niches and untapped potential visible and helps uncover market opportunities in a targeted way.',
           approach: 'The interface reads only prepared, tested models; raw imports, classification and scoring are decoupled from the UI as standalone, testable services. A companion system adds further sources and research, updates a spreadsheet independently and posts a chat summary.',
           value: 'A tool that makes my own prioritisation decisions traceable, keeps sensitive data local, and could be extended iteratively without endangering the existing business logic.'
         }
@@ -708,8 +711,9 @@ const translations = {
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
         details: {
           context: 'Existing stakeholder whiteboards usually cover only one of the two models and don’t connect closeness and collaboration classification into a shared takeaway. I wanted to approach collaboration with different stakeholders more deliberately instead of adapting my communication style intuitively and unstructured, without putting sensitive assessments of real colleagues into a cloud tool.',
-          approach: 'A deliberate guardrail from the start: the tool does not evaluate the other person, it structures how I want to communicate myself. Technically modelled on the local-first architecture of the sister project Career Intelligence, but implemented with its own Next.js/TypeScript stack for the interactive board interface. Next planned: a locally run LLM for colour-based typing (red/yellow/green/blue: dominant, initiating, steady, conscientious) and derived suggestions for how to engage with the stakeholder (still no cloud LLM), read-only integration with communication and calendar tools (mail, Slack, Teams, calendar) for more context, plus reminder functions for open follow-ups.',
-          value: 'A tool that doesn’t just show both classifications side by side but distils them into one concrete collaboration model per stakeholder, unlike classic single-purpose whiteboards that only cover one view. This makes strategic stakeholder thinking visible and reusable instead of keeping it in my head, with a deliberately ethical framing chosen from day one.'
+          approach: 'A deliberate guardrail from the start: the tool does not evaluate the other person, it structures how I want to communicate myself. Technically modelled on a local-first architecture, particularly with regard to personal data and GDPR, but implemented with its own Next.js/TypeScript stack for the interactive board interface.',
+          value: 'A tool that shows both classifications side by side and distils them into one concrete collaboration model per stakeholder, unlike classic single-purpose whiteboards that only cover one view. This makes strategic stakeholder thinking visible and reusable instead of keeping it in my head, with a deliberately ethical framing chosen from day one.',
+          next: 'A locally run LLM for colour-based typing (red/yellow/green/blue: dominant, initiating, steady, conscientious) and derived suggestions for how to engage with the stakeholder (still with a local LLM), read-only integration with communication and calendar tools (mail, Slack, Teams, calendar) for more context, plus reminder functions for open follow-ups.'
         }
       }
     },
@@ -1017,6 +1021,16 @@ document.addEventListener('DOMContentLoaded', () => {
       if (target) {
         target.hidden = expanded;
       }
+    });
+  });
+
+  document.querySelectorAll('details > summary').forEach((summary) => {
+    summary.addEventListener('click', (event) => {
+      event.preventDefault();
+      const details = summary.parentElement;
+      const scrollY = window.scrollY;
+      details.open = !details.open;
+      window.scrollTo(0, scrollY);
     });
   });
 });
