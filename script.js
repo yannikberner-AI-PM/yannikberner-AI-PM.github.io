@@ -286,8 +286,8 @@ const translations = {
     },
     projects: {
       eyebrow: 'Eigene Projekte',
-      heading: 'Aus eigenem Antrieb gebaut',
-      intro: 'Zwei private Projekte, entstanden aus eigenem Antrieb neben der Anstellung.',
+      heading: 'KI-Praxis vertiefen, Lücken schließen',
+      intro: 'Zwei private Projekte, um meine KI-Nutzung zu vertiefen und Lücken mit echtem Mehrwert zu schließen.',
       careerIntelligence: {
         eyebrow: 'Eigenes Projekt',
         title: 'Career Intelligence',
@@ -668,8 +668,8 @@ const translations = {
     },
     projects: {
       eyebrow: 'Personal Projects',
-      heading: 'Built on my own initiative',
-      intro: 'Two private projects, built on my own initiative alongside my job.',
+      heading: 'Deepening AI practice, closing gaps',
+      intro: 'Two private projects, to deepen my hands-on AI use and close gaps that create real value.',
       careerIntelligence: {
         eyebrow: 'Personal Project',
         title: 'Career Intelligence',
