@@ -294,7 +294,7 @@ const translations = {
         overview: 'Weil öffentlich indexierte Job-, Kontakt- und Unternehmenssignale über viele Quellen verstreut sind, habe ich einen privaten, lokal laufenden Agenten gebaut, der sie bündelt, dedupliziert, regelbasiert klassifiziert und nach vier selbst definierten Kriterien-Tracks transparent bewertet.',
         approachTitle: 'Vom Skript zum mehrschichtigen System',
         approachText: 'Begonnen als einfaches Scan-Skript, iterativ zu einer sauber getrennten Architektur weiterentwickelt: Datenquellen-Layer, testbare Business-Logik ohne UI-Abhängigkeit und ein Dashboard, das ausschließlich aufbereitete Modelle rendert.',
-        periodLocation: 'Seit Juli 2026 · privates Projekt, lokal betrieben',
+        periodLocation: 'Privates Projekt, lokal betrieben',
         result: 'Ergebnis: Transparentes, erklärbares Scoring statt Bauchgefühl, vollständig lokal, ohne Cloud-Abhängigkeit für sensible Daten.',
         contributions: [
           'Datenmodell und Architektur für Datenquellen-, Business-Logik- und UI-Schicht sauber getrennt konzipiert.',
@@ -672,7 +672,7 @@ const translations = {
         overview: 'Because publicly indexed job, contact and company signals are scattered across many sources, I built a private, locally run agent that aggregates, deduplicates, rule-classifies and transparently scores them against four self-defined criteria tracks.',
         approachTitle: 'From script to a layered system',
         approachText: 'Started as a simple scan script, iteratively evolved into a cleanly separated architecture: a data-source layer, testable business logic with no UI dependency, and a dashboard that renders only prepared models.',
-        periodLocation: 'Since July 2026 · personal project, run locally',
+        periodLocation: 'Personal project, run locally',
         result: 'Outcome: Transparent, explainable scoring instead of gut feel, fully local, with no cloud dependency for sensitive data.',
         contributions: [
           'Designed a data model and architecture with a clean separation between data-source, business-logic and UI layers.',
