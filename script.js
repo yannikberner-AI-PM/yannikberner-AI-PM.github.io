@@ -101,7 +101,7 @@ const translations = {
       items: [
         { title: 'Produkt- & Plattformstrategie', text: 'Produktvision, Zielbild, Discovery, Roadmaps und Business Cases.' },
         { title: 'Modernisierung & Migration', text: 'Technische Schulden, Schnittstellen, Betriebsrisiken und kontrollierte Übergänge strukturieren.' },
-        { title: 'Discovery bis Rollout', text: 'Nutzerprobleme in priorisierte Produktinkremente, Releases und Rollouts übersetzen.' },
+        { title: 'Discovery bis Rollout', text: 'Nutzerprobleme in priorisierte Produktinkremente, Releases und Rollouts übersetzen, konsistent über Mobile, Tablet und Desktop hinweg.' },
         { title: 'Business-IT-Alignment', text: 'Nutzer, Management, Operations, Engineering und Architektur auf Entscheidungen ausrichten.' },
         { title: 'Outcome- & KPI-Steuerung', text: 'Erfolgskriterien, Prioritäten und Entscheidungen an Nutzerwert und Business Impact ausrichten.' },
         { title: 'Energie-, IoT- & Datenprodukte', text: 'Hardware, Embedded-Systeme, Cloud, APIs, Daten und Regulatorik produktseitig verbinden.' }
@@ -121,7 +121,7 @@ const translations = {
         },
         {
           title: 'Produktmanagement',
-          items: ['Produktstrategie', 'Roadmaps', 'Product Discovery', 'Anforderungsmanagement & User Stories', 'Akzeptanzkriterien', 'MVP & MMP', 'Make / Partner / Buy', 'Priorisierung', 'KPIs & Outcomes', 'Prozessoptimierung']
+          items: ['Produktstrategie', 'Roadmaps', 'Product Discovery', 'Anforderungsmanagement & User Stories', 'Akzeptanzkriterien', 'MVP & MMP', 'Make / Partner / Buy', 'Priorisierung', 'KPIs & Outcomes', 'Prozessoptimierung', 'Mobile/Tablet/Desktop']
         },
         {
           title: 'Zusammenarbeit',
@@ -488,7 +488,7 @@ const translations = {
       items: [
         { title: 'Product & Platform Strategy', text: 'Product vision, target state, discovery, roadmaps and business cases.' },
         { title: 'Modernisation & Migration', text: 'Structuring technical debt, integrations, operational risks and controlled transitions.' },
-        { title: 'Discovery to Rollout', text: 'Turning user problems into prioritised increments, releases and rollouts.' },
+        { title: 'Discovery to Rollout', text: 'Turning user problems into prioritised increments, releases and rollouts, consistently across mobile, tablet and desktop.' },
         { title: 'Business-IT Alignment', text: 'Aligning users, management, operations, engineering and architecture around decisions.' },
         { title: 'Outcome & KPI Steering', text: 'Linking success criteria, priorities and decisions to user value and business impact.' },
         { title: 'Energy, IoT & Data Products', text: 'Connecting hardware, embedded systems, cloud, APIs, data and regulation from a product perspective.' }
@@ -508,7 +508,7 @@ const translations = {
         },
         {
           title: 'Product Management',
-          items: ['Product strategy', 'Roadmaps', 'Product discovery', 'Requirements & user stories', 'Acceptance criteria', 'MVP & MMP', 'Make / Partner / Buy', 'Prioritisation', 'KPIs & outcomes', 'Process optimisation']
+          items: ['Product strategy', 'Roadmaps', 'Product discovery', 'Requirements & user stories', 'Acceptance criteria', 'MVP & MMP', 'Make / Partner / Buy', 'Prioritisation', 'KPIs & outcomes', 'Process optimisation', 'Mobile/tablet/desktop']
         },
         {
           title: 'Collaboration',
