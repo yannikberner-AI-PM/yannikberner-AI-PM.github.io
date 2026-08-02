@@ -308,7 +308,8 @@ const translations = {
         details: {
           context: 'Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert, ohne auf ein proprietäres SaaS-Tool oder eine Cloud-Lösung für sensible Bewerbungsdaten angewiesen zu sein. So werden Nischen und Potenziale erkennbar und Möglichkeiten im Markt gezielt aufgedeckt.',
           approach: 'Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem ergänzt zusätzliche Quellen und Recherche, aktualisiert unabhängig eine Tabelle und postet eine Chat-Zusammenfassung.',
-          value: 'Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht, sensible Daten lokal hält und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.'
+          value: 'Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht, sensible Daten lokal hält und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.',
+          next: 'Netzwerk aktiv erweitern (Hiring Manager, Recruiter, Fachkontakte) und die Weiterbildungsvorschläge je Track vertiefen (Skill-Gaps, kuratierte Kurse und Veranstaltungen).'
         }
       },
       stakeholderIntelligence: {
@@ -689,7 +690,8 @@ const translations = {
         details: {
           context: 'My own research across multiple job boards, company pages and contacts was highly fragmented, without relying on a proprietary SaaS tool or a cloud solution for sensitive application data. This makes niches and untapped potential visible and helps uncover market opportunities in a targeted way.',
           approach: 'The interface reads only prepared, tested models; raw imports, classification and scoring are decoupled from the UI as standalone, testable services. A companion system adds further sources and research, updates a spreadsheet independently and posts a chat summary.',
-          value: 'A tool that makes my own prioritisation decisions traceable, keeps sensitive data local, and could be extended iteratively without endangering the existing business logic.'
+          value: 'A tool that makes my own prioritisation decisions traceable, keeps sensitive data local, and could be extended iteratively without endangering the existing business logic.',
+          next: 'Actively growing the network (hiring managers, recruiters, domain contacts) and deepening the per-track upskilling recommendations (skill gaps, curated courses and events).'
         }
       },
       stakeholderIntelligence: {
