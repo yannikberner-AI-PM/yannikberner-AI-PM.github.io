@@ -143,6 +143,7 @@ const translations = {
       intro: 'Der passende Ansatz ergab sich jeweils aus Nutzerbedürfnissen, Business-Zielen, technischer Ausgangslage und dem Risiko für den laufenden Betrieb.',
       common: {
         periodLocation: 'Zeitraum · Ort',
+        setupLabel: 'Setup',
         contributions: 'Wichtige Beiträge',
         contextLabel: 'Kontext',
         approachLabel: 'Vorgehen',
@@ -521,6 +522,7 @@ const translations = {
       intro: 'The appropriate approach depended on user needs, business objectives, the technical starting point and the risk to ongoing operations.',
       common: {
         periodLocation: 'Period · Location',
+        setupLabel: 'Setup',
         contributions: 'Key contributions',
         contextLabel: 'Context',
         approachLabel: 'Approach',
