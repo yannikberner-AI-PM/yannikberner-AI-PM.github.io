@@ -4,7 +4,7 @@
  * resolves to a string in both translations.de and translations.en.
  *
  * Usage (from repo root):
- *   node --check script.js && node scripts/check-i18n.js
+ *   node scripts/check-i18n.js
  */
 'use strict';
 
