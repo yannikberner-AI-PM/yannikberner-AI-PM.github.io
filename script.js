@@ -317,15 +317,15 @@ const translations = {
       stakeholderIntelligence: {
         eyebrow: 'Eigenes Projekt',
         title: 'Stakeholder Intelligence',
-        meta: 'Nähe zum Auftrag und Zusammenarbeitsbedarf im Board — damit klar ist, wen ich wann und wie wieder anspreche.',
-        valueLabel: 'Mehrwert: Kommunikations-Rhythmus aus Nähe zum Auftrag und Zusammenarbeitsbedarf — wen ansprechen, wann, mit welchem Ansatz',
-        overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungen: wie zentral, direkt oder indirekt ein Stakeholder zum Auftrag steht (Kreis-Modell: Core, Direct, Indirect) und welchen Zusammenarbeitsbedarf ich sehe (Matrix). Daraus leite ich ab, wen ich wann und wie anspreche — etwa wenn lange kein Kontakt war oder vor einer Entscheidung ein Follow-up ansteht. Werkzeug für die eigene Vorbereitung, nicht für die Bewertung anderer.',
+        meta: 'Nähe zum Auftrag und Zusammenarbeitsbedarf im Board, damit klar ist, wen ich wann und wie wieder anspreche.',
+        valueLabel: 'Mehrwert: Kommunikations-Rhythmus aus Nähe zum Auftrag und Zusammenarbeitsbedarf: wen ansprechen, wann, mit welchem Ansatz',
+        overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungen: wie zentral, direkt oder indirekt ein Stakeholder zum Auftrag steht (Kreis-Modell: Core, Direct, Indirect) und welchen Zusammenarbeitsbedarf ich sehe (Matrix). Daraus leite ich ab, wen ich wann und wie anspreche, etwa wenn lange kein Kontakt war oder vor einer Entscheidung ein Follow-up ansteht. Werkzeug für die eigene Vorbereitung, nicht für die Bewertung anderer.',
         approachTitle: 'Von Einordnung zu Kommunikations-Rhythmus',
         approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zum Auftrag ein, mit den Stufen Core, Direct und Indirect, bezogen auf Produkt, Projekt oder Programm. Eine wechselbare 2×2-Matrix ergänzt den Zusammenarbeitsbedarf. Anders als bei getrennten Einzel-Whiteboards verbindet ein gemeinsames Profil beides zu einem konkreten Rückschluss: wen ich priorisiert anspreche, in welchem Rhythmus und mit welchem Kommunikationsansatz.',
         periodLocation: 'Privates Projekt, lokal betrieben',
         imageAlt: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
         mediaAriaLabel: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
-        result: 'Ergebnis: Funktionsfähiges MVP — interaktives Board mit zwei verbundenen Modellen und sichtbarem Kommunikations-Rhythmus, lokal betrieben.',
+        result: 'Ergebnis: Funktionsfähiges MVP: interaktives Board mit zwei verbundenen Modellen und sichtbarem Kommunikations-Rhythmus, lokal betrieben.',
         contributions: [
           'Zwei unabhängige, aber verbundene Einordnungsmodelle umgesetzt: Kreis-Modell (Nähe zum Auftrag: Core, Direct, Indirect) und 2×2-Matrix (Zusammenarbeitsbedarf), pro Stakeholder unabhängig positionierbar.',
           'Datenmodell und REST-API für Stakeholder, Board-Positionen und Board-Konfigurationen mit Tests aufgebaut.',
@@ -334,9 +334,9 @@ const translations = {
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
         details: {
-          context: 'Im PM-Alltag mit vielen Stakeholdern fällt die Pflege leicht auseinander: wer nah am Auftrag ist, wo Abstimmungsbedarf liegt, und wann der letzte sinnvolle Kontakt war. Bestehende Whiteboards decken meist nur eines der Modelle ab. Ich wollte Nähe und Zusammenarbeitsbedarf verbinden und daraus einen klaren Kommunikations-Rhythmus ableiten — in einem privaten, lokal laufenden Board statt eines Cloud-Tools.',
+          context: 'Im PM-Alltag mit vielen Stakeholdern fällt die Pflege leicht auseinander: wer nah am Auftrag ist, wo Abstimmungsbedarf liegt, und wann der letzte sinnvolle Kontakt war. Bestehende Whiteboards decken meist nur eines der Modelle ab. Ich wollte Nähe und Zusammenarbeitsbedarf verbinden und daraus einen klaren Kommunikations-Rhythmus ableiten, in einem privaten, lokal laufenden Board statt eines Cloud-Tools.',
           approach: 'Das Board hält fest, wie ich kommunizieren und Follow-ups planen möchte. Technisch lokal betrieben (Local-First), mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche.',
-          value: 'Nähe und Zusammenarbeitsbedarf stehen nebeneinander und verdichten sich zu einem greifbaren Rhythmus: wen ich anspreche, wann und wie — sichtbar und wiederverwendbar statt nur im Kopf.'
+          value: 'Nähe und Zusammenarbeitsbedarf stehen nebeneinander und verdichten sich zu einem greifbaren Rhythmus: wen ich anspreche, wann und wie, sichtbar und wiederverwendbar statt nur im Kopf.'
         }
       },
       predictiveMentoring: {
@@ -729,15 +729,15 @@ const translations = {
       stakeholderIntelligence: {
         eyebrow: 'Personal Project',
         title: 'Stakeholder Intelligence',
-        meta: 'Closeness to the mandate and collaboration needs on one board — so it’s clear whom to reach out to, when and how.',
-        valueLabel: 'Value: A communication rhythm from closeness to the mandate and collaboration needs — whom to contact, when, and with which approach',
-        overview: 'A private, locally run board connects two classifications: how central, direct or indirect a stakeholder is to the mandate (circle model: Core, Direct, Indirect) and what collaboration need I see (matrix). From that I derive whom to contact, when and how — for example when there has been no contact for a while, or when a follow-up is due before a decision. A tool for my own preparation, not for judging others.',
+        meta: 'Closeness to the mandate and collaboration needs on one board, so it’s clear whom to reach out to, when and how.',
+        valueLabel: 'Value: A communication rhythm from closeness to the mandate and collaboration needs: whom to contact, when, and with which approach',
+        overview: 'A private, locally run board connects two classifications: how central, direct or indirect a stakeholder is to the mandate (circle model: Core, Direct, Indirect) and what collaboration need I see (matrix). From that I derive whom to contact, when and how, for example when there has been no contact for a while, or when a follow-up is due before a decision. A tool for my own preparation, not for judging others.',
         approachTitle: 'From classification to communication rhythm',
         approachText: 'A circle model classifies stakeholders by closeness to the mandate, with the levels Core, Direct and Indirect, relative to the product, project or programme. A switchable 2×2 matrix adds collaboration needs. Unlike separate single-purpose whiteboards, a shared profile connects both into one concrete takeaway: whom I prioritise reaching out to, in what rhythm, and with which communication approach.',
         periodLocation: 'Personal project, run locally',
         imageAlt: 'Screenshot of the Stakeholder Intelligence board in circle-model view with fictional demo contacts',
         mediaAriaLabel: 'Screenshot of the Stakeholder Intelligence board in circle-model view with fictional demo contacts',
-        result: 'Outcome: Working MVP — interactive board with two connected models and a visible communication rhythm, run locally.',
+        result: 'Outcome: Working MVP: interactive board with two connected models and a visible communication rhythm, run locally.',
         contributions: [
           'Implemented two independent but connected classification models: a circle model (closeness to the mandate: Core, Direct, Indirect) and a 2×2 matrix (collaboration needs), positioned independently per stakeholder.',
           'Built a data model and REST API for stakeholders, board positions and board configurations, with tests.',
@@ -746,9 +746,9 @@ const translations = {
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
         details: {
-          context: 'In day-to-day product work with many stakeholders, upkeep slips easily: who is close to the mandate, where alignment is needed, and when the last useful contact was. Existing whiteboards usually cover only one of the models. I wanted to connect closeness and collaboration needs and turn that into a clear communication rhythm — in a private, locally run board instead of a cloud tool.',
+          context: 'In day-to-day product work with many stakeholders, upkeep slips easily: who is close to the mandate, where alignment is needed, and when the last useful contact was. Existing whiteboards usually cover only one of the models. I wanted to connect closeness and collaboration needs and turn that into a clear communication rhythm, in a private, locally run board instead of a cloud tool.',
           approach: 'The board captures how I want to communicate and plan follow-ups. Run locally (local-first), with its own Next.js/TypeScript stack for the interactive board interface.',
-          value: 'Closeness and collaboration needs sit side by side and distill into a concrete rhythm: whom I contact, when and how — visible and reusable instead of staying only in my head.'
+          value: 'Closeness and collaboration needs sit side by side and distill into a concrete rhythm: whom I contact, when and how, visible and reusable instead of staying only in my head.'
         }
       },
       predictiveMentoring: {
