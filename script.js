@@ -343,15 +343,15 @@ const translations = {
       predictiveMentoring: {
         eyebrow: 'Eigenes Projekt',
         title: 'Predictive Mentoring',
-        meta: 'App-Hilfe vom Traum zu kleinen Zielen, mit Mentoring und lokalem LLM.',
-        valueLabel: 'Mehrwert: Unterstützung bei der Traumerfüllung, vom großen Bild bis zum nächsten Schritt',
-        overview: 'Die App begleitet die Traumerfüllung: bekannte Mentoring-Methoden und ein lokales LLM übersetzen die Vision in kleine Ziele und unterstützen bei der Erreichung, positiv und alltagsnah.',
-        approachTitle: 'Vom Traum zu kleinen Zielen',
+        meta: 'App-Hilfe von der großen Vision zu kleinen Zielen und zum nächsten Schritt, mit Mentoring und lokalem LLM.',
+        valueLabel: 'Mehrwert: Unterstützung bei der Zielerreichung, von der großen Vision zu kleinen Zielen und zum nächsten Schritt',
+        overview: 'Die App begleitet auf dem Weg zu großen Zielen: bekannte Mentoring-Methoden und ein lokales LLM übersetzen die Vision in kleine Ziele und unterstützen bei der Erreichung, positiv und alltagsnah.',
+        approachTitle: 'Von der großen Vision zu kleinen Zielen und zum nächsten Schritt',
         approachText: 'Zuerst die große Vision festhalten. Dann mit Mentoring und lokalem LLM daraus Meilensteine und Wochenziele machen. Danach regelmäßig loggen und sehen, wie nah man dem Ziel kommt, mit einfachen, motivierenden Hinweisen.',
         periodLocation: 'Privates Prototyp-Projekt (iOS/Android)',
         imageAlt: 'Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat',
         mediaAriaLabel: 'Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat',
-        result: 'Ergebnis: Ein Prototyp, der Traum, kleine Ziele und Begleitung bei der Erreichung in einem Flow verbindet.',
+        result: 'Ergebnis: Ein Prototyp, der Vision, kleine Ziele und Begleitung bei der Erreichung in einem Flow verbindet.',
         contributions: [
           'Große Vision in Meilensteine und kleine Ziele übersetzen, mit Mentoring-Logik und lokalem LLM.',
           'Bekannte Mentoring-Methoden als Produktfluss: zuhören, strukturieren, nächste Schritte vorschlagen.',
@@ -361,10 +361,10 @@ const translations = {
         ],
         tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision zu Zielen', 'Mobile'],
         details: {
-          context: 'Die App verbindet Traumbild und Alltag: aus der großen Vision werden greifbare Schritte, begleitet mit Mentoring und lokalem LLM.',
-          approach: 'Was: Unterstützung bei der Traumerfüllung. Warum: damit Vision und Alltag zusammenpassen. Wie: Mentoring-Methoden und lokales LLM machen aus der Vision kleine Ziele und begleiten die Erreichung.',
-          value: 'Ein verständlicher Prototyp: vom Traumbild zu kleinen Zielen und konkreter, motivierender Unterstützung.',
-          next: 'Mit Tester:innen die Begleitung von Vision zu kleinen Zielen weiter verfeinern und Texte sowie Impulse noch klarer machen.'
+          context: 'Die App verbindet große Vision und Alltag: daraus werden greifbare Schritte, begleitet mit Mentoring und lokalem LLM.',
+          approach: 'Was: Unterstützung bei der Zielerreichung. Warum: damit Vision und Alltag zusammenpassen. Wie: Mentoring-Methoden und lokales LLM machen aus der Vision kleine Ziele und begleiten die Erreichung.',
+          value: 'Ein verständlicher Prototyp: von der großen Vision zu kleinen Zielen, zum nächsten Schritt und konkreter, motivierender Unterstützung.',
+          next: 'Mit Tester:innen die Begleitung von der großen Vision zu kleinen Zielen und zum nächsten Schritt weiter verfeinern und Texte sowie Impulse noch klarer machen.'
         }
       }
     },
@@ -756,15 +756,15 @@ const translations = {
       predictiveMentoring: {
         eyebrow: 'Personal Project',
         title: 'Predictive Mentoring',
-        meta: 'App support from dream to small goals, with mentoring and a local LLM.',
-        valueLabel: 'Value: Support for making dreams real, from the big picture to the next step',
-        overview: 'The app supports making dreams real: familiar mentoring methods and a local LLM turn the vision into small goals and help achieve them, positively and close to everyday life.',
-        approachTitle: 'From dream to small goals',
+        meta: 'App support from the big vision to small goals and the next step, with mentoring and a local LLM.',
+        valueLabel: 'Value: Support for achieving goals, from the big vision to small goals and the next step',
+        overview: 'The app supports the path to big goals: familiar mentoring methods and a local LLM turn the vision into small goals and help achieve them, positively and close to everyday life.',
+        approachTitle: 'From the big vision to small goals and the next step',
         approachText: 'First capture the big vision. Then use mentoring and a local LLM to turn it into milestones and weekly goals. After that, log regularly and see how close you are, with simple, motivating prompts.',
         periodLocation: 'Personal prototype project (iOS/Android)',
         imageAlt: 'Collage of the Predictive Mentoring app: overview with tab navigation, goals list and coaching chat',
         mediaAriaLabel: 'Collage of the Predictive Mentoring app: overview with tab navigation, goals list and coaching chat',
-        result: 'Outcome: A prototype that connects dream, small goals and support on the way in one flow.',
+        result: 'Outcome: A prototype that connects vision, small goals and support on the way in one flow.',
         contributions: [
           'Turn a big vision into milestones and small goals, with mentoring logic and a local LLM.',
           'Familiar mentoring methods as a product flow: listen, structure, suggest next steps.',
@@ -774,10 +774,10 @@ const translations = {
         ],
         tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision to goals', 'Mobile'],
         details: {
-          context: 'The app connects dream picture and everyday life: the big vision becomes tangible steps, guided with mentoring and a local LLM.',
-          approach: 'What: support for making dreams real. Why: so vision and everyday life fit together. How: mentoring methods and a local LLM turn the vision into small goals and support achievement.',
-          value: 'A clear prototype: from dream picture to small goals and concrete, motivating support.',
-          next: 'With testers, refine the path from vision to small goals and make wording and prompts even clearer.'
+          context: 'The app connects big vision and everyday life: it becomes tangible steps, guided with mentoring and a local LLM.',
+          approach: 'What: support for achieving goals. Why: so vision and everyday life fit together. How: mentoring methods and a local LLM turn the vision into small goals and support achievement.',
+          value: 'A clear prototype: from the big vision to small goals, the next step and concrete, motivating support.',
+          next: 'With testers, refine the path from the big vision to small goals and the next step, and make wording and prompts even clearer.'
         }
       }
     },
