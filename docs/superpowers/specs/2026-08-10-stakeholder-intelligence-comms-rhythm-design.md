@@ -1,7 +1,7 @@
 # Stakeholder Intelligence — Use-Case-Reframe: Kommunikations-Rhythmus
 
 **Datum:** 2026-08-10  
-**Status:** Entwurf zur Freigabe  
+**Status:** Umgesetzt (Copy-Pass)  
 **Scope:** Nur Portfolio-Copy (DE/EN) für die Case Study Stakeholder Intelligence
 
 ## Ziel
