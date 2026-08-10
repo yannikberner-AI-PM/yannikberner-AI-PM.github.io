@@ -339,6 +339,33 @@ const translations = {
           value: 'Ein Werkzeug, das die beiden Einordnungen nebeneinander zeigt und zu einem konkreten Zusammenarbeitsmodell je Stakeholder verdichtet, anders als klassische Einzel-Whiteboards, die nur eine Sicht abbilden. So wird strategisches Stakeholder-Denken sichtbar und wiederverwendbar statt nur im Kopf behalten, mit einem von Anfang an bewusst gewählten, ethisch vertretbaren Framing.',
           next: 'Ein lokal laufendes LLM für Farben-Modell-Typisierung (Rot/Gelb/Grün/Blau: dominant, initiativ, stetig, gewissenhaft) und daraus abgeleitete Vorschläge für den Stakeholder-Umgang (weiterhin mit Local-LLM), eine nur lesende Anbindung an Kommunikations- und Kalender-Tools (Mail, Slack, Teams, Kalender) für mehr Kontext sowie Reminder-Funktionen für offene Follow-ups.'
         }
+      },
+      predictiveMentoring: {
+        eyebrow: 'Eigenes Projekt',
+        title: 'Predictive Mentoring',
+        meta: 'App-Hilfe vom Traum zu kleinen Zielen, mit Mentoring und lokalem LLM.',
+        valueLabel: 'Mehrwert: Unterstützung bei der Traumerfüllung, vom großen Bild bis zum nächsten Schritt',
+        overview: 'Die App begleitet die Traumerfüllung: bekannte Mentoring-Methoden und ein lokales LLM übersetzen die Vision in kleine Ziele und unterstützen bei der Erreichung, positiv und alltagsnah.',
+        approachTitle: 'Vom Traum zu kleinen Zielen',
+        approachText: 'Zuerst die große Vision festhalten. Dann mit Mentoring und lokalem LLM daraus Meilensteine und Wochenziele machen. Danach regelmäßig loggen und sehen, wie nah man dem Ziel kommt, mit einfachen, motivierenden Hinweisen.',
+        periodLocation: 'Privates Prototyp-Projekt (iOS/Android)',
+        imageAlt: 'Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat',
+        mediaAriaLabel: 'Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat',
+        result: 'Ergebnis: Ein Prototyp, der Traum, kleine Ziele und Begleitung bei der Erreichung in einem Flow verbindet.',
+        contributions: [
+          'Große Vision in Meilensteine und kleine Ziele übersetzen, mit Mentoring-Logik und lokalem LLM.',
+          'Bekannte Mentoring-Methoden als Produktfluss: zuhören, strukturieren, nächste Schritte vorschlagen.',
+          'Einfache Fortschrittsanzeige: Wie nah bin ich meinem Ziel, und was hilft als Nächstes?',
+          'Persönliche Daten bleiben auf dem Gerät. Das lokale LLM unterstützt Formulierung und Coaching.',
+          'Positive Begleitung: Impulse und Chat, die motivieren und den nächsten Schritt klar machen.'
+        ],
+        tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision zu Zielen', 'Mobile'],
+        details: {
+          context: 'Die App verbindet Traumbild und Alltag: aus der großen Vision werden greifbare Schritte, begleitet mit Mentoring und lokalem LLM.',
+          approach: 'Was: Unterstützung bei der Traumerfüllung. Warum: damit Vision und Alltag zusammenpassen. Wie: Mentoring-Methoden und lokales LLM machen aus der Vision kleine Ziele und begleiten die Erreichung.',
+          value: 'Ein verständlicher Prototyp: vom Traumbild zu kleinen Zielen und konkreter, motivierender Unterstützung.',
+          next: 'Mit Tester:innen die Begleitung von Vision zu kleinen Zielen weiter verfeinern und Texte sowie Impulse noch klarer machen.'
+        }
       }
     },
     contact: {
@@ -724,6 +751,33 @@ const translations = {
           approach: 'A deliberate guardrail from the start: the tool does not evaluate the other person, it structures how I want to communicate myself. Technically modelled on a local-first architecture, particularly with regard to personal data and GDPR, but implemented with its own Next.js/TypeScript stack for the interactive board interface.',
           value: 'A tool that shows both classifications side by side and distils them into one concrete collaboration model per stakeholder, unlike classic single-purpose whiteboards that only cover one view. This makes strategic stakeholder thinking visible and reusable instead of keeping it in my head, with a deliberately ethical framing chosen from day one.',
           next: 'A locally run LLM for colour-based typing (red/yellow/green/blue: dominant, initiating, steady, conscientious) and derived suggestions for how to engage with the stakeholder (still with a local LLM), read-only integration with communication and calendar tools (mail, Slack, Teams, calendar) for more context, plus reminder functions for open follow-ups.'
+        }
+      },
+      predictiveMentoring: {
+        eyebrow: 'Personal Project',
+        title: 'Predictive Mentoring',
+        meta: 'App support from dream to small goals, with mentoring and a local LLM.',
+        valueLabel: 'Value: Support for making dreams real, from the big picture to the next step',
+        overview: 'The app supports making dreams real: familiar mentoring methods and a local LLM turn the vision into small goals and help achieve them, positively and close to everyday life.',
+        approachTitle: 'From dream to small goals',
+        approachText: 'First capture the big vision. Then use mentoring and a local LLM to turn it into milestones and weekly goals. After that, log regularly and see how close you are, with simple, motivating prompts.',
+        periodLocation: 'Personal prototype project (iOS/Android)',
+        imageAlt: 'Collage of the Predictive Mentoring app: overview with tab navigation, goals list and coaching chat',
+        mediaAriaLabel: 'Collage of the Predictive Mentoring app: overview with tab navigation, goals list and coaching chat',
+        result: 'Outcome: A prototype that connects dream, small goals and support on the way in one flow.',
+        contributions: [
+          'Turn a big vision into milestones and small goals, with mentoring logic and a local LLM.',
+          'Familiar mentoring methods as a product flow: listen, structure, suggest next steps.',
+          'Simple progress view: how close am I to my goal, and what helps next?',
+          'Personal data stays on the device. The local LLM supports wording and coaching.',
+          'Positive support: prompts and chat that motivate and make the next step clear.'
+        ],
+        tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision to goals', 'Mobile'],
+        details: {
+          context: 'The app connects dream picture and everyday life: the big vision becomes tangible steps, guided with mentoring and a local LLM.',
+          approach: 'What: support for making dreams real. Why: so vision and everyday life fit together. How: mentoring methods and a local LLM turn the vision into small goals and support achievement.',
+          value: 'A clear prototype: from dream picture to small goals and concrete, motivating support.',
+          next: 'With testers, refine the path from vision to small goals and make wording and prompts even clearer.'
         }
       }
     },
