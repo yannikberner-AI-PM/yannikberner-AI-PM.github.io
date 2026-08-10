@@ -892,7 +892,10 @@ function updateTranslations(language) {
 
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const value = getByPath(active, element.getAttribute('data-i18n'));
-    setTextContent(element, value ?? '');
+    // Keep HTML fallback when a key is missing (e.g. stale cached script.js).
+    if (typeof value === 'string') {
+      setTextContent(element, value);
+    }
   });
 
   document.querySelectorAll('[data-i18n-alt]').forEach((element) => {
