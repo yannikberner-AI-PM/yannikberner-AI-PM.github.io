@@ -57,7 +57,13 @@ Die Sprache ist über `?lang=de` beziehungsweise `?lang=en` teilbar. `localStora
 
 ## QA-Checkliste
 
+Vor Commit/Push (automatisierte Checks):
+
 - `node --check script.js`
+- `node scripts/check-i18n.js` (prüft, dass jeder `data-i18n` / `data-i18n-alt` / `data-i18n-aria`-Schlüssel in `translations.de` und `translations.en` als String existiert; führt intern auch `node --check script.js` aus)
+
+Manuell:
+
 - Deutsch und Englisch auf Haupt- und Datenschutzseite
 - Navigation, Escape-Taste, Details und sichtbare Fokuszustände per Tastatur
 - JavaScript-Ausfall und `prefers-reduced-motion`
