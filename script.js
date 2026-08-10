@@ -834,8 +834,6 @@ function getByPath(object, path) {
 function setTextContent(element, value) {
   if (typeof value === 'string') {
     element.innerHTML = value;
-  } else {
-    element.innerHTML = '';
   }
 }
 
@@ -893,9 +891,7 @@ function updateTranslations(language) {
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const value = getByPath(active, element.getAttribute('data-i18n'));
     // Keep HTML fallback when a key is missing (e.g. stale cached script.js).
-    if (typeof value === 'string') {
-      setTextContent(element, value);
-    }
+    setTextContent(element, value);
   });
 
   document.querySelectorAll('[data-i18n-alt]').forEach((element) => {
@@ -936,10 +932,6 @@ function updateTranslations(language) {
   document.querySelectorAll('.details-toggle').forEach((button) => {
     const expanded = button.getAttribute('aria-expanded') === 'true';
     button.textContent = expanded ? active.experience.common.hideDetails : active.experience.common.viewDetails;
-  });
-
-  document.querySelectorAll('.case-study .case-list li').forEach((item) => {
-    item.classList.remove('is-translated');
   });
 }
 
