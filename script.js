@@ -298,7 +298,7 @@ const translations = {
         periodLocation: 'Privates Projekt, lokal betrieben',
         imageAlt: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
         mediaAriaLabel: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
-        result: 'Ergebnis: Transparentes, erklärbares Scoring statt Bauchgefühl, vollständig lokal, ohne Cloud-Abhängigkeit für sensible Daten.',
+        result: 'Ergebnis: Transparentes, erklärbares Scoring statt Bauchgefühl, lokal betrieben.',
         contributions: [
           'Datenmodell und Architektur für Datenquellen-, Business-Logik- und UI-Schicht sauber getrennt konzipiert.',
           'Regelbasierte Klassifizierung und transparentes, gewichtetes Scoring ohne Blackbox-Bewertung entwickelt.',
@@ -308,9 +308,9 @@ const translations = {
         ],
         tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source-Aggregation', 'Regelbasiertes Scoring', 'Google Sheets API', 'Slack API'],
         details: {
-          context: 'Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert, ohne auf ein proprietäres SaaS-Tool oder eine Cloud-Lösung für sensible Bewerbungsdaten angewiesen zu sein. So werden Nischen und Potenziale erkennbar und Möglichkeiten im Markt gezielt aufgedeckt.',
+          context: 'Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert. Statt eines proprietären SaaS-Tools wollte ich den Ablauf selbst steuern und lokal betreiben. So werden Nischen und Potenziale erkennbar und Möglichkeiten im Markt gezielt aufgedeckt.',
           approach: 'Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem liest zusätzlich LinkedIn-Job-Mails ein, übernimmt Treffer in eine Google-Tabelle, bewertet sie regelbasiert und meldet neue Treffer mit gutem Fit direkt als Slack-Nachricht.',
-          value: 'Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht, sensible Daten lokal hält und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.',
+          value: 'Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.',
           next: 'Den Fit-Algorithmus weiter schulen, Netzwerk aktiv erweitern (Hiring Manager, Recruiter, Fachkontakte) und die Weiterbildungsvorschläge je Track vertiefen (Skill-Gaps, kuratierte Kurse und Veranstaltungen).'
         }
       },
@@ -319,25 +319,24 @@ const translations = {
         title: 'Stakeholder Intelligence',
         meta: 'Verbindet Nähe zum Auftrag (Kreis-Modell) und Zusammenarbeits-Einordnung (Matrix) in einem Board.',
         valueLabel: 'Mehrwert: Zwei Einordnungsmodelle, Nähe zum Auftrag und Zusammenarbeitsbedarf, in einem Werkzeug verbunden',
-        overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungs-Ebenen: wie zentral, direkt oder indirekt ein Stakeholder zum jeweiligen Auftrag steht, also Produkt, Projekt oder Programm (Kreis-Modell), und wie ich die Zusammenarbeit mit dieser Person gezielt gestalte (Matrix-Modell). Beides wird strukturiert in einem Profil pro Stakeholder festgehalten, bewusst als Werkzeug zur eigenen Anpassung, nicht zur Bewertung oder zum Profiling anderer.',
+        overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungs-Ebenen: wie zentral, direkt oder indirekt ein Stakeholder zum jeweiligen Auftrag steht, also Produkt, Projekt oder Programm (Kreis-Modell), und wie ich die Zusammenarbeit gezielt gestalte (Matrix-Modell). Beides wird strukturiert in einem Profil pro Stakeholder festgehalten — als Werkzeug für die eigene Vorbereitung und Anpassung, nicht als Bewertung anderer.',
         approachTitle: 'Zwei Einordnungsmodelle in einem Board verbunden',
         approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zum Auftrag ein, mit den Stufen Core, Direct und Indirect, bezogen auf Produkt, Projekt oder Programm. Eine wechselbare 2×2-Matrix ordnet sie zusätzlich nach Zusammenarbeitsbedarf ein. Anders als bei getrennten Einzel-Whiteboards verbindet ein gemeinsames Profil beide Positionen zu einem konkreten Rückschluss: wie sich die Zusammenarbeit mit den Stakeholdern gezielter gestalten lässt.',
         periodLocation: 'Privates Projekt, lokal betrieben',
         imageAlt: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
         mediaAriaLabel: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
-        result: 'Ergebnis: Funktionsfähiges MVP mit zwei verbundenen Einordnungsmodellen: interaktives Board, strukturiertes Datenmodell, vollständig lokale Datenhaltung.',
+        result: 'Ergebnis: Funktionsfähiges MVP mit zwei verbundenen Einordnungsmodellen: interaktives Board, strukturiertes Datenmodell, lokal betrieben.',
         contributions: [
           'Zwei unabhängige, aber verbundene Einordnungsmodelle umgesetzt: Kreis-Modell (Nähe zum Auftrag: Core, Direct, Indirect) und 2×2-Matrix (Zusammenarbeitsbedarf), pro Stakeholder unabhängig positionierbar.',
           'Datenmodell und REST-API für Stakeholder, Board-Positionen und Board-Konfigurationen mit Tests aufgebaut.',
-          'Strukturiertes Notizfeld-Set je Stakeholder entwickelt (Beobachtungen, Kommunikationsansatz, Kontext, Follow-ups), bewusst ohne automatische Bewertung oder Profiling der Person.',
+          'Strukturiertes Notizfeld-Set je Stakeholder entwickelt (Kontext, Kommunikationsansatz, Follow-ups), fokussiert auf die eigene Vorbereitung.',
           'Erste Code-Review-Runde durchlaufen und Ergebnisse zu Connection-Handling, Autosave und serverseitiger Validierung eingearbeitet.'
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
         details: {
-          context: 'Bestehende Stakeholder-Whiteboards decken meist nur eines der beiden Modelle ab und verbinden Nähe- und Zusammenarbeits-Einordnung nicht zu einem gemeinsamen Rückschluss. Ich wollte die eigene Zusammenarbeit mit unterschiedlichen Stakeholdern bewusster gestalten, statt Kommunikationsstil intuitiv und unstrukturiert anzupassen, ohne sensible Einschätzungen über echte Kolleg:innen in ein Cloud-Tool zu geben.',
-          approach: 'Bewusste Leitplanke von Anfang an: Das Tool bewertet nicht die andere Person, sondern hält strukturiert fest, wie ich selbst kommunizieren möchte. Technisch orientiert an einer lokal-first-Architektur, insbesondere in Bezug auf personenbezogene Daten und DSGVO, aber mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche umgesetzt.',
-          value: 'Ein Werkzeug, das die beiden Einordnungen nebeneinander zeigt und zu einem konkreten Zusammenarbeitsmodell je Stakeholder verdichtet, anders als klassische Einzel-Whiteboards, die nur eine Sicht abbilden. So wird strategisches Stakeholder-Denken sichtbar und wiederverwendbar statt nur im Kopf behalten, mit einem von Anfang an bewusst gewählten, ethisch vertretbaren Framing.',
-          next: 'Ein lokal laufendes LLM für Farben-Modell-Typisierung (Rot/Gelb/Grün/Blau: dominant, initiativ, stetig, gewissenhaft) und daraus abgeleitete Vorschläge für den Stakeholder-Umgang (weiterhin mit Local-LLM), eine nur lesende Anbindung an Kommunikations- und Kalender-Tools (Mail, Slack, Teams, Kalender) für mehr Kontext sowie Reminder-Funktionen für offene Follow-ups.'
+          context: 'Bestehende Stakeholder-Whiteboards decken meist nur eines der beiden Modelle ab und verbinden Nähe- und Zusammenarbeits-Einordnung nicht zu einem gemeinsamen Rückschluss. Ich wollte die eigene Zusammenarbeit mit unterschiedlichen Stakeholdern bewusster gestalten — mit einem privaten, lokal laufenden Werkzeug statt eines Cloud-Tools.',
+          approach: 'Leitplanke von Anfang an: Das Board hält fest, wie ich selbst kommunizieren und zusammenarbeiten möchte. Technisch lokal betrieben (Local-First), mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche.',
+          value: 'Ein Werkzeug, das die beiden Einordnungen nebeneinander zeigt und zu einem konkreten Zusammenarbeitsmodell je Stakeholder verdichtet, anders als klassische Einzel-Whiteboards, die nur eine Sicht abbilden. So wird strategisches Stakeholder-Denken sichtbar und wiederverwendbar statt nur im Kopf behalten.'
         }
       },
       predictiveMentoring: {
@@ -356,7 +355,7 @@ const translations = {
           'Große Vision in Meilensteine und kleine Ziele übersetzen, mit Mentoring-Logik und lokalem LLM.',
           'Bekannte Mentoring-Methoden als Produktfluss: zuhören, strukturieren, nächste Schritte vorschlagen.',
           'Einfache Fortschrittsanzeige: Wie nah bin ich meinem Ziel, und was hilft als Nächstes?',
-          'Persönliche Daten bleiben auf dem Gerät. Das lokale LLM unterstützt Formulierung und Coaching.',
+          'Daten bleiben auf dem Gerät. Das lokale LLM unterstützt Formulierung und Coaching.',
           'Positive Begleitung: Impulse und Chat, die motivieren und den nächsten Schritt klar machen.'
         ],
         tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision zu Zielen', 'Mobile'],
@@ -711,7 +710,7 @@ const translations = {
         periodLocation: 'Personal project, run locally',
         imageAlt: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
         mediaAriaLabel: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
-        result: 'Outcome: Transparent, explainable scoring instead of gut feel, fully local, with no cloud dependency for sensitive data.',
+        result: 'Outcome: Transparent, explainable scoring instead of gut feel, run locally.',
         contributions: [
           'Designed a data model and architecture with a clean separation between data-source, business-logic and UI layers.',
           'Built rule-based classification and transparent, weighted scoring with no black-box evaluation.',
@@ -721,9 +720,9 @@ const translations = {
         ],
         tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source Aggregation', 'Rule-Based Scoring', 'Google Sheets API', 'Slack API'],
         details: {
-          context: 'My own research across multiple job boards, company pages and contacts was highly fragmented, without relying on a proprietary SaaS tool or a cloud solution for sensitive application data. This makes niches and untapped potential visible and helps uncover market opportunities in a targeted way.',
+          context: 'My own research across multiple job boards, company pages and contacts was highly fragmented. Instead of a proprietary SaaS tool, I wanted to control the workflow myself and run it locally. This makes niches and untapped potential visible and helps uncover market opportunities in a targeted way.',
           approach: 'The interface reads only prepared, tested models; raw imports, classification and scoring are decoupled from the UI as standalone, testable services. A companion system also ingests LinkedIn job alert emails, captures matches in a Google Sheet, rule-scores them and reports new matches with a strong fit directly as a Slack message.',
-          value: 'A tool that makes my own prioritisation decisions traceable, keeps sensitive data local, and could be extended iteratively without endangering the existing business logic.',
+          value: 'A tool that makes my own prioritisation decisions traceable and could be extended iteratively without endangering the existing business logic.',
           next: 'Keep refining the fit algorithm, actively grow the network (hiring managers, recruiters, domain contacts), and deepen the per-track upskilling recommendations (skill gaps, curated courses and events).'
         }
       },
@@ -732,25 +731,24 @@ const translations = {
         title: 'Stakeholder Intelligence',
         meta: 'Connects closeness-to-mandate classification (circle model) and collaboration classification (matrix) in one board.',
         valueLabel: 'Value: Two classification models, closeness to the mandate and collaboration needs, connected in one tool',
-        overview: 'A private, locally run board connects two classification layers: how central, direct or indirect a stakeholder is to the mandate at hand, be it a product, project or programme (circle model), and how I deliberately shape collaboration with that person (matrix model). Both are structured in one profile per stakeholder, deliberately a tool for adapting my own approach, not for judging or profiling other people.',
+        overview: 'A private, locally run board connects two classification layers: how central, direct or indirect a stakeholder is to the mandate at hand, be it a product, project or programme (circle model), and how I deliberately shape collaboration (matrix model). Both are structured in one profile per stakeholder — a tool for my own preparation and adaptation, not a judgement of others.',
         approachTitle: 'Two classification models connected in one board',
         approachText: 'A circle model classifies stakeholders by closeness to the mandate, with the levels Core, Direct and Indirect, relative to the product, project or programme. A switchable 2×2 matrix additionally classifies them by collaboration needs. Unlike separate single-purpose whiteboards, a shared profile connects both positions into one concrete takeaway: how collaboration with stakeholders can be shaped more deliberately.',
         periodLocation: 'Personal project, run locally',
         imageAlt: 'Screenshot of the Stakeholder Intelligence board in circle-model view with fictional demo contacts',
         mediaAriaLabel: 'Screenshot of the Stakeholder Intelligence board in circle-model view with fictional demo contacts',
-        result: 'Outcome: Working MVP with two connected classification models: interactive board, structured data model, fully local data storage.',
+        result: 'Outcome: Working MVP with two connected classification models: interactive board, structured data model, run locally.',
         contributions: [
           'Implemented two independent but connected classification models: a circle model (closeness to the mandate: Core, Direct, Indirect) and a 2×2 matrix (collaboration needs), positioned independently per stakeholder.',
           'Built a data model and REST API for stakeholders, board positions and board configurations, with tests.',
-          'Developed a structured note-field set per stakeholder (observations, communication approach, context, follow-ups), deliberately with no automated evaluation or profiling of the person.',
+          'Developed a structured note-field set per stakeholder (context, communication approach, follow-ups), focused on my own preparation.',
           'Went through a first code-review round and incorporated findings on connection handling, autosave and server-side validation.'
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
         details: {
-          context: 'Existing stakeholder whiteboards usually cover only one of the two models and don’t connect closeness and collaboration classification into a shared takeaway. I wanted to approach collaboration with different stakeholders more deliberately instead of adapting my communication style intuitively and unstructured, without putting sensitive assessments of real colleagues into a cloud tool.',
-          approach: 'A deliberate guardrail from the start: the tool does not evaluate the other person, it structures how I want to communicate myself. Technically modelled on a local-first architecture, particularly with regard to personal data and GDPR, but implemented with its own Next.js/TypeScript stack for the interactive board interface.',
-          value: 'A tool that shows both classifications side by side and distils them into one concrete collaboration model per stakeholder, unlike classic single-purpose whiteboards that only cover one view. This makes strategic stakeholder thinking visible and reusable instead of keeping it in my head, with a deliberately ethical framing chosen from day one.',
-          next: 'A locally run LLM for colour-based typing (red/yellow/green/blue: dominant, initiating, steady, conscientious) and derived suggestions for how to engage with the stakeholder (still with a local LLM), read-only integration with communication and calendar tools (mail, Slack, Teams, calendar) for more context, plus reminder functions for open follow-ups.'
+          context: 'Existing stakeholder whiteboards usually cover only one of the two models and don’t connect closeness and collaboration classification into a shared takeaway. I wanted to approach collaboration with different stakeholders more deliberately — with a private, locally run tool instead of a cloud tool.',
+          approach: 'Guardrail from the start: the board captures how I want to communicate and collaborate. Run locally (local-first), with its own Next.js/TypeScript stack for the interactive board interface.',
+          value: 'A tool that shows both classifications side by side and distils them into one concrete collaboration model per stakeholder, unlike classic single-purpose whiteboards that only cover one view. This makes strategic stakeholder thinking visible and reusable instead of keeping it in my head.'
         }
       },
       predictiveMentoring: {
@@ -769,7 +767,7 @@ const translations = {
           'Turn a big vision into milestones and small goals, with mentoring logic and a local LLM.',
           'Familiar mentoring methods as a product flow: listen, structure, suggest next steps.',
           'Simple progress view: how close am I to my goal, and what helps next?',
-          'Personal data stays on the device. The local LLM supports wording and coaching.',
+          'Data stays on the device. The local LLM supports wording and coaching.',
           'Positive support: prompts and chat that motivate and make the next step clear.'
         ],
         tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision to goals', 'Mobile'],
