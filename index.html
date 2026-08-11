@@ -659,8 +659,8 @@
         <div class="container">
           <div class="section-intro reveal">
             <p class="eyebrow" data-i18n="projects.eyebrow">Eigene Projekte</p>
-            <h2 data-i18n="projects.heading">KI-Praxis vertiefen, Lücken schließen</h2>
-            <p class="section-lead" data-i18n="projects.intro">Private Projekte, um meine KI-Nutzung zu vertiefen und Lücken mit echtem Mehrwert zu schließen.</p>
+            <h2 data-i18n="projects.heading">Produktfälle, die PM-Denken zeigen</h2>
+            <p class="section-lead" data-i18n="projects.intro">Private Produktarbeiten von Problem und Nutzer:innen bis Evaluation, Metriken und Trade-offs — nicht nur KI-API-Demos.</p>
           </div>
 
           <article class="case-study project reveal" id="career-intelligence">
@@ -674,12 +674,12 @@
             </div>
             <p class="value-label" data-i18n="projects.careerIntelligence.valueLabel">Mehrwert: Eigenständige End-to-End-Produktarbeit, von Datenmodell bis nutzbarem Tool</p>
             <p class="case-overview" data-i18n="projects.careerIntelligence.overview">
-              Weil öffentlich indexierte Job-, Kontakt- und Unternehmenssignale über viele Quellen verstreut sind, habe ich einen privaten, lokal laufenden Agenten gebaut, der sie bündelt, dedupliziert, regelbasiert klassifiziert und nach vier selbst definierten Kriterien-Tracks transparent bewertet.
+              Weil Job-, Kontakt- und Unternehmenssignale über viele Quellen verstreut sind, habe ich einen privaten, lokal laufenden Agenten gebaut, der sie bündelt, dedupliziert, klassifiziert und nach vier Kriterien-Tracks transparent bewertet.
             </p>
             <div class="case-approach">
               <p class="case-approach-label" data-i18n="experience.common.approachLabel">Vorgehen</p>
               <h4 data-i18n="projects.careerIntelligence.approachTitle">Vom Skript zum mehrschichtigen System</h4>
-              <p data-i18n="projects.careerIntelligence.approachText">Begonnen als einfaches Scan-Skript, iterativ zu einer sauber getrennten Architektur weiterentwickelt: Datenquellen-Layer, testbare Business-Logik ohne UI-Abhängigkeit und ein Dashboard, das ausschließlich aufbereitete Modelle rendert.</p>
+              <p data-i18n="projects.careerIntelligence.approachText">Begonnen als Scan-Skript, iterativ zu getrennten Schichten weiterentwickelt: Datenquellen, testbare Business-Logik und ein Dashboard, das nur aufbereitete Modelle rendert.</p>
             </div>
             <div class="job-meta">
               <p><strong data-i18n="experience.common.setupLabel">Setup</strong>: <span data-i18n="projects.careerIntelligence.periodLocation">Privates Projekt, lokal betrieben</span></p>
@@ -697,7 +697,7 @@
                 </ul>
               </div>
               <div class="media-shell" data-i18n-aria="projects.careerIntelligence.mediaAriaLabel">
-                <img src="assets/images/career-intelligence-case-study-collage.png" alt="" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.careerIntelligence.imageAlt" />
+                <img src="assets/images/career-intelligence-case-study-collage.png" alt="Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.careerIntelligence.imageAlt" />
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Bild<br />Platzhalter</span>
                 </div>
@@ -712,12 +712,42 @@
               <span>Google Sheets API</span>
               <span>Slack API</span>
             </div>
-            <button class="details-toggle" type="button" aria-expanded="false" aria-controls="details-career-intelligence" data-i18n="experience.common.viewDetails">Details anzeigen</button>
-            <div id="details-career-intelligence" class="case-details" hidden>
-              <p><strong data-i18n="experience.common.contextLabel">Kontext</strong>: <span data-i18n="projects.careerIntelligence.details.context">Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert. Statt eines proprietären SaaS-Tools wollte ich den Ablauf selbst steuern und lokal betreiben. So werden Nischen und Potenziale erkennbar und Möglichkeiten im Markt gezielt aufgedeckt.</span></p>
-              <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="projects.careerIntelligence.details.approach">Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem liest zusätzlich LinkedIn-Job-Mails ein, übernimmt Treffer in eine Google-Tabelle, bewertet sie regelbasiert und meldet neue Treffer mit gutem Fit direkt als Slack-Nachricht.</span></p>
-              <p><strong data-i18n="experience.common.valueLabel">Wert</strong>: <span data-i18n="projects.careerIntelligence.details.value">Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.</span></p>
-              <p><strong data-i18n="experience.common.nextLabel">Next</strong>: <span data-i18n="projects.careerIntelligence.details.next">Den Fit-Algorithmus weiter schulen, Netzwerk aktiv erweitern (Hiring Manager, Recruiter, Fachkontakte) und die Weiterbildungsvorschläge je Track vertiefen (Skill-Gaps, kuratierte Kurse und Veranstaltungen).</span></p>
+            <div class="case-narrative">
+              <h4 class="case-narrative-heading" data-i18n="projects.common.narrativeHeading">Produktlogik</h4>
+              <ol class="narrative-steps">
+                <li>
+                  <strong data-i18n="projects.common.problemLabel">Problem</strong>
+                  <span data-i18n="projects.careerIntelligence.narrative.problem">Marktsignale liegen fragmentiert über Jobbörsen, Unternehmensseiten und Kontakte. Ohne eigenes System dominiert Bauchgefühl — und SaaS-Tools verstecken oft die Priorisierungslogik.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.usersLabel">Nutzer</strong>
+                  <span data-i18n="projects.careerIntelligence.narrative.users">Primär ich als Product Manager im Markt-Scan; sekundär jede Person, die multi-source Recherche mit expliziten Kriterien-Tracks steuern will.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.whyAiLabel">Warum KI</strong>
+                  <span data-i18n="projects.careerIntelligence.narrative.whyAi">KI bzw. Agenten für Aggregation, Deduplizierung und Klassifizierung — aber kein LLM-Blackbox-Ranking. Fit-Entscheidungen bleiben regelbasiert und erklärbar, weil Ownership der Kriterien beim Menschen liegen muss.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.uxLabel">UX</strong>
+                  <span data-i18n="projects.careerIntelligence.narrative.ux">Tägliches Dashboard mit neuen, aktualisierten und wiedereröffneten Einträgen plus Score-Erklärung; High-Fit-Treffer aus LinkedIn-Mails zusätzlich als Slack-Alert.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.architectureLabel">Architektur</strong>
+                  <span data-i18n="projects.careerIntelligence.narrative.architecture">Quellen-Layer → testbare Business-Logik (Klassifizieren/Scoren) → Streamlit-UI nur auf aufbereiteten Modellen; Nebensystem Sheets + Slack für den Mail-Nebenfluss.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.evaluationLabel">Evaluation</strong>
+                  <span data-i18n="projects.careerIntelligence.narrative.evaluation">Manuelle Audits: stimmt die Score-Erklärung mit späteren Bewerbungs- und Gesprächsentscheidungen überein? Datenqualitätsprobleme werden markiert statt still verworfen.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.metricsLabel">Metriken</strong>
+                  <span data-i18n="projects.careerIntelligence.narrative.metrics">Zeit von Signal bis Triage; Anteil High-Fit-Alerts mit Folgeaktion; False-Good-Fit-Rate; Kontinuität der Quellenabdeckung über Läufe hinweg.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.tradeoffsLabel">Trade-offs</strong>
+                  <span data-i18n="projects.careerIntelligence.narrative.tradeoffs">Erklärbare Regeln statt opaker LLM-Bewertung; lokale Kontrolle statt SaaS-Komfort; vier getrennte Kriterien-Tracks statt eines vermischten Gesamtscores.</span>
+                </li>
+              </ol>
             </div>
           </article>
 
@@ -732,12 +762,12 @@
             </div>
             <p class="value-label" data-i18n="projects.stakeholderIntelligence.valueLabel">Mehrwert: Kommunikations-Rhythmus aus Nähe zum Auftrag und Zusammenarbeitsbedarf</p>
             <p class="case-overview" data-i18n="projects.stakeholderIntelligence.overview">
-              Ein privates, lokal laufendes Board verbindet zwei Einordnungen: wie zentral, direkt oder indirekt ein Stakeholder zum Auftrag steht (Kreis-Modell mit Core, Direct und Indirect) und welchen Zusammenarbeitsbedarf ich sehe (Matrix). Daraus leite ich ab, wen ich wann und wie anspreche. Zum Beispiel, wenn lange kein Kontakt war oder vor einer Entscheidung ein Follow-up ansteht. Das Board dient der eigenen Vorbereitung, nicht der Bewertung anderer.
+              Ein privates, lokal laufendes Board verbindet Nähe zum Auftrag (Core, Direct, Indirect) mit Zusammenarbeitsbedarf und leitet daraus ab, wen ich wann und wie anspreche.
             </p>
             <div class="case-approach">
               <p class="case-approach-label" data-i18n="experience.common.approachLabel">Vorgehen</p>
               <h4 data-i18n="projects.stakeholderIntelligence.approachTitle">Von Einordnung zu Kommunikations-Rhythmus</h4>
-              <p data-i18n="projects.stakeholderIntelligence.approachText">Ein Kreis-Modell ordnet Stakeholder nach Nähe zum Auftrag ein, mit den Stufen Core, Direct und Indirect, bezogen auf Produkt, Projekt oder Programm. Eine wechselbare 2×2-Matrix ergänzt den Zusammenarbeitsbedarf. Anders als bei getrennten Einzel-Whiteboards verbindet ein gemeinsames Profil beides zu einem konkreten Rückschluss: wen ich priorisiert anspreche, in welchem Rhythmus und mit welchem Kommunikationsansatz.</p>
+              <p data-i18n="projects.stakeholderIntelligence.approachText">Kreis-Modell und 2×2-Matrix teilen sich ein Profil und verdichten sich zu einem konkreten Rhythmus: wen ich priorisiert anspreche, wann und mit welchem Ansatz.</p>
             </div>
             <div class="job-meta">
               <p><strong data-i18n="experience.common.setupLabel">Setup</strong>: <span data-i18n="projects.stakeholderIntelligence.periodLocation">Privates Projekt, lokal betrieben</span></p>
@@ -754,7 +784,7 @@
                 </ul>
               </div>
               <div class="media-shell" data-i18n-aria="projects.stakeholderIntelligence.mediaAriaLabel">
-                <img src="assets/images/stakeholder-intelligence-case-study-collage.png" alt="" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.stakeholderIntelligence.imageAlt" />
+                <img src="assets/images/stakeholder-intelligence-case-study-collage.png" alt="Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.stakeholderIntelligence.imageAlt" />
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Bild<br />Platzhalter</span>
                 </div>
@@ -767,11 +797,42 @@
               <span>Vitest</span>
               <span data-i18n="projects.stakeholderIntelligence.tags.4">Local-First</span>
             </div>
-            <button class="details-toggle" type="button" aria-expanded="false" aria-controls="details-stakeholder-intelligence" data-i18n="experience.common.viewDetails">Details anzeigen</button>
-            <div id="details-stakeholder-intelligence" class="case-details" hidden>
-              <p><strong data-i18n="experience.common.contextLabel">Kontext</strong>: <span data-i18n="projects.stakeholderIntelligence.details.context">Im PM-Alltag mit vielen Stakeholdern fällt die Pflege leicht auseinander: wer nah am Auftrag ist, wo Abstimmungsbedarf liegt und wann der letzte sinnvolle Kontakt war. Bestehende Whiteboards decken meist nur eines der Modelle ab. Ich wollte Nähe und Zusammenarbeitsbedarf verbinden und daraus einen klaren Kommunikations-Rhythmus ableiten. Dafür nutze ich ein privates, lokal laufendes Board statt eines Cloud-Tools.</span></p>
-              <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="projects.stakeholderIntelligence.details.approach">Das Board hält fest, wie ich kommunizieren und Follow-ups planen möchte. Technisch lokal betrieben (Local-First), mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche.</span></p>
-              <p><strong data-i18n="experience.common.valueLabel">Wert</strong>: <span data-i18n="projects.stakeholderIntelligence.details.value">Nähe und Zusammenarbeitsbedarf stehen nebeneinander und verdichten sich zu einem greifbaren Rhythmus: wen ich anspreche, wann und wie. Das bleibt sichtbar und wiederverwendbar, statt nur im Kopf.</span></p>
+            <div class="case-narrative">
+              <h4 class="case-narrative-heading" data-i18n="projects.common.narrativeHeading">Produktlogik</h4>
+              <ol class="narrative-steps">
+                <li>
+                  <strong data-i18n="projects.common.problemLabel">Problem</strong>
+                  <span data-i18n="projects.stakeholderIntelligence.narrative.problem">Im PM-Alltag zerfällt Stakeholder-Pflege leicht: Nähe zum Auftrag, Abstimmungsbedarf und letzter sinnvoller Kontakt leben in getrennten Köpfen oder Whiteboards.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.usersLabel">Nutzer</strong>
+                  <span data-i18n="projects.stakeholderIntelligence.narrative.users">Product Manager in multi-stakeholder B2B-Programmen — primär ich selbst als Vorbereitungswerkzeug, nicht als Bewertungssystem über andere.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.whyAiLabel">Warum KI</strong>
+                  <span data-i18n="projects.stakeholderIntelligence.narrative.whyAi">Bewusst keine generative KI: Ansprache-Urteile müssen besessen und revidierbar bleiben. KI-Zusammenfassungen würden Verantwortung dafür verwischen, wen ich wann priorisiere.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.uxLabel">UX</strong>
+                  <span data-i18n="projects.stakeholderIntelligence.narrative.ux">Ein Board, zwei Modelle: Kreis (Core/Direct/Indirect) und 2×2-Zusammenarbeitsbedarf, ergänzt um Notizen zu Kontext, Ansatz und Follow-ups.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.architectureLabel">Architektur</strong>
+                  <span data-i18n="projects.stakeholderIntelligence.narrative.architecture">Local-First mit Next.js, TypeScript und SQLite; REST-API für Stakeholder, Positionen und Board-Konfiguration; Tests für Kernpfade.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.evaluationLabel">Evaluation</strong>
+                  <span data-i18n="projects.stakeholderIntelligence.narrative.evaluation">Nach realen Programmwoche: Hat das Board geändert, wen ich vor Entscheidungen kontaktiert habe? Stimmt der geplante Rhythmus mit dem tatsächlichen Verhalten überein?</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.metricsLabel">Metriken</strong>
+                  <span data-i18n="projects.stakeholderIntelligence.narrative.metrics">Stakeholder mit veraltetem Kontakt; Vorbereitungszeit vor Steering-Terminen; Anteil geplanter Follow-ups, die wie vorgesehen laufen.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.tradeoffsLabel">Trade-offs</strong>
+                  <span data-i18n="projects.stakeholderIntelligence.narrative.tradeoffs">Zwei verbundene Modelle statt einer flachen Liste; lokal statt shared Cloud-CRM; privates Prep-Tool statt unternehmensweitem System of Record.</span>
+                </li>
+              </ol>
             </div>
           </article>
 
@@ -786,12 +847,12 @@
             </div>
             <p class="value-label" data-i18n="projects.predictiveMentoring.valueLabel">Mehrwert: Unterstützung bei der Zielerreichung, von der großen Vision zu kleinen Zielen und zum nächsten Schritt</p>
             <p class="case-overview" data-i18n="projects.predictiveMentoring.overview">
-              Die App begleitet auf dem Weg zu großen Zielen: bekannte Mentoring-Methoden und ein lokales LLM übersetzen die Vision in kleine Ziele und unterstützen bei der Erreichung, positiv und alltagsnah.
+              Die App begleitet große Ziele: Mentoring-Methoden und ein lokales LLM übersetzen die Vision in kleine Ziele und unterstützen die Erreichung positiv und alltagsnah.
             </p>
             <div class="case-approach">
               <p class="case-approach-label" data-i18n="experience.common.approachLabel">Vorgehen</p>
               <h4 data-i18n="projects.predictiveMentoring.approachTitle">Von der großen Vision zu kleinen Zielen und zum nächsten Schritt</h4>
-              <p data-i18n="projects.predictiveMentoring.approachText">Zuerst die große Vision festhalten. Dann mit Mentoring und lokalem LLM daraus Meilensteine und Wochenziele machen. Danach regelmäßig loggen und sehen, wie nah man dem Ziel kommt, mit einfachen, motivierenden Hinweisen.</p>
+              <p data-i18n="projects.predictiveMentoring.approachText">Vision festhalten, mit Mentoring und lokalem LLM Meilensteine und Wochenziele ableiten, Fortschritt loggen und motivierende nächste Schritte sichtbar machen.</p>
             </div>
             <div class="job-meta">
               <p><strong data-i18n="experience.common.setupLabel">Setup</strong>: <span data-i18n="projects.predictiveMentoring.periodLocation">Privates Prototyp-Projekt (iOS/Android)</span></p>
@@ -809,7 +870,7 @@
                 </ul>
               </div>
               <div class="media-shell" data-i18n-aria="projects.predictiveMentoring.mediaAriaLabel">
-                <img src="assets/images/predictive-mentoring-case-study-collage.png" alt="" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.predictiveMentoring.imageAlt" />
+                <img src="assets/images/predictive-mentoring-case-study-collage.png" alt="Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.predictiveMentoring.imageAlt" />
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Bild<br />Platzhalter</span>
                 </div>
@@ -823,12 +884,129 @@
               <span data-i18n="projects.predictiveMentoring.tags.4">Vision zu Zielen</span>
               <span>Mobile</span>
             </div>
-            <button class="details-toggle" type="button" aria-expanded="false" aria-controls="details-predictive-mentoring" data-i18n="experience.common.viewDetails">Details anzeigen</button>
-            <div id="details-predictive-mentoring" class="case-details" hidden>
-              <p><strong data-i18n="experience.common.contextLabel">Kontext</strong>: <span data-i18n="projects.predictiveMentoring.details.context">Die App verbindet große Vision und Alltag: daraus werden greifbare Schritte, begleitet mit Mentoring und lokalem LLM.</span></p>
-              <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="projects.predictiveMentoring.details.approach">Was: Unterstützung bei der Zielerreichung. Warum: damit Vision und Alltag zusammenpassen. Wie: Mentoring-Methoden und lokales LLM machen aus der Vision kleine Ziele und begleiten die Erreichung.</span></p>
-              <p><strong data-i18n="experience.common.valueLabel">Wert</strong>: <span data-i18n="projects.predictiveMentoring.details.value">Ein verständlicher Prototyp: von der großen Vision zu kleinen Zielen, zum nächsten Schritt und konkreter, motivierender Unterstützung.</span></p>
-              <p><strong data-i18n="experience.common.nextLabel">Next</strong>: <span data-i18n="projects.predictiveMentoring.details.next">Mit Tester:innen die Begleitung von der großen Vision zu kleinen Zielen und zum nächsten Schritt weiter verfeinern und Texte sowie Impulse noch klarer machen.</span></p>
+            <div class="case-narrative">
+              <h4 class="case-narrative-heading" data-i18n="projects.common.narrativeHeading">Produktlogik</h4>
+              <ol class="narrative-steps">
+                <li>
+                  <strong data-i18n="projects.common.problemLabel">Problem</strong>
+                  <span data-i18n="projects.predictiveMentoring.narrative.problem">Viele Ziel-Apps sind retrospektiv: große Visionen werden nicht in den nächsten Schritt übersetzt, Coaching ist generisch oder cloud-gebunden.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.usersLabel">Nutzer</strong>
+                  <span data-i18n="projects.predictiveMentoring.narrative.users">Menschen mit langfristigen persönlichen Zielen, die strukturiertes Mentoring wollen, ohne Verhaltensdaten in die Cloud zu geben.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.whyAiLabel">Warum KI</strong>
+                  <span data-i18n="projects.predictiveMentoring.narrative.whyAi">Lokales LLM nur für Formulierung und Coaching-Ton. Zielnähe/Prediction bleibt klassisch und nicht-generativ, damit „Wahrscheinlichkeit“ nicht halluziniert wird.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.uxLabel">UX</strong>
+                  <span data-i18n="projects.predictiveMentoring.narrative.ux">Flow Vision → Meilensteine/Wochenziele → Loggen → Fortschrittsframing → Mentoring-Chat/Impulse — positiv und alltagsnah.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.architectureLabel">Architektur</strong>
+                  <span data-i18n="projects.predictiveMentoring.narrative.architecture">React Native/Expo; Verhaltensdaten on-device in SQLite; LLM hinter austauschbarer Schicht an der Mentoring-Oberfläche.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.evaluationLabel">Evaluation</strong>
+                  <span data-i18n="projects.predictiveMentoring.narrative.evaluation">Prototyp-Usability: Kann eine Testperson in einer Session aus einer Vision Wochenziele machen? Wirkt der Coaching-Ton motivierend statt belehrend?</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.metricsLabel">Metriken</strong>
+                  <span data-i18n="projects.predictiveMentoring.narrative.metrics">Rate Vision → erstes Wochenziel; wöchentliche Log-Adhärenz; Anteil angenommener Coaching-Vorschläge; Fähigkeit, ohne Cloud-Sync nutzbar zu bleiben.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.tradeoffsLabel">Trade-offs</strong>
+                  <span data-i18n="projects.predictiveMentoring.narrative.tradeoffs">Lokale LLM-Qualität zugunsten von Privatsphäre; Prediction getrennt vom LLM; Prototyp-Tiefe vor Store-Politur.</span>
+                </li>
+              </ol>
+            </div>
+          </article>
+
+          <article class="case-study project reveal" id="cyber-security-saas">
+            <div class="case-accent"></div>
+            <div class="case-study-header">
+              <div>
+                <p class="eyebrow" data-i18n="projects.cyberSecuritySaas.eyebrow">Eigenes Projekt</p>
+                <h3 data-i18n="projects.cyberSecuritySaas.title">Cyber Security SaaS</h3>
+              </div>
+              <p class="case-context" data-i18n="projects.cyberSecuritySaas.meta">Produktkonzept: NIS2- und BCM-Pflichten in priorisierte Betriebsentscheidungen übersetzen.</p>
+            </div>
+            <p class="value-label" data-i18n="projects.cyberSecuritySaas.valueLabel">Mehrwert: Aus Compliance-Druck ein entscheidungsfähiges Produkt für resiliente Betriebsprozesse machen</p>
+            <p class="case-overview" data-i18n="projects.cyberSecuritySaas.overview">
+              NIS2 und Business Continuity landen bei vielen Betreibern als Dokumentenstapel. Das Konzept übersetzt Pflichten in eine priorisierte Risk-Backlog- und Entscheidungsoberfläche für IT/OT-Betrieb.
+            </p>
+            <div class="case-approach">
+              <p class="case-approach-label" data-i18n="experience.common.approachLabel">Vorgehen</p>
+              <h4 data-i18n="projects.cyberSecuritySaas.approachTitle">Von Nachweispflicht zu priorisierter Handlungsfähigkeit</h4>
+              <p data-i18n="projects.cyberSecuritySaas.approachText">Kontrollkatalog und Evidenz zuerst strukturieren, KI nur für Mapping-Vorschläge nutzen, Ownership und Freigabe bewusst bei Menschen belassen.</p>
+            </div>
+            <div class="job-meta">
+              <p><strong data-i18n="experience.common.setupLabel">Setup</strong>: <span data-i18n="projects.cyberSecuritySaas.periodLocation">Privates Produktkonzept / früher Prototyp</span></p>
+            </div>
+            <p class="result-line" data-i18n="projects.cyberSecuritySaas.result">Ergebnis: Klarer Produkt-Schnitt für Coverage, Priorisierung und Entscheidungstemplates statt reiner Audit-Dokumentation.</p>
+            <div class="case-body">
+              <div class="case-list">
+                <h4 data-i18n="experience.common.contributions">Wichtige Beiträge</h4>
+                <ul>
+                  <li data-i18n="projects.cyberSecuritySaas.contributions.0">Problemraum aus NIS2-, BCM- und Leitwarten-Realität in ein B2B-SaaS-Produktbild übersetzt: Coverage, Backlog, Decision Packs.</li>
+                  <li data-i18n="projects.cyberSecuritySaas.contributions.1">Human-in-the-Loop als Produktprinzip gesetzt: KI mappt und priorisiert Vorschläge, Ownership bleibt beim Risk-/Process Owner.</li>
+                  <li data-i18n="projects.cyberSecuritySaas.contributions.2">UX-Schnitt für drei Jobs definiert: Lage erkennen, Maßnahmen priorisieren, Entscheidungen dokumentieren.</li>
+                  <li data-i18n="projects.cyberSecuritySaas.contributions.3">Bewertungsrahmen für Mapping-Präzision, Time-to-Backlog und Accept/Edit/Reject von KI-Vorschlägen formuliert.</li>
+                  <li data-i18n="projects.cyberSecuritySaas.contributions.4">Trade-offs explizit gemacht: branchentiefe OT-Nähe statt horizontalem GRC-Alleskönner; Assistenz statt automatisierter Compliance-Behauptung.</li>
+                </ul>
+              </div>
+              <div class="media-shell" data-i18n-aria="projects.cyberSecuritySaas.mediaAriaLabel">
+                <img src="assets/images/cyber-security-saas-case-study-collage.png" alt="Konzept-Collage für Cyber Security SaaS: Risk Backlog, Control Mapping und Decision Templates" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.cyberSecuritySaas.imageAlt" />
+                <div class="image-placeholder" aria-hidden="true">
+                  <span data-i18n="experience.common.casePlaceholder">Case-Study-Bild<br />Platzhalter</span>
+                </div>
+              </div>
+            </div>
+            <div class="tags" aria-label="Technologie und Methoden" data-i18n-aria="experience.common.tagsLabel">
+              <span data-i18n="projects.cyberSecuritySaas.tags.0">NIS2</span>
+              <span data-i18n="projects.cyberSecuritySaas.tags.1">BCM</span>
+              <span data-i18n="projects.cyberSecuritySaas.tags.2">OT/IT Risk</span>
+              <span data-i18n="projects.cyberSecuritySaas.tags.3">Human-in-the-Loop</span>
+              <span data-i18n="projects.cyberSecuritySaas.tags.4">B2B SaaS</span>
+              <span data-i18n="projects.cyberSecuritySaas.tags.5">Decision UX</span>
+            </div>
+            <div class="case-narrative">
+              <h4 class="case-narrative-heading" data-i18n="projects.common.narrativeHeading">Produktlogik</h4>
+              <ol class="narrative-steps">
+                <li>
+                  <strong data-i18n="projects.common.problemLabel">Problem</strong>
+                  <span data-i18n="projects.cyberSecuritySaas.narrative.problem">NIS2-/BCM-Pflichten treffen Betreiber oft als unstrukturierte Nachweislast. Daraus wird selten ein priorisiertes Betriebs-Backlog für resiliente Leitwarten- und IT/OT-Entscheidungen.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.usersLabel">Nutzer</strong>
+                  <span data-i18n="projects.cyberSecuritySaas.narrative.users">Business Process Owner, IT/OT-Security Leads und Compliance-Partner in Energie- und kritischen Betriebsumgebungen — Personen, die Ownership tragen, nicht nur Audits bestehen wollen.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.whyAiLabel">Warum KI</strong>
+                  <span data-i18n="projects.cyberSecuritySaas.narrative.whyAi">KI hilft beim Mapping von Evidenz und Controls auf ein Risk-Backlog und bei der Priorisierungsvorbereitung. Sie schließt keine Compliance und ersetzt keine Risiko-Ownership — Human-in-the-Loop ist Produktfeature, nicht Afterthought.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.uxLabel">UX</strong>
+                  <span data-i18n="projects.cyberSecuritySaas.narrative.ux">Coverage-Lage → priorisiertes Backlog → Entscheidungstemplates → Review-Queue für KI-Vorschläge (Accept / Edit / Reject).</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.architectureLabel">Architektur</strong>
+                  <span data-i18n="projects.cyberSecuritySaas.narrative.architecture">Ingest von Policies/Evidenz → Klassifikation gegen Kontrollkatalog → Review-Workflow → exportierbare Decision Packs. Frühphase: Produkt- und Interaktionsschnitt vor Plattform-Tiefe.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.evaluationLabel">Evaluation</strong>
+                  <span data-i18n="projects.cyberSecuritySaas.narrative.evaluation">Fachliche Review der Mapping-Präzision; Tabletop-Vergleich: Zeit und Entscheidungsqualität mit vs. ohne Templates und assistiertes Backlog.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.metricsLabel">Metriken</strong>
+                  <span data-i18n="projects.cyberSecuritySaas.narrative.metrics">NIS2-Control-Coverage %; Time-to-prioritized-Backlog; False-Positive-Mapping-Rate; Share Accept/Edit/Reject bei KI-Vorschlägen.</span>
+                </li>
+                <li>
+                  <strong data-i18n="projects.common.tradeoffsLabel">Trade-offs</strong>
+                  <span data-i18n="projects.cyberSecuritySaas.narrative.tradeoffs">Assistive KI statt automatisierter Compliance-Claims; branchentiefe OT/IT-Nähe statt horizontalem GRC-Breite-Produkt; Entscheidungsqualität vor Dashboard-Theater.</span>
+                </li>
+              </ol>
             </div>
           </article>
         </div>

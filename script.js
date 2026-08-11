@@ -285,16 +285,27 @@ const translations = {
     },
     projects: {
       eyebrow: 'Eigene Projekte',
-      heading: 'KI-Praxis vertiefen, Lücken schließen',
-      intro: 'Private Projekte, um meine KI-Nutzung zu vertiefen und Lücken mit echtem Mehrwert zu schließen.',
+      heading: 'Produktfälle, die PM-Denken zeigen',
+      intro: 'Private Produktarbeiten von Problem und Nutzer:innen bis Evaluation, Metriken und Trade-offs — nicht nur KI-API-Demos.',
+      common: {
+        narrativeHeading: 'Produktlogik',
+        problemLabel: 'Problem',
+        usersLabel: 'Nutzer',
+        whyAiLabel: 'Warum KI',
+        uxLabel: 'UX',
+        architectureLabel: 'Architektur',
+        evaluationLabel: 'Evaluation',
+        metricsLabel: 'Metriken',
+        tradeoffsLabel: 'Trade-offs'
+      },
       careerIntelligence: {
         eyebrow: 'Eigenes Projekt',
         title: 'Career Intelligence',
         meta: 'Agentenbasierter Recherche-, Klassifizierungs- und Priorisierungs-Monitor.',
         valueLabel: 'Mehrwert: Eigenständige End-to-End-Produktarbeit, von Datenmodell bis nutzbarem Tool',
-        overview: 'Weil öffentlich indexierte Job-, Kontakt- und Unternehmenssignale über viele Quellen verstreut sind, habe ich einen privaten, lokal laufenden Agenten gebaut, der sie bündelt, dedupliziert, regelbasiert klassifiziert und nach vier selbst definierten Kriterien-Tracks transparent bewertet.',
+        overview: 'Weil Job-, Kontakt- und Unternehmenssignale über viele Quellen verstreut sind, habe ich einen privaten, lokal laufenden Agenten gebaut, der sie bündelt, dedupliziert, klassifiziert und nach vier Kriterien-Tracks transparent bewertet.',
         approachTitle: 'Vom Skript zum mehrschichtigen System',
-        approachText: 'Begonnen als einfaches Scan-Skript, iterativ zu einer sauber getrennten Architektur weiterentwickelt: Datenquellen-Layer, testbare Business-Logik ohne UI-Abhängigkeit und ein Dashboard, das ausschließlich aufbereitete Modelle rendert.',
+        approachText: 'Begonnen als Scan-Skript, iterativ zu getrennten Schichten weiterentwickelt: Datenquellen, testbare Business-Logik und ein Dashboard, das nur aufbereitete Modelle rendert.',
         periodLocation: 'Privates Projekt, lokal betrieben',
         imageAlt: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
         mediaAriaLabel: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
@@ -307,11 +318,15 @@ const translations = {
           'Den bisher manuellen Ablauf zum Sichten von LinkedIn-Job-Mails automatisiert: Treffer werden in eine Google-Tabelle übernommen, regelbasiert bewertet und bei gutem Fit direkt als Slack-Nachricht gemeldet.'
         ],
         tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source-Aggregation', 'Regelbasiertes Scoring', 'Google Sheets API', 'Slack API'],
-        details: {
-          context: 'Die eigene Recherche über mehrere Jobbörsen, Unternehmensseiten und Kontakte war stark fragmentiert. Statt eines proprietären SaaS-Tools wollte ich den Ablauf selbst steuern und lokal betreiben. So werden Nischen und Potenziale erkennbar und Möglichkeiten im Markt gezielt aufgedeckt.',
-          approach: 'Die Oberfläche liest ausschließlich aufbereitete, getestete Modelle; Rohimporte, Klassifizierung und Scoring sind als eigenständige, testbare Services von der UI entkoppelt. Ein Nebensystem liest zusätzlich LinkedIn-Job-Mails ein, übernimmt Treffer in eine Google-Tabelle, bewertet sie regelbasiert und meldet neue Treffer mit gutem Fit direkt als Slack-Nachricht.',
-          value: 'Ein Werkzeug, das eigene Priorisierungsentscheidungen nachvollziehbar macht und iterativ ausgebaut werden konnte, ohne die bestehende Fachlogik zu gefährden.',
-          next: 'Den Fit-Algorithmus weiter schulen, Netzwerk aktiv erweitern (Hiring Manager, Recruiter, Fachkontakte) und die Weiterbildungsvorschläge je Track vertiefen (Skill-Gaps, kuratierte Kurse und Veranstaltungen).'
+        narrative: {
+          problem: 'Marktsignale liegen fragmentiert über Jobbörsen, Unternehmensseiten und Kontakte. Ohne eigenes System dominiert Bauchgefühl — und SaaS-Tools verstecken oft die Priorisierungslogik.',
+          users: 'Primär ich als Product Manager im Markt-Scan; sekundär jede Person, die multi-source Recherche mit expliziten Kriterien-Tracks steuern will.',
+          whyAi: 'KI bzw. Agenten für Aggregation, Deduplizierung und Klassifizierung — aber kein LLM-Blackbox-Ranking. Fit-Entscheidungen bleiben regelbasiert und erklärbar, weil Ownership der Kriterien beim Menschen liegen muss.',
+          ux: 'Tägliches Dashboard mit neuen, aktualisierten und wiedereröffneten Einträgen plus Score-Erklärung; High-Fit-Treffer aus LinkedIn-Mails zusätzlich als Slack-Alert.',
+          architecture: 'Quellen-Layer → testbare Business-Logik (Klassifizieren/Scoren) → Streamlit-UI nur auf aufbereiteten Modellen; Nebensystem Sheets + Slack für den Mail-Nebenfluss.',
+          evaluation: 'Manuelle Audits: stimmt die Score-Erklärung mit späteren Bewerbungs- und Gesprächsentscheidungen überein? Datenqualitätsprobleme werden markiert statt still verworfen.',
+          metrics: 'Zeit von Signal bis Triage; Anteil High-Fit-Alerts mit Folgeaktion; False-Good-Fit-Rate; Kontinuität der Quellenabdeckung über Läufe hinweg.',
+          tradeoffs: 'Erklärbare Regeln statt opaker LLM-Bewertung; lokale Kontrolle statt SaaS-Komfort; vier getrennte Kriterien-Tracks statt eines vermischten Gesamtscores.'
         }
       },
       stakeholderIntelligence: {
@@ -319,9 +334,9 @@ const translations = {
         title: 'Stakeholder Intelligence',
         meta: 'Nähe zum Auftrag und Zusammenarbeitsbedarf in einem Board, um zu klären, wen ich wann und wie anspreche.',
         valueLabel: 'Mehrwert: Kommunikations-Rhythmus aus Nähe zum Auftrag und Zusammenarbeitsbedarf',
-        overview: 'Ein privates, lokal laufendes Board verbindet zwei Einordnungen: wie zentral, direkt oder indirekt ein Stakeholder zum Auftrag steht (Kreis-Modell mit Core, Direct und Indirect) und welchen Zusammenarbeitsbedarf ich sehe (Matrix). Daraus leite ich ab, wen ich wann und wie anspreche. Zum Beispiel, wenn lange kein Kontakt war oder vor einer Entscheidung ein Follow-up ansteht. Das Board dient der eigenen Vorbereitung, nicht der Bewertung anderer.',
+        overview: 'Ein privates, lokal laufendes Board verbindet Nähe zum Auftrag (Core, Direct, Indirect) mit Zusammenarbeitsbedarf und leitet daraus ab, wen ich wann und wie anspreche.',
         approachTitle: 'Von Einordnung zu Kommunikations-Rhythmus',
-        approachText: 'Ein Kreis-Modell ordnet Stakeholder nach Nähe zum Auftrag ein, mit den Stufen Core, Direct und Indirect, bezogen auf Produkt, Projekt oder Programm. Eine wechselbare 2×2-Matrix ergänzt den Zusammenarbeitsbedarf. Anders als bei getrennten Einzel-Whiteboards verbindet ein gemeinsames Profil beides zu einem konkreten Rückschluss: wen ich priorisiert anspreche, in welchem Rhythmus und mit welchem Kommunikationsansatz.',
+        approachText: 'Kreis-Modell und 2×2-Matrix teilen sich ein Profil und verdichten sich zu einem konkreten Rhythmus: wen ich priorisiert anspreche, wann und mit welchem Ansatz.',
         periodLocation: 'Privates Projekt, lokal betrieben',
         imageAlt: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
         mediaAriaLabel: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
@@ -333,10 +348,15 @@ const translations = {
           'Erste Code-Review-Runde durchlaufen und Ergebnisse zu Connection-Handling, Autosave und serverseitiger Validierung eingearbeitet.'
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
-        details: {
-          context: 'Im PM-Alltag mit vielen Stakeholdern fällt die Pflege leicht auseinander: wer nah am Auftrag ist, wo Abstimmungsbedarf liegt und wann der letzte sinnvolle Kontakt war. Bestehende Whiteboards decken meist nur eines der Modelle ab. Ich wollte Nähe und Zusammenarbeitsbedarf verbinden und daraus einen klaren Kommunikations-Rhythmus ableiten. Dafür nutze ich ein privates, lokal laufendes Board statt eines Cloud-Tools.',
-          approach: 'Das Board hält fest, wie ich kommunizieren und Follow-ups planen möchte. Technisch lokal betrieben (Local-First), mit eigenem Next.js/TypeScript-Stack für die interaktive Board-Oberfläche.',
-          value: 'Nähe und Zusammenarbeitsbedarf stehen nebeneinander und verdichten sich zu einem greifbaren Rhythmus: wen ich anspreche, wann und wie. Das bleibt sichtbar und wiederverwendbar, statt nur im Kopf.'
+        narrative: {
+          problem: 'Im PM-Alltag zerfällt Stakeholder-Pflege leicht: Nähe zum Auftrag, Abstimmungsbedarf und letzter sinnvoller Kontakt leben in getrennten Köpfen oder Whiteboards.',
+          users: 'Product Manager in multi-stakeholder B2B-Programmen — primär ich selbst als Vorbereitungswerkzeug, nicht als Bewertungssystem über andere.',
+          whyAi: 'Bewusst keine generative KI: Ansprache-Urteile müssen besessen und revidierbar bleiben. KI-Zusammenfassungen würden Verantwortung dafür verwischen, wen ich wann priorisiere.',
+          ux: 'Ein Board, zwei Modelle: Kreis (Core/Direct/Indirect) und 2×2-Zusammenarbeitsbedarf, ergänzt um Notizen zu Kontext, Ansatz und Follow-ups.',
+          architecture: 'Local-First mit Next.js, TypeScript und SQLite; REST-API für Stakeholder, Positionen und Board-Konfiguration; Tests für Kernpfade.',
+          evaluation: 'Nach realen Programmwoche: Hat das Board geändert, wen ich vor Entscheidungen kontaktiert habe? Stimmt der geplante Rhythmus mit dem tatsächlichen Verhalten überein?',
+          metrics: 'Stakeholder mit veraltetem Kontakt; Vorbereitungszeit vor Steering-Terminen; Anteil geplanter Follow-ups, die wie vorgesehen laufen.',
+          tradeoffs: 'Zwei verbundene Modelle statt einer flachen Liste; lokal statt shared Cloud-CRM; privates Prep-Tool statt unternehmensweitem System of Record.'
         }
       },
       predictiveMentoring: {
@@ -344,9 +364,9 @@ const translations = {
         title: 'Predictive Mentoring',
         meta: 'App-Hilfe von der großen Vision zu kleinen Zielen und zum nächsten Schritt, mit Mentoring und lokalem LLM.',
         valueLabel: 'Mehrwert: Unterstützung bei der Zielerreichung, von der großen Vision zu kleinen Zielen und zum nächsten Schritt',
-        overview: 'Die App begleitet auf dem Weg zu großen Zielen: bekannte Mentoring-Methoden und ein lokales LLM übersetzen die Vision in kleine Ziele und unterstützen bei der Erreichung, positiv und alltagsnah.',
+        overview: 'Die App begleitet große Ziele: Mentoring-Methoden und ein lokales LLM übersetzen die Vision in kleine Ziele und unterstützen die Erreichung positiv und alltagsnah.',
         approachTitle: 'Von der großen Vision zu kleinen Zielen und zum nächsten Schritt',
-        approachText: 'Zuerst die große Vision festhalten. Dann mit Mentoring und lokalem LLM daraus Meilensteine und Wochenziele machen. Danach regelmäßig loggen und sehen, wie nah man dem Ziel kommt, mit einfachen, motivierenden Hinweisen.',
+        approachText: 'Vision festhalten, mit Mentoring und lokalem LLM Meilensteine und Wochenziele ableiten, Fortschritt loggen und motivierende nächste Schritte sichtbar machen.',
         periodLocation: 'Privates Prototyp-Projekt (iOS/Android)',
         imageAlt: 'Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat',
         mediaAriaLabel: 'Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat',
@@ -359,11 +379,46 @@ const translations = {
           'Positive Begleitung: Impulse und Chat, die motivieren und den nächsten Schritt klar machen.'
         ],
         tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision zu Zielen', 'Mobile'],
-        details: {
-          context: 'Die App verbindet große Vision und Alltag: daraus werden greifbare Schritte, begleitet mit Mentoring und lokalem LLM.',
-          approach: 'Was: Unterstützung bei der Zielerreichung. Warum: damit Vision und Alltag zusammenpassen. Wie: Mentoring-Methoden und lokales LLM machen aus der Vision kleine Ziele und begleiten die Erreichung.',
-          value: 'Ein verständlicher Prototyp: von der großen Vision zu kleinen Zielen, zum nächsten Schritt und konkreter, motivierender Unterstützung.',
-          next: 'Mit Tester:innen die Begleitung von der großen Vision zu kleinen Zielen und zum nächsten Schritt weiter verfeinern und Texte sowie Impulse noch klarer machen.'
+        narrative: {
+          problem: 'Viele Ziel-Apps sind retrospektiv: große Visionen werden nicht in den nächsten Schritt übersetzt, Coaching ist generisch oder cloud-gebunden.',
+          users: 'Menschen mit langfristigen persönlichen Zielen, die strukturiertes Mentoring wollen, ohne Verhaltensdaten in die Cloud zu geben.',
+          whyAi: 'Lokales LLM nur für Formulierung und Coaching-Ton. Zielnähe/Prediction bleibt klassisch und nicht-generativ, damit „Wahrscheinlichkeit“ nicht halluziniert wird.',
+          ux: 'Flow Vision → Meilensteine/Wochenziele → Loggen → Fortschrittsframing → Mentoring-Chat/Impulse — positiv und alltagsnah.',
+          architecture: 'React Native/Expo; Verhaltensdaten on-device in SQLite; LLM hinter austauschbarer Schicht an der Mentoring-Oberfläche.',
+          evaluation: 'Prototyp-Usability: Kann eine Testperson in einer Session aus einer Vision Wochenziele machen? Wirkt der Coaching-Ton motivierend statt belehrend?',
+          metrics: 'Rate Vision → erstes Wochenziel; wöchentliche Log-Adhärenz; Anteil angenommener Coaching-Vorschläge; Fähigkeit, ohne Cloud-Sync nutzbar zu bleiben.',
+          tradeoffs: 'Lokale LLM-Qualität zugunsten von Privatsphäre; Prediction getrennt vom LLM; Prototyp-Tiefe vor Store-Politur.'
+        }
+      },
+      cyberSecuritySaas: {
+        eyebrow: 'Eigenes Projekt',
+        title: 'Cyber Security SaaS',
+        meta: 'Produktkonzept: NIS2- und BCM-Pflichten in priorisierte Betriebsentscheidungen übersetzen.',
+        valueLabel: 'Mehrwert: Aus Compliance-Druck ein entscheidungsfähiges Produkt für resiliente Betriebsprozesse machen',
+        overview: 'NIS2 und Business Continuity landen bei vielen Betreibern als Dokumentenstapel. Das Konzept übersetzt Pflichten in eine priorisierte Risk-Backlog- und Entscheidungsoberfläche für IT/OT-Betrieb.',
+        approachTitle: 'Von Nachweispflicht zu priorisierter Handlungsfähigkeit',
+        approachText: 'Kontrollkatalog und Evidenz zuerst strukturieren, KI nur für Mapping-Vorschläge nutzen, Ownership und Freigabe bewusst bei Menschen belassen.',
+        periodLocation: 'Privates Produktkonzept / früher Prototyp',
+        imageAlt: 'Konzept-Collage für Cyber Security SaaS: Risk Backlog, Control Mapping und Decision Templates',
+        mediaAriaLabel: 'Konzept-Collage für Cyber Security SaaS: Risk Backlog, Control Mapping und Decision Templates',
+        result: 'Ergebnis: Klarer Produkt-Schnitt für Coverage, Priorisierung und Entscheidungstemplates statt reiner Audit-Dokumentation.',
+        contributions: [
+          'Problemraum aus NIS2-, BCM- und Leitwarten-Realität in ein B2B-SaaS-Produktbild übersetzt: Coverage, Backlog, Decision Packs.',
+          'Human-in-the-Loop als Produktprinzip gesetzt: KI mappt und priorisiert Vorschläge, Ownership bleibt beim Risk-/Process Owner.',
+          'UX-Schnitt für drei Jobs definiert: Lage erkennen, Maßnahmen priorisieren, Entscheidungen dokumentieren.',
+          'Bewertungsrahmen für Mapping-Präzision, Time-to-Backlog und Accept/Edit/Reject von KI-Vorschlägen formuliert.',
+          'Trade-offs explizit gemacht: branchentiefe OT-Nähe statt horizontalem GRC-Alleskönner; Assistenz statt automatisierter Compliance-Behauptung.'
+        ],
+        tags: ['NIS2', 'BCM', 'OT/IT Risk', 'Human-in-the-Loop', 'B2B SaaS', 'Decision UX'],
+        narrative: {
+          problem: 'NIS2-/BCM-Pflichten treffen Betreiber oft als unstrukturierte Nachweislast. Daraus wird selten ein priorisiertes Betriebs-Backlog für resiliente Leitwarten- und IT/OT-Entscheidungen.',
+          users: 'Business Process Owner, IT/OT-Security Leads und Compliance-Partner in Energie- und kritischen Betriebsumgebungen — Personen, die Ownership tragen, nicht nur Audits bestehen wollen.',
+          whyAi: 'KI hilft beim Mapping von Evidenz und Controls auf ein Risk-Backlog und bei der Priorisierungsvorbereitung. Sie schließt keine Compliance und ersetzt keine Risiko-Ownership — Human-in-the-Loop ist Produktfeature, nicht Afterthought.',
+          ux: 'Coverage-Lage → priorisiertes Backlog → Entscheidungstemplates → Review-Queue für KI-Vorschläge (Accept / Edit / Reject).',
+          architecture: 'Ingest von Policies/Evidenz → Klassifikation gegen Kontrollkatalog → Review-Workflow → exportierbare Decision Packs. Frühphase: Produkt- und Interaktionsschnitt vor Plattform-Tiefe.',
+          evaluation: 'Fachliche Review der Mapping-Präzision; Tabletop-Vergleich: Zeit und Entscheidungsqualität mit vs. ohne Templates und assistiertes Backlog.',
+          metrics: 'NIS2-Control-Coverage %; Time-to-prioritized-Backlog; False-Positive-Mapping-Rate; Share Accept/Edit/Reject bei KI-Vorschlägen.',
+          tradeoffs: 'Assistive KI statt automatisierter Compliance-Claims; branchentiefe OT/IT-Nähe statt horizontalem GRC-Breite-Produkt; Entscheidungsqualität vor Dashboard-Theater.'
         }
       }
     },
@@ -696,86 +751,141 @@ const translations = {
       }
     },
     projects: {
-      eyebrow: 'Personal Projects',
-      heading: 'Deepening AI practice, closing gaps',
-      intro: 'Private projects to deepen my hands-on AI use and close gaps that create real value.',
+      eyebrow: 'Personal projects',
+      heading: 'Product cases that show PM thinking',
+      intro: 'Private product work from problem and users through evaluation, metrics and trade-offs — not just LLM API demos.',
+      common: {
+        narrativeHeading: 'Product thinking',
+        problemLabel: 'Problem',
+        usersLabel: 'Users',
+        whyAiLabel: 'Why AI',
+        uxLabel: 'UX',
+        architectureLabel: 'Architecture',
+        evaluationLabel: 'Evaluation',
+        metricsLabel: 'Metrics',
+        tradeoffsLabel: 'Trade-offs'
+      },
       careerIntelligence: {
-        eyebrow: 'Personal Project',
+        eyebrow: 'Personal project',
         title: 'Career Intelligence',
         meta: 'Agent-based research, classification and prioritisation monitor.',
-        valueLabel: 'Value: Independent end-to-end product work, from data model to usable tool',
-        overview: 'Because publicly indexed job, contact and company signals are scattered across many sources, I built a private, locally run agent that aggregates, deduplicates, rule-classifies and transparently scores them against four self-defined criteria tracks.',
-        approachTitle: 'From script to a layered system',
-        approachText: 'Started as a simple scan script, iteratively evolved into a cleanly separated architecture: a data-source layer, testable business logic with no UI dependency, and a dashboard that renders only prepared models.',
+        valueLabel: 'Value: End-to-end product work on my own, from data model to usable tool',
+        overview: 'Because job, contact and company signals are scattered across sources, I built a private local agent that aggregates, deduplicates, classifies and scores them transparently across four criteria tracks.',
+        approachTitle: 'From script to layered system',
+        approachText: 'Started as a scan script, then iterated into separated layers: data sources, testable business logic and a dashboard that only renders prepared models.',
         periodLocation: 'Personal project, run locally',
         imageAlt: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
         mediaAriaLabel: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
         result: 'Outcome: Transparent, explainable scoring instead of gut feel, run locally.',
         contributions: [
-          'Designed a data model and architecture with a clean separation between data-source, business-logic and UI layers.',
-          'Built rule-based classification and transparent, weighted scoring with no black-box evaluation.',
-          'Implemented persistent history for new, updated, removed and reopened entries: data-quality issues are flagged rather than silently deleted.',
+          'Designed a cleanly separated data model and architecture for source, business-logic and UI layers.',
+          'Built rule-based classification and transparent weighted scoring without black-box judgment.',
+          'Implemented persistent history for new, updated, removed and reopened items: data-quality issues are flagged instead of silently deleted.',
           'Connected an automated daily run to a local dashboard.',
-          'Automated what used to be a manual process for screening LinkedIn job alert emails: matches are captured in a Google Sheet, rule-scored, and reported directly as a Slack message when the fit is strong.'
+          'Automated the previously manual LinkedIn job-mail triage: hits land in a Google Sheet, are scored by rules and high-fit matches alert via Slack.'
         ],
-        tags: ['Python', 'Streamlit', 'SQLite', 'Multi-Source Aggregation', 'Rule-Based Scoring', 'Google Sheets API', 'Slack API'],
-        details: {
-          context: 'My own research across multiple job boards, company pages and contacts was highly fragmented. Instead of a proprietary SaaS tool, I wanted to control the workflow myself and run it locally. This makes niches and untapped potential visible and helps uncover market opportunities in a targeted way.',
-          approach: 'The interface reads only prepared, tested models; raw imports, classification and scoring are decoupled from the UI as standalone, testable services. A companion system also ingests LinkedIn job alert emails, captures matches in a Google Sheet, rule-scores them and reports new matches with a strong fit directly as a Slack message.',
-          value: 'A tool that makes my own prioritisation decisions traceable and could be extended iteratively without endangering the existing business logic.',
-          next: 'Keep refining the fit algorithm, actively grow the network (hiring managers, recruiters, domain contacts), and deepen the per-track upskilling recommendations (skill gaps, curated courses and events).'
+        tags: ['Python', 'Streamlit', 'SQLite', 'Multi-source aggregation', 'Rule-based scoring', 'Google Sheets API', 'Slack API'],
+        narrative: {
+          problem: 'Market signals are fragmented across job boards, company pages and contacts. Without a owned system, prioritisation stays gut feel — and SaaS tools often hide the scoring logic.',
+          users: 'Primarily myself as a product manager scanning the market; secondarily anyone who wants multi-source research driven by explicit criteria tracks.',
+          whyAi: 'Use agents for aggregation, deduplication and classification — not an LLM black-box ranker. Fit decisions stay rule-based and explainable because criteria ownership must remain human.',
+          ux: 'Daily dashboard of new, updated and reopened items with score explanation; high-fit LinkedIn mail hits also surface as Slack alerts.',
+          architecture: 'Source layer → testable business logic (classify/score) → Streamlit UI on prepared models only; side system with Sheets + Slack for the mail side-flow.',
+          evaluation: 'Manual audits: do score explanations match later application and interview decisions? Data-quality issues are flagged instead of silently dropped.',
+          metrics: 'Time from signal to triage; share of high-fit alerts that drive action; false good-fit rate; continuity of source coverage across runs.',
+          tradeoffs: 'Explainable rules over opaque LLM ranking; local control over SaaS convenience; four separate criteria tracks over one blended score.'
         }
       },
       stakeholderIntelligence: {
-        eyebrow: 'Personal Project',
+        eyebrow: 'Personal project',
         title: 'Stakeholder Intelligence',
-        meta: 'Closeness to the mandate and collaboration needs on one board, to clarify whom to contact, when and how.',
-        valueLabel: 'Value: A communication rhythm from closeness to the mandate and collaboration needs',
-        overview: 'A private, locally run board connects two classifications: how central, direct or indirect a stakeholder is to the mandate (circle model with Core, Direct and Indirect) and what collaboration need I see (matrix). From that I derive whom to contact, when and how. For example, when there has been no contact for a while, or when a follow-up is due before a decision. The board supports my own preparation, not judging others.',
-        approachTitle: 'From classification to communication rhythm',
-        approachText: 'A circle model classifies stakeholders by closeness to the mandate, with the levels Core, Direct and Indirect, relative to the product, project or programme. A switchable 2×2 matrix adds collaboration needs. Unlike separate single-purpose whiteboards, a shared profile connects both into one concrete takeaway: whom I prioritise reaching out to, in what rhythm, and with which communication approach.',
+        meta: 'Proximity to the mandate and collaboration need in one board, to decide whom I approach when and how.',
+        valueLabel: 'Value: Communication rhythm from proximity to the mandate and collaboration need',
+        overview: 'A private local board connects proximity to the mandate (Core, Direct, Indirect) with collaboration need and derives whom I approach when and how.',
+        approachTitle: 'From mapping to communication rhythm',
+        approachText: 'Circle model and 2×2 matrix share one profile and compress into a concrete rhythm: whom I prioritise, when, and with which approach.',
         periodLocation: 'Personal project, run locally',
-        imageAlt: 'Screenshot of the Stakeholder Intelligence board in circle-model view with fictional demo contacts',
-        mediaAriaLabel: 'Screenshot of the Stakeholder Intelligence board in circle-model view with fictional demo contacts',
+        imageAlt: 'Screenshot of the Stakeholder Intelligence board in circle mode with fictional demo contacts',
+        mediaAriaLabel: 'Screenshot of the Stakeholder Intelligence board in circle mode with fictional demo contacts',
         result: 'Outcome: Working MVP with an interactive board, two connected models and a visible communication rhythm, run locally.',
         contributions: [
-          'Implemented two independent but connected classification models: a circle model (closeness to the mandate: Core, Direct, Indirect) and a 2×2 matrix (collaboration needs), positioned independently per stakeholder.',
-          'Built a data model and REST API for stakeholders, board positions and board configurations, with tests.',
-          'Developed a structured note-field set per stakeholder (context, communication approach, follow-ups) to capture my own outreach rhythm.',
-          'Went through a first code-review round and incorporated findings on connection handling, autosave and server-side validation.'
+          'Implemented two independent but connected mapping models: circle (proximity: Core, Direct, Indirect) and 2×2 collaboration need, each positionable per stakeholder.',
+          'Built data model and REST API for stakeholders, board positions and board configs with tests.',
+          'Designed a structured note set per stakeholder (context, communication approach, follow-ups) to capture the outreach rhythm.',
+          'Completed a first code-review pass and folded findings into connection handling, autosave and server-side validation.'
         ],
-        tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-First'],
-        details: {
-          context: 'In day-to-day product work with many stakeholders, upkeep slips easily: who is close to the mandate, where alignment is needed and when the last useful contact was. Existing whiteboards usually cover only one of the models. I wanted to connect closeness and collaboration needs and turn that into a clear communication rhythm. For that I use a private, locally run board instead of a cloud tool.',
-          approach: 'The board captures how I want to communicate and plan follow-ups. Run locally (local-first), with its own Next.js/TypeScript stack for the interactive board interface.',
-          value: 'Closeness and collaboration needs sit side by side and distill into a concrete rhythm: whom I contact, when and how. That stays visible and reusable, instead of staying only in my head.'
+        tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Local-first'],
+        narrative: {
+          problem: 'In day-to-day PM work, stakeholder hygiene fragments: proximity to the mandate, collaboration need and last useful contact live in separate heads or whiteboards.',
+          users: 'Product managers in multi-stakeholder B2B programmes — primarily myself as a prep tool, not a rating system about other people.',
+          whyAi: 'Deliberately no generative AI: outreach judgments must stay owned and revisable. AI summaries would blur accountability for whom I prioritise when.',
+          ux: 'One board, two models: circle (Core/Direct/Indirect) and 2×2 collaboration need, plus notes for context, approach and follow-ups.',
+          architecture: 'Local-first with Next.js, TypeScript and SQLite; REST API for stakeholders, positions and board config; tests on core paths.',
+          evaluation: 'After real programme weeks: did the board change whom I contacted before decisions? Does planned rhythm match actual behaviour?',
+          metrics: 'Stakeholders with stale contact; prep time before steering meetings; share of planned follow-ups completed as intended.',
+          tradeoffs: 'Two connected models over a flat list; local over shared cloud CRM; private prep tool over enterprise system of record.'
         }
       },
       predictiveMentoring: {
-        eyebrow: 'Personal Project',
+        eyebrow: 'Personal project',
         title: 'Predictive Mentoring',
-        meta: 'App support from the big vision to small goals and the next step, with mentoring and a local LLM.',
-        valueLabel: 'Value: Support for achieving goals, from the big vision to small goals and the next step',
-        overview: 'The app supports the path to big goals: familiar mentoring methods and a local LLM turn the vision into small goals and help achieve them, positively and close to everyday life.',
-        approachTitle: 'From the big vision to small goals and the next step',
-        approachText: 'First capture the big vision. Then use mentoring and a local LLM to turn it into milestones and weekly goals. After that, log regularly and see how close you are, with simple, motivating prompts.',
+        meta: 'App support from a big vision to small goals and the next step, with mentoring and a local LLM.',
+        valueLabel: 'Value: Support for goal attainment, from big vision to small goals and the next step',
+        overview: 'The app supports long-horizon goals: mentoring methods and a local LLM translate vision into small goals and help achieve them in a positive, everyday way.',
+        approachTitle: 'From big vision to small goals and the next step',
+        approachText: 'Capture the vision, derive milestones and weekly goals with mentoring plus a local LLM, log progress and surface motivating next steps.',
         periodLocation: 'Personal prototype project (iOS/Android)',
-        imageAlt: 'Collage of the Predictive Mentoring app: overview with tab navigation, goals list and coaching chat',
-        mediaAriaLabel: 'Collage of the Predictive Mentoring app: overview with tab navigation, goals list and coaching chat',
-        result: 'Outcome: A prototype that connects vision, small goals and support on the way in one flow.',
+        imageAlt: 'Collage of the Predictive Mentoring app: overview with tab navigation, goal list and coaching chat',
+        mediaAriaLabel: 'Collage of the Predictive Mentoring app: overview with tab navigation, goal list and coaching chat',
+        result: 'Outcome: A prototype that connects vision, small goals and attainment support in one flow.',
         contributions: [
-          'Turn a big vision into milestones and small goals, with mentoring logic and a local LLM.',
-          'Familiar mentoring methods as a product flow: listen, structure, suggest next steps.',
-          'Simple progress view: how close am I to my goal, and what helps next?',
-          'Data stays on the device. The local LLM supports wording and coaching.',
-          'Positive support: prompts and chat that motivate and make the next step clear.'
+          'Translate a big vision into milestones and small goals with mentoring logic and a local LLM.',
+          'Known mentoring methods as product flow: listen, structure, propose next steps.',
+          'Simple progress framing: how close am I to the goal, and what helps next?',
+          'Data stays on device. The local LLM supports wording and coaching.',
+          'Positive support: impulses and chat that motivate and clarify the next step.'
         ],
         tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision to goals', 'Mobile'],
-        details: {
-          context: 'The app connects big vision and everyday life: it becomes tangible steps, guided with mentoring and a local LLM.',
-          approach: 'What: support for achieving goals. Why: so vision and everyday life fit together. How: mentoring methods and a local LLM turn the vision into small goals and support achievement.',
-          value: 'A clear prototype: from the big vision to small goals, the next step and concrete, motivating support.',
-          next: 'With testers, refine the path from the big vision to small goals and the next step, and make wording and prompts even clearer.'
+        narrative: {
+          problem: 'Many goal apps are retrospective: big visions never become the next step, and coaching is generic or cloud-bound.',
+          users: 'People with long-horizon personal goals who want structured mentoring without sending behaviour data to the cloud.',
+          whyAi: 'Local LLM only for wording and coaching tone. Goal-proximity prediction stays classical and non-generative so “probability” is not hallucinated.',
+          ux: 'Flow vision → milestones/weekly goals → logging → progress framing → mentoring chat/impulses — positive and everyday.',
+          architecture: 'React Native/Expo; on-device behaviour data in SQLite; LLM behind a swappable layer on the mentoring surface.',
+          evaluation: 'Prototype usability: can a tester turn a vision into weekly goals in one session? Does coaching feel motivating rather than lecturing?',
+          metrics: 'Vision → first weekly-goal conversion; weekly log adherence; share of accepted coaching suggestions; usable without cloud sync.',
+          tradeoffs: 'Local LLM quality in exchange for privacy; prediction separated from the LLM; prototype depth before store polish.'
+        }
+      },
+      cyberSecuritySaas: {
+        eyebrow: 'Personal project',
+        title: 'Cyber Security SaaS',
+        meta: 'Product concept: turn NIS2 and BCM obligations into prioritised operational decisions.',
+        valueLabel: 'Value: Turn compliance pressure into a decision-ready product for resilient operations',
+        overview: 'NIS2 and business continuity often land as document piles. The concept translates obligations into a prioritised risk-backlog and decision surface for IT/OT operations.',
+        approachTitle: 'From evidence burden to prioritised action',
+        approachText: 'Structure the control catalogue and evidence first, use AI only for mapping suggestions, and keep ownership and approval with humans.',
+        periodLocation: 'Personal product concept / early prototype',
+        imageAlt: 'Concept collage for Cyber Security SaaS: risk backlog, control mapping and decision templates',
+        mediaAriaLabel: 'Concept collage for Cyber Security SaaS: risk backlog, control mapping and decision templates',
+        result: 'Outcome: A clear product cut for coverage, prioritisation and decision templates instead of audit documentation alone.',
+        contributions: [
+          'Translated the NIS2, BCM and control-room problem space into a B2B SaaS product shape: coverage, backlog, decision packs.',
+          'Set human-in-the-loop as a product principle: AI maps and prioritises suggestions, ownership stays with the risk/process owner.',
+          'Defined a UX cut for three jobs: sense the situation, prioritise actions, document decisions.',
+          'Framed evaluation for mapping precision, time-to-backlog and accept/edit/reject of AI suggestions.',
+          'Made trade-offs explicit: OT-depth over horizontal GRC breadth; assistance over automated compliance claims.'
+        ],
+        tags: ['NIS2', 'BCM', 'OT/IT risk', 'Human-in-the-loop', 'B2B SaaS', 'Decision UX'],
+        narrative: {
+          problem: 'NIS2/BCM obligations often hit operators as unstructured evidence load. Rarely does that become a prioritised operations backlog for resilient control-room and IT/OT decisions.',
+          users: 'Business process owners, IT/OT security leads and compliance partners in energy and critical operations — people who own risk, not just pass audits.',
+          whyAi: 'AI helps map evidence and controls onto a risk backlog and prepare prioritisation. It does not close compliance or replace risk ownership — human-in-the-loop is a product feature, not an afterthought.',
+          ux: 'Coverage view → prioritised backlog → decision templates → review queue for AI suggestions (accept / edit / reject).',
+          architecture: 'Ingest policies/evidence → classify against a control catalogue → review workflow → exportable decision packs. Early phase: product and interaction cut before platform depth.',
+          evaluation: 'Expert review of mapping precision; tabletop comparison of time and decision quality with vs without templates and an assisted backlog.',
+          metrics: 'NIS2 control coverage %; time-to-prioritised backlog; false-positive mapping rate; accept/edit/reject share for AI suggestions.',
+          tradeoffs: 'Assistive AI over automated compliance claims; OT/IT depth over horizontal GRC breadth; decision quality over dashboard theatre.'
         }
       }
     },
