@@ -26,7 +26,7 @@ const translations = {
       ctaSecondary: 'Kontakt aufnehmen',
       portraitAria: 'Porträt von Yannik Berner',
       portraitAlt: 'Porträt von Yannik Berner',
-      portraitPlaceholder: 'Portraitbild<br />Platzhalter'
+      portraitPlaceholder: 'Porträt von Yannik Berner'
     },
     proof: {
       ariaLabel: 'Ausgewählte Ergebnisse',
@@ -147,7 +147,7 @@ const translations = {
         approachLabel: 'Vorgehen',
         valueLabel: 'Wert',
         nextLabel: 'Next',
-        casePlaceholder: 'Case-Study-Bild<br />Platzhalter',
+        casePlaceholder: 'Case-Study-Visualisierung',
         tagsLabel: 'Technologien und Methoden',
         productLink: 'Produkt ansehen',
         companyLink: 'Unternehmen ansehen',
@@ -289,6 +289,8 @@ const translations = {
       intro: 'Die eigenen Projekte folgen einer durchgängigen Produktlogik. Sie führen von Problem und Nutzer:innen über UX und Architektur zu Evaluation, Metriken und Trade-offs.',
       common: {
         narrativeHeading: 'Produktlogik',
+        viewNarrative: 'Produktlogik anzeigen',
+        hideNarrative: 'Produktlogik ausblenden',
         problemLabel: 'Problem',
         usersLabel: 'Nutzer',
         whyAiLabel: 'Warum KI',
@@ -390,35 +392,35 @@ const translations = {
           tradeoffs: 'Produkt- und Mentoring-Tiefe statt einer reinen Habit-App. Lokales LLM zugunsten von Privatsphäre. Glück und Wunsch-Erfüllung als Zielbild statt nur Produktivitätsmetriken.'
         }
       },
-      cyberSecuritySaas: {
+      cyberSecurityConnector: {
         eyebrow: 'Eigenes Projekt',
-        title: 'Cyber Security SaaS',
-        meta: 'Produktkonzept: NIS2- und BCM-Pflichten in priorisierte Betriebsentscheidungen übersetzen.',
-        valueLabel: 'Mehrwert: Aus Compliance-Druck ein entscheidungsfähiges Produkt für resiliente Betriebsprozesse machen',
-        overview: 'NIS2 und Business Continuity landen bei vielen Betreibern als Dokumentenstapel. Das Konzept übersetzt Pflichten in eine priorisierte Risk-Backlog- und Entscheidungsoberfläche für IT/OT-Betrieb.',
-        approachTitle: 'Von Nachweispflicht zu priorisierter Handlungsfähigkeit',
-        approachText: 'Kontrollkatalog und Evidenz zuerst strukturieren, KI nur für Mapping-Vorschläge nutzen und Ownership sowie Freigabe bewusst bei Menschen belassen.',
-        periodLocation: 'Privates Produktkonzept / früher Prototyp',
-        imageAlt: 'Konzept-Collage für Cyber Security SaaS: Risk Backlog, Control Mapping und Decision Templates',
-        mediaAriaLabel: 'Konzept-Collage für Cyber Security SaaS: Risk Backlog, Control Mapping und Decision Templates',
-        result: 'Ergebnis: Klarer Produkt-Schnitt für Coverage, Priorisierung und Entscheidungstemplates statt reiner Audit-Dokumentation.',
+        title: 'Cyber Security Connector',
+        meta: 'B2B2B- und KMU-Surfaces mit Connector-Marketplace und Agentic Connections.',
+        valueLabel: 'Mehrwert: Automatisierte Übergabe aus HR- und QM-Daten, mit Push in Maßnahmenplan und Tickets',
+        overview: 'Eine Plattform für zwei Surfaces. Im Partner-Portal übernimmt der Berater Kunden aus dem CRM. Im KMU- und Partner-Flow verbinden Organigramm- und QM-Connectoren die Datenquellen. Daraus entsteht ein regelbasierter Maßnahmenplan mit Verantwortlichen und erkannten Prozessen. Angebundene Ticketing-Systeme erhalten die Maßnahmen per Push, der Status kommt per Sync zurück.',
+        approachTitle: 'Von Connectoren zu automatisiertem Push',
+        approachText: 'Shared Connector-Framework mit den Kategorien Organigramm/HR, QM/Prozess, Ticketing und Partner-CRM. Der Multi-Source-Generator baut den Maßnahmenplan aus Onboarding und verbundenen Quellen. Agentic Connections Engineer ist das Betriebsmodell: Cursor übernimmt die Connector-Entwicklung entlang API-Docs und Skills.',
+        periodLocation: 'Privates Research-Prototyp-Projekt (Next.js Monorepo)',
+        imageAlt: 'Collage der Cyber-Security-Connector-Demos: KMU-Onboarding und Partner-Portal mit Connector-Flächen',
+        mediaAriaLabel: 'Collage der Cyber-Security-Connector-Demos: KMU-Onboarding und Partner-Portal mit Connector-Flächen',
+        result: 'Ergebnis: Lauffähiger Dual-Demo-Kern von Onboarding und Marketplace über Maßnahmenplan bis Push und Status-Sync, inklusive Partner-CRM-Import und Embed-Widget.',
         contributions: [
-          'Problemraum aus NIS2-, BCM- und Leitwarten-Realität in ein B2B-SaaS-Produktbild übersetzt: Coverage, Backlog, Decision Packs.',
-          'Human-in-the-Loop als Produktprinzip gesetzt: KI mappt und priorisiert Vorschläge, Ownership bleibt beim Risk- oder Process Owner.',
-          'UX-Schnitt für drei Jobs definiert: Lage erkennen, Maßnahmen priorisieren, Entscheidungen dokumentieren.',
-          'Bewertungsrahmen für Mapping-Präzision, Time-to-Backlog und Accept/Edit/Reject von KI-Vorschlägen formuliert.',
-          'Trade-offs explizit gemacht: branchentiefe OT-Nähe statt horizontalem GRC-Alleskönner, Assistenz statt automatisierter Compliance-Behauptung.'
+          'Zwei Surfaces auf einem Connector-Kern: Partner-Portal mit CRM-Kundenübernahme und KMU-Onboarding mit Marketplace.',
+          'Connector-Interface und Marketplace für Organigramm/HR, QM/Prozess, Ticketing und Partner-CRM.',
+          'Multi-Source-Maßnahmenplan: Onboarding plus verbundene HR- und QM-Daten liefern Verantwortliche und erkannte Prozesse.',
+          'Automation und Push: Maßnahmen als Tickets ausspielen und Status per Sync zurückspiegeln.',
+          'Agentic Connections Engineer als Betriebsmodell: Connector-Arbeit in Cursor mit API-Docs und Skills.'
         ],
-        tags: ['NIS2', 'BCM', 'OT/IT Risk', 'Human-in-the-Loop', 'B2B SaaS', 'Decision UX'],
+        tags: ['Next.js', 'TypeScript', 'Connector Framework', 'Agentic Connections', 'Multi-Source', 'B2B2B'],
         narrative: {
-          problem: 'NIS2- und BCM-Pflichten treffen Betreiber oft als unstrukturierte Nachweislast. Daraus wird selten ein priorisiertes Betriebs-Backlog für resiliente Leitwarten- und IT/OT-Entscheidungen.',
-          users: 'Business Process Owner, IT/OT-Security Leads und Compliance-Partner in Energie- und kritischen Betriebsumgebungen. Sie tragen Ownership und wollen nicht nur Audits bestehen.',
-          whyAi: 'KI hilft beim Mapping von Evidenz und Controls auf ein Risk-Backlog und bei der Priorisierungsvorbereitung. Sie schließt keine Compliance und ersetzt keine Risiko-Ownership. Human-in-the-Loop ist Produktfeature, nicht Afterthought.',
-          ux: 'Von der Coverage-Lage über ein priorisiertes Backlog und Entscheidungstemplates zur Review-Queue für KI-Vorschläge mit Accept, Edit oder Reject.',
-          architecture: 'Ingest von Policies und Evidenz, Klassifikation gegen den Kontrollkatalog, Review-Workflow und exportierbare Decision Packs. In der Frühphase zählt der Produkt- und Interaktionsschnitt vor Plattform-Tiefe.',
-          evaluation: 'Fachliche Review der Mapping-Präzision und Tabletop-Vergleich von Zeit sowie Entscheidungsqualität mit und ohne Templates sowie assistiertes Backlog.',
-          metrics: 'NIS2-Control-Coverage, Time-to-prioritized-Backlog, False-Positive-Mapping-Rate und Share von Accept, Edit und Reject bei KI-Vorschlägen.',
-          tradeoffs: 'Assistive KI statt automatisierter Compliance-Claims. Branchentiefe OT/IT-Nähe statt horizontalem GRC-Breite-Produkt. Entscheidungsqualität vor Dashboard-Theater.'
+          problem: 'NIS2 und ISO 27001 erzeugen Beratungsbedarf. KMUs und Partner brauchen strukturierte Übergabe aus HR- und QM-Systemen in einen Maßnahmenplan mit Push in die Arbeitswerkzeuge.',
+          users: 'Cyber-Security-Partner im B2B2B-Modell und KMUs im Onboarding. Partner steuern Expertise und Plan, KMUs liefern Kontext über Connectoren.',
+          whyAi: 'Agentic Connections Engineer lässt Cursor die Connector-Entwicklung entlang API-Docs und Skills führen. Automation und Push tragen die Kernschleife von Datenübergabe bis Status-Sync.',
+          ux: 'Partner-Portal mit CRM-Kundenübernahme, KMU-Onboarding mit Connector-Marketplace, Dashboard mit Maßnahmenplan, Ticket-Push und Status-Sync.',
+          architecture: 'Next.js-Monorepo mit shared Connector-Framework für Organigramm/HR, QM/Prozess, Ticketing und Partner-CRM plus Multi-Source-Maßnahmen-Generator.',
+          evaluation: 'Entsteht der Plan aus Onboarding und verbundenen Quellen? Greifen Push und Sync im Dual-Demo-Kern für Partner und KMU?',
+          metrics: 'Anteil Sessions mit verbundenem HR- und QM-Connector, Zeit bis zum ersten Maßnahmenplan, Ticket-Push-Erfolgsrate, Status-Sync-Aktualität.',
+          tradeoffs: 'Dual-Surface auf einem Connector-Kern. Maßnahmenplan aus HR- und QM-Daten als Kernwert. Ticketing als zusätzliche Push-Schicht. Agentic Connections als Betriebsmodell für Connector-Arbeit.'
         }
       },
     },
@@ -493,7 +495,7 @@ const translations = {
       ctaSecondary: 'Get in touch',
       portraitAria: 'Portrait of Yannik Berner',
       portraitAlt: 'Portrait of Yannik Berner',
-      portraitPlaceholder: 'Portrait image<br />placeholder'
+      portraitPlaceholder: 'Portrait of Yannik Berner'
     },
     proof: {
       ariaLabel: 'Selected outcomes',
@@ -614,7 +616,7 @@ const translations = {
         approachLabel: 'Approach',
         valueLabel: 'Value',
         nextLabel: 'Next',
-        casePlaceholder: 'Case study image<br />placeholder',
+        casePlaceholder: 'Case study visualisation',
         tagsLabel: 'Technologies and methods',
         productLink: 'View product',
         companyLink: 'View company',
@@ -756,6 +758,8 @@ const translations = {
       intro: 'The personal projects follow end-to-end product logic. They move from problem and users through UX and architecture to evaluation, metrics and trade-offs.',
       common: {
         narrativeHeading: 'Product thinking',
+        viewNarrative: 'Show product thinking',
+        hideNarrative: 'Hide product thinking',
         problemLabel: 'Problem',
         usersLabel: 'Users',
         whyAiLabel: 'Why AI',
@@ -857,35 +861,35 @@ const translations = {
           tradeoffs: 'Product and mentoring depth instead of a pure habit app. Local LLM in exchange for privacy. Happiness and wish fulfilment as the north star instead of productivity metrics alone.'
         }
       },
-      cyberSecuritySaas: {
-        eyebrow: 'Personal project',
-        title: 'Cyber Security SaaS',
-        meta: 'Product concept: turn NIS2 and BCM obligations into prioritised operational decisions.',
-        valueLabel: 'Value: Turn compliance pressure into a decision-ready product for resilient operations',
-        overview: 'NIS2 and business continuity often land as document piles. The concept translates obligations into a prioritised risk-backlog and decision surface for IT/OT operations.',
-        approachTitle: 'From evidence burden to prioritised action',
-        approachText: 'Structure the control catalogue and evidence first, use AI only for mapping suggestions, and keep ownership and approval with humans.',
-        periodLocation: 'Personal product concept / early prototype',
-        imageAlt: 'Concept collage for Cyber Security SaaS: risk backlog, control mapping and decision templates',
-        mediaAriaLabel: 'Concept collage for Cyber Security SaaS: risk backlog, control mapping and decision templates',
-        result: 'Outcome: A clear product cut for coverage, prioritisation and decision templates instead of audit documentation alone.',
+      cyberSecurityConnector: {
+        eyebrow: 'Personal Project',
+        title: 'Cyber Security Connector',
+        meta: 'B2B2B and SME surfaces with a connector marketplace and Agentic Connections.',
+        valueLabel: 'Value: Automated handoff from HR and QM data, with push into the measure plan and tickets',
+        overview: 'One platform with two surfaces. In the partner portal, the consultant pulls customers from CRM. In the SME and partner flow, org-chart and QM connectors attach the data sources. That yields a rule-based measure plan with owners and recognised processes. Connected ticketing tools receive measures via push; status returns via sync.',
+        approachTitle: 'From connectors to automated push',
+        approachText: 'A shared connector framework with org/HR, QM/process, ticketing and partner-CRM categories. The multi-source generator builds the measure plan from onboarding and connected sources. Agentic Connections Engineer is the operating model: Cursor owns connector development along API docs and skills.',
+        periodLocation: 'Personal research prototype project (Next.js monorepo)',
+        imageAlt: 'Collage of the Cyber Security Connector demos: SME onboarding and partner portal with connector surfaces',
+        mediaAriaLabel: 'Collage of the Cyber Security Connector demos: SME onboarding and partner portal with connector surfaces',
+        result: 'Outcome: A runnable dual-demo core from onboarding and marketplace through measure plan to push and status sync, including partner CRM import and an embed widget.',
         contributions: [
-          'Translated the NIS2, BCM and control-room problem space into a B2B SaaS product shape: coverage, backlog, decision packs.',
-          'Set human-in-the-loop as a product principle: AI maps and prioritises suggestions, while ownership stays with the risk or process owner.',
-          'Defined a UX cut for three jobs: sense the situation, prioritise actions, document decisions.',
-          'Framed evaluation for mapping precision, time-to-backlog and accept/edit/reject of AI suggestions.',
-          'Made trade-offs explicit: OT depth instead of horizontal GRC breadth, and assistance instead of automated compliance claims.'
+          'Two surfaces on one connector core: partner portal with CRM customer intake and SME onboarding with a marketplace.',
+          'Connector interface and marketplace for org/HR, QM/process, ticketing and partner CRM.',
+          'Multi-source measure plan: onboarding plus connected HR and QM data supply owners and recognised processes.',
+          'Automation and push: ship measures as tickets and mirror status back via sync.',
+          'Agentic Connections Engineer as operating model: connector work in Cursor with API docs and skills.'
         ],
-        tags: ['NIS2', 'BCM', 'OT/IT risk', 'Human-in-the-loop', 'B2B SaaS', 'Decision UX'],
+        tags: ['Next.js', 'TypeScript', 'Connector Framework', 'Agentic Connections', 'Multi-Source', 'B2B2B'],
         narrative: {
-          problem: 'NIS2 and BCM obligations often hit operators as unstructured evidence load. Rarely does that become a prioritised operations backlog for resilient control-room and IT/OT decisions.',
-          users: 'Business process owners, IT/OT security leads and compliance partners in energy and critical operations. They own risk and want more than passing audits.',
-          whyAi: 'AI helps map evidence and controls onto a risk backlog and prepare prioritisation. It does not close compliance or replace risk ownership. Human-in-the-loop is a product feature, not an afterthought.',
-          ux: 'From coverage view through a prioritised backlog and decision templates to a review queue for AI suggestions with accept, edit or reject.',
-          architecture: 'Ingest policies and evidence, classify against a control catalogue, run a review workflow and export decision packs. In the early phase the product and interaction cut matter more than platform depth.',
-          evaluation: 'Expert review of mapping precision, plus a tabletop comparison of time and decision quality with and without templates and an assisted backlog.',
-          metrics: 'NIS2 control coverage, time-to-prioritised backlog, false-positive mapping rate, and accept/edit/reject share for AI suggestions.',
-          tradeoffs: 'Assistive AI instead of automated compliance claims. OT/IT depth instead of horizontal GRC breadth. Decision quality over dashboard theatre.'
+          problem: 'NIS2 and ISO 27001 drive advisory demand. SMEs and partners need structured handoff from HR and QM systems into a measure plan with push into work tools.',
+          users: 'Cyber security partners in a B2B2B model and SMEs in onboarding. Partners steer expertise and the plan; SMEs supply context through connectors.',
+          whyAi: 'Agentic Connections Engineer lets Cursor own connector development along API docs and skills. Automation and push carry the core loop from data handoff to status sync.',
+          ux: 'Partner portal with CRM customer intake, SME onboarding with a connector marketplace, dashboard with measure plan, ticket push and status sync.',
+          architecture: 'Next.js monorepo with a shared connector framework for org/HR, QM/process, ticketing and partner CRM plus a multi-source measure generator.',
+          evaluation: 'Does the plan emerge from onboarding and connected sources? Do push and sync work in the dual-demo core for partners and SMEs?',
+          metrics: 'Share of sessions with connected HR and QM connectors, time to first measure plan, ticket-push success rate, status-sync freshness.',
+          tradeoffs: 'Dual surface on one connector core. Measure plan from HR and QM data as the core value. Ticketing as an extra push layer. Agentic Connections as the operating model for connector work.'
         }
       },
     },
@@ -1039,8 +1043,23 @@ function updateTranslations(language) {
 
   document.querySelectorAll('.details-toggle').forEach((button) => {
     const expanded = button.getAttribute('aria-expanded') === 'true';
-    button.textContent = expanded ? active.experience.common.hideDetails : active.experience.common.viewDetails;
+    const labels = getDetailsToggleLabels(active, button.dataset.toggleKind);
+    button.textContent = expanded ? labels.hide : labels.show;
   });
+}
+
+function getDetailsToggleLabels(active, toggleKind) {
+  if (toggleKind === 'narrative') {
+    return {
+      show: active.projects.common.viewNarrative,
+      hide: active.projects.common.hideNarrative
+    };
+  }
+
+  return {
+    show: active.experience.common.viewDetails,
+    hide: active.experience.common.hideDetails
+  };
 }
 
 function setLanguage(language) {
@@ -1192,7 +1211,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       button.setAttribute('aria-expanded', String(!expanded));
       const active = translations[activeLanguage] || translations.de;
-      button.textContent = expanded ? active.experience.common.viewDetails : active.experience.common.hideDetails;
+      const labels = getDetailsToggleLabels(active, button.dataset.toggleKind);
+      button.textContent = expanded ? labels.show : labels.hide;
 
       if (target) {
         target.hidden = expanded;
