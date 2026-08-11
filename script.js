@@ -286,7 +286,7 @@ const translations = {
     projects: {
       eyebrow: 'Eigene Projekte',
       heading: 'Produktfälle, die PM-Denken zeigen',
-      intro: 'Private Produktarbeiten von Problem und Nutzer:innen bis Evaluation, Metriken und Trade-offs.',
+      intro: 'Private Produktarbeiten: von Problem und Nutzer:innen über UX und Architektur bis Evaluation, Metriken und Trade-offs.',
       common: {
         narrativeHeading: 'Produktlogik',
         problemLabel: 'Problem',
@@ -301,18 +301,18 @@ const translations = {
       careerIntelligence: {
         eyebrow: 'Eigenes Projekt',
         title: 'Career Intelligence',
-        meta: 'Daily Brief und priorisierte To-dos für Good-Fit-Jobs, Kontakte und Skill-Gaps. Auswahl, Unterlagen und Apply bleiben beim User.',
-        valueLabel: 'Mehrwert: Repetitive Recherche automatisieren, Entscheidung und Bewerbung bewusst beim Menschen lassen',
-        overview: 'Das System automatisiert die repetitive Arbeit hinter der Jobsuche: Signale bündeln, Good Fits markieren, Kontakte und häufig geforderte Skills sichtbar machen und bei Gaps Weiterbildung vorschlagen. Stelle auswählen, Unterlagen vorbereiten und Apply bleiben volle User-Kontrolle. Gestützt durch Daily Brief und priorisierte To-dos.',
+        meta: 'Daily Brief und priorisierte To-dos für Good-Fit-Jobs, Kontakte und Skill-Gaps. Auswahl, Unterlagen und Apply steuert der User.',
+        valueLabel: 'Mehrwert: Repetitive Recherche automatisieren und Entscheidung sowie Bewerbung bewusst beim Menschen lassen',
+        overview: 'Das System übernimmt die repetitive Arbeit hinter der Jobsuche. Es bündelt Signale, markiert Good Fits, macht Kontakte und häufig geforderte Skills sichtbar und schlägt bei Gaps Weiterbildung vor. Daily Brief und priorisierte To-dos geben den Rahmen. Stelle auswählen, Unterlagen vorbereiten und Apply bleiben volle User-Kontrolle.',
         approachTitle: 'Repetitives automatisieren, Entscheidungen steuern',
-        approachText: 'Täglicher Lauf aggregiert und bewertet Signale; das Dashboard liefert Brief und To-dos. Scoring und Vorschläge sind erklärbar. Die Entscheidung für Stelle, Unterlagen und Bewerbung bleibt bewusst manuell.',
+        approachText: 'Ein täglicher Lauf aggregiert und bewertet Signale. Das Dashboard liefert Brief und To-dos mit erklärbarem Scoring. Die Entscheidung für Stelle, Unterlagen und Bewerbung bleibt bewusst manuell.',
         periodLocation: 'Privates Projekt, lokal betrieben',
         imageAlt: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
         mediaAriaLabel: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
-        result: 'Ergebnis: Weniger manuelle Triage, klarer Daily Brief mit priorisierten To-dos und volle Kontrolle über Auswahl, Unterlagen und Apply.',
+        result: 'Ergebnis: Weniger manuelle Triage durch Daily Brief und priorisierte To-dos, bei voller Kontrolle über Auswahl, Unterlagen und Apply.',
         contributions: [
           'Repetitive Multi-Source-Recherche und Klassifizierung automatisiert, damit Zeit für Auswahl und Bewerbung bleibt.',
-          'Good-Fit-Scoring, Kontakt-Hinweise und meistgeforderte Skills je Track sichtbar gemacht; bei Gaps Weiterbildung vorgeschlagen.',
+          'Good-Fit-Scoring, Kontakt-Hinweise und meistgeforderte Skills je Track sichtbar gemacht und bei Gaps Weiterbildung vorgeschlagen.',
           'Daily Brief und priorisierte To-dos als täglichen Handlungsrahmen umgesetzt.',
           'User-Ownership fest verankert: Stelle wählen, Unterlagen und Apply bleiben manuell und nachvollziehbar.',
           'LinkedIn-Job-Mails in den Lauf integriert: Treffer nach Sheets, regelbasiert bewertet, High-Fit als Slack-Hinweis.'
@@ -320,74 +320,74 @@ const translations = {
         tags: ['Python', 'Streamlit', 'SQLite', 'Daily Brief', 'Good-Fit Scoring', 'Skill Gaps', 'Slack API'],
         narrative: {
           problem: 'Jobsuche steckt voller repetitiver Arbeit: Quellen scannen, Treffer vergleichen, Skills und Kontakte im Kopf halten. Ohne System bleibt entweder Bauchgefühl oder blinde Auto-Apply-Logik.',
-          users: 'Primär ich als Product Manager in aktiver Suche. Jemand, der Unterstützung bei Good Fits will, aber Auswahl, Unterlagen und Apply selbst steuern möchte.',
+          users: 'Primär ich als Product Manager in aktiver Suche. Ich will Unterstützung bei Good Fits, steuere Auswahl, Unterlagen und Apply aber selbst.',
           whyAi: 'Automation und agentische Läufe für Aggregation, Klassifizierung und Briefing. Kein Autopilot für Bewerbungen: KI entlastet die Triage, der Mensch behält Fit-Entscheidung, Dokumente und Apply.',
-          ux: 'Daily Brief mit priorisierten To-dos; Good-Fit-Jobs, relevante Kontakte und meistgeforderte Skills auf einen Blick; Gap → Weiterbildungsvorschlag; explizite Schritte für Auswahl, Unterlagen, Apply.',
-          architecture: 'Quellen-Layer → regelbasierte Business-Logik (Fit, Skills, Gaps) → Dashboard mit Brief/To-dos; Nebenfluss Sheets + Slack für Mail-Treffer.',
+          ux: 'Daily Brief mit priorisierten To-dos. Good-Fit-Jobs, relevante Kontakte und meistgeforderte Skills auf einen Blick. Bei Gaps ein Weiterbildungsvorschlag. Explizite Schritte für Auswahl, Unterlagen und Apply.',
+          architecture: 'Quellen-Layer, regelbasierte Business-Logik für Fit, Skills und Gaps, danach Dashboard mit Brief und To-dos. Nebenfluss über Sheets und Slack für Mail-Treffer.',
           evaluation: 'Sinkt die Zeit für Triage? Führen priorisierte To-dos zu bewussten Apply-Entscheidungen? Passen Skill-Gap-Vorschläge zu realen Ausschreibungen?',
-          metrics: 'Zeit Signal → Triage; Anteil Brief-To-dos mit Folgeaktion; Good-Fit-Trefferquote vs. Späteren Gesprächen; Nutzung der Gap-/Weiterbildungshinweise.',
-          tradeoffs: 'Volle User-Kontrolle statt Auto-Apply; erklärbare Regeln statt opaker LLM-Rankings; Brief und To-dos statt endloser Trefferliste.'
+          metrics: 'Zeit von Signal bis Triage, Anteil Brief-To-dos mit Folgeaktion, Good-Fit-Trefferquote gegenüber späteren Gesprächen, Nutzung der Gap- und Weiterbildungshinweise.',
+          tradeoffs: 'Volle User-Kontrolle statt Auto-Apply. Erklärbare Regeln statt opaker LLM-Rankings. Brief und To-dos statt einer endlosen Trefferliste.'
         }
       },
       stakeholderIntelligence: {
         eyebrow: 'Eigenes Projekt',
         title: 'Stakeholder Intelligence',
-        meta: 'Nähe zum Programm, Typ-Einschätzung und abgeleitete Kollaboration, plus Reminder, wann wer dran ist.',
+        meta: 'Stakeholder nach Nähe zum Programm und Typ einordnen, Kollaboration ableiten und per Reminder nachhalten.',
         valueLabel: 'Mehrwert: Stakeholder-Einordnung verknüpfen und daraus Kollaboration sowie Reminder ableiten',
-        overview: 'Das Board verknüpft die Einordnung von Stakeholdern entlang der Nähe zum Programm mit einer Typ-Einschätzung. Daraus entstehen Kollaborationsansatz und Reminder. Wen ich wann wie einbinde, statt lose Listen im Kopf.',
+        overview: 'Das Board verknüpft die Einordnung von Stakeholdern entlang der Nähe zum Programm mit einer Typ-Einschätzung. Daraus entstehen Kollaborationsansatz und Reminder. So wird klar, wen ich wann wie einbinde, statt lose Listen im Kopf zu halten.',
         approachTitle: 'Einordnung verknüpfen, Kollaboration und Reminder ableiten',
         approachText: 'Nähe zum Programm und Typ liegen im selben Profil. Das System verdichtet beides zu Kollaborationshinweisen und Reminder-Impulsen für Follow-ups.',
         periodLocation: 'Privates Projekt, lokal betrieben',
         imageAlt: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
         mediaAriaLabel: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
-        result: 'Ergebnis: MVP, das Nähe, Typ, Kollaboration und Reminder in einem Board verbindet, lokal für die eigene Vorbereitung.',
+        result: 'Ergebnis: Ein lokales MVP, das Nähe, Typ, Kollaboration und Reminder in einem Board für die eigene Vorbereitung verbindet.',
         contributions: [
           'Stakeholder-Einordnung entlang der Nähe zum Programm (Core, Direct, Indirect) mit Typ-Einschätzung im selben Profil verknüpft.',
-          'Kollaborationsansatz aus Einordnung und Typ ableitbar gemacht, nicht nur als Position auf einem Board.',
+          'Kollaborationsansatz aus Einordnung und Typ ableitbar gemacht, statt nur eine Board-Position zu speichern.',
           'Reminder-Funktion für Follow-ups und Wiedervorlage modelliert, damit Nähe und Typ zu konkretem Timing werden.',
-          'Datenmodell/API und erste Review-Runde zu Autosave, Connection-Handling und Validierung umgesetzt.'
+          'Datenmodell und API aufgebaut sowie erste Review-Runde zu Autosave, Connection-Handling und Validierung umgesetzt.'
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Reminder', 'Local-First'],
         narrative: {
-          problem: 'Stakeholder-Arbeit zerfällt leicht in getrennte Notizen: Nähe zum Programm, Typ und „wen ich erinnern wollte“ leben selten in einem System.',
-          users: 'Product Manager in Programmen mit vielen Stakeholdern. Primär ich, als Prep- und Reminder-Werkzeug, nicht als Bewertung anderer.',
-          whyAi: 'Keine generative KI nötig: Der Wert steckt in verknüpfter Einordnung und ableitbarer Kollaboration. Reminder brauchen Zuverlässigkeit und Ownership, keine Textvorschläge.',
+          problem: 'Stakeholder-Arbeit zerfällt leicht in getrennte Notizen. Nähe zum Programm, Typ und die Frage, wen ich erinnern wollte, leben selten in einem System.',
+          users: 'Product Manager in Programmen mit vielen Stakeholdern. Primär nutze ich es selbst als Prep- und Reminder-Werkzeug, nicht als Bewertung anderer.',
+          whyAi: 'Keine generative KI nötig. Der Wert steckt in verknüpfter Einordnung und ableitbarer Kollaboration. Reminder brauchen Zuverlässigkeit und Ownership, keine Textvorschläge.',
           ux: 'Board mit Nähe-zum-Programm-Einordnung, Typ-Einschätzung, abgeleitetem Kollaborationsansatz und Reminder für Follow-ups.',
-          architecture: 'Local-First Next.js/TypeScript/SQLite; Stakeholder-Profil trägt Nähe, Typ, Kollaboration und Reminder-Metadaten; REST-API mit Tests.',
+          architecture: 'Local-First mit Next.js, TypeScript und SQLite. Das Stakeholder-Profil trägt Nähe, Typ, Kollaboration und Reminder-Metadaten. REST-API mit Tests.',
           evaluation: 'Werden Reminder vor Entscheidungen genutzt? Ändert die verknüpfte Einordnung, wen ich wie einbinde?',
-          metrics: 'Überfällige Reminder; Anteil Stakeholder mit vollständiger Einordnung (Nähe + Typ); Follow-ups, die wie geplant laufen.',
-          tradeoffs: 'Verknüpfte Modelle statt flacher Kontaktliste; Reminder aus Einordnung statt generischer Kalender-Spam; lokal statt shared CRM.'
+          metrics: 'Überfällige Reminder, Anteil Stakeholder mit vollständiger Einordnung aus Nähe und Typ, Follow-ups die wie geplant laufen.',
+          tradeoffs: 'Verknüpfte Modelle statt flacher Kontaktliste. Reminder aus Einordnung statt generischem Kalender-Spam. Lokal statt shared CRM.'
         }
       },
       predictiveMentoring: {
         eyebrow: 'Eigenes Projekt',
         title: 'Predictive Mentoring',
-        meta: 'Produkt-Know-how fürs Privatleben: Vision und Strategie zu Handlung und Outcome, für Wünsche und ein glücklicheres Leben.',
-        valueLabel: 'Mehrwert: Produktarbeit und Mentoring ins Privatleben bringen, von Vision zu spürbarem Outcome',
-        overview: 'Die App überträgt Produkt-Know-how und Mentoring ins Privatleben: Vision und Strategie werden zu Handlung und Outcome heruntergebrochen, damit Wünsche erfüllbarer und Alltag glücklicher werden. Begleitet statt nur getrackt.',
+        meta: 'Produkt-Know-how fürs Privatleben: Vision und Strategie zu Handlung und Outcome bringen, damit Wünsche erfüllbarer werden.',
+        valueLabel: 'Mehrwert: Produktarbeit und Mentoring ins Privatleben bringen und Vision in spürbare Outcomes übersetzen',
+        overview: 'Die App überträgt Produkt-Know-how und Mentoring ins Privatleben. Vision und Strategie werden zu Handlung und Outcome heruntergebrochen, damit Wünsche erfüllbarer und der Alltag glücklicher werden. Die App begleitet, statt nur zu tracken.',
         approachTitle: 'Vision und Strategie zu Handlung und Outcome',
-        approachText: 'Wie in guter Produktarbeit: Vision klären, Strategie schärfen, in Handlungen übersetzen und Outcomes sichtbar machen. Mit Mentoring und lokalem LLM als Begleitung.',
+        approachText: 'Wie in guter Produktarbeit: Vision klären, Strategie schärfen, in Handlungen übersetzen und Outcomes sichtbar machen. Mentoring und ein lokales LLM begleiten den Weg.',
         periodLocation: 'Privates Prototyp-Projekt (iOS/Android)',
         imageAlt: 'Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat',
         mediaAriaLabel: 'Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat',
-        result: 'Ergebnis: Prototyp, der Vision → Strategie → Handlung → Outcome für Privatpersonen in einem Flow verbindet.',
+        result: 'Ergebnis: Prototyp, der für Privatpersonen Vision, Strategie, Handlung und Outcome in einem Flow verbindet.',
         contributions: [
-          'Produktlogik Vision → Strategie → Handlung → Outcome auf persönliche Wünsche und Lebensziele übertragen.',
+          'Produktlogik von Vision über Strategie und Handlung bis Outcome auf persönliche Wünsche und Lebensziele übertragen.',
           'Mentoring-Methoden als Begleitung eingebaut: zuhören, strukturieren, nächste Schritte vorschlagen.',
-          'Outcomes und Fortschritt alltagsnah sichtbar gemacht, nicht nur Aktivitäts-Tracking.',
-          'Lokales LLM für Formulierung und Coaching; Daten bleiben auf dem Gerät.',
-          'Positiver Ton: Erfüllung von Wünschen und Glück als Produktziel, nicht Drill oder Guilt.'
+          'Outcomes und Fortschritt alltagsnah sichtbar gemacht, über reines Aktivitäts-Tracking hinaus.',
+          'Lokales LLM für Formulierung und Coaching genutzt. Daten bleiben auf dem Gerät.',
+          'Positiven Ton gesetzt: Erfüllung von Wünschen und Glück als Produktziel, nicht Drill oder Guilt.'
         ],
         tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision to Outcome', 'Mobile'],
         narrative: {
-          problem: 'Im Privatleben fehlen oft die Werkzeuge, die Product Manager beruflich nutzen: Vision und Strategie zerfallen in Vorsätze, ohne klare Handlung und spürbares Outcome. Wünsche bleiben diffus.',
-          users: 'Privatpersonen, die große Wünsche und ein glücklicheres Leben anstreben und dafür strukturiertes Produkt- und Mentoring-Know-how brauchen. Nicht nur Habit-Streaks.',
-          whyAi: 'Lokales LLM als Mentor-Stimme für Formulierung und positive Begleitung. Die Zerlegung Vision → Strategie → Handlung → Outcome bleibt methodisch geführt, damit KI nicht die Strategie halluziniert.',
-          ux: 'Flow von Vision und Strategie zu konkreten Handlungen und Outcomes; Mentoring-Chat/Impulse; Fortschritt als Annäherung an Wunsch und Wohlbefinden.',
-          architecture: 'React Native/Expo; on-device Daten; Mentoring-Schicht mit austauschbarem lokalem LLM hinter der Gesprächsoberfläche.',
-          evaluation: 'Kommt man in einer Session von Wunsch/Vision zu einer handhabbaren Strategie und ersten Handlungen? Fühlt sich Begleitung erfüllend statt belehrend an?',
-          metrics: 'Conversion Vision → erste Handlung; Anteil klar formulierter Outcomes; Annahme von Mentoring-Impulsen; Wiederkehr ohne Guilt-Druck.',
-          tradeoffs: 'Produkt- und Mentoring-Tiefe statt reiner Habit-App; lokales LLM zugunsten von Privatsphäre; Glück/Wunsch-Erfüllung als Zielbild statt nur Produktivitätsmetriken.'
+          problem: 'Im Privatleben fehlen oft die Werkzeuge, die Product Manager beruflich nutzen. Vision und Strategie zerfallen in Vorsätze ohne klare Handlung und spürbares Outcome. Wünsche bleiben diffus.',
+          users: 'Privatpersonen mit großen Wünschen und dem Ziel eines glücklicheren Lebens. Sie brauchen strukturiertes Produkt- und Mentoring-Know-how, nicht nur Habit-Streaks.',
+          whyAi: 'Ein lokales LLM dient als Mentor-Stimme für Formulierung und positive Begleitung. Die Zerlegung von Vision über Strategie und Handlung bis Outcome bleibt methodisch geführt, damit KI die Strategie nicht halluziniert.',
+          ux: 'Flow von Vision und Strategie zu konkreten Handlungen und Outcomes, ergänzt um Mentoring-Chat und Impulse. Fortschritt zeigt die Annäherung an Wunsch und Wohlbefinden.',
+          architecture: 'React Native und Expo mit Daten on-device. Die Mentoring-Schicht nutzt ein austauschbares lokales LLM hinter der Gesprächsoberfläche.',
+          evaluation: 'Kommt man in einer Session von Wunsch oder Vision zu einer handhabbaren Strategie und ersten Handlungen? Fühlt sich Begleitung erfüllend statt belehrend an?',
+          metrics: 'Conversion von Vision zur ersten Handlung, Anteil klar formulierter Outcomes, Annahme von Mentoring-Impulsen, Wiederkehr ohne Guilt-Druck.',
+          tradeoffs: 'Produkt- und Mentoring-Tiefe statt einer reinen Habit-App. Lokales LLM zugunsten von Privatsphäre. Glück und Wunsch-Erfüllung als Zielbild statt nur Produktivitätsmetriken.'
         }
       },
       cyberSecuritySaas: {
@@ -397,30 +397,30 @@ const translations = {
         valueLabel: 'Mehrwert: Aus Compliance-Druck ein entscheidungsfähiges Produkt für resiliente Betriebsprozesse machen',
         overview: 'NIS2 und Business Continuity landen bei vielen Betreibern als Dokumentenstapel. Das Konzept übersetzt Pflichten in eine priorisierte Risk-Backlog- und Entscheidungsoberfläche für IT/OT-Betrieb.',
         approachTitle: 'Von Nachweispflicht zu priorisierter Handlungsfähigkeit',
-        approachText: 'Kontrollkatalog und Evidenz zuerst strukturieren, KI nur für Mapping-Vorschläge nutzen, Ownership und Freigabe bewusst bei Menschen belassen.',
+        approachText: 'Kontrollkatalog und Evidenz zuerst strukturieren, KI nur für Mapping-Vorschläge nutzen und Ownership sowie Freigabe bewusst bei Menschen belassen.',
         periodLocation: 'Privates Produktkonzept / früher Prototyp',
         imageAlt: 'Konzept-Collage für Cyber Security SaaS: Risk Backlog, Control Mapping und Decision Templates',
         mediaAriaLabel: 'Konzept-Collage für Cyber Security SaaS: Risk Backlog, Control Mapping und Decision Templates',
         result: 'Ergebnis: Klarer Produkt-Schnitt für Coverage, Priorisierung und Entscheidungstemplates statt reiner Audit-Dokumentation.',
         contributions: [
           'Problemraum aus NIS2-, BCM- und Leitwarten-Realität in ein B2B-SaaS-Produktbild übersetzt: Coverage, Backlog, Decision Packs.',
-          'Human-in-the-Loop als Produktprinzip gesetzt: KI mappt und priorisiert Vorschläge, Ownership bleibt beim Risk-/Process Owner.',
+          'Human-in-the-Loop als Produktprinzip gesetzt: KI mappt und priorisiert Vorschläge, Ownership bleibt beim Risk- oder Process Owner.',
           'UX-Schnitt für drei Jobs definiert: Lage erkennen, Maßnahmen priorisieren, Entscheidungen dokumentieren.',
           'Bewertungsrahmen für Mapping-Präzision, Time-to-Backlog und Accept/Edit/Reject von KI-Vorschlägen formuliert.',
-          'Trade-offs explizit gemacht: branchentiefe OT-Nähe statt horizontalem GRC-Alleskönner; Assistenz statt automatisierter Compliance-Behauptung.'
+          'Trade-offs explizit gemacht: branchentiefe OT-Nähe statt horizontalem GRC-Alleskönner, Assistenz statt automatisierter Compliance-Behauptung.'
         ],
         tags: ['NIS2', 'BCM', 'OT/IT Risk', 'Human-in-the-Loop', 'B2B SaaS', 'Decision UX'],
         narrative: {
-          problem: 'NIS2-/BCM-Pflichten treffen Betreiber oft als unstrukturierte Nachweislast. Daraus wird selten ein priorisiertes Betriebs-Backlog für resiliente Leitwarten- und IT/OT-Entscheidungen.',
-          users: 'Business Process Owner, IT/OT-Security Leads und Compliance-Partner in Energie- und kritischen Betriebsumgebungen. Personen, die Ownership tragen, nicht nur Audits bestehen wollen.',
+          problem: 'NIS2- und BCM-Pflichten treffen Betreiber oft als unstrukturierte Nachweislast. Daraus wird selten ein priorisiertes Betriebs-Backlog für resiliente Leitwarten- und IT/OT-Entscheidungen.',
+          users: 'Business Process Owner, IT/OT-Security Leads und Compliance-Partner in Energie- und kritischen Betriebsumgebungen. Sie tragen Ownership und wollen nicht nur Audits bestehen.',
           whyAi: 'KI hilft beim Mapping von Evidenz und Controls auf ein Risk-Backlog und bei der Priorisierungsvorbereitung. Sie schließt keine Compliance und ersetzt keine Risiko-Ownership. Human-in-the-Loop ist Produktfeature, nicht Afterthought.',
-          ux: 'Coverage-Lage → priorisiertes Backlog → Entscheidungstemplates → Review-Queue für KI-Vorschläge (Accept / Edit / Reject).',
-          architecture: 'Ingest von Policies/Evidenz → Klassifikation gegen Kontrollkatalog → Review-Workflow → exportierbare Decision Packs. Frühphase: Produkt- und Interaktionsschnitt vor Plattform-Tiefe.',
-          evaluation: 'Fachliche Review der Mapping-Präzision; Tabletop-Vergleich: Zeit und Entscheidungsqualität mit vs. Ohne Templates und assistiertes Backlog.',
-          metrics: 'NIS2-Control-Coverage %; Time-to-prioritized-Backlog; False-Positive-Mapping-Rate; Share Accept/Edit/Reject bei KI-Vorschlägen.',
-          tradeoffs: 'Assistive KI statt automatisierter Compliance-Claims; branchentiefe OT/IT-Nähe statt horizontalem GRC-Breite-Produkt; Entscheidungsqualität vor Dashboard-Theater.'
+          ux: 'Von der Coverage-Lage über ein priorisiertes Backlog und Entscheidungstemplates zur Review-Queue für KI-Vorschläge mit Accept, Edit oder Reject.',
+          architecture: 'Ingest von Policies und Evidenz, Klassifikation gegen den Kontrollkatalog, Review-Workflow und exportierbare Decision Packs. In der Frühphase zählt der Produkt- und Interaktionsschnitt vor Plattform-Tiefe.',
+          evaluation: 'Fachliche Review der Mapping-Präzision und Tabletop-Vergleich von Zeit sowie Entscheidungsqualität mit und ohne Templates sowie assistiertes Backlog.',
+          metrics: 'NIS2-Control-Coverage, Time-to-prioritized-Backlog, False-Positive-Mapping-Rate und Share von Accept, Edit und Reject bei KI-Vorschlägen.',
+          tradeoffs: 'Assistive KI statt automatisierter Compliance-Claims. Branchentiefe OT/IT-Nähe statt horizontalem GRC-Breite-Produkt. Entscheidungsqualität vor Dashboard-Theater.'
         }
-      }
+      },
     },
     contact: {
       eyebrow: 'Kontakt',
@@ -753,7 +753,7 @@ const translations = {
     projects: {
       eyebrow: 'Personal projects',
       heading: 'Product cases that show PM thinking',
-      intro: 'Private product work from problem and users through evaluation, metrics and trade-offs.',
+      intro: 'Private product work: from problem and users through UX and architecture to evaluation, metrics and trade-offs.',
       common: {
         narrativeHeading: 'Product thinking',
         problemLabel: 'Problem',
@@ -768,93 +768,93 @@ const translations = {
       careerIntelligence: {
         eyebrow: 'Personal project',
         title: 'Career Intelligence',
-        meta: 'Daily brief and prioritised to-dos for good-fit jobs, contacts and skill gaps. Selection, documents and apply stay with the user.',
+        meta: 'Daily brief and prioritised to-dos for good-fit jobs, contacts and skill gaps. The user stays in control of selection, documents and apply.',
         valueLabel: 'Value: Automate repetitive research while keeping decision and application firmly human-owned',
-        overview: 'The system automates the repetitive work behind job search: aggregate signals, surface good fits, show contacts and most-requested skills, and suggest learning when gaps appear. Choosing the role, preparing documents and applying stay under full user control. Supported by a daily brief and prioritised to-dos.',
+        overview: 'The system takes on the repetitive work behind job search. It aggregates signals, surfaces good fits, shows contacts and most-requested skills, and suggests learning when gaps appear. A daily brief and prioritised to-dos set the frame. Choosing the role, preparing documents and applying stay under full user control.',
         approachTitle: 'Automate the repetitive, steer what matters',
-        approachText: 'A daily run aggregates and scores signals; the dashboard delivers the brief and to-dos. Scoring and suggestions stay explainable. Choosing the role, documents and apply remain deliberately manual.',
+        approachText: 'A daily run aggregates and scores signals. The dashboard delivers the brief and to-dos with explainable scoring. Choosing the role, documents and apply remains deliberately manual.',
         periodLocation: 'Personal project, run locally',
         imageAlt: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
         mediaAriaLabel: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
-        result: 'Outcome: Less manual triage, a clear daily brief with prioritised to-dos, and full control over selection, documents and apply.',
+        result: 'Outcome: Less manual triage through a daily brief and prioritised to-dos, with full control over selection, documents and apply.',
         contributions: [
           'Automated repetitive multi-source research and classification so time stays for selection and applications.',
-          'Surfaced good-fit scoring, contact cues and most-requested skills per track; suggested learning when gaps appear.',
+          'Surfaced good-fit scoring, contact cues and most-requested skills per track, and suggested learning when gaps appear.',
           'Shipped daily brief and prioritised to-dos as the daily action frame.',
-          'Anchored user ownership: choosing the role, documents and apply stay manual and accountable.',
-          'Folded LinkedIn job mail into the run: hits to Sheets, rule-scored, high-fit via Slack.'
+          'Anchored user ownership so choosing the role, documents and apply stay manual and accountable.',
+          'Folded LinkedIn job mail into the run: hits land in Sheets, are rule-scored, and high-fit matches alert via Slack.'
         ],
         tags: ['Python', 'Streamlit', 'SQLite', 'Daily brief', 'Good-fit scoring', 'Skill gaps', 'Slack API'],
         narrative: {
-          problem: 'Job search is full of repetitive work: scanning sources, comparing hits, holding skills and contacts in your head. Without a system you get either gut feel or blind auto-apply logic.',
-          users: 'Primarily myself as a product manager in active search. Someone who wants help finding good fits but wants to own selection, documents and apply.',
-          whyAi: 'Automation and agentic runs for aggregation, classification and briefing. No autopilot for applications: AI reduces triage load; the human keeps fit decisions, documents and apply.',
-          ux: 'Daily brief with prioritised to-dos; good-fit jobs, relevant contacts and most-requested skills at a glance; gap → learning suggestion; explicit steps for selection, documents, apply.',
-          architecture: 'Source layer → rule-based business logic (fit, skills, gaps) → dashboard with brief/to-dos; side flow Sheets + Slack for mail hits.',
+          problem: 'Job search is full of repetitive work: scanning sources, comparing hits, and holding skills and contacts in your head. Without a system you get either gut feel or blind auto-apply logic.',
+          users: 'Primarily myself as a product manager in active search. I want help finding good fits, but I keep ownership of selection, documents and apply.',
+          whyAi: 'Automation and agentic runs for aggregation, classification and briefing. No autopilot for applications: AI reduces triage load, while the human keeps fit decisions, documents and apply.',
+          ux: 'Daily brief with prioritised to-dos. Good-fit jobs, relevant contacts and most-requested skills at a glance. A learning suggestion when gaps appear. Explicit steps for selection, documents and apply.',
+          architecture: 'Source layer, rule-based business logic for fit, skills and gaps, then a dashboard with brief and to-dos. Side flow via Sheets and Slack for mail hits.',
           evaluation: 'Does triage time drop? Do prioritised to-dos lead to deliberate apply decisions? Do skill-gap suggestions match real postings?',
-          metrics: 'Time signal → triage; share of brief to-dos with follow-through; good-fit hit rate vs later interviews; use of gap/learning cues.',
-          tradeoffs: 'Full user control over auto-apply; explainable rules over opaque LLM rankings; brief and to-dos over an endless hit list.'
+          metrics: 'Time from signal to triage, share of brief to-dos with follow-through, good-fit hit rate versus later interviews, and use of gap and learning cues.',
+          tradeoffs: 'Full user control instead of auto-apply. Explainable rules instead of opaque LLM rankings. Brief and to-dos instead of an endless hit list.'
         }
       },
       stakeholderIntelligence: {
         eyebrow: 'Personal project',
         title: 'Stakeholder Intelligence',
-        meta: 'Proximity to the programme, type assessment and derived collaboration, plus reminders for who is due when.',
-        valueLabel: 'Value: Link stakeholder mapping and derive collaboration plus reminders',
-        overview: 'The board links stakeholder mapping along proximity to the programme with a type assessment. From that it derives a collaboration approach and reminders. Whom I involve when and how, instead of loose lists in my head.',
+        meta: 'Map stakeholders by proximity to the programme and type, derive collaboration, and follow up with reminders.',
+        valueLabel: 'Value: Link stakeholder mapping and derive collaboration as well as reminders',
+        overview: 'The board links stakeholder mapping along proximity to the programme with a type assessment. From that it derives a collaboration approach and reminders. The point is to know whom I involve when and how, instead of keeping loose lists in my head.',
         approachTitle: 'Link the mapping, derive collaboration and reminders',
         approachText: 'Proximity to the programme and type live in the same profile. The system compresses both into collaboration cues and reminder prompts for follow-ups.',
         periodLocation: 'Personal project, run locally',
         imageAlt: 'Screenshot of the Stakeholder Intelligence board in circle mode with fictional demo contacts',
         mediaAriaLabel: 'Screenshot of the Stakeholder Intelligence board in circle mode with fictional demo contacts',
-        result: 'Outcome: MVP that connects proximity, type, collaboration and reminders in one board, local for personal prep.',
+        result: 'Outcome: A local MVP that connects proximity, type, collaboration and reminders in one board for personal prep.',
         contributions: [
           'Linked stakeholder mapping along proximity to the programme (Core, Direct, Indirect) with type assessment in the same profile.',
-          'Made collaboration approach derivable from mapping and type, not just a board position.',
+          'Made collaboration approach derivable from mapping and type, instead of storing only a board position.',
           'Modelled a reminder function for follow-ups and resurfacing so proximity and type become concrete timing.',
-          'Shipped data model/API and a first review pass on autosave, connection handling and validation.'
+          'Shipped data model and API, plus a first review pass on autosave, connection handling and validation.'
         ],
         tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Reminder', 'Local-first'],
         narrative: {
-          problem: 'Stakeholder work easily splits into separate notes: proximity to the programme, type and “who I meant to ping” rarely live in one system.',
-          users: 'Product managers in programmes with many stakeholders. Primarily myself, as a prep and reminder tool, not a rating of other people.',
-          whyAi: 'No generative AI required: the value is linked mapping and derivable collaboration. Reminders need reliability and ownership, not generated prose.',
+          problem: 'Stakeholder work easily splits into separate notes. Proximity to the programme, type and the question of whom I meant to ping rarely live in one system.',
+          users: 'Product managers in programmes with many stakeholders. I primarily use it myself as a prep and reminder tool, not as a rating of other people.',
+          whyAi: 'No generative AI required. The value is linked mapping and derivable collaboration. Reminders need reliability and ownership, not generated prose.',
           ux: 'Board with proximity-to-programme mapping, type assessment, derived collaboration approach and reminders for follow-ups.',
-          architecture: 'Local-first Next.js/TypeScript/SQLite; stakeholder profile carries proximity, type, collaboration and reminder metadata; REST API with tests.',
+          architecture: 'Local-first with Next.js, TypeScript and SQLite. The stakeholder profile carries proximity, type, collaboration and reminder metadata. REST API with tests.',
           evaluation: 'Are reminders used before decisions? Does linked mapping change whom I involve and how?',
-          metrics: 'Overdue reminders; share of stakeholders with full mapping (proximity + type); follow-ups completed as planned.',
-          tradeoffs: 'Linked models over a flat contact list; reminders from mapping over generic calendar spam; local over shared CRM.'
+          metrics: 'Overdue reminders, share of stakeholders with full mapping of proximity and type, and follow-ups completed as planned.',
+          tradeoffs: 'Linked models instead of a flat contact list. Reminders from mapping instead of generic calendar spam. Local instead of a shared CRM.'
         }
       },
       predictiveMentoring: {
         eyebrow: 'Personal project',
         title: 'Predictive Mentoring',
-        meta: 'Product know-how for private life: break vision and strategy into action and outcome, for wishes and a happier life.',
-        valueLabel: 'Value: Bring product work and mentoring into private life, from vision to felt outcome',
-        overview: 'The app carries product know-how and mentoring into private life: vision and strategy are broken down into action and outcome so wishes become more achievable and everyday life happier. Supported, not merely tracked.',
+        meta: 'Product know-how for private life: turn vision and strategy into action and outcome so wishes become more achievable.',
+        valueLabel: 'Value: Bring product work and mentoring into private life and translate vision into felt outcomes',
+        overview: 'The app carries product know-how and mentoring into private life. Vision and strategy are broken down into action and outcome so wishes become more achievable and everyday life happier. It guides people instead of only tracking them.',
         approachTitle: 'Vision and strategy into action and outcome',
-        approachText: 'As in good product work: clarify vision, sharpen strategy, translate into actions and make outcomes visible. With mentoring and a local LLM as guidance.',
+        approachText: 'As in good product work: clarify vision, sharpen strategy, translate into actions and make outcomes visible. Mentoring and a local LLM guide the path.',
         periodLocation: 'Personal prototype project (iOS/Android)',
         imageAlt: 'Collage of the Predictive Mentoring app: overview with tab navigation, goal list and coaching chat',
         mediaAriaLabel: 'Collage of the Predictive Mentoring app: overview with tab navigation, goal list and coaching chat',
-        result: 'Outcome: Prototype that connects vision → strategy → action → outcome for private individuals in one flow.',
+        result: 'Outcome: A prototype that connects vision, strategy, action and outcome for private individuals in one flow.',
         contributions: [
-          'Transferred product logic vision → strategy → action → outcome onto personal wishes and life goals.',
+          'Transferred product logic from vision through strategy and action to outcome onto personal wishes and life goals.',
           'Built mentoring methods as guidance: listen, structure, propose next steps.',
-          'Made outcomes and progress visible in everyday terms, not activity tracking alone.',
-          'Local LLM for wording and coaching; data stays on device.',
-          'Positive tone: fulfilling wishes and happiness as the product goal, not drill or guilt.'
+          'Made outcomes and progress visible in everyday terms, beyond activity tracking alone.',
+          'Used a local LLM for wording and coaching. Data stays on device.',
+          'Set a positive tone: fulfilling wishes and happiness as the product goal, not drill or guilt.'
         ],
         tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision to outcome', 'Mobile'],
         narrative: {
-          problem: 'Private life often lacks the tools product managers use at work: vision and strategy dissolve into resolutions without clear action and felt outcome. Wishes stay vague.',
-          users: 'Private individuals pursuing big wishes and a happier life who need structured product and mentoring know-how. Not habit streaks alone.',
-          whyAi: 'Local LLM as a mentor voice for wording and positive support. The breakdown vision → strategy → action → outcome stays method-led so AI does not hallucinate the strategy.',
-          ux: 'Flow from vision and strategy to concrete actions and outcomes; mentoring chat/impulses; progress as moving toward wish and wellbeing.',
-          architecture: 'React Native/Expo; on-device data; mentoring layer with a swappable local LLM behind the conversation surface.',
-          evaluation: 'In one session, can someone move from wish/vision to a workable strategy and first actions? Does guidance feel fulfilling rather than lecturing?',
-          metrics: 'Vision → first-action conversion; share of clearly framed outcomes; acceptance of mentoring impulses; return use without guilt pressure.',
-          tradeoffs: 'Product and mentoring depth over a pure habit app; local LLM for privacy; happiness/wish fulfilment as the north star over productivity metrics alone.'
+          problem: 'Private life often lacks the tools product managers use at work. Vision and strategy dissolve into resolutions without clear action and felt outcome. Wishes stay vague.',
+          users: 'Private individuals with big wishes and the aim of a happier life. They need structured product and mentoring know-how, not habit streaks alone.',
+          whyAi: 'A local LLM acts as a mentor voice for wording and positive support. The breakdown from vision through strategy and action to outcome stays method-led, so AI does not hallucinate the strategy.',
+          ux: 'Flow from vision and strategy to concrete actions and outcomes, plus mentoring chat and impulses. Progress shows movement toward wish and wellbeing.',
+          architecture: 'React Native and Expo with on-device data. The mentoring layer uses a swappable local LLM behind the conversation surface.',
+          evaluation: 'In one session, can someone move from wish or vision to a workable strategy and first actions? Does guidance feel fulfilling rather than lecturing?',
+          metrics: 'Conversion from vision to first action, share of clearly framed outcomes, acceptance of mentoring impulses, and return use without guilt pressure.',
+          tradeoffs: 'Product and mentoring depth instead of a pure habit app. Local LLM in exchange for privacy. Happiness and wish fulfilment as the north star instead of productivity metrics alone.'
         }
       },
       cyberSecuritySaas: {
@@ -871,23 +871,23 @@ const translations = {
         result: 'Outcome: A clear product cut for coverage, prioritisation and decision templates instead of audit documentation alone.',
         contributions: [
           'Translated the NIS2, BCM and control-room problem space into a B2B SaaS product shape: coverage, backlog, decision packs.',
-          'Set human-in-the-loop as a product principle: AI maps and prioritises suggestions, ownership stays with the risk/process owner.',
+          'Set human-in-the-loop as a product principle: AI maps and prioritises suggestions, while ownership stays with the risk or process owner.',
           'Defined a UX cut for three jobs: sense the situation, prioritise actions, document decisions.',
           'Framed evaluation for mapping precision, time-to-backlog and accept/edit/reject of AI suggestions.',
-          'Made trade-offs explicit: OT-depth over horizontal GRC breadth; assistance over automated compliance claims.'
+          'Made trade-offs explicit: OT depth instead of horizontal GRC breadth, and assistance instead of automated compliance claims.'
         ],
         tags: ['NIS2', 'BCM', 'OT/IT risk', 'Human-in-the-loop', 'B2B SaaS', 'Decision UX'],
         narrative: {
-          problem: 'NIS2/BCM obligations often hit operators as unstructured evidence load. Rarely does that become a prioritised operations backlog for resilient control-room and IT/OT decisions.',
-          users: 'Business process owners, IT/OT security leads and compliance partners in energy and critical operations. People who own risk, not just pass audits.',
+          problem: 'NIS2 and BCM obligations often hit operators as unstructured evidence load. Rarely does that become a prioritised operations backlog for resilient control-room and IT/OT decisions.',
+          users: 'Business process owners, IT/OT security leads and compliance partners in energy and critical operations. They own risk and want more than passing audits.',
           whyAi: 'AI helps map evidence and controls onto a risk backlog and prepare prioritisation. It does not close compliance or replace risk ownership. Human-in-the-loop is a product feature, not an afterthought.',
-          ux: 'Coverage view → prioritised backlog → decision templates → review queue for AI suggestions (accept / edit / reject).',
-          architecture: 'Ingest policies/evidence → classify against a control catalogue → review workflow → exportable decision packs. Early phase: product and interaction cut before platform depth.',
-          evaluation: 'Expert review of mapping precision; tabletop comparison of time and decision quality with vs without templates and an assisted backlog.',
-          metrics: 'NIS2 control coverage %; time-to-prioritised backlog; false-positive mapping rate; accept/edit/reject share for AI suggestions.',
-          tradeoffs: 'Assistive AI over automated compliance claims; OT/IT depth over horizontal GRC breadth; decision quality over dashboard theatre.'
+          ux: 'From coverage view through a prioritised backlog and decision templates to a review queue for AI suggestions with accept, edit or reject.',
+          architecture: 'Ingest policies and evidence, classify against a control catalogue, run a review workflow and export decision packs. In the early phase the product and interaction cut matter more than platform depth.',
+          evaluation: 'Expert review of mapping precision, plus a tabletop comparison of time and decision quality with and without templates and an assisted backlog.',
+          metrics: 'NIS2 control coverage, time-to-prioritised backlog, false-positive mapping rate, and accept/edit/reject share for AI suggestions.',
+          tradeoffs: 'Assistive AI instead of automated compliance claims. OT/IT depth instead of horizontal GRC breadth. Decision quality over dashboard theatre.'
         }
-      }
+      },
     },
     contact: {
       eyebrow: 'Contact',
