@@ -286,7 +286,7 @@ const translations = {
     projects: {
       eyebrow: 'Eigene Projekte',
       heading: 'Produktfälle, die PM-Denken zeigen',
-      intro: 'Private Produktarbeiten: von Problem und Nutzer:innen über UX und Architektur bis Evaluation, Metriken und Trade-offs.',
+      intro: 'Die eigenen Projekte folgen einer durchgängigen Produktlogik. Sie führen von Problem und Nutzer:innen über UX und Architektur zu Evaluation, Metriken und Trade-offs.',
       common: {
         narrativeHeading: 'Produktlogik',
         problemLabel: 'Problem',
@@ -753,7 +753,7 @@ const translations = {
     projects: {
       eyebrow: 'Personal projects',
       heading: 'Product cases that show PM thinking',
-      intro: 'Private product work: from problem and users through UX and architecture to evaluation, metrics and trade-offs.',
+      intro: 'The personal projects follow end-to-end product logic. They move from problem and users through UX and architecture to evaluation, metrics and trade-offs.',
       common: {
         narrativeHeading: 'Product thinking',
         problemLabel: 'Problem',
