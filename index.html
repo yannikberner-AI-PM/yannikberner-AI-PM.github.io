@@ -8,9 +8,13 @@
       content="Senior Product Manager für komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten: Product-Market-Fit finden und bewahren, von Discovery bis Rollout."
     />
     <meta name="theme-color" content="#d5cdbe" />
-    <link rel="canonical" href="https://yannikberner-ai-pm.github.io/" />
+    <link rel="canonical" href="https://yannikberner-ai-pm.github.io/?lang=de" />
+    <link rel="alternate" hreflang="de" href="https://yannikberner-ai-pm.github.io/?lang=de" />
+    <link rel="alternate" hreflang="en" href="https://yannikberner-ai-pm.github.io/?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://yannikberner-ai-pm.github.io/" />
     <meta property="og:type" content="profile" />
-    <meta property="og:url" content="https://yannikberner-ai-pm.github.io/" />
+    <meta property="og:site_name" content="Yannik Berner" />
+    <meta property="og:url" content="https://yannikberner-ai-pm.github.io/?lang=de" />
     <meta property="og:title" content="Yannik Berner | Senior Product Manager · Complex Software & Hardware Products" />
     <meta property="og:description" content="Senior Product Manager für komplexe Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten." />
     <meta property="og:image" content="https://yannikberner-ai-pm.github.io/assets/images/yannik-berner-social-preview.png" />
@@ -19,14 +23,17 @@
     <meta property="og:image:alt" content="Yannik Berner, Senior Product Manager für komplexe Produkte aus Software, Hardware und Prozessen" />
     <meta property="og:locale" content="de_DE" />
     <meta property="og:locale:alternate" content="en_GB" />
+    <meta property="profile:first_name" content="Yannik" />
+    <meta property="profile:last_name" content="Berner" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Yannik Berner | Senior Product Manager · Complex Software & Hardware Products" />
     <meta name="twitter:description" content="Senior Product Manager für komplexe Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten." />
     <meta name="twitter:image" content="https://yannikberner-ai-pm.github.io/assets/images/yannik-berner-social-preview.png" />
+    <meta name="twitter:image:alt" content="Yannik Berner, Senior Product Manager für komplexe Produkte aus Software, Hardware und Prozessen" />
     <title>Yannik Berner | Senior Product Manager · Complex Software & Hardware Products</title>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
     <link rel="stylesheet" href="styles.css" />
-    <script type="application/ld+json">
+    <script type="application/ld+json" id="person-jsonld">
       {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -34,8 +41,34 @@
         "url": "https://yannikberner-ai-pm.github.io/",
         "image": "https://yannikberner-ai-pm.github.io/assets/images/yannik-berner-portrait.jpg",
         "jobTitle": "Senior Product Manager",
+        "email": "mailto:yannik_berner@icloud.com",
         "sameAs": ["https://www.linkedin.com/in/yannik-berner-72235216b/"],
-        "knowsAbout": ["Complex Systems", "Connected Energy", "HEMS", "Smart Metering", "B2B2C Products", "B2B SaaS", "Software Product Modernization", "Platform Transformation"]
+        "knowsAbout": [
+          "Product Strategy",
+          "Platform Strategy",
+          "Product Discovery",
+          "Product-Market Fit",
+          "Complex Systems",
+          "Connected Energy",
+          "HEMS",
+          "Smart Metering",
+          "EMS",
+          "IoT",
+          "B2B2C Products",
+          "B2B SaaS",
+          "Software Product Modernization",
+          "Platform Transformation",
+          "Cloud Migration",
+          "Stakeholder Management",
+          "Roadmaps",
+          "OKRs"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "professional",
+          "email": "yannik_berner@icloud.com",
+          "url": "https://www.linkedin.com/in/yannik-berner-72235216b/"
+        }
       }
     </script>
   </head>
@@ -69,7 +102,11 @@
       <section class="hero section" id="top">
         <div class="container hero-grid">
           <div class="portrait-shell reveal">
-            <img src="assets/images/yannik-berner-portrait.jpg" alt="Porträt von Yannik Berner" width="488" height="470" loading="eager" decoding="async" fetchpriority="high" data-i18n-alt="hero.portraitAlt" />
+            <picture>
+              <source type="image/avif" srcset="assets/images/yannik-berner-portrait.avif" />
+              <source type="image/webp" srcset="assets/images/yannik-berner-portrait.webp" />
+              <img src="assets/images/yannik-berner-portrait.jpg" alt="Porträt von Yannik Berner" width="488" height="470" loading="eager" decoding="async" fetchpriority="high" data-i18n-alt="hero.portraitAlt" />
+            </picture>
             <div class="image-placeholder" aria-hidden="true">
               <span data-i18n="hero.portraitPlaceholder">Porträt von Yannik Berner</span>
             </div>
@@ -90,7 +127,7 @@
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#impact" data-i18n="hero.ctaPrimary">Mehrwert ansehen</a>
-              <a class="button button-secondary" href="#contact" data-i18n="hero.ctaSecondary">Kontakt aufnehmen</a>
+              <a class="button button-secondary" href="#contact" data-i18n="hero.ctaSecondary" data-focus-target="#contact-email">Kontakt aufnehmen</a>
             </div>
           </div>
         </div>
@@ -355,9 +392,6 @@
               <h4 data-i18n="experience.enertrag.approachTitle">Modularen Modernisierungsansatz vorbereitet</h4>
               <p data-i18n="experience.enertrag.approachText">Fachliche Domänen, operative Use Cases und Datenanforderungen strukturiert, damit Produktfähigkeiten und Datenprodukte schrittweise aus der bestehenden Landschaft heraus entwickelt werden konnten.</p>
             </div>
-            <div class="job-meta">
-              <p><strong data-i18n="experience.common.periodLocation">Zeitraum · Ort</strong>: <span data-i18n="experience.enertrag.periodLocation">Feb. 2026 – heute · Berlin</span></p>
-            </div>
             <p class="result-line" data-i18n="experience.enertrag.result">Ergebnis: Datenprodukt zur Leistungskurven-Analyse umgesetzt und in Frankreich im Einsatz, plus erste Zielbilder und Entscheidungsgrundlagen für Betriebssoftware und resiliente Betriebsprozesse.</p>
             <p class="case-external-link">
               <a href="https://enertrag.com/de" target="_blank" rel="noopener noreferrer" data-url-de="https://enertrag.com/de" data-url-en="https://enertrag.com/" data-i18n-aria="experience.enertrag.mediaLinkLabel"><span data-i18n="experience.common.companyLink">Unternehmen ansehen</span> <span aria-hidden="true">↗</span></a>
@@ -381,7 +415,11 @@
                 data-url-en="https://enertrag.com/"
                 data-i18n-aria="experience.enertrag.mediaLinkLabel"
               >
-                <img src="assets/images/enertrag-case-study-collage.jpg" alt="Collage zu den Digitalisierungsprojekten bei ENERTRAG" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="experience.enertrag.imageAlt" />
+                <picture>
+                  <source type="image/avif" srcset="assets/images/enertrag-case-study-collage.avif" />
+                  <source type="image/webp" srcset="assets/images/enertrag-case-study-collage.webp" />
+                  <img src="assets/images/enertrag-case-study-collage.jpg" alt="Collage zu den Digitalisierungsprojekten bei ENERTRAG" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="experience.enertrag.imageAlt" />
+                </picture>
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Visualisierung</span>
                 </div>
@@ -420,9 +458,6 @@
               <h4 data-i18n="experience.senec.approachTitle">Evolutionäre Weiterentwicklung mit Strangler-Elementen</h4>
               <p data-i18n="experience.senec.approachText">Neue Produktvarianten, Integrationen und Steuerungsfähigkeiten inkrementell aufgebaut und ausgerollt, während bestehende Plattformbestandteile weiter betrieben wurden.</p>
             </div>
-            <div class="job-meta">
-              <p><strong data-i18n="experience.common.periodLocation">Zeitraum · Ort</strong>: <span data-i18n="experience.senec.periodLocation">Sep. 2024 – Jan. 2026 · Leipzig / Remote</span></p>
-            </div>
             <p class="result-line" data-i18n="experience.senec.result">Ergebnis: Skalierbare HEMS-Produktmodelle für mehr als 20.000 vernetzte Energiesysteme.</p>
             <p class="case-external-link">
               <a href="https://senec.com/de/produkte/senec-powerpilot-home" target="_blank" rel="noopener noreferrer" data-i18n-aria="experience.senec.mediaLinkLabel"><span data-i18n="experience.common.productLink">Produkt ansehen</span> <span aria-hidden="true">↗</span></a>
@@ -435,8 +470,6 @@
                   <li data-i18n="experience.senec.contributions.1">Reihenfolge für die Integration von PV, Batteriespeicher, Wallboxen, Wärmepumpen, Smart Metering und intelligenter Steuerung in eine gemeinsame Plattform priorisiert, statt alle Gerätetypen gleichzeitig anzugehen.</li>
                   <li data-i18n="experience.senec.contributions.2">Testumfang für Labor-, System- und Integrationstests je Gerät, Schnittstelle und Steuerungslogik so strukturiert, dass Integrationsrisiken vor dem Rollout sichtbar wurden.</li>
                   <li data-i18n="experience.senec.contributions.3">Roadmap-Priorität zwischen neuen Produktvarianten, Partnerintegrationen und bestehender Plattformstabilität abgewogen, mit Strangler-Ansatz statt Rewrite.</li>
-                  <li data-i18n="experience.senec.contributions.4">Entschieden, prognosebasierte Lade- und Steuerungslogik (PV-, Preis- und Lastprognosen) in die bestehende HEMS-Logik zu integrieren statt eine separate Steuerungsschicht aufzubauen.</li>
-                  <li data-i18n="experience.senec.contributions.5">Onboarding-Workflow für neue Geräte und Partnerintegrationen standardisiert, um Integrationszeit für künftige Gerätetypen zu verkürzen.</li>
                 </ul>
               </div>
               <a
@@ -446,7 +479,11 @@
                 rel="noopener noreferrer"
                 data-i18n-aria="experience.senec.mediaLinkLabel"
               >
-                <img src="assets/images/senec-case-study-collage.jpg" alt="Collage zum Home Energy Management System bei SENEC" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="experience.senec.imageAlt" />
+                <picture>
+                  <source type="image/avif" srcset="assets/images/senec-case-study-collage.avif" />
+                  <source type="image/webp" srcset="assets/images/senec-case-study-collage.webp" />
+                  <img src="assets/images/senec-case-study-collage.jpg" alt="Collage zum Home Energy Management System bei SENEC" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="experience.senec.imageAlt" />
+                </picture>
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Visualisierung</span>
                 </div>
@@ -462,6 +499,13 @@
             </div>
             <button class="details-toggle" type="button" aria-expanded="false" aria-controls="details-senec" data-i18n="experience.common.viewDetails">Details anzeigen</button>
             <div id="details-senec" class="case-details" hidden>
+              <div class="case-list case-list-more">
+                <h4 data-i18n="experience.common.moreContributions">Weitere Beiträge</h4>
+                <ul>
+                  <li data-i18n="experience.senec.contributions.4">Entschieden, prognosebasierte Lade- und Steuerungslogik (PV-, Preis- und Lastprognosen) in die bestehende HEMS-Logik zu integrieren statt eine separate Steuerungsschicht aufzubauen.</li>
+                  <li data-i18n="experience.senec.contributions.5">Onboarding-Workflow für neue Geräte und Partnerintegrationen standardisiert, um Integrationszeit für künftige Gerätetypen zu verkürzen.</li>
+                </ul>
+              </div>
               <p><strong data-i18n="experience.common.contextLabel">Kontext</strong>: <span data-i18n="experience.senec.details.context">Produktarbeit über Hardware, Software und Cloud mit hoher Abhängigkeit von Betriebssicherheit.</span></p>
               <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="experience.senec.details.approach">Cross-funktionale Auslieferung, disziplinierte Delivery-Organisation und inkrementelle Produktentwicklung.</span></p>
               <p><strong data-i18n="experience.common.valueLabel">Wert</strong>: <span data-i18n="experience.senec.details.value">Mehr Zuverlässigkeit, bessere Integration und eine skalierbare Plattformgrundlage.</span></p>
@@ -486,9 +530,6 @@
               <h4 data-i18n="experience.soniq.approachTitle">Relaunch mit kontrolliertem Cutover: vom MVP zum MMP</h4>
               <p data-i18n="experience.soniq.approachText">Mit einem fokussierten MVP zentrale Nutzer- und Produktannahmen validiert und die Plattform anschließend zu einem vermarktbaren End-to-End-Produktumfang ausgebaut.</p>
             </div>
-            <div class="job-meta">
-              <p><strong data-i18n="experience.common.periodLocation">Zeitraum · Ort</strong>: <span data-i18n="experience.soniq.periodLocation">Aug. 2022 – Aug. 2024 · Berlin</span></p>
-            </div>
             <p class="result-line" data-i18n="experience.soniq.result">Ergebnis: Kundenzufriedenheit um 60 % gesteigert und Supportaufwand um 50 % gesenkt, durch datenbasierte Serviceverbesserungen.</p>
             <p class="case-external-link">
               <a href="https://www.karcher.com/de/de/professional/produkte/equipment-management-c998" target="_blank" rel="noopener noreferrer" data-url-de="https://www.karcher.com/de/de/professional/produkte/equipment-management-c998" data-url-en="https://www.kaercher.com/int/professional/connected-cleaning.html" data-i18n-aria="experience.soniq.mediaLinkLabel"><span data-i18n="experience.common.productLink">Produkt ansehen</span> <span aria-hidden="true">↗</span></a>
@@ -501,7 +542,6 @@
                   <li data-i18n="experience.soniq.contributions.1">Integrationsreihenfolge von IoT-Geräten, ERP-Funktionen, REST-APIs und Data-Lake-Komponenten nach Abhängigkeit und MVP-Nutzen priorisiert.</li>
                   <li data-i18n="experience.soniq.contributions.2">Service- und Nachschubrouten für Geräte und Verbrauchsgüter datenbasiert optimiert, statt Techniker pauschal nach festen Touren einzusetzen.</li>
                   <li data-i18n="experience.soniq.contributions.3">Release- und Rollout-Reihenfolge über mehrere Länder anhand von Nutzungs- und Kundendaten priorisiert, um Kapazität zuerst auf die wirkungsvollsten Märkte zu lenken.</li>
-                  <li data-i18n="experience.soniq.contributions.4">Entschieden, Reliability-Daten aus Hardware-Monitoring für vorausschauende Wartung und Ausfallprognosen zu nutzen statt auf rein reaktiven Support zu setzen.</li>
                 </ul>
               </div>
               <a
@@ -513,7 +553,11 @@
                 data-url-en="https://www.kaercher.com/int/professional/connected-cleaning.html"
                 data-i18n-aria="experience.soniq.mediaLinkLabel"
               >
-                <img src="assets/images/soniq-case-study-collage.jpg" alt="Collage zur IoT- und Datenplattform soniq IQ" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="experience.soniq.imageAlt" />
+                <picture>
+                  <source type="image/avif" srcset="assets/images/soniq-case-study-collage.avif" />
+                  <source type="image/webp" srcset="assets/images/soniq-case-study-collage.webp" />
+                  <img src="assets/images/soniq-case-study-collage.jpg" alt="Collage zur IoT- und Datenplattform soniq IQ" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="experience.soniq.imageAlt" />
+                </picture>
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Visualisierung</span>
                 </div>
@@ -529,6 +573,12 @@
             </div>
             <button class="details-toggle" type="button" aria-expanded="false" aria-controls="details-soniq" data-i18n="experience.common.viewDetails">Details anzeigen</button>
             <div id="details-soniq" class="case-details" hidden>
+              <div class="case-list case-list-more">
+                <h4 data-i18n="experience.common.moreContributions">Weitere Beiträge</h4>
+                <ul>
+                  <li data-i18n="experience.soniq.contributions.4">Entschieden, Reliability-Daten aus Hardware-Monitoring für vorausschauende Wartung und Ausfallprognosen zu nutzen statt auf rein reaktiven Support zu setzen.</li>
+                </ul>
+              </div>
               <p><strong data-i18n="experience.common.contextLabel">Kontext</strong>: <span data-i18n="experience.soniq.details.context">Produkt- und Vertriebsarbeit in einer dynamischen B2B-Umgebung mit sich wandelnden Kundenanforderungen.</span></p>
               <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="experience.soniq.details.approach">Kundenorientierte Produktentwicklung mit klarer operativer Struktur.</span></p>
               <p><strong data-i18n="experience.common.valueLabel">Wert</strong>: <span data-i18n="experience.soniq.details.value">Stärkerer Produkt-Markt-Fit, bessere Sichtbarkeit von Abläufen und klarere Geschäftslogik.</span></p>
@@ -553,9 +603,6 @@
               <h4 data-i18n="experience.mercedes.approachTitle">Cloud-Migration (Managed Hosting zu AWS) und kontrollierter Cutover über mehrere Märkte</h4>
               <p data-i18n="experience.mercedes.approachText">Managed-Hosting-Infrastruktur zu AWS migriert und Marktprozesse, technische Abhängigkeiten, Integrationen sowie Release-Zeitpunkte für kontrollierte, schrittweise Übergänge auf die neue Plattform koordiniert.</p>
             </div>
-            <div class="job-meta">
-              <p><strong data-i18n="experience.common.periodLocation">Zeitraum · Ort</strong>: <span data-i18n="experience.mercedes.periodLocation">Feb. 2021 – Juli 2022 · Berlin</span></p>
-            </div>
             <p class="result-line" data-i18n="experience.mercedes.result">Ergebnis: Einheitlichere digitale Prozesse über mehrere Märkte hinweg.</p>
             <div class="case-body">
               <div class="case-list">
@@ -565,11 +612,14 @@
                   <li data-i18n="experience.mercedes.contributions.1">Rollout-Reihenfolge über mehr als sechs europäische Märkte so priorisiert, dass jeder Markt kontrolliert statt gleichzeitig auf die neue Plattform wechselte.</li>
                   <li data-i18n="experience.mercedes.contributions.2">Unterschiedliche Markt- und Serviceprozesse auf einen gemeinsamen Nenner gebracht und in technische Spezifikationen übersetzt, statt marktspezifische Sonderlösungen zu bauen.</li>
                   <li data-i18n="experience.mercedes.contributions.3">Umfang skalierbarer Salesforce- und API-Integrationen mit Produktentwicklung und Architektur abgestimmt und gegen individuelle Marktanforderungen abgewogen.</li>
-                  <li data-i18n="experience.mercedes.contributions.4">Release-Taktung mit Scrum, OKRs und CI/CD-orientierten Abläufen gesteuert, um Fortschritt über mehrere Märkte vergleichbar zu machen.</li>
                 </ul>
               </div>
               <div class="media-shell">
-                <img src="assets/images/mercedes-case-study-collage.jpg" alt="Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="experience.mercedes.imageAlt" />
+                <picture>
+                  <source type="image/avif" srcset="assets/images/mercedes-case-study-collage.avif" />
+                  <source type="image/webp" srcset="assets/images/mercedes-case-study-collage.webp" />
+                  <img src="assets/images/mercedes-case-study-collage.jpg" alt="Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="experience.mercedes.imageAlt" />
+                </picture>
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Visualisierung</span>
                 </div>
@@ -585,6 +635,12 @@
             </div>
             <button class="details-toggle" type="button" aria-expanded="false" aria-controls="details-mercedes" data-i18n="experience.common.viewDetails">Details anzeigen</button>
             <div id="details-mercedes" class="case-details" hidden>
+              <div class="case-list case-list-more">
+                <h4 data-i18n="experience.common.moreContributions">Weitere Beiträge</h4>
+                <ul>
+                  <li data-i18n="experience.mercedes.contributions.4">Release-Taktung mit Scrum, OKRs und CI/CD-orientierten Abläufen gesteuert, um Fortschritt über mehrere Märkte vergleichbar zu machen.</li>
+                </ul>
+              </div>
               <p><strong data-i18n="experience.common.contextLabel">Kontext</strong>: <span data-i18n="experience.mercedes.details.context">Regulierte, schnelllebige Umgebung mit intensivem Abstimmungsbedarf zwischen Produkt und Delivery, inklusive Migration der bestehenden Managed-Hosting-Infrastruktur zu AWS.</span></p>
               <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="experience.mercedes.details.approach">Managed-Hosting-Infrastruktur zu AWS migriert, pragmatische Stakeholder-Abstimmung, technische Koordination und phased Rollout-Planung.</span></p>
               <p><strong data-i18n="experience.common.valueLabel">Wert</strong>: <span data-i18n="experience.mercedes.details.value">Schnellere Verbreitung standardisierter Prozesse und konsequenterer Marktumsetzung.</span></p>
@@ -609,9 +665,6 @@
               <h4 data-i18n="experience.remindme.approachTitle">Launch und Skalierung einer digitalen Plattform</h4>
               <p data-i18n="experience.remindme.approachText">Die Plattform datenbasiert aufgebaut, kontinuierlich verbessert und mitsamt automatisierten End-to-End-Prozessen auf rund 100.000 aktive Kund:innen skaliert.</p>
             </div>
-            <div class="job-meta">
-              <p><strong data-i18n="experience.common.periodLocation">Zeitraum · Ort</strong>: <span data-i18n="experience.remindme.periodLocation">Dez. 2017 – Dez. 2020 · Berlin</span></p>
-            </div>
             <p class="result-line" data-i18n="experience.remindme.result">Ergebnis: Rund 100.000 aktive Kund:innen, 98 Prozent erfolgreiche Tarifwechsel und mehr als 20 Mio. Euro Kundenersparnis.</p>
             <p class="case-external-link">
               <a href="https://www.remind.me/" target="_blank" rel="noopener noreferrer" data-i18n-aria="experience.remindme.mediaLinkLabel"><span data-i18n="experience.common.companyLink">Unternehmen ansehen</span> <span aria-hidden="true">↗</span></a>
@@ -633,7 +686,11 @@
                 rel="noopener noreferrer"
                 data-i18n-aria="experience.remindme.mediaLinkLabel"
               >
-                <img src="assets/images/remindme-case-study-collage.jpg" alt="Collage zur Energie- und Tarifplattform von remind.me" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="experience.remindme.imageAlt" />
+                <picture>
+                  <source type="image/avif" srcset="assets/images/remindme-case-study-collage.avif" />
+                  <source type="image/webp" srcset="assets/images/remindme-case-study-collage.webp" />
+                  <img src="assets/images/remindme-case-study-collage.jpg" alt="Collage zur Energie- und Tarifplattform von remind.me" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="experience.remindme.imageAlt" />
+                </picture>
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Visualisierung</span>
                 </div>
@@ -691,11 +748,14 @@
                   <li data-i18n="projects.careerIntelligence.contributions.1">Good-Fit-Scoring, Kontakt-Hinweise und meistgeforderte Skills je Track sichtbar gemacht und bei Gaps Weiterbildung vorgeschlagen.</li>
                   <li data-i18n="projects.careerIntelligence.contributions.2">Daily Brief und priorisierte To-dos als täglichen Handlungsrahmen umgesetzt.</li>
                   <li data-i18n="projects.careerIntelligence.contributions.3">User-Ownership fest verankert: Stelle wählen, Unterlagen und Apply bleiben manuell und nachvollziehbar.</li>
-                  <li data-i18n="projects.careerIntelligence.contributions.4">LinkedIn-Job-Mails in den Lauf integriert: Treffer nach Sheets, regelbasiert bewertet, High-Fit als Slack-Hinweis.</li>
                 </ul>
               </div>
               <div class="media-shell" data-i18n-aria="projects.careerIntelligence.mediaAriaLabel">
-                <img src="assets/images/career-intelligence-case-study-collage.png" alt="Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.careerIntelligence.imageAlt" />
+                <picture>
+                  <source type="image/avif" srcset="assets/images/career-intelligence-case-study-collage.avif" />
+                  <source type="image/webp" srcset="assets/images/career-intelligence-case-study-collage.webp" />
+                  <img src="assets/images/career-intelligence-case-study-collage.png" alt="Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.careerIntelligence.imageAlt" />
+                </picture>
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Visualisierung</span>
                 </div>
@@ -712,6 +772,12 @@
             </div>
             <button class="details-toggle" type="button" aria-expanded="false" aria-controls="narrative-career" data-toggle-kind="narrative" data-i18n="projects.common.viewNarrative">Produktlogik anzeigen</button>
             <div id="narrative-career" class="case-narrative" hidden>
+              <div class="case-list case-list-more">
+                <h4 data-i18n="experience.common.moreContributions">Weitere Beiträge</h4>
+                <ul>
+                  <li data-i18n="projects.careerIntelligence.contributions.4">LinkedIn-Job-Mails in den Lauf integriert: Treffer nach Sheets, regelbasiert bewertet, High-Fit als Slack-Hinweis.</li>
+                </ul>
+              </div>
               <h4 class="case-narrative-heading" data-i18n="projects.common.narrativeHeading">Produktlogik</h4>
               <ol class="narrative-steps">
                 <li>
@@ -781,7 +847,11 @@
                 </ul>
               </div>
               <div class="media-shell" data-i18n-aria="projects.stakeholderIntelligence.mediaAriaLabel">
-                <img src="assets/images/stakeholder-intelligence-case-study-collage.png" alt="Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.stakeholderIntelligence.imageAlt" />
+                <picture>
+                  <source type="image/avif" srcset="assets/images/stakeholder-intelligence-case-study-collage.avif" />
+                  <source type="image/webp" srcset="assets/images/stakeholder-intelligence-case-study-collage.webp" />
+                  <img src="assets/images/stakeholder-intelligence-case-study-collage.png" alt="Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.stakeholderIntelligence.imageAlt" />
+                </picture>
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Visualisierung</span>
                 </div>
@@ -863,11 +933,14 @@
                   <li data-i18n="projects.predictiveMentoring.contributions.1">Mentoring-Methoden als Begleitung eingebaut: zuhören, strukturieren, nächste Schritte vorschlagen.</li>
                   <li data-i18n="projects.predictiveMentoring.contributions.2">Outcomes und Fortschritt alltagsnah sichtbar gemacht, über reines Aktivitäts-Tracking hinaus.</li>
                   <li data-i18n="projects.predictiveMentoring.contributions.3">Lokales LLM für Formulierung und Coaching genutzt. Daten bleiben auf dem Gerät.</li>
-                  <li data-i18n="projects.predictiveMentoring.contributions.4">Positiven Ton gesetzt: Erfüllung von Wünschen und Glück als Produktziel, nicht Drill oder Guilt.</li>
                 </ul>
               </div>
               <div class="media-shell" data-i18n-aria="projects.predictiveMentoring.mediaAriaLabel">
-                <img src="assets/images/predictive-mentoring-case-study-collage.png" alt="Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.predictiveMentoring.imageAlt" />
+                <picture>
+                  <source type="image/avif" srcset="assets/images/predictive-mentoring-case-study-collage.avif" />
+                  <source type="image/webp" srcset="assets/images/predictive-mentoring-case-study-collage.webp" />
+                  <img src="assets/images/predictive-mentoring-case-study-collage.png" alt="Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.predictiveMentoring.imageAlt" />
+                </picture>
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Visualisierung</span>
                 </div>
@@ -883,6 +956,12 @@
             </div>
             <button class="details-toggle" type="button" aria-expanded="false" aria-controls="narrative-predictive" data-toggle-kind="narrative" data-i18n="projects.common.viewNarrative">Produktlogik anzeigen</button>
             <div id="narrative-predictive" class="case-narrative" hidden>
+              <div class="case-list case-list-more">
+                <h4 data-i18n="experience.common.moreContributions">Weitere Beiträge</h4>
+                <ul>
+                  <li data-i18n="projects.predictiveMentoring.contributions.4">Positiven Ton gesetzt: Erfüllung von Wünschen und Glück als Produktziel, nicht Drill oder Guilt.</li>
+                </ul>
+              </div>
               <h4 class="case-narrative-heading" data-i18n="projects.common.narrativeHeading">Produktlogik</h4>
               <ol class="narrative-steps">
                 <li>
@@ -949,11 +1028,14 @@
                   <li data-i18n="projects.cyberSecurityConnector.contributions.1">Connector-Interface und Marketplace für Organigramm/HR, QM/Prozess, Ticketing und Partner-CRM.</li>
                   <li data-i18n="projects.cyberSecurityConnector.contributions.2">Multi-Source-Maßnahmenplan: Onboarding plus verbundene HR- und QM-Daten liefern Verantwortliche und erkannte Prozesse.</li>
                   <li data-i18n="projects.cyberSecurityConnector.contributions.3">Automation und Push: Maßnahmen als Tickets ausspielen und Status per Sync zurückspiegeln.</li>
-                  <li data-i18n="projects.cyberSecurityConnector.contributions.4">Agentic Connections Engineer als Betriebsmodell: Connector-Arbeit in Cursor mit API-Docs und Skills.</li>
                 </ul>
               </div>
               <div class="media-shell" data-i18n-aria="projects.cyberSecurityConnector.mediaAriaLabel">
-                <img src="assets/images/cyber-security-connector-case-study-collage.png" alt="Collage der Cyber-Security-Connector-Demos: KMU-Onboarding und Partner-Portal mit Connector-Flächen" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.cyberSecurityConnector.imageAlt" />
+                <picture>
+                  <source type="image/avif" srcset="assets/images/cyber-security-connector-case-study-collage.avif" />
+                  <source type="image/webp" srcset="assets/images/cyber-security-connector-case-study-collage.webp" />
+                  <img src="assets/images/cyber-security-connector-case-study-collage.png" alt="Collage der Cyber-Security-Connector-Demos: KMU-Onboarding und Partner-Portal mit Connector-Flächen" width="1600" height="900" loading="lazy" decoding="async" data-i18n-alt="projects.cyberSecurityConnector.imageAlt" />
+                </picture>
                 <div class="image-placeholder" aria-hidden="true">
                   <span data-i18n="experience.common.casePlaceholder">Case-Study-Visualisierung</span>
                 </div>
@@ -969,6 +1051,12 @@
             </div>
             <button class="details-toggle" type="button" aria-expanded="false" aria-controls="narrative-cyber-security" data-toggle-kind="narrative" data-i18n="projects.common.viewNarrative">Produktlogik anzeigen</button>
             <div id="narrative-cyber-security" class="case-narrative" hidden>
+              <div class="case-list case-list-more">
+                <h4 data-i18n="experience.common.moreContributions">Weitere Beiträge</h4>
+                <ul>
+                  <li data-i18n="projects.cyberSecurityConnector.contributions.4">Agentic Connections Engineer als Betriebsmodell: Connector-Arbeit in Cursor mit API-Docs und Skills.</li>
+                </ul>
+              </div>
               <h4 class="case-narrative-heading" data-i18n="projects.common.narrativeHeading">Produktlogik</h4>
               <ol class="narrative-steps">
                 <li>
@@ -1019,7 +1107,7 @@
             </p>
           </div>
           <div class="contact-card reveal">
-            <p><a href="mailto:yannik_berner@icloud.com">yannik_berner@icloud.com</a></p>
+            <p><a id="contact-email" href="mailto:yannik_berner@icloud.com">yannik_berner@icloud.com</a></p>
             <p><a href="https://www.linkedin.com/in/yannik-berner-72235216b/" target="_blank" rel="noopener noreferrer" data-i18n="contact.linkedin" data-i18n-aria="contact.linkedinLabel">LinkedIn</a></p>
           </div>
         </div>

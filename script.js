@@ -4,6 +4,8 @@ const translations = {
     documentTitle: 'Yannik Berner | Senior Product Manager · Complex Software & Hardware Products',
     metaDescription: 'Senior Product Manager für komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten: Product-Market-Fit finden und bewahren, von Discovery bis Rollout.',
     socialDescription: 'Senior Product Manager für komplexe Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten.',
+    socialImageAlt: 'Yannik Berner, Senior Product Manager für komplexe Produkte aus Software, Hardware und Prozessen',
+    personDescription: 'Senior Product Manager für komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten.',
     nav: {
       value: 'Mehrwert',
       about: 'Über mich',
@@ -143,6 +145,7 @@ const translations = {
         periodLocation: 'Zeitraum · Ort',
         setupLabel: 'Setup',
         contributions: 'Wichtige Beiträge',
+        moreContributions: 'Weitere Beiträge',
         contextLabel: 'Kontext',
         approachLabel: 'Vorgehen',
         valueLabel: 'Wert',
@@ -239,7 +242,7 @@ const translations = {
         overview: 'Komplexe Markt- und Prozessanforderungen strukturiere ich in skalierbare CRM-Fähigkeiten, technische Spezifikationen sowie steuerbare Releases und Rollouts.',
         approachTitle: 'Cloud-Migration (Managed Hosting zu AWS) und kontrollierter Cutover über mehrere Märkte',
         approachText: 'Managed-Hosting-Infrastruktur zu AWS migriert und Marktprozesse, technische Abhängigkeiten, Integrationen sowie Release-Zeitpunkte für kontrollierte, schrittweise Übergänge auf die neue Plattform koordiniert.',
-        periodLocation: 'Feb. 2021 – Juli 2022 · Berlin',
+        periodLocation: 'Feb. 2021 – Jul. 2022 · Berlin',
         imageAlt: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         mediaAriaLabel: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         contributions: [
@@ -473,6 +476,8 @@ const translations = {
     documentTitle: 'Yannik Berner | Senior Product Manager · Complex Software & Hardware Products',
     metaDescription: 'Senior Product Manager for complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy markets: finding and protecting product-market fit, from discovery to rollout.',
     socialDescription: 'Senior Product Manager for complex products spanning software, hardware, process and data, proven most deeply in regulated energy markets.',
+    socialImageAlt: 'Yannik Berner, Senior Product Manager for complex products spanning software, hardware and process',
+    personDescription: 'Senior Product Manager for complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy markets.',
     nav: {
       value: 'Value',
       about: 'About',
@@ -612,6 +617,7 @@ const translations = {
         periodLocation: 'Period · Location',
         setupLabel: 'Setup',
         contributions: 'Key contributions',
+        moreContributions: 'Additional contributions',
         contextLabel: 'Context',
         approachLabel: 'Approach',
         valueLabel: 'Value',
@@ -981,16 +987,34 @@ function updatePageMetadata(active, language) {
   const isPrivacyPage = document.body.dataset.page === 'privacy';
   const description = isPrivacyPage ? active.privacy.metaDescription : active.metaDescription;
   const title = isPrivacyPage ? active.privacy.documentTitle : active.documentTitle;
+  const siteOrigin = 'https://yannikberner-ai-pm.github.io';
+  const localizedUrl = `${siteOrigin}/?lang=${language}`;
 
   document.title = title;
   document.querySelector('meta[name="description"]')?.setAttribute('content', description);
 
   if (!isPrivacyPage) {
+    document.querySelector('link[rel="canonical"]')?.setAttribute('href', localizedUrl);
+    document.querySelector('meta[property="og:url"]')?.setAttribute('content', localizedUrl);
     document.querySelector('meta[property="og:title"]')?.setAttribute('content', title);
     document.querySelector('meta[property="og:description"]')?.setAttribute('content', active.socialDescription);
     document.querySelector('meta[property="og:locale"]')?.setAttribute('content', language === 'en' ? 'en_GB' : 'de_DE');
+    document.querySelector('meta[property="og:image:alt"]')?.setAttribute('content', active.socialImageAlt);
     document.querySelector('meta[name="twitter:title"]')?.setAttribute('content', title);
     document.querySelector('meta[name="twitter:description"]')?.setAttribute('content', active.socialDescription);
+    document.querySelector('meta[name="twitter:image:alt"]')?.setAttribute('content', active.socialImageAlt);
+
+    const jsonLd = document.getElementById('person-jsonld');
+    if (jsonLd && active.personDescription) {
+      try {
+        const data = JSON.parse(jsonLd.textContent);
+        data.description = active.personDescription;
+        data.url = localizedUrl;
+        jsonLd.textContent = JSON.stringify(data, null, 2);
+      } catch {
+        // Keep static JSON-LD if parsing fails.
+      }
+    }
   }
 }
 
@@ -1135,6 +1159,25 @@ document.addEventListener('DOMContentLoaded', () => {
       event.preventDefault();
       const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
       target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+
+      const focusSelector = link.getAttribute('data-focus-target');
+      const focusTarget = focusSelector ? document.querySelector(focusSelector) : null;
+      if (!focusTarget) {
+        return;
+      }
+
+      const focusAfterScroll = () => {
+        if (typeof focusTarget.focus === 'function') {
+          focusTarget.focus({ preventScroll: true });
+        }
+      };
+
+      if (reduceMotion) {
+        focusAfterScroll();
+        return;
+      }
+
+      window.setTimeout(focusAfterScroll, 450);
     });
   });
 

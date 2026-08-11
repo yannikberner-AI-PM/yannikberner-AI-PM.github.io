@@ -206,6 +206,10 @@ img {
   background: #ece6da;
 }
 
+.portrait-shell picture {
+  display: contents;
+}
+
 .portrait-shell img {
   display: block;
   width: 100%;
@@ -413,6 +417,10 @@ h3 {
   padding: 0.75rem;
   background: var(--surface);
   border: 1px solid var(--text);
+}
+
+.media-shell picture {
+  display: contents;
 }
 
 .media-shell img {
@@ -849,6 +857,10 @@ h3 {
 
 .case-list li + li {
   margin-top: 0.55rem;
+}
+
+.case-list-more {
+  margin-bottom: 1rem;
 }
 
 .media-shell {
