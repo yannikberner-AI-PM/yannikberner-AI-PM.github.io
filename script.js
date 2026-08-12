@@ -168,14 +168,14 @@ const translations = {
         mediaAriaLabel: 'Collage zu den Digitalisierungsprojekten bei ENERTRAG',
         mediaLinkLabel: 'ENERTRAG-Website in einem neuen Tab öffnen',
         contributions: [
-          'Mit französischen Stakeholdern zuerst das Leistungskurven-Produkt live gebracht. Die breitere Datengrundlage lief parallel.',
-          'Nach NIS2 und BCM Leitwarten-Entscheidungen vorgezogen.'
+          'Manuelles Excel für Leistungskurven durch dezentrale App ersetzt: automatisierte Datengrundlage, außerhalb der Betriebsführungssoftware.',
+          'Roadmap für NIS2‑Readiness erstellt, inklusive BCM über Business Impact Analysis.'
         ],
         tags: ['Datenprodukte', 'Reliability Engineering', 'NIS2', 'BCM', 'Governance'],
-        result: 'Ergebnis: Leistungskurven-Produkt in Frankreich im Einsatz; Zielbilder für Betriebssoftware und Resilienz.',
+        result: 'Ergebnis: Dezentrale Leistungskurven-App statt Excel in Frankreich; Zielbilder für Betriebssoftware und Resilienz.',
         details: {
-          context: 'Modernisierung vorbereitet, Schwerpunkt dann POLIS mit Cyber Security, NIS2 und BCM. Das Leistungskurven-Produkt ging unabhängig live. Reliability-Prototyp blieb zunächst im Backlog.',
-          approach: 'Domänen, Use Cases und Datenanforderungen strukturiert. Datenprodukt mit französischen Stakeholdern geliefert. Parallel liefen Zielbilder, Roadmap und Anbieteranalyse.',
+          context: 'Modernisierung vorbereitet, Schwerpunkt dann POLIS mit Cyber Security, NIS2 und BCM. Leistungskurven als dezentrale App außerhalb der Betriebsführungssoftware. Reliability-Prototyp blieb zunächst im Backlog.',
+          approach: 'Domänen, Use Cases und Datenanforderungen strukturiert. Dezentrale Leistungskurven-App mit französischen Stakeholdern umgesetzt. Zielbilder, Roadmap und Anbieteranalyse aufgesetzt.',
           value: 'Grundlage für weitere Produktentscheidungen und kritische Betriebsprozesse unter Resilienz-Druck.'
         }
       },
@@ -636,14 +636,14 @@ const translations = {
         mediaAriaLabel: 'Collage of digitalisation projects at ENERTRAG',
         mediaLinkLabel: 'Open the ENERTRAG website in a new tab',
         contributions: [
-          'Shipped the power curve product with French stakeholders first. The broader data foundation continued in parallel.',
-          'After NIS2 and BCM, moved control-room decisions ahead.'
+          'Replaced the manual Excel for power curves with a decentralised app: automated data foundation, outside the operations management software.',
+          'Built the NIS2 readiness roadmap, including BCM via business impact analysis.'
         ],
         tags: ['Data Products', 'Reliability Engineering', 'NIS2', 'BCM', 'Governance'],
-        result: 'Outcome: Power curve product live in France; target states for operational software and resilience.',
+        result: 'Outcome: Decentralised power curve app instead of Excel in France; target states for operations software and resilience.',
         details: {
-          context: 'Modernisation prepared, then focus shifted to POLIS with cyber security, NIS2 and BCM. The power curve product went live independently. Reliability prototype stayed in the backlog for a while.',
-          approach: 'Structured domains, use cases and data needs. Delivered the data product with French stakeholders. Target states, roadmap and vendor analysis ran in parallel.',
+          context: 'Modernisation prepared, then focus shifted to POLIS with cyber security, NIS2 and BCM. Power curves as a decentralised app outside the operations management software. Reliability prototype stayed in the backlog for a while.',
+          approach: 'Structured domains, use cases and data needs. Built a decentralised power curve app with French stakeholders. Set up target states, roadmap and vendor analysis.',
           value: 'A foundation for further product decisions and critical operations under resilience pressure.'
         }
       },
