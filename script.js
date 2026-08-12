@@ -79,7 +79,7 @@ const translations = {
             'Ich setze OKRs und Meilensteine so, dass Fortschritt vergleichbar bleibt.',
             'Ich plane Migrationen, Schnittstellen und Rollouts mit Blick auf Betriebsrisiko.'
           ],
-          approach: 'Je nach Reife und Betriebsrisiko wähle ich den Weg: fokussierter MVP, schrittweise Weiterentwicklung oder kontrollierter Relaunch. Big-Bang-Cuts vermeide ich, wenn der Betrieb kritisch ist.'
+          approach: 'Je nach Reife und Betriebsrisiko wähle ich den Weg: fokussierter MVP, schrittweise Weiterentwicklung oder kontrollierter Relaunch. Bei kritischem Betrieb laufen Altes und Neues parallel, User kommen schrittweise.'
         }
       ]
     },
@@ -238,14 +238,14 @@ const translations = {
         meta: 'Migration von Managed Hosting zu AWS und internationale Ausrollung von One Touch Retail.',
         valueLabel: 'Mehrwert: Managed Hosting zu AWS · CRM über Märkte ausrollen',
         overview: 'Markt- und Prozessanforderungen in CRM-Fähigkeiten und steuerbare Releases übersetzt.',
-        approachTitle: 'Cloud-Migration und kontrollierter Cutover über mehrere Märkte',
-        approachText: 'Zu AWS migriert und Cutover Markt für Markt getaktet.',
+        approachTitle: 'Cloud-Migration im Parallelbetrieb, dann Markt für Markt',
+        approachText: 'Altes und neues Hosting liefen parallel. User kamen schrittweise rüber. Danach Ausrollung auf weitere Märkte.',
         periodLocation: 'Feb. 2021 – Jul. 2022 · Berlin',
         imageAlt: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         mediaAriaLabel: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         contributions: [
           'AWS vor dem internationalen Rollout gezogen.',
-          'Mehr als sechs Märkte nacheinander umgestellt.',
+          'Mehr als sechs Märkte nacheinander ausgerollt.',
           'Marktprozesse auf einen Nenner gebracht.',
           'Salesforce- und API-Umfang gegen Sonderwünsche festgezogen.',
           'Release-Takt über Märkte vergleichbar gemacht.'
@@ -254,7 +254,7 @@ const translations = {
         result: 'Ergebnis: Einheitlichere digitale Prozesse über mehrere Märkte.',
         details: {
           context: 'Reguliertes Umfeld mit hohem Abstimmungsbedarf zwischen Produkt und Delivery, inklusive AWS-Migration.',
-          approach: 'Infrastruktur zu AWS, Plattform harmonisiert und schrittweise über europäische Märkte ausgerollt.',
+          approach: 'Altes und neues Hosting parallel betrieben, User schrittweise migriert, danach weitere europäische Märkte ausgerollt.',
           value: 'Schnellere Verbreitung standardisierter Prozesse.'
         }
       },
@@ -549,7 +549,7 @@ const translations = {
             'I set OKRs and milestones so progress stays comparable.',
             'I plan migrations, interfaces and rollouts with operational risk in view.'
           ],
-          approach: 'Depending on maturity and operational risk, I choose the path: focused MVP, incremental evolution or a controlled relaunch. I avoid big-bang cuts when operations are critical.'
+          approach: 'Depending on maturity and operational risk, I choose the path: focused MVP, incremental evolution or a controlled relaunch. When operations are critical, old and new run in parallel and users move over step by step.'
         }
       ]
     },
@@ -708,14 +708,14 @@ const translations = {
         meta: 'Migrated from managed hosting to AWS and rolled out One Touch Retail internationally.',
         valueLabel: 'Value: Managed hosting to AWS · Roll out CRM across markets',
         overview: 'Turned market and process requirements into CRM capabilities and controllable releases.',
-        approachTitle: 'Cloud migration and controlled cutover across markets',
-        approachText: 'Migrated to AWS and timed cutover market by market.',
+        approachTitle: 'Cloud migration in parallel, then market by market',
+        approachText: 'Old and new hosting ran in parallel. Users moved over step by step. Then rollout to further markets.',
         periodLocation: 'Feb 2021 – Jul 2022 · Berlin',
         imageAlt: 'Collage of the CRM and sales platform at Mercedes-Benz',
         mediaAriaLabel: 'Collage of the CRM and sales platform at Mercedes-Benz',
         contributions: [
           'Moved to AWS before the international rollout.',
-          'Switched more than six markets one after another.',
+          'Rolled out more than six markets one after another.',
           'Brought market processes onto a common baseline.',
           'Locked Salesforce and API scope against one-off requests.',
           'Made release cadence comparable across markets.'
@@ -724,7 +724,7 @@ const translations = {
         result: 'Outcome: More consistent digital processes across several markets.',
         details: {
           context: 'Regulated environment with high coordination needs between product and delivery, including the AWS migration.',
-          approach: 'Infrastructure to AWS, platform harmonised and rolled out step by step across European markets.',
+          approach: 'Ran old and new hosting in parallel, moved users step by step, then rolled out to further European markets.',
           value: 'Faster spread of standardised processes.'
         }
       },
