@@ -189,10 +189,10 @@
                 <li data-i18n="impact.items.0.points.8">Ich formuliere ein Zielbild und die Modernisierungsroadmap, an der sich Releases ausrichten.</li>
                 <li data-i18n="impact.items.0.points.12">Ich hole Business, Ops und Engineering an einen Tisch, bevor teure Parallelpfade entstehen.</li>
               </ul>
-              <details class="impact-approach-note">
-                <summary data-i18n="impact.approachSummary">Vorgehen</summary>
-                <p data-i18n="impact.items.0.approach">Je nach Reife und Betriebsrisiko wähle ich den Weg: fokussierter MVP, schrittweise Weiterentwicklung oder kontrollierter Relaunch. Big-Bang-Cuts vermeide ich, wenn der Betrieb kritisch ist.</p>
-              </details>
+              <div class="impact-approach-note">
+                <p class="impact-approach-label" data-i18n="impact.approachSummary">Vorgehen</p>
+                <p data-i18n="impact.items.0.approach">Je nach Reife und Betriebsrisiko wähle ich den Weg: fokussierter MVP, schrittweise Weiterentwicklung oder kontrollierter Relaunch. Bei kritischem Betrieb laufen Altes und Neues parallel, User kommen schrittweise.</p>
+              </div>
               <div class="impact-proof">
                 <span data-i18n="impact.proofLabel">Belegt durch</span>
                 <div class="impact-proof-links">
@@ -371,7 +371,6 @@
           <div class="section-intro reveal">
             <p class="eyebrow" data-i18n="experience.eyebrow">Berufserfahrung</p>
             <h2 data-i18n="experience.heading">So habe ich Produkte aufgebaut und modernisiert</h2>
-            <p class="section-lead" data-i18n="experience.intro">Kurze Produktfälle. Tiefe und Zeiträume stehen im CV.</p>
           </div>
 
           <article class="case-study energtrag reveal" id="enertrag">
@@ -590,8 +589,8 @@
             <p class="case-overview" data-i18n="experience.mercedes.overview">Markt- und Prozessanforderungen in CRM-Fähigkeiten und steuerbare Releases übersetzt.</p>
             <div class="case-approach">
               <p class="case-approach-label" data-i18n="experience.common.approachLabel">Vorgehen</p>
-              <h4 data-i18n="experience.mercedes.approachTitle">Cloud-Migration und kontrollierter Cutover über mehrere Märkte</h4>
-              <p data-i18n="experience.mercedes.approachText">Zu AWS migriert und Cutover Markt für Markt getaktet.</p>
+              <h4 data-i18n="experience.mercedes.approachTitle">Cloud-Migration im Parallelbetrieb, dann Markt für Markt</h4>
+              <p data-i18n="experience.mercedes.approachText">Altes und neues Hosting liefen parallel. User kamen schrittweise rüber. Danach Ausrollung auf weitere Märkte.</p>
             </div>
             <p class="result-line" data-i18n="experience.mercedes.result">Ergebnis: Einheitlichere digitale Prozesse über mehrere Märkte.</p>
             <div class="case-body">
@@ -599,7 +598,7 @@
                 <h4 data-i18n="experience.common.contributions">Wichtige Beiträge</h4>
                 <ul>
                   <li data-i18n="experience.mercedes.contributions.0">AWS vor dem internationalen Rollout gezogen.</li>
-                  <li data-i18n="experience.mercedes.contributions.1">Mehr als sechs Märkte nacheinander umgestellt.</li>
+                  <li data-i18n="experience.mercedes.contributions.1">Mehr als sechs Märkte nacheinander ausgerollt.</li>
                   <li data-i18n="experience.mercedes.contributions.2">Marktprozesse auf einen Nenner gebracht.</li>
                   <li data-i18n="experience.mercedes.contributions.3">Salesforce- und API-Umfang gegen Sonderwünsche festgezogen.</li>
                 </ul>
@@ -632,7 +631,7 @@
                 </ul>
               </div>
               <p><strong data-i18n="experience.common.contextLabel">Kontext</strong>: <span data-i18n="experience.mercedes.details.context">Reguliertes Umfeld mit hohem Abstimmungsbedarf zwischen Produkt und Delivery, inklusive AWS-Migration.</span></p>
-              <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="experience.mercedes.details.approach">Infrastruktur zu AWS, Plattform harmonisiert und schrittweise über europäische Märkte ausgerollt.</span></p>
+              <p><strong data-i18n="experience.common.approachLabel">Ansatz</strong>: <span data-i18n="experience.mercedes.details.approach">Altes und neues Hosting parallel betrieben, User schrittweise migriert, danach weitere europäische Märkte ausgerollt.</span></p>
               <p><strong data-i18n="experience.common.valueLabel">Wert</strong>: <span data-i18n="experience.mercedes.details.value">Schnellere Verbreitung standardisierter Prozesse.</span></p>
             </div>
           </article>
@@ -703,16 +702,15 @@
       <section class="section projects-section" id="projects">
         <div class="container">
           <div class="section-intro reveal">
-            <p class="eyebrow" data-i18n="projects.eyebrow">Eigene Projekte</p>
-            <h2 data-i18n="projects.heading">Eigene Produkte</h2>
-            <p class="section-lead" data-i18n="projects.intro">Vier eigene Produkte. Jeweils von Problem und Nutzer:innen bis Evaluation und Trade-offs.</p>
+            <p class="eyebrow" data-i18n="projects.eyebrow">Eigene Produkte</p>
+            <h2 data-i18n="projects.heading">Vier eigene Produkte. Jeweils von Problem und Nutzer:innen bis Evaluation und Trade-offs.</h2>
           </div>
 
           <article class="case-study project reveal" id="career-intelligence">
             <div class="case-accent"></div>
             <div class="case-study-header">
               <div>
-                <p class="eyebrow" data-i18n="projects.careerIntelligence.eyebrow">Eigenes Projekt</p>
+                <p class="eyebrow" data-i18n="projects.careerIntelligence.eyebrow">#1 Eigenes Projekt</p>
                 <h3 data-i18n="projects.careerIntelligence.title">Career Intelligence</h3>
               </div>
               <p class="case-context" data-i18n="projects.careerIntelligence.meta">Daily Brief und To‑dos für Good‑Fit‑Jobs, Kontakte und Skill‑Gaps. Auswahl und Apply steuert der User.</p>
@@ -808,7 +806,7 @@
             <div class="case-accent"></div>
             <div class="case-study-header">
               <div>
-                <p class="eyebrow" data-i18n="projects.stakeholderIntelligence.eyebrow">Eigenes Projekt</p>
+                <p class="eyebrow" data-i18n="projects.stakeholderIntelligence.eyebrow">#2 Eigenes Projekt</p>
                 <h3 data-i18n="projects.stakeholderIntelligence.title">Stakeholder Intelligence</h3>
               </div>
               <p class="case-context" data-i18n="projects.stakeholderIntelligence.meta">Stakeholder nach Nähe zum Programm und Typ einordnen, Kollaboration ableiten und per Reminder nachhalten.</p>
@@ -897,7 +895,7 @@
             <div class="case-accent"></div>
             <div class="case-study-header">
               <div>
-                <p class="eyebrow" data-i18n="projects.predictiveMentoring.eyebrow">Eigenes Projekt</p>
+                <p class="eyebrow" data-i18n="projects.predictiveMentoring.eyebrow">#3 Eigenes Projekt</p>
                 <h3 data-i18n="projects.predictiveMentoring.title">Predictive Mentoring</h3>
               </div>
               <p class="case-context" data-i18n="projects.predictiveMentoring.meta">Produkt-Know-how fürs Privatleben: Vision und Strategie zu Handlung und Outcome bringen.</p>
@@ -992,7 +990,7 @@
             <div class="case-accent"></div>
             <div class="case-study-header">
               <div>
-                <p class="eyebrow" data-i18n="projects.cyberSecurityConnector.eyebrow">Eigenes Projekt</p>
+                <p class="eyebrow" data-i18n="projects.cyberSecurityConnector.eyebrow">#4 Eigenes Projekt</p>
                 <h3 data-i18n="projects.cyberSecurityConnector.title">Cyber Security Connector</h3>
               </div>
               <p class="case-context" data-i18n="projects.cyberSecurityConnector.meta">B2B2B- und KMU-Surfaces mit Connector‑Marketplace und Agentic Connections.</p>

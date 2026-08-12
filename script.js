@@ -79,7 +79,7 @@ const translations = {
             'Ich setze OKRs und Meilensteine so, dass Fortschritt vergleichbar bleibt.',
             'Ich plane Migrationen, Schnittstellen und Rollouts mit Blick auf Betriebsrisiko.'
           ],
-          approach: 'Je nach Reife und Betriebsrisiko wähle ich den Weg: fokussierter MVP, schrittweise Weiterentwicklung oder kontrollierter Relaunch. Big-Bang-Cuts vermeide ich, wenn der Betrieb kritisch ist.'
+          approach: 'Je nach Reife und Betriebsrisiko wähle ich den Weg: fokussierter MVP, schrittweise Weiterentwicklung oder kontrollierter Relaunch. Bei kritischem Betrieb laufen Altes und Neues parallel, User kommen schrittweise.'
         }
       ]
     },
@@ -140,7 +140,6 @@ const translations = {
     experience: {
       eyebrow: 'Berufserfahrung',
       heading: 'So habe ich Produkte aufgebaut und modernisiert',
-      intro: 'Kurze Produktfälle. Tiefe und Zeiträume stehen im CV.',
       common: {
         periodLocation: 'Zeitraum · Ort',
         setupLabel: 'Setup',
@@ -238,14 +237,14 @@ const translations = {
         meta: 'Migration von Managed Hosting zu AWS und internationale Ausrollung von One Touch Retail.',
         valueLabel: 'Mehrwert: Managed Hosting zu AWS · CRM über Märkte ausrollen',
         overview: 'Markt- und Prozessanforderungen in CRM-Fähigkeiten und steuerbare Releases übersetzt.',
-        approachTitle: 'Cloud-Migration und kontrollierter Cutover über mehrere Märkte',
-        approachText: 'Zu AWS migriert und Cutover Markt für Markt getaktet.',
+        approachTitle: 'Cloud-Migration im Parallelbetrieb, dann Markt für Markt',
+        approachText: 'Altes und neues Hosting liefen parallel. User kamen schrittweise rüber. Danach Ausrollung auf weitere Märkte.',
         periodLocation: 'Feb. 2021 – Jul. 2022 · Berlin',
         imageAlt: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         mediaAriaLabel: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         contributions: [
           'AWS vor dem internationalen Rollout gezogen.',
-          'Mehr als sechs Märkte nacheinander umgestellt.',
+          'Mehr als sechs Märkte nacheinander ausgerollt.',
           'Marktprozesse auf einen Nenner gebracht.',
           'Salesforce- und API-Umfang gegen Sonderwünsche festgezogen.',
           'Release-Takt über Märkte vergleichbar gemacht.'
@@ -254,7 +253,7 @@ const translations = {
         result: 'Ergebnis: Einheitlichere digitale Prozesse über mehrere Märkte.',
         details: {
           context: 'Reguliertes Umfeld mit hohem Abstimmungsbedarf zwischen Produkt und Delivery, inklusive AWS-Migration.',
-          approach: 'Infrastruktur zu AWS, Plattform harmonisiert und schrittweise über europäische Märkte ausgerollt.',
+          approach: 'Altes und neues Hosting parallel betrieben, User schrittweise migriert, danach weitere europäische Märkte ausgerollt.',
           value: 'Schnellere Verbreitung standardisierter Prozesse.'
         }
       },
@@ -285,9 +284,8 @@ const translations = {
       }
     },
     projects: {
-      eyebrow: 'Eigene Projekte',
-      heading: 'Eigene Produkte',
-      intro: 'Vier eigene Produkte. Jeweils von Problem und Nutzer:innen bis Evaluation und Trade-offs.',
+      eyebrow: 'Eigene Produkte',
+      heading: 'Vier eigene Produkte. Jeweils von Problem und Nutzer:innen bis Evaluation und Trade-offs.',
       common: {
         narrativeHeading: 'Produktlogik',
         viewNarrative: 'Produktlogik anzeigen',
@@ -302,7 +300,7 @@ const translations = {
         tradeoffsLabel: 'Trade-offs'
       },
       careerIntelligence: {
-        eyebrow: 'Eigenes Projekt',
+        eyebrow: '#1 Eigenes Projekt',
         title: 'Career Intelligence',
         meta: 'Daily Brief und To‑dos für Good‑Fit‑Jobs, Kontakte und Skill‑Gaps. Auswahl und Apply steuert der User.',
         valueLabel: 'Mehrwert: Recherche automatisieren · Auswahl und Apply beim\u00A0Menschen lassen',
@@ -333,7 +331,7 @@ const translations = {
         }
       },
       stakeholderIntelligence: {
-        eyebrow: 'Eigenes Projekt',
+        eyebrow: '#2 Eigenes Projekt',
         title: 'Stakeholder Intelligence',
         meta: 'Stakeholder nach Nähe zum Programm und Typ einordnen, Kollaboration ableiten und per Reminder nachhalten.',
         valueLabel: 'Mehrwert: Nähe und Typ verknüpfen · Kollaboration und Reminder ableiten',
@@ -363,7 +361,7 @@ const translations = {
         }
       },
       predictiveMentoring: {
-        eyebrow: 'Eigenes Projekt',
+        eyebrow: '#3 Eigenes Projekt',
         title: 'Predictive Mentoring',
         meta: 'Produkt-Know-how fürs Privatleben: Vision und Strategie zu Handlung und Outcome bringen.',
         valueLabel: 'Mehrwert: Produktarbeit ins Privatleben · Vision in Outcomes bringen',
@@ -394,7 +392,7 @@ const translations = {
         }
       },
       cyberSecurityConnector: {
-        eyebrow: 'Eigenes Projekt',
+        eyebrow: '#4 Eigenes Projekt',
         title: 'Cyber Security Connector',
         meta: 'B2B2B- und KMU-Surfaces mit Connector‑Marketplace und Agentic Connections.',
         valueLabel: 'Mehrwert: HR- und QM-Daten in Maßnahmen · Push in Tickets',
@@ -549,7 +547,7 @@ const translations = {
             'I set OKRs and milestones so progress stays comparable.',
             'I plan migrations, interfaces and rollouts with operational risk in view.'
           ],
-          approach: 'Depending on maturity and operational risk, I choose the path: focused MVP, incremental evolution or a controlled relaunch. I avoid big-bang cuts when operations are critical.'
+          approach: 'Depending on maturity and operational risk, I choose the path: focused MVP, incremental evolution or a controlled relaunch. When operations are critical, old and new run in parallel and users move over step by step.'
         }
       ]
     },
@@ -610,7 +608,6 @@ const translations = {
     experience: {
       eyebrow: 'Experience',
       heading: 'How I built and modernised products',
-      intro: 'Short product cases. Depth and dates are in the CV.',
       common: {
         periodLocation: 'Period · Location',
         setupLabel: 'Setup',
@@ -708,14 +705,14 @@ const translations = {
         meta: 'Migrated from managed hosting to AWS and rolled out One Touch Retail internationally.',
         valueLabel: 'Value: Managed hosting to AWS · Roll out CRM across markets',
         overview: 'Turned market and process requirements into CRM capabilities and controllable releases.',
-        approachTitle: 'Cloud migration and controlled cutover across markets',
-        approachText: 'Migrated to AWS and timed cutover market by market.',
+        approachTitle: 'Cloud migration in parallel, then market by market',
+        approachText: 'Old and new hosting ran in parallel. Users moved over step by step. Then rollout to further markets.',
         periodLocation: 'Feb 2021 – Jul 2022 · Berlin',
         imageAlt: 'Collage of the CRM and sales platform at Mercedes-Benz',
         mediaAriaLabel: 'Collage of the CRM and sales platform at Mercedes-Benz',
         contributions: [
           'Moved to AWS before the international rollout.',
-          'Switched more than six markets one after another.',
+          'Rolled out more than six markets one after another.',
           'Brought market processes onto a common baseline.',
           'Locked Salesforce and API scope against one-off requests.',
           'Made release cadence comparable across markets.'
@@ -724,7 +721,7 @@ const translations = {
         result: 'Outcome: More consistent digital processes across several markets.',
         details: {
           context: 'Regulated environment with high coordination needs between product and delivery, including the AWS migration.',
-          approach: 'Infrastructure to AWS, platform harmonised and rolled out step by step across European markets.',
+          approach: 'Ran old and new hosting in parallel, moved users step by step, then rolled out to further European markets.',
           value: 'Faster spread of standardised processes.'
         }
       },
@@ -755,9 +752,8 @@ const translations = {
       }
     },
     projects: {
-      eyebrow: 'Personal projects',
-      heading: 'Own products',
-      intro: 'Four personal products. Each runs from problem and users through to evaluation and trade-offs.',
+      eyebrow: 'Own products',
+      heading: 'Four personal products. Each runs from problem and users through to evaluation and trade-offs.',
       common: {
         narrativeHeading: 'Product thinking',
         viewNarrative: 'Show product thinking',
@@ -772,7 +768,7 @@ const translations = {
         tradeoffsLabel: 'Trade-offs'
       },
       careerIntelligence: {
-        eyebrow: 'Personal project',
+        eyebrow: '#1 Personal project',
         title: 'Career Intelligence',
         meta: 'Daily brief and to‑dos for good‑fit jobs, contacts and skill gaps. Selection and apply stay with the user.',
         valueLabel: 'Value: Automate research · Keep selection and apply with\u00A0the\u00A0human',
@@ -803,7 +799,7 @@ const translations = {
         }
       },
       stakeholderIntelligence: {
-        eyebrow: 'Personal project',
+        eyebrow: '#2 Personal project',
         title: 'Stakeholder Intelligence',
         meta: 'Map stakeholders by proximity to the programme and type, derive collaboration, and follow up with reminders.',
         valueLabel: 'Value: Link proximity and type · Derive collaboration and reminders',
@@ -833,7 +829,7 @@ const translations = {
         }
       },
       predictiveMentoring: {
-        eyebrow: 'Personal project',
+        eyebrow: '#3 Personal project',
         title: 'Predictive Mentoring',
         meta: 'Product know-how for private life: turn vision and strategy into action and outcome.',
         valueLabel: 'Value: Bring product work into private life · Turn vision into outcomes',
@@ -864,7 +860,7 @@ const translations = {
         }
       },
       cyberSecurityConnector: {
-        eyebrow: 'Personal Project',
+        eyebrow: '#4 Personal project',
         title: 'Cyber Security Connector',
         meta: 'B2B2B and SME surfaces with a connector marketplace and Agentic Connections.',
         valueLabel: 'Value: HR and QM data into measures · Push into tickets',
