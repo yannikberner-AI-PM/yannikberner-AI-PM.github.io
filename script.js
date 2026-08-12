@@ -160,17 +160,15 @@ const translations = {
       enertrag: {
         title: 'Product Orchestration Lead / Business Process Owner',
         meta: 'Strategische Digitalisierung über Business, IT, OT und Architektur.',
-        valueLabel: 'Mehrwert: Betriebssoftware modernisieren · Datenprodukte für Investitionsentscheidungen',
+        valueLabel: 'Mehrwert: BIA und NIS2‑Roadmap‑Readiness aufgestellt',
         overview: 'Aus Anforderungen von Betrieb, IT und OT formuliere ich Zielbilder und belastbare nächste Schritte für Betriebssoftware und Datenprodukte.',
-        approachTitle: 'Modularen Modernisierungsansatz vorbereitet',
-        approachText: 'Domänen und Use Cases zuerst sortiert, damit Fähigkeiten schrittweise aus der bestehenden Landschaft wachsen.',
+        approachTitle: 'BIA und NIS2‑Roadmap‑Readiness vorbereitet',
+        approachText: 'Business Impact und regulatorische Anforderungen strukturiert, damit Leitwarte und nächste Schritte entscheidbar wurden.',
         periodLocation: 'Feb. 2026 – heute · Berlin',
         imageAlt: 'Collage zu den Digitalisierungsprojekten bei ENERTRAG',
         mediaAriaLabel: 'Collage zu den Digitalisierungsprojekten bei ENERTRAG',
         mediaLinkLabel: 'ENERTRAG-Website in einem neuen Tab öffnen',
         contributions: [
-          'PowerSystem modular aufgesetzt, damit bei wechselnden Prioritäten trotzdem Zielbilder lieferbar blieben.',
-          'Build-vs-Buy für die Betriebsführung eingegrenzt.',
           'Mit französischen Stakeholdern zuerst das Leistungskurven-Produkt live gebracht. Die breitere Datengrundlage lief parallel.',
           'Nach NIS2 und BCM Leitwarten-Entscheidungen vorgezogen.'
         ],
@@ -215,7 +213,7 @@ const translations = {
         valueLabel: 'Mehrwert: IoT-SaaS vom MVP zum MMP · Service messbar verbessern',
         overview: 'Fragmentierte Betriebs- und IoT-Anforderungen in eine Roadmap übersetzt, an der Teams und Märkte sich orientieren konnten.',
         approachTitle: 'Relaunch mit kontrolliertem Cutover: vom MVP zum MMP',
-        approachText: 'MVP zur Validierung, danach vermarktbarer End-to-End-Umfang.',
+        approachText: 'MVP zur Validierung, danach vermarktbarer End‑to‑End-Umfang.',
         periodLocation: 'Aug. 2022 – Aug. 2024 · Berlin',
         imageAlt: 'Collage zur IoT- und Datenplattform soniq IQ',
         mediaAriaLabel: 'Collage zur IoT- und Datenplattform soniq IQ',
@@ -231,7 +229,7 @@ const translations = {
         result: 'Ergebnis: Kundenzufriedenheit um 60 % gesteigert, Supportaufwand um 50 % gesenkt.',
         details: {
           context: 'Dynamisches B2B-Umfeld mit wechselnden Kundenanforderungen.',
-          approach: 'MVP zuerst, dann MMP mit klarem End-to-End-Nutzen und kontrolliertem Übergang.',
+          approach: 'MVP zuerst, dann MMP mit klarem End‑to‑End-Nutzen und kontrolliertem Übergang.',
           value: 'Stärkerer Fit, bessere Prozesssicht, klarere Geschäftslogik.'
         }
       },
@@ -288,8 +286,8 @@ const translations = {
     },
     projects: {
       eyebrow: 'Eigene Projekte',
-      heading: 'Produktfälle, die PM-Denken zeigen',
-      intro: 'Vier eigene Fälle. Jeweils von Problem und Nutzer:innen bis Evaluation und Trade-offs.',
+      heading: 'Eigene Produkte',
+      intro: 'Vier eigene Produkte. Jeweils von Problem und Nutzer:innen bis Evaluation und Trade-offs.',
       common: {
         narrativeHeading: 'Produktlogik',
         viewNarrative: 'Produktlogik anzeigen',
@@ -306,31 +304,31 @@ const translations = {
       careerIntelligence: {
         eyebrow: 'Eigenes Projekt',
         title: 'Career Intelligence',
-        meta: 'Daily Brief und priorisierte To-dos für Good-Fit-Jobs, Kontakte und Skill-Gaps. Auswahl, Unterlagen und Apply steuert der User.',
-        valueLabel: 'Mehrwert: Recherche automatisieren · Auswahl und Apply beim Menschen lassen',
-        overview: 'Das System übernimmt die repetitive Triage hinter der Jobsuche. Brief und To-dos geben den Rahmen. Stelle, Unterlagen und Apply bleiben bei mir.',
-        approachTitle: 'Repetitives automatisieren, Entscheidungen steuern',
-        approachText: 'Täglicher Lauf aggregiert und bewertet Signale. Dashboard mit erklärbarem Scoring. Apply bleibt manuell.',
+        meta: 'Daily Brief und To‑dos für Good‑Fit‑Jobs, Kontakte und Skill‑Gaps. Auswahl und Apply steuert der User.',
+        valueLabel: 'Mehrwert: Recherche automatisieren · Auswahl und Apply beim\u00A0Menschen lassen',
+        overview: 'Das System übernimmt die repetitive Triage hinter der Jobsuche. Brief und To‑dos geben den Rahmen. Stelle, Unterlagen und Apply bleiben bei mir.',
+        approachTitle: 'Repetitives automatisieren, Entscheidungen\u00A0steuern',
+        approachText: 'Täglicher Lauf aggregiert und bewertet Signale. Dashboard mit erklärbarem Scoring. Apply\u00A0bleibt manuell.',
         periodLocation: 'Privates Projekt, lokal betrieben',
         imageAlt: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
         mediaAriaLabel: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
         result: 'Ergebnis: Weniger manuelle Triage, volle Kontrolle über Apply.',
         contributions: [
           'Multi-Source-Recherche und Klassifizierung automatisiert.',
-          'Good-Fit, Kontakte und Skill-Gaps sichtbar gemacht.',
-          'Daily Brief und priorisierte To-dos als Handlungsrahmen.',
+          'Good‑Fit, Kontakte und Skill‑Gaps sichtbar gemacht.',
+          'Daily Brief und priorisierte To‑dos als Handlungsrahmen.',
           'Ownership bewusst manuell: Stelle, Unterlagen, Apply.',
           'LinkedIn-Job-Mails in den Lauf gezogen: Sheets, Regeln, Slack bei High-Fit.'
         ],
-        tags: ['Python', 'Streamlit', 'SQLite', 'Daily Brief', 'Good-Fit Scoring', 'Skill Gaps', 'Slack API'],
+        tags: ['Python', 'Streamlit', 'SQLite', 'Daily Brief', 'Good‑Fit Scoring', 'Skill Gaps', 'Slack API'],
         narrative: {
           problem: 'Jobsuche steckt voller repetitiver Arbeit: Quellen scannen, Treffer vergleichen, Skills und Kontakte im Kopf halten.',
           users: 'Primär ich als Product Manager in aktiver Suche. Unterstützung bei Good Fits, Apply steuere ich selbst.',
           whyAi: 'Automation für Aggregation, Klassifizierung und Briefing. Kein Autopilot für Bewerbungen.',
-          ux: 'Daily Brief mit To-dos. Good Fits, Kontakte und Skills auf einen Blick. Explizite Schritte für Auswahl und Apply.',
+          ux: 'Daily Brief mit To‑dos. Good Fits, Kontakte und Skills auf einen Blick. Explizite Schritte für Auswahl und Apply.',
           architecture: 'Quellen-Layer, regelbasierte Fit-Logik, Dashboard. Nebenfluss über Sheets und Slack.',
-          evaluation: 'Sinkt die Triage-Zeit? Führen To-dos zu bewussten Apply-Entscheidungen?',
-          metrics: 'Zeit Signal bis Triage, To-dos mit Folgeaktion, Good-Fit-Trefferquote.',
+          evaluation: 'Sinkt die Triage-Zeit? Führen To‑dos zu bewussten Apply-Entscheidungen?',
+          metrics: 'Zeit Signal bis Triage, To‑dos mit Folgeaktion, Good‑Fit-Trefferquote.',
           tradeoffs: 'User-Kontrolle vor Auto-Apply. Erklärbare Regeln vor opaken Rankings. Brief vor endloser Trefferliste.'
         }
       },
@@ -398,18 +396,18 @@ const translations = {
       cyberSecurityConnector: {
         eyebrow: 'Eigenes Projekt',
         title: 'Cyber Security Connector',
-        meta: 'B2B2B- und KMU-Surfaces mit Connector-Marketplace und Agentic Connections.',
+        meta: 'B2B2B- und KMU-Surfaces mit Connector‑Marketplace und Agentic Connections.',
         valueLabel: 'Mehrwert: HR- und QM-Daten in Maßnahmen · Push in Tickets',
         overview: 'Zwei Surfaces auf einem Connector-Kern: Partner-Portal und KMU-Onboarding. Daraus entsteht ein Maßnahmenplan mit Push und Status-Sync.',
         approachTitle: 'Von Connectoren zu automatisiertem Push',
         approachText: 'Shared Connector-Framework, Multi-Source-Maßnahmenplan, Agentic Connections als Betriebsmodell in Cursor.',
         periodLocation: 'Privates Research-Prototyp-Projekt (Next.js Monorepo)',
-        imageAlt: 'Collage der Cyber-Security-Connector-Demos: KMU-Onboarding und Partner-Portal mit Connector-Flächen',
-        mediaAriaLabel: 'Collage der Cyber-Security-Connector-Demos: KMU-Onboarding und Partner-Portal mit Connector-Flächen',
+        imageAlt: 'Collage der Cyber-Security-Connector-Demos: KMU-Onboarding mit Marketplace und Partner-Portal mit Kundenliste',
+        mediaAriaLabel: 'Collage der Cyber-Security-Connector-Demos: KMU-Onboarding mit Marketplace und Partner-Portal mit Kundenliste',
         result: 'Ergebnis: Lauffähiger Dual-Demo-Kern von Onboarding bis Status-Sync.',
         contributions: [
           'Zwei Surfaces auf einem Connector-Kern.',
-          'Connector-Marketplace für HR, QM, Ticketing und Partner-CRM.',
+          'Connector‑Marketplace für HR, QM, Ticketing und Partner-CRM.',
           'Multi-Source-Maßnahmenplan aus Onboarding und verbundenen Quellen.',
           'Maßnahmen als Tickets pushen, Status per Sync zurück.',
           'Agentic Connections Engineer als Betriebsmodell.'
@@ -632,17 +630,15 @@ const translations = {
       enertrag: {
         title: 'Product Orchestration Lead / Business Process Owner',
         meta: 'Strategic digitalisation across Business, IT, OT and Architecture.',
-        valueLabel: 'Value: Modernise operational software · Data products for investment decisions',
+        valueLabel: 'Value: Established BIA and NIS2 roadmap readiness',
         overview: 'From operations, IT and OT requirements I shape target states and robust next steps for operational software and data products.',
-        approachTitle: 'Prepared a modular modernisation approach',
-        approachText: 'Sorted domains and use cases first so capabilities could grow step by step from the existing landscape.',
+        approachTitle: 'Prepared BIA and NIS2 roadmap readiness',
+        approachText: 'Structured business impact and regulatory requirements so control-room decisions and next steps became actionable.',
         periodLocation: 'Feb 2026 – Present · Berlin',
         imageAlt: 'Collage of digitalisation projects at ENERTRAG',
         mediaAriaLabel: 'Collage of digitalisation projects at ENERTRAG',
         mediaLinkLabel: 'Open the ENERTRAG website in a new tab',
         contributions: [
-          'Set up PowerSystem in a modular way so target states stayed shippable despite shifting priorities.',
-          'Narrowed build-vs-buy for technical operations.',
           'Shipped the power curve product with French stakeholders first. The broader data foundation continued in parallel.',
           'After NIS2 and BCM, moved control-room decisions ahead.'
         ],
@@ -687,7 +683,7 @@ const translations = {
         valueLabel: 'Value: IoT SaaS from MVP to MMP · Improve service measurably',
         overview: 'Turned fragmented operations and IoT needs into a roadmap teams and markets could follow.',
         approachTitle: 'Controlled relaunch: from MVP to MMP',
-        approachText: 'MVP to validate, then a marketable end-to-end scope.',
+        approachText: 'MVP to validate, then a marketable end‑to‑end scope.',
         periodLocation: 'Aug 2022 – Aug 2024 · Berlin',
         imageAlt: 'Collage of the soniq IQ IoT and data platform',
         mediaAriaLabel: 'Collage of the soniq IQ IoT and data platform',
@@ -703,7 +699,7 @@ const translations = {
         result: 'Outcome: Customer satisfaction up 60%, support effort down 50%.',
         details: {
           context: 'Fast-moving B2B environment with shifting customer needs.',
-          approach: 'MVP first, then MMP with clear end-to-end value and a controlled transition.',
+          approach: 'MVP first, then MMP with clear end‑to‑end value and a controlled transition.',
           value: 'Stronger fit, better process visibility, clearer commercial logic.'
         }
       },
@@ -760,8 +756,8 @@ const translations = {
     },
     projects: {
       eyebrow: 'Personal projects',
-      heading: 'Product cases that show PM thinking',
-      intro: 'Four personal cases. Each runs from problem and users through to evaluation and trade-offs.',
+      heading: 'Own products',
+      intro: 'Four personal products. Each runs from problem and users through to evaluation and trade-offs.',
       common: {
         narrativeHeading: 'Product thinking',
         viewNarrative: 'Show product thinking',
@@ -778,19 +774,19 @@ const translations = {
       careerIntelligence: {
         eyebrow: 'Personal project',
         title: 'Career Intelligence',
-        meta: 'Daily brief and prioritised to-dos for good-fit jobs, contacts and skill gaps. The user stays in control of selection, documents and apply.',
-        valueLabel: 'Value: Automate research · Keep selection and apply with the human',
-        overview: 'The system takes on the repetitive triage behind job search. Brief and to-dos set the frame. Role, documents and apply stay with me.',
+        meta: 'Daily brief and to‑dos for good‑fit jobs, contacts and skill gaps. Selection and apply stay with the user.',
+        valueLabel: 'Value: Automate research · Keep selection and apply with\u00A0the\u00A0human',
+        overview: 'The system takes on the repetitive triage behind job search. Brief and to‑dos set the frame. Role, documents and apply stay with me.',
         approachTitle: 'Automate the repetitive, steer what matters',
-        approachText: 'A daily run aggregates and scores signals. Dashboard with explainable scoring. Apply stays manual.',
+        approachText: 'A daily run aggregates and scores signals. Dashboard with explainable scoring. Apply\u00A0stays manual.',
         periodLocation: 'Personal project, run locally',
         imageAlt: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
         mediaAriaLabel: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
         result: 'Outcome: Less manual triage, full control over apply.',
         contributions: [
           'Automated multi-source research and classification.',
-          'Surfaced good-fit, contacts and skill gaps.',
-          'Daily brief and prioritised to-dos as the action frame.',
+          'Surfaced good‑fit, contacts and skill gaps.',
+          'Daily brief and prioritised to‑dos as the action frame.',
           'Kept ownership manual: role, documents, apply.',
           'Folded LinkedIn job mail into the run: Sheets, rules, Slack on high-fit.'
         ],
@@ -799,10 +795,10 @@ const translations = {
           problem: 'Job search is full of repetitive work: scanning sources, comparing hits, holding skills and contacts in your head.',
           users: 'Primarily myself as a product manager in active search. Help on good fits, apply stays with me.',
           whyAi: 'Automation for aggregation, classification and briefing. No autopilot for applications.',
-          ux: 'Daily brief with to-dos. Good fits, contacts and skills at a glance. Explicit steps for selection and apply.',
+          ux: 'Daily brief with to‑dos. Good fits, contacts and skills at a glance. Explicit steps for selection and apply.',
           architecture: 'Source layer, rule-based fit logic, dashboard. Side flow via Sheets and Slack.',
-          evaluation: 'Does triage time drop? Do to-dos lead to deliberate apply decisions?',
-          metrics: 'Time from signal to triage, to-dos with follow-through, good-fit hit rate.',
+          evaluation: 'Does triage time drop? Do to‑dos lead to deliberate apply decisions?',
+          metrics: 'Time from signal to triage, to‑dos with follow-through, good‑fit hit rate.',
           tradeoffs: 'User control over auto-apply. Explainable rules over opaque rankings. Brief over an endless hit list.'
         }
       },
@@ -876,8 +872,8 @@ const translations = {
         approachTitle: 'From connectors to automated push',
         approachText: 'Shared connector framework, multi-source measure plan, Agentic Connections as the operating model in Cursor.',
         periodLocation: 'Personal research prototype project (Next.js monorepo)',
-        imageAlt: 'Collage of the Cyber Security Connector demos: SME onboarding and partner portal with connector surfaces',
-        mediaAriaLabel: 'Collage of the Cyber Security Connector demos: SME onboarding and partner portal with connector surfaces',
+        imageAlt: 'Collage of the Cyber Security Connector demos: SME onboarding with marketplace and partner portal with customer list',
+        mediaAriaLabel: 'Collage of the Cyber Security Connector demos: SME onboarding with marketplace and partner portal with customer list',
         result: 'Outcome: Runnable dual-demo core from onboarding to status sync.',
         contributions: [
           'Two surfaces on one connector core.',

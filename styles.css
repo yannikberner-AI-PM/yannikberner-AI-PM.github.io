@@ -780,11 +780,24 @@ h3 {
   margin-bottom: 0.8rem;
 }
 
+.case-study-header > div:first-child {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 .case-context {
   margin: 0;
-  max-width: 24ch;
+  flex: 0 1 40ch;
+  max-width: 40ch;
   color: var(--muted);
   font-size: 0.95rem;
+  line-height: 1.45;
+  text-align: right;
+  text-wrap: pretty;
+  hyphens: none;
+  -webkit-hyphens: none;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
 .value-label {
@@ -799,6 +812,11 @@ h3 {
   line-height: 1.4;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  text-wrap: pretty;
+  hyphens: none;
+  -webkit-hyphens: none;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
 .case-approach {
@@ -829,6 +847,11 @@ h3 {
   color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.5;
+  text-wrap: pretty;
+  hyphens: none;
+  -webkit-hyphens: none;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
 .job-meta {
@@ -1381,6 +1404,13 @@ h3 {
   .footer-content {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .case-context {
+    flex: 1 1 auto;
+    max-width: none;
+    width: 100%;
+    text-align: left;
   }
 
   .footer-links {
