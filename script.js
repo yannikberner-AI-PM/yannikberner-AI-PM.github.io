@@ -140,7 +140,6 @@ const translations = {
     experience: {
       eyebrow: 'Berufserfahrung',
       heading: 'So habe ich Produkte aufgebaut und modernisiert',
-      intro: 'Kurze Produktfälle. Tiefe und Zeiträume stehen im CV.',
       common: {
         periodLocation: 'Zeitraum · Ort',
         setupLabel: 'Setup',
@@ -285,9 +284,8 @@ const translations = {
       }
     },
     projects: {
-      eyebrow: 'Eigene Projekte',
-      heading: 'Eigene Produkte',
-      intro: 'Vier eigene Produkte. Jeweils von Problem und Nutzer:innen bis Evaluation und Trade-offs.',
+      eyebrow: 'Eigene Produkte',
+      heading: 'Vier eigene Produkte. Jeweils von Problem und Nutzer:innen bis Evaluation und Trade-offs.',
       common: {
         narrativeHeading: 'Produktlogik',
         viewNarrative: 'Produktlogik anzeigen',
@@ -610,7 +608,6 @@ const translations = {
     experience: {
       eyebrow: 'Experience',
       heading: 'How I built and modernised products',
-      intro: 'Short product cases. Depth and dates are in the CV.',
       common: {
         periodLocation: 'Period · Location',
         setupLabel: 'Setup',
@@ -755,9 +752,8 @@ const translations = {
       }
     },
     projects: {
-      eyebrow: 'Personal projects',
-      heading: 'Own products',
-      intro: 'Four personal products. Each runs from problem and users through to evaluation and trade-offs.',
+      eyebrow: 'Own products',
+      heading: 'Four personal products. Each runs from problem and users through to evaluation and trade-offs.',
       common: {
         narrativeHeading: 'Product thinking',
         viewNarrative: 'Show product thinking',
