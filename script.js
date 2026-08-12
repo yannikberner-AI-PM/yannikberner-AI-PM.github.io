@@ -300,7 +300,7 @@ const translations = {
         tradeoffsLabel: 'Trade-offs'
       },
       careerIntelligence: {
-        eyebrow: 'Eigenes Projekt',
+        eyebrow: '#1 Eigenes Projekt',
         title: 'Career Intelligence',
         meta: 'Daily Brief und To‑dos für Good‑Fit‑Jobs, Kontakte und Skill‑Gaps. Auswahl und Apply steuert der User.',
         valueLabel: 'Mehrwert: Recherche automatisieren · Auswahl und Apply beim\u00A0Menschen lassen',
@@ -331,7 +331,7 @@ const translations = {
         }
       },
       stakeholderIntelligence: {
-        eyebrow: 'Eigenes Projekt',
+        eyebrow: '#2 Eigenes Projekt',
         title: 'Stakeholder Intelligence',
         meta: 'Stakeholder nach Nähe zum Programm und Typ einordnen, Kollaboration ableiten und per Reminder nachhalten.',
         valueLabel: 'Mehrwert: Nähe und Typ verknüpfen · Kollaboration und Reminder ableiten',
@@ -361,7 +361,7 @@ const translations = {
         }
       },
       predictiveMentoring: {
-        eyebrow: 'Eigenes Projekt',
+        eyebrow: '#3 Eigenes Projekt',
         title: 'Predictive Mentoring',
         meta: 'Produkt-Know-how fürs Privatleben: Vision und Strategie zu Handlung und Outcome bringen.',
         valueLabel: 'Mehrwert: Produktarbeit ins Privatleben · Vision in Outcomes bringen',
@@ -392,7 +392,7 @@ const translations = {
         }
       },
       cyberSecurityConnector: {
-        eyebrow: 'Eigenes Projekt',
+        eyebrow: '#4 Eigenes Projekt',
         title: 'Cyber Security Connector',
         meta: 'B2B2B- und KMU-Surfaces mit Connector‑Marketplace und Agentic Connections.',
         valueLabel: 'Mehrwert: HR- und QM-Daten in Maßnahmen · Push in Tickets',
@@ -768,7 +768,7 @@ const translations = {
         tradeoffsLabel: 'Trade-offs'
       },
       careerIntelligence: {
-        eyebrow: 'Personal project',
+        eyebrow: '#1 Personal project',
         title: 'Career Intelligence',
         meta: 'Daily brief and to‑dos for good‑fit jobs, contacts and skill gaps. Selection and apply stay with the user.',
         valueLabel: 'Value: Automate research · Keep selection and apply with\u00A0the\u00A0human',
@@ -799,7 +799,7 @@ const translations = {
         }
       },
       stakeholderIntelligence: {
-        eyebrow: 'Personal project',
+        eyebrow: '#2 Personal project',
         title: 'Stakeholder Intelligence',
         meta: 'Map stakeholders by proximity to the programme and type, derive collaboration, and follow up with reminders.',
         valueLabel: 'Value: Link proximity and type · Derive collaboration and reminders',
@@ -829,7 +829,7 @@ const translations = {
         }
       },
       predictiveMentoring: {
-        eyebrow: 'Personal project',
+        eyebrow: '#3 Personal project',
         title: 'Predictive Mentoring',
         meta: 'Product know-how for private life: turn vision and strategy into action and outcome.',
         valueLabel: 'Value: Bring product work into private life · Turn vision into outcomes',
@@ -860,7 +860,7 @@ const translations = {
         }
       },
       cyberSecurityConnector: {
-        eyebrow: 'Personal Project',
+        eyebrow: '#4 Personal project',
         title: 'Cyber Security Connector',
         meta: 'B2B2B and SME surfaces with a connector marketplace and Agentic Connections.',
         valueLabel: 'Value: HR and QM data into measures · Push into tickets',
