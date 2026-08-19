@@ -1,7 +1,7 @@
 # Design: Energy Industry News Slack feed
 
 **Datum:** 2026-08-19
-**Status:** Draft (awaiting spec review)
+**Status:** Implemented
 **Repo:** `~/Projects/portfolio` (not career-intelligence)
 **Channel:** `energy-latest-industrie-news`
 **Code today:** `scripts/send_slack_news.py`, `.github/workflows/slack-news.yml`

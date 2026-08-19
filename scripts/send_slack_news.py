@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Fetch the latest career news from several free RSS sources and post only
-the items that haven't been sent to Slack before (tracked in a cache file
-that this script updates and the workflow commits back to the repo)."""
+"""Fetch recent DE/EU energy-industry news from RSS and post unseen items to Slack."""
 import json
 import os
+import re
 import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -11,41 +10,167 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import quote
 
-import requests
-
-# Direct RSS feeds from relevant trade sites, weighted towards German/European
-# energy and regulation coverage, with AI/PM as a smaller share.
 FEEDS = [
     ("PV Magazine Deutschland", "https://www.pv-magazine.de/feed/", 3),
     ("IWR", "https://www.iwr.de/news/rss", 2),
     ("Erneuerbare Energien Magazin", "https://www.erneuerbareenergien.de/rss.xml", 2),
-    ("Tagesschau Wirtschaft", "https://www.tagesschau.de/wirtschaft/index~rss2.xml", 2),
-    ("Handelsblatt", "https://www.handelsblatt.com/contentexport/feed/schlagzeilen", 2),
-    ("Mind the Product", "https://www.mindtheproduct.com/feed/", 1),
-    ("Lenny's Newsletter", "https://www.lennysnewsletter.com/feed", 1),
-    ("SaaStr", "https://www.saastr.com/feed/", 1),
+    ("Handelsblatt Energie", "https://www.handelsblatt.com/contentexport/feed/energie", 3),
+    ("Clean Energy Wire", "https://www.cleanenergywire.org/rss.xml", 3),
+    (
+        "BNetzA Pressemitteilungen",
+        "https://www.bundesnetzagentur.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSSNewsfeed_Pressemitteilungen.xml",
+        2,
+    ),
+    (
+        "BNetzA EEG-Ausschreibungen",
+        "https://www.bundesnetzagentur.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSSNewsfeed_EEG.xml",
+        2,
+    ),
 ]
 
-# Broader topic searches via Google News (German results), to catch things the
-# trade feeds miss. Weighted towards Germany/Europe, energy and regulation.
 QUERIES = [q.strip() for q in os.environ.get(
     "NEWS_QUERIES",
     "Energiewende Regulierung Deutschland:3|"
-    "Smart Meter Rollout Deutschland:2|"
-    "EU Energiepolitik Regulierung:2|"
-    "Bundesnetzagentur Energie:2|"
-    "B2B SaaS Produktstrategie:1|"
-    "AI Produktmanagement:1",
+    "Smart Meter Gateway Rollout Deutschland:2|"
+    "Bundesnetzagentur Strom Netz:2|"
+    "EU Strommarkt Redispatch Speicher:2|"
+    "B2B SaaS Plattform API Produktmanagement:1",
 ).split("|")]
 
 MAX_AGE_DAYS = 7
-MAX_TOTAL_ITEMS = 12
+MAX_TOTAL_ITEMS = 8
+MAX_PM_ITEMS = 2
 MAX_CACHE_ENTRIES = 1000
+SLACK_HEADER = "*Energie-News*"
 
 CACHE_PATH = Path(os.environ.get("NEWS_CACHE_PATH", "scripts/.news_cache.json"))
 
-SLACK_CHANNEL_ID = os.environ["SLACK_CHANNEL_ID"]
-SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
+ENERGY_ALLOW = (
+    "strom",
+    "netz",
+    "netzentgelt",
+    "redispatch",
+    "regelenergie",
+    "smart meter",
+    "smgw",
+    "messstellen",
+    "eeg",
+    "enwg",
+    "msbg",
+    "bnetza",
+    "bundesnetzagentur",
+    "energiewende",
+    "photovoltaik",
+    "pv-anlage",
+    "windkraft",
+    "offshore",
+    "onshore",
+    "speicher",
+    "batteriespeicher",
+    "hems",
+    "wärmepumpe",
+    "fernwärme",
+    "co2",
+    "kohleausstieg",
+    "kapazitätsmarkt",
+    "stromreserve",
+    "gasspeicher",
+    "gasnetz",
+    "versorgungssicherheit",
+)
+
+ENERGY_DENY = (
+    "opec",
+    "ölpreis",
+    "rohöl",
+    "spritpreis",
+    "öl-exporteur",
+    "autobauer",
+    "lufthansa",
+    "boeing",
+    "rente",
+    "immobilien",
+    "dax",
+    "telekom",
+    "eisenbahn",
+    "bahninfrastruktur",
+    "ki-verordnung",
+    "chatgpt",
+    "codex",
+    "shopify",
+)
+
+PM_ALLOW = (
+    "b2b",
+    "plattform",
+    "platform",
+    "saas",
+    "produktstrategie",
+    "produktmanagement",
+)
+
+WASSERSTOFF_HINTS = (
+    "strom",
+    "netz",
+    "elektrolyse",
+    "kraftwerk",
+    "energiewende",
+    "stromsystem",
+)
+
+AUSSCHREIBUNG_HINTS = (
+    "solar",
+    "wind",
+    "pv",
+    "biomasse",
+    "eeg",
+    "photovoltaik",
+)
+
+_WORD = r"(?<![a-zäöüß]){}(?![a-zäöüß])"
+
+
+def _has_word(text: str, token: str) -> bool:
+    return re.search(_WORD.format(re.escape(token)), text) is not None
+
+
+def _denied(text: str) -> bool:
+    if any(token in text for token in ENERGY_DENY):
+        return True
+    return _has_word(text, "post")
+
+
+def _energy_allowed(text: str) -> bool:
+    if any(token in text for token in ENERGY_ALLOW):
+        return True
+    if _has_word(text, "ems"):
+        return True
+    if "wasserstoff" in text and any(hint in text for hint in WASSERSTOFF_HINTS):
+        return True
+    if "ausschreibung" in text and any(hint in text for hint in AUSSCHREIBUNG_HINTS):
+        return True
+    return False
+
+
+def _pm_allowed(text: str) -> bool:
+    if any(token in text for token in PM_ALLOW):
+        return True
+    if _has_word(text, "api"):
+        return True
+    if "product-led" in text or "product led" in text:
+        return any(token in text for token in ("b2b", "platform", "plattform", "saas"))
+    return False
+
+
+def classify_title(title: str) -> str | None:
+    text = title.casefold()
+    if _denied(text):
+        return None
+    if _energy_allowed(text):
+        return "energy"
+    if _pm_allowed(text):
+        return "pm"
+    return None
 
 
 def parse_pub_date(raw: str) -> datetime | None:
@@ -61,6 +186,8 @@ def parse_pub_date(raw: str) -> datetime | None:
 
 
 def fetch_feed_items(url: str) -> list[tuple[str, str, datetime | None]]:
+    import requests
+
     resp = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
     resp.raise_for_status()
     root = ET.fromstring(resp.content)
@@ -75,6 +202,8 @@ def fetch_feed_items(url: str) -> list[tuple[str, str, datetime | None]]:
 
 
 def recent_items_from_feed(name: str, url: str, limit: int) -> list[tuple[str, str, str]]:
+    import requests
+
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
     try:
         items = fetch_feed_items(url)
@@ -86,6 +215,8 @@ def recent_items_from_feed(name: str, url: str, limit: int) -> list[tuple[str, s
 
 
 def recent_items_from_query(query: str, limit: int) -> list[tuple[str, str, str]]:
+    import requests
+
     url = f"https://news.google.com/rss/search?q={quote(query)}+when:{MAX_AGE_DAYS}d&hl=de&gl=DE&ceid=DE:de"
     try:
         items = fetch_feed_items(url)
@@ -117,31 +248,52 @@ def save_cache(links: set[str]) -> None:
     CACHE_PATH.write_text(json.dumps(trimmed, indent=2))
 
 
+def select_items(
+    candidates: list[tuple[str, str, str]],
+    already_sent: set[str],
+    max_total: int = MAX_TOTAL_ITEMS,
+    max_pm: int = MAX_PM_ITEMS,
+) -> list[tuple[str, str, str]]:
+    energy: list[tuple[str, str, str]] = []
+    pm: list[tuple[str, str, str]] = []
+    seen_titles: set[str] = set()
+
+    for title, link, source in candidates:
+        if link in already_sent or title in seen_titles:
+            continue
+        kind = classify_title(title)
+        if kind is None:
+            continue
+        seen_titles.add(title)
+        if kind == "energy":
+            energy.append((title, link, source))
+        else:
+            pm.append((title, link, source))
+
+    selected = energy[:max_total]
+    remaining = max_total - len(selected)
+    selected.extend(pm[: min(max_pm, remaining)])
+    return selected
+
+
 def collect_new_items(already_sent: set[str]) -> list[tuple[str, str, str]]:
-    seen_titles = set()
-    new_items = []
-
-    sources = [recent_items_from_feed(name, url, limit) for name, url, limit in FEEDS]
-    sources += [
-        recent_items_from_query(*parse_weighted_query(q)) for q in QUERIES
-    ]
-
-    for items in sources:
-        for title, link, source in items:
-            if title in seen_titles or link in already_sent:
-                continue
-            seen_titles.add(title)
-            new_items.append((title, link, source))
-            if len(new_items) >= MAX_TOTAL_ITEMS:
-                return new_items
-    return new_items
+    candidates: list[tuple[str, str, str]] = []
+    for name, url, limit in FEEDS:
+        candidates.extend(recent_items_from_feed(name, url, limit))
+    for query in QUERIES:
+        candidates.extend(recent_items_from_query(*parse_weighted_query(query)))
+    return select_items(candidates, already_sent, MAX_TOTAL_ITEMS, MAX_PM_ITEMS)
 
 
 def post_to_slack(text: str) -> None:
+    import requests
+
+    token = os.environ["SLACK_BOT_TOKEN"]
+    channel = os.environ["SLACK_CHANNEL_ID"]
     resp = requests.post(
         "https://slack.com/api/chat.postMessage",
-        headers={"Authorization": f"Bearer {SLACK_BOT_TOKEN}"},
-        json={"channel": SLACK_CHANNEL_ID, "text": text},
+        headers={"Authorization": f"Bearer {token}"},
+        json={"channel": channel, "text": text},
         timeout=30,
     )
     resp.raise_for_status()
@@ -159,7 +311,7 @@ def main() -> None:
         return
 
     lines = [f"• <{link}|{title}> _({source})_" for title, link, source in new_items]
-    post_to_slack(f"*Latest Career News* :newspaper:\n\n" + "\n".join(lines))
+    post_to_slack(f"{SLACK_HEADER} :newspaper:\n\n" + "\n".join(lines))
     print(f"Posted {len(new_items)} new item(s) to Slack.")
 
     save_cache(already_sent | {link for _, link, _ in new_items})
