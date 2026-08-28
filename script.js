@@ -271,7 +271,7 @@ const translations = {
         contributions: [
           'Plattform an Nutzungsdaten weiterentwickelt und auf rund 100.000 aktive Kund:innen skaliert.',
           'Automatisierung nach Erfolgsquote hochgefahren.',
-          'Priorisierung eigenverantwortlich anhand von Conversion-Daten entschieden.',
+          'Priorisierung an Conversion-Daten ausgerichtet: auf Conversion-Optimierung, Prozess-Automatisierung, User-Journey-Verbesserung, Entwicklungszyklen und Qualität.',
           'Prozesse so nachgeschärft, dass 98 Prozent der Tarifwechsel durchkamen und sich über 20 Mio. Euro Ersparnis aufsummierten.'
         ],
         tags: ['B2C Platform', 'Process Automation', 'CRM', 'Kanban'],
@@ -739,7 +739,7 @@ const translations = {
         contributions: [
           'Grew the platform from usage data to around 100,000 active customers.',
           'Raised automation by success rate.',
-          'Took ownership of prioritisation decisions, driven by conversion data.',
+          'Aligned prioritisation with conversion data: conversion optimisation, process automation, user journey improvement, development cycles and quality.',
           'Tuned processes so 98 percent of tariff switches completed and more than €20 million in savings accumulated.'
         ],
         tags: ['B2C Platform', 'Process Automation', 'CRM', 'Kanban'],
