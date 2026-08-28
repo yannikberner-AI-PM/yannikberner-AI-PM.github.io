@@ -113,7 +113,7 @@ const translations = {
       groups: [
         {
           title: 'Energie & Regulierung',
-          items: ['EMS/HEMS', 'Energy Intelligence', 'Smart Metering', 'CLS', '§14a EnWG', 'FNN-Steuerboxen', 'dynamische Stromtarife', 'Eigenverbrauchsoptimierung', 'Direktvermarktung', 'Flexibilitätsmärkte', 'EEG']
+          items: ['EMS/HEMS', 'Energy Intelligence', 'Smart Metering', 'CLS', '§14a EnWG', 'FNN-Steuerboxen', 'dynamische Stromtarife', 'Eigenverbrauchsoptimierung', 'Direktvermarktung', 'Flexibilitätsmärkte', 'EEG', '§9 EEG', '§21 EnWG', '§118 Abs. 6 EnWG', 'VDE FNN', 'BNetzA', 'BDEW']
         },
         {
           title: 'Energiesysteme & Technologie',
@@ -133,7 +133,7 @@ const translations = {
         },
         {
           title: 'Tools & Prototyping',
-          items: ['Jira', 'Confluence', 'Xray', 'Python-Prototyping', 'KI-gestütztes Prototyping', 'Claude Code', 'GitHub Copilot']
+          items: ['Jira', 'Confluence', 'Xray', 'Python-Prototyping', 'KI-gestütztes Prototyping', 'Claude Code', 'GitHub Copilot', 'Figma', 'Miro', 'Power BI']
         }
       ]
     },
@@ -160,7 +160,7 @@ const translations = {
         title: 'Product Orchestration Lead / Business Process Owner',
         meta: 'Strategische Digitalisierung über Business, IT, OT und Architektur.',
         valueLabel: 'Mehrwert: BIA und NIS2‑Roadmap‑Readiness aufgestellt',
-        overview: 'Aus Anforderungen von Betrieb, IT und OT formuliere ich Zielbilder und belastbare nächste Schritte für Betriebssoftware und Datenprodukte.',
+        overview: 'Aus Anforderungen von Betrieb, IT und OT formuliere ich Zielbilder und belastbare nächste Schritte für Betriebssoftware und Datenprodukte. Fünf Fachbereiche und Stakeholder-Gruppen arbeiten mit, über vier Subprojekte mit rund 250.000 Euro Investitionsvolumen.',
         approachTitle: 'BIA und NIS2‑Roadmap‑Readiness vorbereitet',
         approachText: 'Business Impact und regulatorische Anforderungen strukturiert, damit Leitwarte und nächste Schritte entscheidbar wurden.',
         periodLocation: 'Feb. 2026 – heute · Berlin',
@@ -176,14 +176,14 @@ const translations = {
         details: {
           context: 'Modernisierung vorbereitet, Schwerpunkt dann POLIS mit Cyber Security, NIS2 und BCM. Leistungskurven als dezentrale App außerhalb der Betriebsführungssoftware. Reliability-Prototyp blieb zunächst im Backlog.',
           approach: 'Domänen, Use Cases und Datenanforderungen strukturiert. Dezentrale Leistungskurven-App mit französischen Stakeholdern umgesetzt. Zielbilder, Roadmap und Anbieteranalyse aufgesetzt.',
-          value: 'Grundlage für weitere Produktentscheidungen und kritische Betriebsprozesse unter Resilienz-Druck.'
+          value: 'Grundlage für weitere Produktentscheidungen und kritische Betriebsprozesse unter Resilienz-Druck. BIA und NIS2-Roadmap-Readiness entstanden dabei innerhalb von rund sechs Monaten, ein Beleg für strategische Tiefe trotz kurzer Zeitspanne.'
         }
       },
       senec: {
         title: 'Product Owner HEMS & Energiesysteme',
         meta: 'HEMS-Produktplattform für Energiesysteme im Haus.',
         valueLabel: 'Mehrwert: HEMS skalieren · Integrationen in einer Plattform halten',
-        overview: 'Bei HEMS laufen Geräte, Embedded und Cloud parallel. Produktstrategie und Delivery halte ich so zusammen, dass die Plattform skalierbar bleibt.',
+        overview: 'Bei HEMS laufen Geräte, Embedded und Cloud parallel. Produktstrategie und Delivery halte ich so zusammen, dass die Plattform skalierbar bleibt. Fünf Fachbereiche plus externe Dienstleister und ein rund 15-köpfiges Team gehören zum Scope.',
         approachTitle: 'Evolutionäre Weiterentwicklung mit Strangler-Elementen',
         approachText: 'Neue Varianten inkrementell ausgerollt, bestehende Plattform weiter im Betrieb.',
         periodLocation: 'Sep. 2024 – Jan. 2026 · Leipzig / Remote',
@@ -271,7 +271,7 @@ const translations = {
         contributions: [
           'Plattform an Nutzungsdaten weiterentwickelt und auf rund 100.000 aktive Kund:innen skaliert.',
           'Automatisierung nach Erfolgsquote hochgefahren.',
-          'Priorisierung über Conversion-Daten gesetzt.',
+          'Priorisierung eigenverantwortlich anhand von Conversion-Daten entschieden.',
           'Prozesse so nachgeschärft, dass 98 Prozent der Tarifwechsel durchkamen und sich über 20 Mio. Euro Ersparnis aufsummierten.'
         ],
         tags: ['B2C Platform', 'Process Automation', 'CRM', 'Kanban'],
@@ -299,35 +299,35 @@ const translations = {
         metricsLabel: 'Metriken',
         tradeoffsLabel: 'Trade-offs'
       },
-      careerIntelligence: {
+      visualWorkspace: {
         eyebrow: '#1 Eigenes Projekt',
-        title: 'Career Intelligence',
-        meta: 'Daily Brief und To‑dos für Good‑Fit‑Jobs, Kontakte und Skill‑Gaps. Auswahl und Apply steuert der User.',
-        valueLabel: 'Mehrwert: Recherche automatisieren · Auswahl und Apply beim\u00A0Menschen lassen',
-        overview: 'Das System übernimmt die repetitive Triage hinter der Jobsuche. Brief und To‑dos geben den Rahmen. Stelle, Unterlagen und Apply bleiben bei mir.',
-        approachTitle: 'Repetitives automatisieren, Entscheidungen\u00A0steuern',
-        approachText: 'Täglicher Lauf aggregiert und bewertet Signale. Dashboard mit erklärbarem Scoring. Apply\u00A0bleibt manuell.',
-        periodLocation: 'Privates Projekt, lokal betrieben',
-        imageAlt: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
-        mediaAriaLabel: 'Screenshot des Career-Intelligence-Dashboards im Demo-Modus mit synthetischen Daten',
-        result: 'Ergebnis: Weniger manuelle Triage, volle Kontrolle über Apply.',
+        title: 'Whiteboard und Kennzahlen in einer App',
+        meta: 'Visueller Arbeitsraum für Serviceaufträge, Prozessoptimierung und Automatisierung.',
+        valueLabel: 'Mehrwert: Abläufe sichtbar machen · Auswirkungen berechnen · Automatisierung priorisieren',
+        overview: 'Eine freie Canvas verbindet Prozessschritte, Kennzahlen und reale Arbeitsartefakte. Im Beispiel eines Serviceauftrags werden IST-Prozess mit Zeiten und Abbruchquote und ein automatisierter SOLL-Prozess nebeneinander gelegt. Verbundene Berechnungen zeigen Gesamtzeit je Ablauf und die daraus resultierende Optimierungszeit direkt darunter.',
+        approachTitle: 'Prozess, Daten und Verbesserung in einem Modell',
+        approachText: 'Prozessformen beschreiben Arbeitsschritte. Typisierte Verbindungen zeigen Übergaben und Datenflüsse. Formeln berechnen die Wirkung einer Änderung sofort.',
+        periodLocation: 'Eigenes Produkt, interaktiver Browserprototyp',
+        imageAlt: 'IST-Prozess eines Serviceauftrags mit Zeiten und Abbruchquote neben einem automatisierten SOLL-Prozess, verbunden mit berechneter Gesamtzeit und Optimierungszeit',
+        mediaAriaLabel: 'IST-Prozess eines Serviceauftrags mit Zeiten und Abbruchquote neben einem automatisierten SOLL-Prozess, verbunden mit berechneter Gesamtzeit und Optimierungszeit',
+        result: 'Ergebnis: Nutzbarer Prototyp, um IST- und SOLL-Prozesse gegenüberzustellen, Prozesszeiten zu berechnen und Optimierungspotenzial sichtbar zu machen.',
         contributions: [
-          'Multi-Source-Recherche und Klassifizierung automatisiert.',
-          'Good‑Fit, Kontakte und Skill‑Gaps sichtbar gemacht.',
-          'Daily Brief und priorisierte To‑dos als Handlungsrahmen.',
-          'Ownership bewusst manuell: Stelle, Unterlagen, Apply.',
-          'LinkedIn-Job-Mails in den Lauf gezogen: Sheets, Regeln, Slack bei High-Fit.'
+          'Freie Canvas, Prozessformen und verschachtelbare Arbeitsbereiche als gemeinsames Modell.',
+          'Typisierte Verbindungen für Abläufe, Datenabhängigkeiten und Berechnungen.',
+          'IST- und SOLL-Prozessschritte verglichen, mit Zeiten, Abbruchquote und berechneter Optimierungszeit.',
+          'Dateien, Ordner und Links werden zu nutzbaren Objekten im verbundenen Graphen.',
+          'Interaktionsnahe Browsertests und Regressionstests härten Drag, Verbindungen und Formeln ab.'
         ],
-        tags: ['Python', 'Streamlit', 'SQLite', 'Daily Brief', 'Good‑Fit Scoring', 'Skill Gaps', 'Slack API'],
+        tags: ['Vanilla JS', 'Infinite Canvas', 'Prozessoptimierung', 'Serviceaufträge', 'Automatisierung', 'Live Berechnungen', 'UX Prototyping'],
         narrative: {
-          problem: 'Jobsuche steckt voller repetitiver Arbeit: Quellen scannen, Treffer vergleichen, Skills und Kontakte im Kopf halten.',
-          users: 'Primär ich als Product Manager in aktiver Suche. Unterstützung bei Good Fits, Apply steuere ich selbst.',
-          whyAi: 'Automation für Aggregation, Klassifizierung und Briefing. Kein Autopilot für Bewerbungen.',
-          ux: 'Daily Brief mit To‑dos. Good Fits, Kontakte und Skills auf einen Blick. Explizite Schritte für Auswahl und Apply.',
-          architecture: 'Quellen-Layer, regelbasierte Fit-Logik, Dashboard. Nebenfluss über Sheets und Slack.',
-          evaluation: 'Sinkt die Triage-Zeit? Führen To‑dos zu bewussten Apply-Entscheidungen?',
-          metrics: 'Zeit Signal bis Triage, To‑dos mit Folgeaktion, Good‑Fit-Trefferquote.',
-          tradeoffs: 'User-Kontrolle vor Auto-Apply. Erklärbare Regeln vor opaken Rankings. Brief vor endloser Trefferliste.'
+          problem: 'Prozesswissen liegt getrennt in Whiteboards, Tabellen, Dokumenten und Automatisierungstools. Änderungen und ihre Auswirkungen bleiben schwer nachvollziehbar.',
+          users: 'Produkt, Strategie, Marketing, Sales, Operations, Gründer:innen und Finance Teams, die Abläufe verstehen und verbessern müssen.',
+          whyAi: 'KI ist als nächste Ebene geplant, um importierte Artefakte zu verdichten und passende Verbindungen vorzuschlagen. Entscheidungen und Berechnungen bleiben prüfbar.',
+          ux: 'Direkte Arbeit auf einer freien Fläche. Arbeitsschritte, Kennzahlen und Notizen lassen sich verbinden, verschieben, berechnen und gemeinsam als Prozess lesen.',
+          architecture: 'Lokaler Vanilla JavaScript Prototyp mit eigenständigem Objektmodell für Frames, Objekte, Verbindungen und Freihandzeichnung. Formeln referenzieren benannte Objekte.',
+          evaluation: 'Können Nutzer:innen einen realen Serviceauftrag schneller modellieren, Engpässe erkennen und IST- gegen SOLL-Prozess rechnerisch vergleichen?',
+          metrics: 'Zeit bis zum ersten nutzbaren Modell, verknüpfte Prozessschritte und Kennzahlen, bewertete Verbesserungshebel, vermiedene doppelte Pflege.',
+          tradeoffs: 'Zuerst belastbares Interaktionsmodell und lokale Persistenz. Kollaboration, Backend und KI Automatisierung folgen erst nach validiertem Kernnutzen.'
         }
       },
       stakeholderIntelligence: {
@@ -581,7 +581,7 @@ const translations = {
       groups: [
         {
           title: 'Energy & Regulation',
-          items: ['EMS/HEMS', 'Energy Intelligence', 'Smart Metering', 'CLS', '§14a EnWG', 'FNN control boxes', 'dynamic electricity tariffs', 'self-consumption optimisation', 'direct marketing', 'flexibility markets', 'EEG']
+          items: ['EMS/HEMS', 'Energy Intelligence', 'Smart Metering', 'CLS', '§14a EnWG', 'FNN control boxes', 'dynamic electricity tariffs', 'self-consumption optimisation', 'direct marketing', 'flexibility markets', 'EEG', '§9 EEG', '§21 EnWG', '§118 (6) EnWG', 'VDE FNN', 'BNetzA', 'BDEW']
         },
         {
           title: 'Energy Systems & Technology',
@@ -601,7 +601,7 @@ const translations = {
         },
         {
           title: 'Tools & Prototyping',
-          items: ['Jira', 'Confluence', 'Xray', 'Python prototyping', 'AI-assisted prototyping', 'Claude Code', 'GitHub Copilot']
+          items: ['Jira', 'Confluence', 'Xray', 'Python prototyping', 'AI-assisted prototyping', 'Claude Code', 'GitHub Copilot', 'Figma', 'Miro', 'Power BI']
         }
       ]
     },
@@ -628,7 +628,7 @@ const translations = {
         title: 'Product Orchestration Lead / Business Process Owner',
         meta: 'Strategic digitalisation across Business, IT, OT and Architecture.',
         valueLabel: 'Value: Established BIA and NIS2 roadmap readiness',
-        overview: 'From operations, IT and OT requirements I shape target states and robust next steps for operational software and data products.',
+        overview: 'From operations, IT and OT requirements I shape target states and robust next steps for operational software and data products. Five business units and stakeholder groups are involved, across four subprojects with around €250,000 in investment volume.',
         approachTitle: 'Prepared BIA and NIS2 roadmap readiness',
         approachText: 'Structured business impact and regulatory requirements so control-room decisions and next steps became actionable.',
         periodLocation: 'Feb 2026 – Present · Berlin',
@@ -644,14 +644,14 @@ const translations = {
         details: {
           context: 'Modernisation prepared, then focus shifted to POLIS with cyber security, NIS2 and BCM. Power curves as a decentralised app outside the operations management software. Reliability prototype stayed in the backlog for a while.',
           approach: 'Structured domains, use cases and data needs. Built a decentralised power curve app with French stakeholders. Set up target states, roadmap and vendor analysis.',
-          value: 'A foundation for further product decisions and critical operations under resilience pressure.'
+          value: 'A foundation for further product decisions and critical operations under resilience pressure. BIA and NIS2 roadmap readiness were established within about six months, a mark of strategic depth despite the short timeframe.'
         }
       },
       senec: {
         title: 'Product Owner, HEMS & Energy Systems',
         meta: 'HEMS product platform for residential energy systems.',
         valueLabel: 'Value: Scale HEMS · Keep integrations on one platform',
-        overview: 'On HEMS, devices, embedded software and cloud run in parallel. I keep strategy and delivery aligned so the platform stays scalable.',
+        overview: 'On HEMS, devices, embedded software and cloud run in parallel. I keep strategy and delivery aligned so the platform stays scalable. Five business units plus external vendors and a team of around 15 sit within the scope.',
         approachTitle: 'Evolutionary development with strangler elements',
         approachText: 'Rolled out new variants incrementally while the existing platform stayed in operation.',
         periodLocation: 'Sep 2024 – Jan 2026 · Leipzig / Remote',
@@ -739,7 +739,7 @@ const translations = {
         contributions: [
           'Grew the platform from usage data to around 100,000 active customers.',
           'Raised automation by success rate.',
-          'Set prioritisation from conversion data.',
+          'Took ownership of prioritisation decisions, driven by conversion data.',
           'Tuned processes so 98 percent of tariff switches completed and more than €20 million in savings accumulated.'
         ],
         tags: ['B2C Platform', 'Process Automation', 'CRM', 'Kanban'],
@@ -767,35 +767,35 @@ const translations = {
         metricsLabel: 'Metrics',
         tradeoffsLabel: 'Trade-offs'
       },
-      careerIntelligence: {
+      visualWorkspace: {
         eyebrow: '#1 Personal project',
-        title: 'Career Intelligence',
-        meta: 'Daily brief and to‑dos for good‑fit jobs, contacts and skill gaps. Selection and apply stay with the user.',
-        valueLabel: 'Value: Automate research · Keep selection and apply with\u00A0the\u00A0human',
-        overview: 'The system takes on the repetitive triage behind job search. Brief and to‑dos set the frame. Role, documents and apply stay with me.',
-        approachTitle: 'Automate the repetitive, steer what matters',
-        approachText: 'A daily run aggregates and scores signals. Dashboard with explainable scoring. Apply\u00A0stays manual.',
-        periodLocation: 'Personal project, run locally',
-        imageAlt: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
-        mediaAriaLabel: 'Screenshot of the Career Intelligence dashboard in demo mode with synthetic data',
-        result: 'Outcome: Less manual triage, full control over apply.',
+        title: 'Whiteboard and metrics in one app',
+        meta: 'A visual workspace for service orders, process optimisation and automation.',
+        valueLabel: 'Value: Make workflows visible · Calculate impact · Prioritise automation',
+        overview: 'A freeform canvas connects process steps, metrics and real work artefacts. In a service-order example, a current process with step durations and a drop-off rate sits next to an automated target process. Connected calculations show total time per process and the resulting optimisation time right below.',
+        approachTitle: 'Process, data and improvement in one model',
+        approachText: 'Process shapes describe work steps. Typed connections show handoffs and data flows. Formulas calculate the impact of a change immediately.',
+        periodLocation: 'Personal product, interactive browser prototype',
+        imageAlt: 'Current service-order process with step durations and drop-off rate next to an automated target process, connected to calculated total time and optimisation time',
+        mediaAriaLabel: 'Current service-order process with step durations and drop-off rate next to an automated target process, connected to calculated total time and optimisation time',
+        result: 'Outcome: A usable prototype for comparing current and target processes, calculating process time and surfacing optimisation potential.',
         contributions: [
-          'Automated multi-source research and classification.',
-          'Surfaced good‑fit, contacts and skill gaps.',
-          'Daily brief and prioritised to‑dos as the action frame.',
-          'Kept ownership manual: role, documents, apply.',
-          'Folded LinkedIn job mail into the run: Sheets, rules, Slack on high-fit.'
+          'Built a freeform canvas, process shapes and nested work areas as one model.',
+          'Added typed connections for workflows, data dependencies and calculations.',
+          'Compared current and target process steps, with durations, drop-off rate and calculated optimisation time.',
+          'Turned files, folders and links into usable objects inside the connected graph.',
+          'Hardened drag, connection and formula behaviour with real browser interaction and regression tests.'
         ],
-        tags: ['Python', 'Streamlit', 'SQLite', 'Daily brief', 'Good-fit scoring', 'Skill gaps', 'Slack API'],
+        tags: ['Vanilla JS', 'Infinite Canvas', 'Process optimisation', 'Service orders', 'Automation', 'Live calculations', 'UX prototyping'],
         narrative: {
-          problem: 'Job search is full of repetitive work: scanning sources, comparing hits, holding skills and contacts in your head.',
-          users: 'Primarily myself as a product manager in active search. Help on good fits, apply stays with me.',
-          whyAi: 'Automation for aggregation, classification and briefing. No autopilot for applications.',
-          ux: 'Daily brief with to‑dos. Good fits, contacts and skills at a glance. Explicit steps for selection and apply.',
-          architecture: 'Source layer, rule-based fit logic, dashboard. Side flow via Sheets and Slack.',
-          evaluation: 'Does triage time drop? Do to‑dos lead to deliberate apply decisions?',
-          metrics: 'Time from signal to triage, to‑dos with follow-through, good‑fit hit rate.',
-          tradeoffs: 'User control over auto-apply. Explainable rules over opaque rankings. Brief over an endless hit list.'
+          problem: 'Process knowledge is split across whiteboards, spreadsheets, documents and automation tools. Changes and their effects remain hard to trace.',
+          users: 'Product, strategy, marketing, sales, operations, founders and finance teams who need to understand and improve workflows.',
+          whyAi: 'AI is planned as the next layer to distil imported artefacts and suggest useful connections. Decisions and calculations remain inspectable.',
+          ux: 'Direct manipulation on a freeform canvas. Work steps, metrics and notes can be connected, moved, calculated and read together as one process.',
+          architecture: 'A local Vanilla JavaScript prototype with a dedicated object model for frames, objects, connections and freehand ink. Formulas reference named objects.',
+          evaluation: 'Can users model a real service order faster, identify bottlenecks and compare current against target process quantitatively?',
+          metrics: 'Time to first usable model, connected process steps and metrics, evaluated improvement levers, duplicate maintenance avoided.',
+          tradeoffs: 'A robust interaction model and local persistence come first. Collaboration, backend services and AI automation follow after the core value is validated.'
         }
       },
       stakeholderIntelligence: {

@@ -1,9 +1,9 @@
 name: Slack Career News
 
+# Daily post moved to career-intelligence-agent-private
+# (LaunchAgent com.career-intelligence.energy-news). Keep workflow_dispatch
+# only so this GitHub Action does not double-post to Slack.
 on:
-  schedule:
-    # Every day at 05:00 UTC (~06:00-07:00 German time, depending on DST)
-    - cron: "0 5 * * *"
   workflow_dispatch: {}
 
 concurrency:
