@@ -428,7 +428,9 @@ const translations = {
       heading: 'LET’S BUILD SOMETHING USEFUL.',
       text: 'Ich suche Senior- oder Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in DE, ideal bei Energie-, Hardware- oder IoT-Produkten, wo Software und Feldgerät zusammenpassen müssen. Wenn genau das eure Lücke ist: meldet euch.',
       linkedin: 'LinkedIn',
-      linkedinLabel: 'LinkedIn-Profil in einem neuen Tab öffnen'
+      linkedinLabel: 'LinkedIn-Profil in einem neuen Tab öffnen',
+      github: 'GitHub',
+      githubLabel: 'GitHub-Profil in einem neuen Tab öffnen'
     },
     footer: {
       text: '© Yannik Berner. Senior Product Management für komplexe Produkte aus Software, Hardware und Prozessen.',
@@ -896,7 +898,9 @@ const translations = {
       heading: 'LET’S BUILD SOMETHING USEFUL.',
       text: 'I am looking for senior or mid-senior product roles in Berlin, hybrid or remote in Germany, ideally in energy, hardware or IoT products where software and field devices have to fit together. If that is your gap: get in touch.',
       linkedin: 'LinkedIn',
-      linkedinLabel: 'Open LinkedIn profile in a new tab'
+      linkedinLabel: 'Open LinkedIn profile in a new tab',
+      github: 'GitHub',
+      githubLabel: 'Open GitHub profile in a new tab'
     },
     footer: {
       text: '© Yannik Berner. Senior product management for complex products spanning software, hardware and process.',
