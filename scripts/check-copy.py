@@ -68,14 +68,12 @@ page.feed(ROOT.joinpath('index.html').read_text())
 assert len(page.ids) == len(set(page.ids)), 'Duplicate ID'
 for name, key in [('description', 'metaDescription'), ('og:title', 'documentTitle'), ('twitter:title', 'documentTitle'), ('og:description', 'socialDescription'), ('twitter:description', 'socialDescription'), ('og:image:alt', 'socialImageAlt'), ('twitter:image:alt', 'socialImageAlt')]:
     assert page.meta[name] == T['de'][key], name
-links = [link for link in page.links if '-showcase' in link.get('href', '')]
-assert len(links) == 4, 'Expected the four non-energy showcases'
-assert not any('energyLab.cta' in link.get('data-i18n', '') or 'energie-labor-showcase' in link.get('href', '') for link in page.links), 'Energie-Labor showcase CTA must be absent'
-for link in links:
-    assert link.get('target') == '_blank'
-    assert {'noopener', 'noreferrer'} <= set(link.get('rel', '').split())
-    assert link['data-url-de'].endswith('/blob/main/README.de.md')
-    assert 'aria-label' in link
+links = [link for link in page.links if any('showcase' in value.lower() for value in link.values()) or link.get('data-i18n', '').startswith('projects.energyLab.cta')]
+assert not links, f'Project showcase links must be absent in DE/EN: found {len(links)}'
+assert any(link.get('href') == 'https://github.com/yannikberner-AI-PM' for link in page.links), 'Keep the GitHub profile contact link'
+for translations in [DE, EN]:
+    assert 'projects.common.showcase' not in translations
+    assert 'projects.common.showcaseAria' not in translations
 for link in page.links:
     if link.get('href', '').startswith('#'):
         assert link['href'][1:] in page.ids, link['href']
@@ -92,4 +90,4 @@ for lang in ['de', 'en']:
 public_de = '\n'.join(v for k, v in DE.items() if not k.startswith('privacy.') and not k.endswith('periodLocation'))
 assert not re.search(r'\b(nicht|aber)\b|[—–]', public_de, re.I), 'German public copy voice regression'
 assert not re.search(r'smart.metering|iMSys|Messstellenbetrieb', ROOT.joinpath('index.html').read_text(), re.I), 'Unsupported expertise'
-print(f'OK: {page.count} German text/alt/aria fallbacks; DE/EN key parity; metadata; four showcases; no Energie-Labor CTA; anchors; maturity limits; German voice.')
+print(f'OK: {page.count} German text/alt/aria fallbacks; DE/EN key parity; metadata; zero showcase links; GitHub profile contact retained; anchors; maturity limits; German voice.')
