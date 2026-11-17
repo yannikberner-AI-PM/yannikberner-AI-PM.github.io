@@ -1,11 +1,11 @@
 const translations = {
   de: {
     skipLink: 'Zum Inhalt springen',
-    documentTitle: 'Yannik Berner | Senior Product Manager · Complex Software & Hardware Products',
-    metaDescription: 'Senior Product Manager für komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten: Product-Market-Fit finden und bewahren, von Discovery bis Rollout.',
-    socialDescription: 'Senior Product Manager für komplexe Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten.',
-    socialImageAlt: 'Yannik Berner, Senior Product Manager für komplexe Produkte aus Software, Hardware und Prozessen',
-    personDescription: 'Senior Product Manager für komplexe B2B- und B2B2C-Produkte aus Software, Hardware, Prozessen und Daten, am tiefsten bewährt in regulierten Energiemärkten.',
+    documentTitle: 'Yannik Berner | Senior Product Manager · KI, Energie & IoT',
+    metaDescription: 'Senior Product Manager für KI, vernetzte Energie, IoT und komplexe Software- und Hardwareprodukte. Produktstrategie, messbarer Kundennutzen und Umsetzung bis zum Rollout.',
+    socialDescription: 'Produktstrategie mit Wirkung: KI, vernetzte Energie, IoT und komplexe Software- und Hardwareprodukte. Berufliche Ergebnisse und eigene Prototypen.',
+    socialImageAlt: 'Yannik Berner, Senior Product Manager für KI, vernetzte Energie und IoT',
+    personDescription: 'Senior Product Manager für KI, vernetzte Energie, IoT und komplexe Software- und Hardwareprodukte. Verbindet Geschäftsziele, Kundenverständnis und technische Machbarkeit.',
     nav: {
       value: 'Mehrwert',
       about: 'Über mich',
@@ -21,9 +21,9 @@ const translations = {
       eyebrow: 'SENIOR PRODUCT MANAGER',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
-      title: 'Komplexe Produkte aus Software, Hardware und Prozessen',
-      intro: 'Wenn Software, Hardware und Betrieb ineinandergreifen und der Markt reguliert ist, brauchst du jemanden, der Product-Market-Fit im Live-Betrieb hält. Genau das mache ich, am tiefsten bewährt in Energiemärkten, vom ersten Zielbild bis zum Rollout.',
-      introMobile: 'Ich halte Product-Market-Fit, wenn Software, Hardware und Betrieb zusammenkommen, vom Zielbild bis zum Rollout.',
+      title: 'KI, vernetzte Energie und IoT mit klarem Kundennutzen',
+      intro: 'Ich verbinde Produktstrategie mit Geschäftswachstum. Aus Kundenbedürfnissen und technischen Möglichkeiten werden klare Prioritäten und skalierbare Software- und Hardwareprodukte, vom ersten Zielbild bis zum Rollout.',
+      introMobile: 'Ich übersetze Kundenbedürfnisse in klare Prioritäten und skalierbare Produkte für KI, vernetzte Energie und IoT.',
       ctaPrimary: 'Mehrwert ansehen',
       ctaSecondary: 'Kontakt aufnehmen',
       portraitAria: 'Porträt von Yannik Berner',
@@ -37,18 +37,18 @@ const translations = {
     impact: {
       eyebrow: 'Mehrwert',
       heading: 'Welche Mehrwerte ich liefere',
-      intro: 'Für Teams, die vernetzte Energie- oder Hardwareprodukte skalieren oder modernisieren: Ich bringe Richtung, technische Klarheit und Umsetzung unter einen Hut, damit Entscheidungen schneller sitzen und Releases im Betrieb ankommen.',
+      intro: 'Für Teams, die KI, vernetzte Energie, IoT oder komplexe Software- und Hardwareprodukte entwickeln: Ich verbinde Geschäftsziele, Kundenverständnis und technische Machbarkeit zu überprüfbaren nächsten Schritten.',
       valueHeading: 'Konkreter Mehrwert',
       environmentsHeading: 'Relevante Produktumfelder',
       proofLabel: 'Belegt durch',
       approachSummary: 'Vorgehen',
       items: [
         {
-          title: 'Vernetzte Produkte bauen, skalieren und modernisieren, ohne den Betrieb zu riskieren',
-          text: 'Ich baue und modernisiere B2B- und B2B2C-Produkte, in denen Software, Geräte und Prozesse zusammenlaufen. Business-Ziel, Machbarkeit und vorhandene Schulden bleiben dabei sichtbar. Am tiefsten bewährt bin ich in regulierter Energie: HEMS, Smart Metering, Speicher und Steuerung.',
+          title: 'Klare Richtung, vernetzte Entscheidungen und kontrollierte Umsetzung',
+          text: 'Ich übersetze Nutzerprobleme in priorisierte Roadmaps und bringe Business, Betrieb und Entwicklung auf gemeinsame Ziele. Geräte, Embedded Software, Cloud und Daten bilden eine gemeinsame Produktlogik. Migrationen und technische Schulden werden in schrittweise Releases mit sichtbaren Risiken gegliedert.',
           environments: [
             'EMS & HEMS',
-            'Smart Metering',
+            'Geräte- & Zählerintegration',
             'PV & Speicher',
             'Wallboxen & Wärmepumpen',
             'Flexibilität & Steuerung',
@@ -69,7 +69,7 @@ const translations = {
             'Ich führe Hardware, Embedded Software, Cloud und Daten in eine gemeinsame Produktlogik.',
             'Ich orchestriere den Weg vom Pilot bis zum Rollout, inklusive der Tests, die im Feld wirklich zählen.',
             'Ich treffe Trade-offs zwischen Nutzen, Umsatzhebel und dem, was die Architektur heute hergibt.',
-            'Ich entwickle skalierbare Lösungen für PV, Speicher, Wallboxen, Wärmepumpen und Smart Metering.',
+            'Ich verbinde PV, Speicher, Wallboxen, Wärmepumpen und Zählerintegrationen in der HEMS-Produktarbeit.',
             'Ich zerlege Nutzerprobleme und Geschäftsprozesse so, dass die Systemlandschaft greifbar wird.',
             'Ich formuliere ein Zielbild und die Modernisierungsroadmap, an der sich Releases ausrichten.',
             'Ich priorisiere Nutzerwert, Business-Ziele und technische Schulden in derselben Entscheidung.',
@@ -91,7 +91,7 @@ const translations = {
         'ENTSCHEIDUNGEN',
         'ÜBERSETZEN.'
       ],
-      p1: 'An der Schnittstelle von Geschäftsmodell, Technik, Regulatorik und Betrieb arbeite ich am liebsten. Die Stationen reichen von Start-ups bis Konzern, vor allem in Energie, IoT, Daten und CRM.',
+      p1: 'Mehr als acht Jahre Produktmanagement verbinden meine Stationen von Start-ups bis Konzern: Energie, IoT, B2B SaaS, Cloud, CRM und vernetzte Geräte. Ich arbeite dort, wo Kundenbedürfnisse, Geschäftsmodell und technische Machbarkeit zusammenkommen.',
       p2: 'Strategisches Denken und pragmatische Umsetzung gehören bei mir zusammen. Unklare Lagen sind mein Terrain: Zusammenhänge sortieren, Leute auf eine Richtung holen, Umsetzung in Gang bringen.',
       p3: 'Wiederkehrend in meiner Arbeit ist der Einsatz von Reliability- und Prognosedaten für Produkt- und Investitionsentscheidungen, etwa Leistungskurven, prognosebasierte Steuerung oder Signale aus Hardware-Monitoring.'
     },
@@ -102,7 +102,7 @@ const translations = {
         { title: 'Produkt- & Plattformstrategie', text: 'Vision und Roadmap so schärfen, dass Discovery und Business Case dieselbe Richtung haben.' },
         { title: 'Modernisierung & Migration', text: 'Schulden, Schnittstellen und Betriebsrisiken in kontrollierte Übergänge strukturieren.' },
         { title: 'Discovery bis Rollout', text: 'Nutzerprobleme in priorisierte Inkremente und Rollouts übersetzen, die auf Mobile und Desktop tragen.' },
-        { title: 'Business-IT-Alignment', text: 'Business, Ops und Engineering auf dieselbe Entscheidung ausrichten.' },
+        { title: 'KI-Produktstrategie & Evaluation', text: 'Lokale Modelle, menschliche Prüfung und regelbasierte Fallbacks an klaren Qualitäts-, Datenschutz- und Betriebskriterien ausrichten.' },
         { title: 'Outcome- & KPI-Steuerung', text: 'Prioritäten und Erfolgskriterien an Nutzerwert und Business Impact hängen.' },
         { title: 'Energie-, IoT- & Datenprodukte', text: 'Hardware, Cloud und Daten so verbinden, dass die Regulatorik im Produkt mitgedacht ist.' }
       ]
@@ -112,8 +112,8 @@ const translations = {
       heading: 'Domänenwissen, Methoden und ausgewählte Tools',
       groups: [
         {
-          title: 'Energie & Regulierung',
-          items: ['EMS/HEMS', 'Energy Intelligence', 'Smart Metering', 'CLS', '§14a EnWG', 'FNN-Steuerboxen', 'dynamische Stromtarife', 'Eigenverbrauchsoptimierung', 'Direktvermarktung', 'Flexibilitätsmärkte', 'EEG', '§9 EEG', '§21 EnWG', '§118 Abs. 6 EnWG', 'VDE FNN', 'BNetzA', 'BDEW']
+          title: 'Vernetzte Energie & KI-Produktarbeit',
+          items: ['EMS/HEMS', 'Energy Intelligence', 'Geräteintegration', 'Zählerintegration im HEMS', 'Lokale Modelle', 'Menschliche Prüfung', 'dynamische Stromtarife', 'Eigenverbrauchsoptimierung', 'Evaluationskriterien', 'Regelbasierte Fallbacks', 'Datenschutzbewusste Architektur', 'Antwortqualität', 'Latenz', 'Ressourcennutzung', 'Betriebsrisiken', 'Produktmodernisierung', 'Gestaffelte Rollouts']
         },
         {
           title: 'Energiesysteme & Technologie',
@@ -191,7 +191,7 @@ const translations = {
         mediaAriaLabel: 'Collage zum Home Energy Management System bei SENEC',
         mediaLinkLabel: 'SENEC PowerPilot in einem neuen Tab öffnen',
         contributions: [
-          'Zwei HEMS-Varianten, mehr als 20.000 Systeme: parallel führen oder zusammenführen entschieden.',
+          'Produktstrategie und Umsetzung für zwei HEMS-Varianten mit mehr als 20.000 Systemen mitgestaltet.',
           'Integrationsreihenfolge für PV, Speicher, Wallbox, Wärmepumpe und Metering gesetzt.',
           'Tests so geschnitten, dass Risiken vor dem Rollout sichtbar wurden.',
           'Strangler-Ansatz gewählt. Ein Rewrite war keine Option.',
@@ -199,7 +199,7 @@ const translations = {
           'Geräte-Onboarding standardisiert.'
         ],
         tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs', 'Prognosedaten'],
-        result: 'Ergebnis: Skalierbare HEMS-Modelle für mehr als 20.000 vernetzte Energiesysteme.',
+        result: 'Ergebnis: HEMS-Produktstrategie und Umsetzung für mehr als 20.000 vernetzte private Energiesysteme mitgestaltet.',
         details: {
           context: 'Produktarbeit über Hardware, Software und Cloud mit hoher Abhängigkeit vom laufenden Betrieb.',
           approach: 'Bestehende Plattform schrittweise um Varianten und Integrationen erweitert, bei laufendem Betrieb.',
@@ -244,13 +244,13 @@ const translations = {
         mediaAriaLabel: 'Collage zur CRM- und Vertriebsplattform bei Mercedes-Benz',
         contributions: [
           'AWS vor dem internationalen Rollout gezogen.',
-          'Mehr als sechs Märkte nacheinander ausgerollt.',
+          'Produkteinführung in mehr als sechs europäischen Märkten unterstützt.',
           'Marktprozesse auf einen Nenner gebracht.',
           'Salesforce- und API-Umfang gegen Sonderwünsche festgezogen.',
           'Release-Takt über Märkte vergleichbar gemacht.'
         ],
         tags: ['Salesforce', 'AWS', 'APIs', 'CRM', 'CI/CD', 'Scrum'],
-        result: 'Ergebnis: Einheitlichere digitale Prozesse über mehrere Märkte.',
+        result: 'Ergebnis: Cloud-Migration und Produkteinführung in mehr als sechs europäischen Märkten unterstützt.',
         details: {
           context: 'Reguliertes Umfeld mit hohem Abstimmungsbedarf zwischen Produkt und Delivery, inklusive AWS-Migration.',
           approach: 'Altes und neues Hosting parallel betrieben, User schrittweise migriert, danach weitere europäische Märkte ausgerollt.',
@@ -261,7 +261,7 @@ const translations = {
         title: 'Product Manager Growth: Energie & Software',
         meta: 'B2C-Plattform für langfristige Energie- und Telekommunikationsverträge.',
         valueLabel: 'Mehrwert: Energieplattform skalieren · Tarifwechsel automatisieren',
-        overview: 'Energieprodukt und Automatisierung an Nutzungsdaten ausgerichtet und auf rund 100.000 aktive Kund:innen skaliert.',
+        overview: 'Energieprodukt und Automatisierung an Nutzungsdaten ausgerichtet und die Skalierung auf rund 100.000 aktive Kund:innen mit unterstützt.',
         approachTitle: 'Launch und Skalierung einer digitalen Plattform',
         approachText: 'Datenbasiert gebaut, Automatisierung am Kundennutzen gemessen.',
         periodLocation: 'Dez. 2017 – Dez. 2020 · Berlin',
@@ -269,13 +269,13 @@ const translations = {
         mediaAriaLabel: 'Collage zur Energie- und Tarifplattform von remind.me',
         mediaLinkLabel: 'remind.me-Website in einem neuen Tab öffnen',
         contributions: [
-          'Plattform an Nutzungsdaten weiterentwickelt und auf rund 100.000 aktive Kund:innen skaliert.',
+          'Plattform an Nutzungsdaten weiterentwickelt und die Skalierung auf rund 100.000 aktive Kund:innen mit unterstützt.',
           'Automatisierung nach Erfolgsquote hochgefahren.',
           'Priorisierung an Conversion-Daten ausgerichtet: auf Conversion-Optimierung, Prozess-Automatisierung, User-Journey-Verbesserung, Entwicklungszyklen und Qualität.',
           'Prozesse so nachgeschärft, dass 98 Prozent der Tarifwechsel durchkamen und sich über 20 Mio. Euro Ersparnis aufsummierten.'
         ],
         tags: ['B2C Platform', 'Process Automation', 'CRM', 'Kanban'],
-        result: 'Ergebnis: Rund 100.000 Kund:innen, 98 Prozent Wechselerfolg, mehr als 20 Mio. Euro Kundenersparnis.',
+        result: 'Ergebnis: Skalierung auf rund 100.000 aktive Kund:innen mit unterstützt, bei 98 Prozent Wechselerfolg und mehr als 20 Mio. Euro kumulierten Kundeneinsparungen.',
         details: {
           context: 'Kundenorientierter Produktkontext mit Fokus auf Tempo und Transparenz.',
           approach: 'Plattform datenbasiert skaliert, Automatisierung schrittweise erweitert.',
@@ -284,9 +284,43 @@ const translations = {
       }
     },
     projects: {
+      energyLab: {
+        "eyebrow": "#2 Eigenes Projekt",
+        "title": "Energie-Labor",
+        "meta": "Persönliche Entscheidungshilfe für Stromtarif, Eigenverbrauch und Investitionen.",
+        "valueLabel": "Mehrwert: Stromkosten verstehen und Optionen durchrechnen",
+        "overview": "Welcher Tarif passt zu meinem Zuhause? Energie-Labor führt durch Verbrauch, vorhandene Geräte und Vertrag. Drei Preisannahmen machen mögliche Bezugskosten vergleichbar. PV, Speicher und Wärmepumpe lassen sich als separate Investitionen durchrechnen.",
+        "approachTitle": "Vom eigenen Haushalt zur nachvollziehbaren Rechnung",
+        "approachText": "Historische Preise, persönliche Rückrechnung und Zukunftsannahmen bekommen eigene Ansichten. Vorhandene Geräte und neue Anschaffungen bleiben getrennt. Jede Rechnung zeigt ihre Eingaben und Grenzen.",
+        "result": "Ergebnis: Ein lokaler Prototyp mit geführter Eingabe, zentraler Analyse und drei anpassbaren Preisverläufen.",
+        "contributions": [
+                "Fünf Schritte führen vom Verbrauch zur Analyse. Angaben lassen sich anschließend wieder öffnen.",
+                "Jahres- und Gesamtkosten zeigen, was die eigenen Preisannahmen für den Haushalt bedeuten.",
+                "Separate Investitionsrechnungen zeigen jährlichen Nutzen, einfache Amortisation und Investitionsgrenze."
+        ],
+        "limits": "Stand: Annahmenrechnung mit konstantem Netzbezug. Zeitaufgelöste Haushaltsoptimierung, automatische PV- und Speichergrößen sowie Vermarktungserlöse sind nächste Ausbaustufen.",
+        "cta": "Showcase auf GitHub ansehen",
+        "ctaAria": "Energie-Labor-Showcase auf GitHub ansehen, öffnet in neuem Tab",
+        "imageAlt": "Energie-Labor: drei Preisannahmen mit jährlichen Stromkosten und kumuliertem Kostenverlauf. Prototyp mit Beispieldaten.",
+        "imageCaption": "Analyse im lokalen Prototyp mit Beispieldaten. Bild zum Vergrößern öffnen.",
+        "narrative": {
+          "problem": "Ob sich ein Stromtarif, eine PV-Anlage oder ein Speicher lohnt, hängt vom eigenen Verbrauch, Vertrag und Zuhause ab. Diese Angaben müssen zusammen betrachtet werden.",
+          "users": "Privathaushalte in Deutschland, die ihre Stromkosten verstehen und einen Tarifwechsel oder eine Anschaffung abwägen.",
+          "whyAi": "Die Kosten werden mit festen Formeln berechnet. Eingaben und Rechenwege lassen sich direkt prüfen.",
+          "ux": "Fünf Schritte führen durch Verbrauch, Zuhause, Vertrag und Optionen zum Ausblick. Drei Preisverläufe zeigen, wie sich die Kosten entwickeln könnten.",
+          "architecture": "Lokale Web-App mit JavaScript. Tarifvergleich, Geräteberechnung und Preisverläufe haben eigene Rechenfunktionen mit automatisierten Tests.",
+          "evaluation": "Verstehen Nutzer:innen die Rechnung und ihre Annahmen? Hilft der Vergleich bei der Entscheidung für einen Tarif oder eine Anschaffung? Das soll mit Haushalten erprobt werden.",
+          "metrics": "Geplant: Zeit bis zum ersten Vergleich, abgeschlossene Eingaben und Verständlichkeit der Ergebnisse. Einsparungen sollen später im Alltag geprüft werden.",
+          "tradeoffs": "Der erste Prototyp rechnet mit konstantem Netzbezug und frei gewählten Preisannahmen. Genauere Verbrauchsverläufe und passende PV- und Speichergrößen folgen als nächste Schritte."
+}
+},
       eyebrow: 'Eigene Produkte',
-      heading: 'Vier eigene Produkte. Jeweils von Problem und Nutzer:innen bis Evaluation und Trade-offs.',
+      heading: 'Fünf eigene Prototypen. Von der Nutzerfrage zur nachvollziehbaren Entscheidung.',
+      intro: 'Die beruflichen Ergebnisse oben stammen aus meinen Produktrollen. Hier zeige ich eigenständige Prototypen mit konkreten Nutzeraufgaben, aktuellem Stand und offenen Prüfzielen. Beschriebene Nutzenpotenziale sind von gemessenen Kundenergebnissen getrennt.',
+      research: 'Aktuelles Entwicklungsvorhaben: eine reproduzierbare Evaluation von drei lokalen, informationssicheren LLM-Teamarchitekturen. Verglichen werden sollen Antwortqualität, Zuverlässigkeit, Latenz, Ressourcennutzung und betriebliche Zielkonflikte. Veröffentlichung von Implementierung und Messergebnissen folgt nach reproduzierbaren Läufen mit gekennzeichneten synthetischen Eingaben.',
       common: {
+        showcase: 'Showcase auf GitHub ansehen',
+        showcaseAria: 'Projekt-Showcase auf GitHub ansehen, öffnet in neuem Tab',
         narrativeHeading: 'Produktlogik',
         viewNarrative: 'Produktlogik anzeigen',
         hideNarrative: 'Produktlogik ausblenden',
@@ -296,21 +330,21 @@ const translations = {
         uxLabel: 'UX',
         architectureLabel: 'Architektur',
         evaluationLabel: 'Evaluation',
-        metricsLabel: 'Metriken',
+        metricsLabel: 'Geplante Prüfkriterien',
         tradeoffsLabel: 'Trade-offs'
       },
       visualWorkspace: {
         eyebrow: '#1 Eigenes Projekt',
         title: 'Whiteboard und Kennzahlen in einer App',
-        meta: 'Visueller Arbeitsraum für Serviceaufträge, Prozessoptimierung und Automatisierung.',
-        valueLabel: 'Mehrwert: Abläufe sichtbar machen · Auswirkungen berechnen · Automatisierung priorisieren',
-        overview: 'Eine freie Canvas verbindet Prozessschritte, Kennzahlen und reale Arbeitsartefakte. Im Beispiel eines Serviceauftrags werden IST-Prozess mit Zeiten und Abbruchquote und ein automatisierter SOLL-Prozess nebeneinander gelegt. Verbundene Berechnungen zeigen Gesamtzeit je Ablauf und die daraus resultierende Optimierungszeit direkt darunter.',
-        approachTitle: 'Prozess, Daten und Verbesserung in einem Modell',
-        approachText: 'Prozessformen beschreiben Arbeitsschritte. Typisierte Verbindungen zeigen Übergaben und Datenflüsse. Formeln berechnen die Wirkung einer Änderung sofort.',
+        meta: "Abläufe vergleichen und berechnen, welche Verbesserung wie viel Zeit bringt.",
+        valueLabel: "Mehrwert: Engpässe erkennen · Zeitgewinn berechnen · Verbesserungen priorisieren",
+        overview: "movur verbindet Ideen, Arbeitsmaterialien und Kennzahlen auf einem gemeinsamen Board. Verknüpfte Karten und Formeln zeigen, wie Annahmen einen Funnel, ein Budget oder einen Ablauf verändern. Im gezeigten Serviceauftrag werden heutige und geplante Arbeitsschritte direkt vergleichbar.",
+        approachTitle: "Verbesserungen direkt am Ablauf durchrechnen",
+        approachText: "Arbeitsschritte, Übergaben und Kennzahlen bilden ein verbundenes Modell. Ändert sich eine Zeitannahme, aktualisieren sich die zugehörigen Berechnungen. So lässt sich der erwartete Zeitgewinn einer Automatisierung vergleichen.",
         periodLocation: 'Eigenes Produkt, interaktiver Browserprototyp',
         imageAlt: 'IST-Prozess eines Serviceauftrags mit Zeiten und Abbruchquote neben einem automatisierten SOLL-Prozess, verbunden mit berechneter Gesamtzeit und Optimierungszeit',
         mediaAriaLabel: 'IST-Prozess eines Serviceauftrags mit Zeiten und Abbruchquote neben einem automatisierten SOLL-Prozess, verbunden mit berechneter Gesamtzeit und Optimierungszeit',
-        result: 'Ergebnis: Nutzbarer Prototyp, um IST- und SOLL-Prozesse gegenüberzustellen, Prozesszeiten zu berechnen und Optimierungspotenzial sichtbar zu machen.',
+        result: "Stand: Der Editor mit verbundenen Karten und Formeln ist implementiert. Berechnete Alternativen helfen, die nächste Verbesserung abzuwägen. KI-gestützte Board-Erstellung und Bearbeitung sind geplant.",
         contributions: [
           'Freie Canvas, Prozessformen und verschachtelbare Arbeitsbereiche als gemeinsames Modell.',
           'Typisierte Verbindungen für Abläufe, Datenabhängigkeiten und Berechnungen.',
@@ -322,7 +356,7 @@ const translations = {
         narrative: {
           problem: 'Prozesswissen liegt getrennt in Whiteboards, Tabellen, Dokumenten und Automatisierungstools. Änderungen und ihre Auswirkungen bleiben schwer nachvollziehbar.',
           users: 'Produkt, Strategie, Marketing, Sales, Operations, Gründer:innen und Finance Teams, die Abläufe verstehen und verbessern müssen.',
-          whyAi: 'KI ist als nächste Ebene geplant, um importierte Artefakte zu verdichten und passende Verbindungen vorzuschlagen. Entscheidungen und Berechnungen bleiben prüfbar.',
+          whyAi: 'KI-gestützte Board-Erstellung und Bearbeitung sind geplant. Der implementierte Kern verbindet Karten und Formeln zu prüfbaren Berechnungen.',
           ux: 'Direkte Arbeit auf einer freien Fläche. Arbeitsschritte, Kennzahlen und Notizen lassen sich verbinden, verschieben, berechnen und gemeinsam als Prozess lesen.',
           architecture: 'Lokaler Vanilla JavaScript Prototyp mit eigenständigem Objektmodell für Frames, Objekte, Verbindungen und Freihandzeichnung. Formeln referenzieren benannte Objekte.',
           evaluation: 'Können Nutzer:innen einen realen Serviceauftrag schneller modellieren, Engpässe erkennen und IST- gegen SOLL-Prozess rechnerisch vergleichen?',
@@ -331,109 +365,109 @@ const translations = {
         }
       },
       stakeholderIntelligence: {
-        eyebrow: '#2 Eigenes Projekt',
+        eyebrow: "#3 Eigenes Projekt",
         title: 'Stakeholder Intelligence',
-        meta: 'Stakeholder nach Nähe zum Programm und Typ einordnen, Kollaboration ableiten und per Reminder nachhalten.',
-        valueLabel: 'Mehrwert: Nähe und Typ verknüpfen · Kollaboration und Reminder ableiten',
-        overview: 'Ein Board für Nähe zum Programm, Typ, abgeleitete Kollaboration und Reminder. Wen ich wann wie einbinde, sitzt an einem Ort.',
-        approachTitle: 'Einordnung verknüpfen, Kollaboration und Reminder ableiten',
-        approachText: 'Nähe und Typ im selben Profil. Daraus Kollaborationshinweise und Reminder für Follow-ups.',
+        meta: "Klären, wen ich für eine Entscheidung einbinde, wie ich die Zusammenarbeit vorbereite und wann ich nachfasse.",
+        valueLabel: "Mehrwert: Beteiligte einordnen · Gespräche vorbereiten · Follow-ups nachhalten",
+        overview: "Wen brauche ich für die nächste Produktentscheidung, und welchen Kontext braucht das Gespräch? Der Local-first-Prototyp verbindet eine visuelle Stakeholder-Karte mit Rollen, Beobachtungen und offenen Fragen. So lassen sich Beziehungen reflektieren und nächste Gespräche vorbereiten.",
+        approachTitle: "Von der Stakeholder-Karte zur nächsten Abstimmung",
+        approachText: "Einordnungen bleiben eigene Arbeitshypothesen. Optionale Kommunikationsvorschläge werden vor der Übernahme menschlich geprüft. Folgeaufgaben werden als Notizen festgehalten; eine Erinnerungsfunktion gehört zum offenen Ausbau.",
         periodLocation: 'Privates Projekt, lokal betrieben',
         imageAlt: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
         mediaAriaLabel: 'Screenshot des Stakeholder-Intelligence-Boards im Kreis-Modell mit fiktiven Demo-Kontakten',
-        result: 'Ergebnis: Lokales MVP für Prep und Reminder in einem Board.',
+        result: "Stand: Ein Local-first-Prototyp bündelt Gesprächskontext und Follow-up-Notizen. Der Nutzen für die eigene Gesprächsvorbereitung soll im Alltag geprüft werden.",
         contributions: [
           'Nähe und Typ im selben Profil verknüpft.',
-          'Kollaboration aus Einordnung ableitbar gemacht.',
-          'Reminder für Follow-ups modelliert.',
+          'Rollen, Beobachtungen und offene Fragen für die Gesprächsvorbereitung verbunden.',
+          'Folgeaufgaben als Notizen im Profil festgehalten.',
           'Datenmodell, API und erste Reviews zu Autosave und Validierung.'
         ],
-        tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Reminder', 'Local-First'],
+        tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Follow-up-Notizen', 'Local-First'],
         narrative: {
           problem: 'Stakeholder-Arbeit zerfällt leicht in getrennte Notizen. Nähe, Typ und Follow-ups leben selten in einem System.',
-          users: 'Product Manager mit vielen Stakeholdern. Primär nutze ich es als Prep- und Reminder-Werkzeug.',
-          whyAi: 'Keine generative KI nötig. Der Wert steckt in verknüpfter Einordnung und zuverlässigen Remindern.',
-          ux: 'Board mit Nähe, Typ, abgeleitetem Kollaborationsansatz und Reminder.',
+          users: 'Product Manager mit vielen Stakeholdern, die ihre Zusammenarbeit reflektieren und Gespräche vorbereiten möchten.',
+          whyAi: 'Optionale Kommunikationsvorschläge unterstützen die Vorbereitung. Ein Mensch prüft sie vor der Übernahme; Einordnungen bleiben eigene Arbeitshypothesen.',
+          ux: 'Visuelle Karte mit Rollen, Beobachtungen, offenen Fragen und Follow-up-Notizen.',
           architecture: 'Local-First mit Next.js, TypeScript und SQLite. REST-API mit Tests.',
-          evaluation: 'Werden Reminder vor Entscheidungen genutzt? Ändert die Einordnung, wen ich wie einbinde?',
-          metrics: 'Überfällige Reminder, vollständige Einordnungen, geplante Follow-ups.',
-          tradeoffs: 'Verknüpfte Modelle vor flacher Kontaktliste. Reminder aus Einordnung. Lokal vor shared CRM.'
+          evaluation: 'Hilft der Kontext, relevante Beteiligte einzubinden und das nächste Gespräch vorzubereiten? Das ist ein offenes Prüfziel.',
+          metrics: 'Geplant: Zeit zur Gesprächsvorbereitung, hilfreiche Kontextnotizen und menschlich geprüfte Vorschläge.',
+          tradeoffs: 'Eigene Einordnungen dienen der Reflexion. Automatische Persönlichkeitsanalyse ist ausgeschlossen. Follow-ups bleiben Notizen ohne Erinnerungsfunktion.'
         }
       },
       predictiveMentoring: {
-        eyebrow: '#3 Eigenes Projekt',
+        eyebrow: "#4 Eigenes Projekt",
         title: 'Predictive Mentoring',
-        meta: 'Produkt-Know-how fürs Privatleben: Vision und Strategie zu Handlung und Outcome bringen.',
-        valueLabel: 'Mehrwert: Produktarbeit ins Privatleben · Vision in Outcomes bringen',
-        overview: 'Die App überträgt Produkt- und Mentoring-Logik auf persönliche Wünsche: Vision und Strategie werden zu Handlung und Outcome.',
-        approachTitle: 'Vision und Strategie zu Handlung und Outcome',
-        approachText: 'Vision klären, Strategie schärfen, in Handlungen übersetzen, Outcomes sichtbar machen. Mentoring und lokales LLM begleiten.',
+        meta: "Persönliche Wünsche in konkrete nächste Schritte übersetzen und Fortschritt am eigenen Ziel reflektieren.",
+        valueLabel: "Mehrwert: Ziele klären · Nächste Schritte finden · Fortschritt reflektieren",
+        overview: "Was bedeutet mein Wunsch für die kommende Woche? MIOVO verbindet persönliche Ziele mit kleinen Alltagshandlungen, Tagebucheinträgen und Reflexion. Der mobile Prototyp hilft, den aktuellen Fokus zu erkennen und machbare nächste Schritte abzuleiten.",
+        approachTitle: "Vom persönlichen Ziel zur nächsten Handlung",
+        approachText: "Ziele, Alltagsschritte und Tagebuch bleiben verbunden. Fortschrittswerte beruhen auf Heuristiken und dienen der Orientierung. Der gezeigte Ablauf nutzt einen lokalen regelbasierten Helfer.",
         periodLocation: 'Privates Prototyp-Projekt (iOS/Android)',
         imageAlt: 'Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat',
         mediaAriaLabel: 'Collage der Predictive-Mentoring-App: Übersicht mit Tab-Navigation, Zielliste und Coaching-Chat',
-        result: 'Ergebnis: Prototyp mit Vision, Strategie, Handlung und Outcome in einem Flow.',
+        result: "Stand: Mobiler Prototyp für Ziele, Alltagsschritte und Reflexion. Validierte Erfolgsprognosen und ein Ausführungsnachweis für ein Sprachmodell auf dem Gerät stehen aus.",
         contributions: [
           'Vision-to-Outcome-Flow auf persönliche Wünsche übertragen.',
           'Mentoring als Begleitung eingebaut.',
           'Outcomes alltagsnah sichtbar gemacht.',
-          'Lokales LLM on-device für Formulierung und Coaching.',
+          'Lokalen regelbasierten Helfer im gezeigten Ablauf eingesetzt.',
           'Ton auf Erfüllung ausgerichtet, ohne Guilt-Druck.'
         ],
-        tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision to Outcome', 'Mobile'],
+        tags: ['React Native', 'Expo', 'Mentoring', 'Regelbasierter Helfer', 'Vision to Outcome', 'Mobile'],
         narrative: {
           problem: 'Im Privatleben fehlen oft die Werkzeuge aus der Produktarbeit. Vision zerfällt in Vorsätze ohne klare Handlung und spürbares Outcome.',
-          users: 'Privatpersonen mit großen Wünschen. Sie brauchen Struktur und Mentoring, Habit-Streaks allein reichen nicht.',
-          whyAi: 'Lokales LLM als Mentor-Stimme. Die Zerlegung Vision zu Outcome bleibt methodisch geführt.',
+          users: 'Privatpersonen, die langfristige Ziele in machbare Alltagsschritte übersetzen und ihren Fortschritt reflektieren möchten.',
+          whyAi: 'Der gezeigte Helfer arbeitet lokal und regelbasiert. Eine mögliche Sprachmodell-Anbindung braucht einen eigenen Ausführungs- und Qualitätsnachweis.',
           ux: 'Flow von Vision und Strategie zu Handlungen und Outcomes, plus Mentoring-Chat.',
-          architecture: 'React Native und Expo, Daten on-device, austauschbares lokales LLM.',
+          architecture: 'React Native und Expo mit lokaler Datenhaltung. Der demonstrierte Helfer arbeitet regelbasiert; On-device-LLM-Ausführung bleibt unbestätigt.',
           evaluation: 'Kommt man in einer Session zu Strategie und ersten Handlungen? Fühlt sich Begleitung erfüllend an?',
           metrics: 'Conversion Vision zu erster Handlung, klare Outcomes, Wiederkehr ohne Guilt.',
-          tradeoffs: 'Produkt- und Mentoring-Tiefe vor reiner Habit-App. Lokales LLM für Privatsphäre. Glück als Zielbild.'
+          tradeoffs: 'Heuristische Fortschrittswerte geben Orientierung. Eine belastbare Vorhersage von Zielerreichung erfordert separate Validierung.'
         }
       },
       cyberSecurityConnector: {
-        eyebrow: '#4 Eigenes Projekt',
-        title: 'Cyber Security Connector',
-        meta: 'B2B2B- und KMU-Surfaces mit Connector‑Marketplace und Agentic Connections.',
-        valueLabel: 'Mehrwert: HR- und QM-Daten in Maßnahmen · Push in Tickets',
-        overview: 'Zwei Surfaces auf einem Connector-Kern: Partner-Portal und KMU-Onboarding. Daraus entsteht ein Maßnahmenplan mit Push und Status-Sync.',
-        approachTitle: 'Von Connectoren zu automatisiertem Push',
-        approachText: 'Shared Connector-Framework, Multi-Source-Maßnahmenplan, Agentic Connections als Betriebsmodell in Cursor.',
+        eyebrow: "#5 Eigenes Projekt",
+        title: 'Lotse · Cyber Security Connector',
+        meta: "Unternehmensinformationen zu einer nachvollziehbaren Bestandsaufnahme und einem Handlungsplan verbinden.",
+        valueLabel: "Ziel: Bestandsaufnahme vorbereiten · Maßnahmen zuordnen · Entscheidungen nachvollziehen",
+        overview: "Welche Sicherheitsmaßnahmen brauchen als Nächstes eine Entscheidung? Lotse soll Unternehmen bei der NIS-2-Bestandsaufnahme unterstützen, offene Entscheidungen und Maßnahmen zuordnen und den Fortschritt bis zum internen Management-Review sichtbar machen.",
+        approachTitle: "Vom Unternehmenskontext zur bearbeitbaren Aufgabe",
+        approachText: "Der Forschungsprototyp zeigt Ansichten für KMU und Beratungspartner. Regelbasierte Vorschläge und simulierte Tickets machen den geplanten Weg vom Unternehmenskontext zur Aufgabe prüfbar.",
         periodLocation: 'Privates Research-Prototyp-Projekt (Next.js Monorepo)',
         imageAlt: 'Collage der Cyber-Security-Connector-Demos: KMU-Onboarding mit Marketplace und Partner-Portal mit Kundenliste',
         mediaAriaLabel: 'Collage der Cyber-Security-Connector-Demos: KMU-Onboarding mit Marketplace und Partner-Portal mit Kundenliste',
-        result: 'Ergebnis: Lauffähiger Dual-Demo-Kern von Onboarding bis Status-Sync.',
+        result: "Stand: Forschungsprototyp mit regelbasierten Maßnahmenvorschlägen und simulierten Tickets. Dokumentenanalyse, Nachweise und verbindliche Freigaben bleiben unvollständig. Der Prototyp gibt keine Compliance-Zusage.",
         contributions: [
           'Zwei Surfaces auf einem Connector-Kern.',
-          'Connector‑Marketplace für HR, QM, Ticketing und Partner-CRM.',
-          'Multi-Source-Maßnahmenplan aus Onboarding und verbundenen Quellen.',
-          'Maßnahmen als Tickets pushen, Status per Sync zurück.',
-          'Agentic Connections Engineer als Betriebsmodell.'
+          'Connector-Marketplace mit Demo-Anbindungen für HR, QM, Ticketing und Partner-CRM.',
+          'Regelbasierte Maßnahmenvorschläge aus Onboarding und Demo-Daten.',
+          'Ticketübergabe und Statusrückmeldung als Simulation dargestellt.',
+          'KI-unterstützte Connector-Entwicklung als Entwicklungsansatz dokumentiert.'
         ],
         tags: ['Next.js', 'TypeScript', 'Connector Framework', 'Agentic Connections', 'Multi-Source', 'B2B2B'],
         narrative: {
           problem: 'NIS2 und ISO 27001 erzeugen Beratungsbedarf. KMUs und Partner brauchen strukturierte Übergabe aus HR und QM in einen Maßnahmenplan.',
           users: 'Cyber-Security-Partner im B2B2B-Modell und KMUs im Onboarding.',
-          whyAi: 'Cursor übernimmt Connector-Entwicklung entlang API-Docs und Skills. Automation trägt Push und Sync.',
-          ux: 'Partner-Portal, KMU-Onboarding mit Marketplace, Dashboard mit Maßnahmenplan und Ticket-Push.',
+          whyAi: 'KI unterstützt die Entwicklung. Die gezeigten Maßnahmenvorschläge entstehen regelbasiert und brauchen fachliche Prüfung.',
+          ux: 'Partner-Portal, KMU-Onboarding und Maßnahmenplan mit simulierten Tickets. Echte Ticketübergaben und Live-Statusabgleiche stehen aus.',
           architecture: 'Next.js-Monorepo mit shared Connector-Framework und Multi-Source-Generator.',
-          evaluation: 'Entsteht der Plan aus verbundenen Quellen? Greifen Push und Sync im Dual-Demo?',
-          metrics: 'Verbundene Connectoren, Zeit bis Maßnahmenplan, Push-Erfolg, Sync-Aktualität.',
-          tradeoffs: 'Dual-Surface auf einem Kern. Maßnahmenplan als Kernwert. Ticketing als Push-Schicht. Agentic Connections als Betriebsmodell.'
+          evaluation: 'Sind Vorschläge nachvollziehbar, Zuständigkeiten klar und offene Entscheidungen sichtbar? Der vollständige Ablauf bis zum Management-Review ist ein Entwicklungsziel.',
+          metrics: 'Geplant: Zeit bis zum prüfbaren Maßnahmenplan, nachvollziehbare Zuordnungen und offene Entscheidungen.',
+          tradeoffs: 'Demo-Anbindungen begrenzen den Nachweis auf den gezeigten Ablauf. Dokumentenanalyse, Nachweisführung und verbindliche Freigaben erfordern weiteren Ausbau und fachliche Prüfung.'
         }
       },
     },
     contact: {
       eyebrow: 'Kontakt',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'Ich suche Senior- oder Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in DE, ideal bei Energie-, Hardware- oder IoT-Produkten, wo Software und Feldgerät zusammenpassen müssen. Wenn genau das eure Lücke ist: meldet euch.',
+      text: 'Ihr entwickelt KI, vernetzte Energie, IoT oder komplexe Software- und Hardwareprodukte? Ich suche Senior- oder Mid-Senior-Product-Rollen in Berlin, hybrid oder remote in Deutschland. Lasst uns über eure Nutzerfragen, Wachstumsziele und nächsten Produktentscheidungen sprechen.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'LinkedIn-Profil in einem neuen Tab öffnen',
       github: 'GitHub',
       githubLabel: 'GitHub-Profil in einem neuen Tab öffnen'
     },
     footer: {
-      text: '© Yannik Berner. Senior Product Management für komplexe Produkte aus Software, Hardware und Prozessen.',
+      text: '© Yannik Berner. Senior Product Management für KI, vernetzte Energie, IoT sowie Software- und Hardwareprodukte.',
       privacy: 'Datenschutz',
       backToTop: 'Zum Anfang'
     },
@@ -471,11 +505,11 @@ const translations = {
   },
   en: {
     skipLink: 'Skip to content',
-    documentTitle: 'Yannik Berner | Senior Product Manager · Complex Software & Hardware Products',
-    metaDescription: 'Senior Product Manager for complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy markets: finding and protecting product-market fit, from discovery to rollout.',
-    socialDescription: 'Senior Product Manager for complex products spanning software, hardware, process and data, proven most deeply in regulated energy markets.',
-    socialImageAlt: 'Yannik Berner, Senior Product Manager for complex products spanning software, hardware and process',
-    personDescription: 'Senior Product Manager for complex B2B and B2B2C products spanning software, hardware, process and data, proven most deeply in regulated energy markets.',
+    documentTitle: 'Yannik Berner | Senior Product Manager · AI, Energy & IoT',
+    metaDescription: 'Senior Product Manager for AI, connected energy, IoT and complex software and hardware products. Product strategy, measurable customer value and delivery through rollout.',
+    socialDescription: 'Product strategy with impact: AI, connected energy, IoT and complex software and hardware products. Professional outcomes and independent prototypes.',
+    socialImageAlt: 'Yannik Berner, Senior Product Manager for AI, connected energy and IoT',
+    personDescription: 'Senior Product Manager for AI, connected energy, IoT and complex software and hardware products. Aligns business goals, customer insight and technical feasibility.',
     nav: {
       value: 'Value',
       about: 'About',
@@ -491,9 +525,9 @@ const translations = {
       eyebrow: 'SENIOR PRODUCT MANAGER',
       nameFirst: 'YANNIK',
       nameSecond: 'BERNER',
-      title: 'Complex products spanning software, hardware and process',
-      intro: 'When software, hardware and operations come together and the market is regulated, you need someone who keeps product-market fit live in production. That is what I do, proven most deeply in energy markets, from the first target state through rollout.',
-      introMobile: 'I keep product-market fit when software, hardware and operations come together, from target state through rollout.',
+      title: 'AI, connected energy and IoT with clear customer value',
+      intro: 'I connect product strategy with business growth. Customer needs and technical possibilities become clear priorities and scalable software and hardware products, from the first target state through rollout.',
+      introMobile: 'I turn customer needs into clear priorities and scalable products for AI, connected energy and IoT.',
       ctaPrimary: 'See value delivered',
       ctaSecondary: 'Get in touch',
       portraitAria: 'Portrait of Yannik Berner',
@@ -507,18 +541,18 @@ const translations = {
     impact: {
       eyebrow: 'Value',
       heading: 'The value I deliver',
-      intro: 'For teams scaling or modernising connected energy or hardware products: I bring direction, technical clarity and delivery into one place, so decisions land faster and releases make it into operations.',
+      intro: 'For teams developing AI, connected energy, IoT or complex software and hardware products: I bring business goals, customer insight and technical feasibility together in testable next steps.',
       valueHeading: 'Value delivered',
       environmentsHeading: 'Relevant product environments',
       proofLabel: 'Proven through',
       approachSummary: 'Approach',
       items: [
         {
-          title: 'Build, scale and modernise connected products without putting operations at risk',
-          text: 'I build and modernise B2B and B2B2C products where software, devices and processes meet. Business goals, feasibility and existing debt stay visible. I am proven most deeply in regulated energy: HEMS, smart metering, storage and control.',
+          title: 'Clear direction, connected decisions and controlled delivery',
+          text: 'I turn user problems into prioritised roadmaps and align business, operations and engineering around shared goals. Devices, embedded software, cloud and data form one product logic. Migrations and technical debt become incremental releases with visible risks.',
           environments: [
             'EMS & HEMS',
-            'Smart metering',
+            'Device & metering integration',
             'Solar & storage',
             'EV charging & heat pumps',
             'Flexibility & control',
@@ -539,7 +573,7 @@ const translations = {
             'I bring hardware, embedded software, cloud and data into one product logic.',
             'I orchestrate the path from pilot to rollout, including the tests that matter in the field.',
             'I make trade-offs between value, revenue leverage and what the architecture can take today.',
-            'I build scalable solutions for solar, storage, EV charging, heat pumps and smart metering.',
+            'I connect PV, storage, EV charging, heat pumps and metering integrations through HEMS product work.',
             'I break down user problems and business processes until the system landscape is tangible.',
             'I write a target state and modernisation roadmap that releases can follow.',
             'I prioritise user value, business goals and technical debt in the same decision.',
@@ -561,7 +595,7 @@ const translations = {
         'PRODUCT',
         'DECISIONS.'
       ],
-      p1: 'I prefer working at the intersection of business model, technology, regulation and operations. My path runs from startups to corporates, mainly in energy, IoT, data and CRM.',
+      p1: 'More than eight years in product management connect my work from startups to corporates: energy, IoT, B2B SaaS, cloud, CRM and connected devices. I work where customer needs, business models and technical feasibility meet.',
       p2: 'Strategic thinking and pragmatic delivery belong together in my work. Ambiguous situations are my terrain: sort the dependencies, get people onto one direction, get execution moving.',
       p3: 'A recurring theme in my work is using reliability and forecast data for product and investment decisions, for example power curves, forecast-based control or signals from hardware monitoring.'
     },
@@ -572,7 +606,7 @@ const translations = {
         { title: 'Product & Platform Strategy', text: 'Sharpen vision and roadmap so discovery and the business case point the same way.' },
         { title: 'Modernisation & Migration', text: 'Structure debt, interfaces and operational risk into controlled transitions.' },
         { title: 'Discovery to Rollout', text: 'Translate user problems into prioritised increments and rollouts that hold on mobile and desktop.' },
-        { title: 'Business-IT Alignment', text: 'Align business, ops and engineering on the same decision.' },
+        { title: 'AI Product Strategy & Evaluation', text: 'Align local models, human review and rule-based fallbacks with clear quality, privacy and operational criteria.' },
         { title: 'Outcome & KPI Steering', text: 'Hang priorities and success criteria on user value and business impact.' },
         { title: 'Energy, IoT & Data Products', text: 'Connect hardware, cloud and data so regulation is built into the product.' }
       ]
@@ -582,8 +616,8 @@ const translations = {
       heading: 'Domain expertise, methods and selected tools',
       groups: [
         {
-          title: 'Energy & Regulation',
-          items: ['EMS/HEMS', 'Energy Intelligence', 'Smart Metering', 'CLS', '§14a EnWG', 'FNN control boxes', 'dynamic electricity tariffs', 'self-consumption optimisation', 'direct marketing', 'flexibility markets', 'EEG', '§9 EEG', '§21 EnWG', '§118 (6) EnWG', 'VDE FNN', 'BNetzA', 'BDEW']
+          title: 'Connected Energy & AI Product Work',
+          items: ['EMS/HEMS', 'Energy Intelligence', 'Device integration', 'Metering integration in HEMS', 'Local models', 'Human review', 'dynamic electricity tariffs', 'self-consumption optimisation', 'Evaluation criteria', 'Rule-based fallbacks', 'Privacy-aware architecture', 'Answer quality', 'Latency', 'Resource use', 'Operational risks', 'Product modernisation', 'Phased rollouts']
         },
         {
           title: 'Energy Systems & Technology',
@@ -661,7 +695,7 @@ const translations = {
         mediaAriaLabel: 'Collage of the Home Energy Management System at SENEC',
         mediaLinkLabel: 'Open SENEC PowerPilot in a new tab',
         contributions: [
-          'Two HEMS variants, more than 20,000 systems: decided what stays parallel and what consolidates.',
+          'Shaped product strategy and delivery for two HEMS variants serving more than 20,000 systems.',
           'Set the integration order for PV, storage, wallbox, heat pump and metering.',
           'Cut tests so risks showed up before rollout.',
           'Chose a strangler approach. A rewrite was not an option.',
@@ -669,7 +703,7 @@ const translations = {
           'Standardised device onboarding.'
         ],
         tags: ['HEMS', 'Embedded Linux', 'Yocto', 'MQTT', 'REST APIs', 'Forecast Data'],
-        result: 'Outcome: Scalable HEMS models for more than 20,000 connected energy systems.',
+        result: 'Outcome: Shaped HEMS product strategy and delivery for more than 20,000 connected residential energy systems.',
         details: {
           context: 'Product work across hardware, software and cloud with high dependency on live operations.',
           approach: 'Extended the existing platform with variants and integrations step by step while operations continued.',
@@ -714,13 +748,13 @@ const translations = {
         mediaAriaLabel: 'Collage of the CRM and sales platform at Mercedes-Benz',
         contributions: [
           'Moved to AWS before the international rollout.',
-          'Rolled out more than six markets one after another.',
+          'Supported product rollout across more than six European markets.',
           'Brought market processes onto a common baseline.',
           'Locked Salesforce and API scope against one-off requests.',
           'Made release cadence comparable across markets.'
         ],
         tags: ['Salesforce', 'AWS', 'APIs', 'CRM', 'CI/CD', 'Scrum'],
-        result: 'Outcome: More consistent digital processes across several markets.',
+        result: 'Outcome: Supported cloud migration and product rollout across more than six European markets.',
         details: {
           context: 'Regulated environment with high coordination needs between product and delivery, including the AWS migration.',
           approach: 'Ran old and new hosting in parallel, moved users step by step, then rolled out to further European markets.',
@@ -731,7 +765,7 @@ const translations = {
         title: 'Product Manager Growth: Energy & Software',
         meta: 'B2C platform for long-term energy and telecommunications contracts.',
         valueLabel: 'Value: Scale the energy platform · Automate tariff switches',
-        overview: 'Aligned the energy product and automation with usage data and scaled to around 100,000 active customers.',
+        overview: 'Aligned the energy product and automation with usage data and helped scale the platform to around 100,000 active customers.',
         approachTitle: 'Launching and scaling a digital platform',
         approachText: 'Built from data, measured automation by customer value.',
         periodLocation: 'Dec 2017 – Dec 2020 · Berlin',
@@ -739,13 +773,13 @@ const translations = {
         mediaAriaLabel: 'Collage of the energy and tariff platform at remind.me',
         mediaLinkLabel: 'Open the remind.me website in a new tab',
         contributions: [
-          'Grew the platform from usage data to around 100,000 active customers.',
+          'Used customer data to develop the platform and helped scale it to around 100,000 active customers.',
           'Raised automation by success rate.',
           'Aligned prioritisation with conversion data: conversion optimisation, process automation, user journey improvement, development cycles and quality.',
           'Tuned processes so 98 percent of tariff switches completed and more than €20 million in savings accumulated.'
         ],
         tags: ['B2C Platform', 'Process Automation', 'CRM', 'Kanban'],
-        result: 'Outcome: Around 100,000 customers, 98 percent switch success, more than €20 million in customer savings.',
+        result: 'Outcome: Helped scale the platform to around 100,000 active customers, with a 98 percent switching success rate and more than €20 million in accumulated customer savings.',
         details: {
           context: 'Customer-centric product context focused on pace and transparency.',
           approach: 'Scaled the platform from data and expanded automation step by step.',
@@ -754,9 +788,43 @@ const translations = {
       }
     },
     projects: {
+      energyLab: {
+        "eyebrow": "#2 Personal project",
+        "title": "Energie-Labor",
+        "meta": "Personal decision support for electricity tariffs, self-consumption and investments.",
+        "valueLabel": "Value: Understand electricity costs and work through your options",
+        "overview": "Which tariff fits my home? Energie-Labor guides users through consumption, existing devices and their contract. Three price assumptions make potential electricity costs comparable. PV, batteries and heat pumps can be assessed as separate investments.",
+        "approachTitle": "From your household to a traceable calculation",
+        "approachText": "Historical prices, personal back-calculations and future assumptions have separate views. Existing devices and new purchases stay distinct. Each calculation exposes its inputs and limits.",
+        "result": "Result: A local prototype with guided setup, a central analysis view and three adjustable price paths.",
+        "contributions": [
+                "Five steps lead from consumption to analysis. Inputs can be reopened afterwards.",
+                "Annual and total costs show what personal price assumptions mean for the household.",
+                "Separate investment calculations show annual benefit, simple payback and the investment ceiling."
+        ],
+        "limits": "Status: Assumption-based calculation with constant grid imports. Time-resolved household optimisation, automatic PV and battery sizing, and trading revenue are future development areas.",
+        "cta": "Explore the showcase on GitHub",
+        "ctaAria": "Explore the Energie-Labor showcase on GitHub, opens in a new tab",
+        "imageAlt": "Energie-Labor: three price assumptions with annual electricity costs and cumulative cost curves. Localized prototype view with sample data.",
+        "imageCaption": "Localized prototype view with sample data. Open the image for a closer look.",
+        "narrative": {
+          "problem": "Whether an electricity tariff, solar panels or a battery pays off depends on household consumption, the current contract and the home. These inputs need to be considered together.",
+          "users": "Households in Germany who want to understand their electricity costs and weigh up a tariff change or a purchase.",
+          "whyAi": "Costs are calculated with fixed formulas. Inputs and calculations can be checked directly.",
+          "ux": "Five steps guide users through consumption, home, contract and options to the outlook. Three price paths show how costs could develop.",
+          "architecture": "A local JavaScript web app. Tariff comparisons, equipment calculations and price paths each have calculation functions covered by automated tests.",
+          "evaluation": "Do users understand the calculation and its assumptions? Does the comparison help them choose a tariff or a purchase? Household testing is planned.",
+          "metrics": "Planned: time to first comparison, completed inputs and clarity of results. Savings will be assessed later in everyday use.",
+          "tradeoffs": "The first prototype uses constant grid consumption and user-defined price assumptions. More detailed consumption profiles and suitable solar and battery sizes are next steps."
+}
+},
       eyebrow: 'Own products',
-      heading: 'Four personal products. Each runs from problem and users through to evaluation and trade-offs.',
+      heading: 'Five independent prototypes. From a user question to a traceable decision.',
+      intro: 'The professional outcomes above come from my product roles. Here I present independent prototypes with concrete user tasks, their current state and open evaluation goals. Potential benefits are kept separate from measured customer outcomes.',
+      research: 'Current build: a reproducible evaluation of three local, information-secure LLM team architectures. The planned comparison covers answer quality, reliability, latency, resource use and operational trade-offs. Implementation and measurements will be published after reproducible runs with labelled synthetic inputs.',
       common: {
+        showcase: 'View showcase on GitHub',
+        showcaseAria: 'View project showcase on GitHub, opens in a new tab',
         narrativeHeading: 'Product thinking',
         viewNarrative: 'Show product thinking',
         hideNarrative: 'Hide product thinking',
@@ -766,21 +834,21 @@ const translations = {
         uxLabel: 'UX',
         architectureLabel: 'Architecture',
         evaluationLabel: 'Evaluation',
-        metricsLabel: 'Metrics',
+        metricsLabel: 'Planned evaluation criteria',
         tradeoffsLabel: 'Trade-offs'
       },
       visualWorkspace: {
         eyebrow: '#1 Personal project',
         title: 'Whiteboard and metrics in one app',
-        meta: 'A visual workspace for service orders, process optimisation and automation.',
-        valueLabel: 'Value: Make workflows visible · Calculate impact · Prioritise automation',
-        overview: 'A freeform canvas connects process steps, metrics and real work artefacts. In a service-order example, a current process with step durations and a drop-off rate sits next to an automated target process. Connected calculations show total time per process and the resulting optimisation time right below.',
-        approachTitle: 'Process, data and improvement in one model',
-        approachText: 'Process shapes describe work steps. Typed connections show handoffs and data flows. Formulas calculate the impact of a change immediately.',
+        meta: "Compare workflows and calculate how much time a proposed improvement could save.",
+        valueLabel: "Value: Spot bottlenecks · Calculate time savings · Prioritise improvements",
+        overview: "movur brings ideas, work artefacts and metrics onto one shared board. Connected cards and formulas show how assumptions change a funnel, a budget or a workflow. The service-order example makes current and proposed steps directly comparable.",
+        approachTitle: "Calculate improvements within the workflow",
+        approachText: "Work steps, handoffs and metrics form a connected model. Changing a time assumption updates the related calculations, making the expected time savings of automation comparable.",
         periodLocation: 'Personal product, interactive browser prototype',
         imageAlt: 'Current service-order process with step durations and drop-off rate next to an automated target process, connected to calculated total time and optimisation time',
         mediaAriaLabel: 'Current service-order process with step durations and drop-off rate next to an automated target process, connected to calculated total time and optimisation time',
-        result: 'Outcome: A usable prototype for comparing current and target processes, calculating process time and surfacing optimisation potential.',
+        result: "Status: The editor with connected cards and formulas is implemented. Calculated alternatives help users weigh the next improvement. AI-assisted board creation and editing are planned.",
         contributions: [
           'Built a freeform canvas, process shapes and nested work areas as one model.',
           'Added typed connections for workflows, data dependencies and calculations.',
@@ -792,7 +860,7 @@ const translations = {
         narrative: {
           problem: 'Process knowledge is split across whiteboards, spreadsheets, documents and automation tools. Changes and their effects remain hard to trace.',
           users: 'Product, strategy, marketing, sales, operations, founders and finance teams who need to understand and improve workflows.',
-          whyAi: 'AI is planned as the next layer to distil imported artefacts and suggest useful connections. Decisions and calculations remain inspectable.',
+          whyAi: 'AI-assisted board creation and editing are planned. The implemented core connects cards and formulas in inspectable calculations.',
           ux: 'Direct manipulation on a freeform canvas. Work steps, metrics and notes can be connected, moved, calculated and read together as one process.',
           architecture: 'A local Vanilla JavaScript prototype with a dedicated object model for frames, objects, connections and freehand ink. Formulas reference named objects.',
           evaluation: 'Can users model a real service order faster, identify bottlenecks and compare current against target process quantitatively?',
@@ -801,109 +869,109 @@ const translations = {
         }
       },
       stakeholderIntelligence: {
-        eyebrow: '#2 Personal project',
+        eyebrow: "#3 Personal project",
         title: 'Stakeholder Intelligence',
-        meta: 'Map stakeholders by proximity to the programme and type, derive collaboration, and follow up with reminders.',
-        valueLabel: 'Value: Link proximity and type · Derive collaboration and reminders',
-        overview: 'One board for proximity to the programme, type, derived collaboration and reminders. Whom I involve when and how lives in one place.',
-        approachTitle: 'Link the mapping, derive collaboration and reminders',
-        approachText: 'Proximity and type in the same profile. From that: collaboration cues and reminders for follow-ups.',
+        meta: "Clarify whom to involve in a decision, how to prepare collaboration and when to follow up.",
+        valueLabel: "Value: Map stakeholders · Prepare conversations · Track follow-ups",
+        overview: "Whom do I need for the next product decision, and what context does the conversation need? The local-first prototype connects a visual stakeholder map with roles, observations and open questions. It helps users reflect on relationships and prepare the next conversation.",
+        approachTitle: "From the stakeholder map to the next conversation",
+        approachText: "Classifications remain personal working hypotheses. Optional communication suggestions receive human review before acceptance. Follow-ups are recorded as notes; reminder functionality remains an open extension.",
         periodLocation: 'Personal project, run locally',
         imageAlt: 'Screenshot of the Stakeholder Intelligence board in circle mode with fictional demo contacts',
         mediaAriaLabel: 'Screenshot of the Stakeholder Intelligence board in circle mode with fictional demo contacts',
-        result: 'Outcome: Local MVP for prep and reminders in one board.',
+        result: "Status: A local-first prototype brings conversation context and follow-up notes together. Its value for personal conversation preparation is to be evaluated in everyday use.",
         contributions: [
           'Linked proximity and type in the same profile.',
-          'Made collaboration derivable from the mapping.',
-          'Modelled reminders for follow-ups.',
+          'Connected roles, observations and open questions for conversation preparation.',
+          'Recorded follow-up tasks as notes in the profile.',
           'Shipped data model, API and first reviews on autosave and validation.'
         ],
-        tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Reminder', 'Local-first'],
+        tags: ['Next.js', 'TypeScript', 'SQLite', 'Vitest', 'Follow-up notes', 'Local-first'],
         narrative: {
           problem: 'Stakeholder work easily splits into separate notes. Proximity, type and follow-ups rarely live in one system.',
-          users: 'Product managers with many stakeholders. I primarily use it as a prep and reminder tool.',
-          whyAi: 'No generative AI needed. The value is linked mapping and reliable reminders.',
-          ux: 'Board with proximity, type, derived collaboration approach and reminders.',
+          users: 'Product managers with many stakeholders who want to reflect on collaboration and prepare conversations.',
+          whyAi: 'Optional communication suggestions support preparation. A person reviews them before acceptance; classifications remain personal working hypotheses.',
+          ux: 'Visual map with roles, observations, open questions and follow-up notes.',
           architecture: 'Local-first with Next.js, TypeScript and SQLite. REST API with tests.',
-          evaluation: 'Are reminders used before decisions? Does mapping change whom I involve and how?',
-          metrics: 'Overdue reminders, complete mappings, planned follow-ups.',
-          tradeoffs: 'Linked models over a flat contact list. Reminders from mapping. Local over a shared CRM.'
+          evaluation: 'Does the context help involve relevant people and prepare the next conversation? This remains an open evaluation goal.',
+          metrics: 'Planned: preparation time, helpful context notes and human-reviewed suggestions.',
+          tradeoffs: 'Personal classifications support reflection. Automatic personality analysis is excluded. Follow-ups remain notes without reminder functionality.'
         }
       },
       predictiveMentoring: {
-        eyebrow: '#3 Personal project',
+        eyebrow: "#4 Personal project",
         title: 'Predictive Mentoring',
-        meta: 'Product know-how for private life: turn vision and strategy into action and outcome.',
-        valueLabel: 'Value: Bring product work into private life · Turn vision into outcomes',
-        overview: 'The app carries product and mentoring logic onto personal wishes: vision and strategy become action and outcome.',
-        approachTitle: 'Vision and strategy into action and outcome',
-        approachText: 'Clarify vision, sharpen strategy, translate into actions, make outcomes visible. Mentoring and a local LLM guide.',
+        meta: "Turn personal aspirations into concrete next steps and reflect on progress towards your own goals.",
+        valueLabel: "Value: Clarify goals · Find next steps · Reflect on progress",
+        overview: "What does my aspiration mean for the coming week? MIOVO connects personal goals with small everyday actions, journal entries and reflection. The mobile prototype helps users identify their current focus and manageable next steps.",
+        approachTitle: "From a personal goal to the next action",
+        approachText: "Goals, everyday steps and the journal stay connected. Progress values are heuristic and provide orientation. The demonstrated workflow uses a local rule-based helper.",
         periodLocation: 'Personal prototype project (iOS/Android)',
         imageAlt: 'Collage of the Predictive Mentoring app: overview with tab navigation, goal list and coaching chat',
         mediaAriaLabel: 'Collage of the Predictive Mentoring app: overview with tab navigation, goal list and coaching chat',
-        result: 'Outcome: Prototype with vision, strategy, action and outcome in one flow.',
+        result: "Status: Mobile prototype for goals, everyday steps and reflection. Validated predictions of success and evidence of on-device language-model execution remain outstanding.",
         contributions: [
           'Transferred a vision-to-outcome flow onto personal wishes.',
           'Built mentoring as guidance.',
           'Made outcomes visible in everyday terms.',
-          'Used a local on-device LLM for wording and coaching.',
+          'Used a local rule-based helper in the demonstrated workflow.',
           'Set the tone on fulfilment, without guilt pressure.'
         ],
-        tags: ['React Native', 'Expo', 'Mentoring', 'Local LLM', 'Vision to outcome', 'Mobile'],
+        tags: ['React Native', 'Expo', 'Mentoring', 'Rule-based helper', 'Vision to outcome', 'Mobile'],
         narrative: {
           problem: 'Private life often lacks the tools from product work. Vision dissolves into resolutions without clear action and felt outcome.',
-          users: 'Private individuals with big wishes. They need structure and mentoring; habit streaks alone are not enough.',
-          whyAi: 'Local LLM as a mentor voice. The breakdown from vision to outcome stays method-led.',
+          users: 'Individuals who want to turn long-term goals into manageable everyday steps and reflect on progress.',
+          whyAi: 'The demonstrated helper runs locally using rules. A possible language-model integration requires separate execution and quality evidence.',
           ux: 'Flow from vision and strategy to actions and outcomes, plus mentoring chat.',
-          architecture: 'React Native and Expo, on-device data, swappable local LLM.',
+          architecture: 'React Native and Expo with local data storage. The demonstrated helper is rule-based; on-device LLM execution remains unconfirmed.',
           evaluation: 'In one session, can someone reach a strategy and first actions? Does guidance feel fulfilling?',
           metrics: 'Conversion from vision to first action, clear outcomes, return use without guilt.',
-          tradeoffs: 'Product and mentoring depth over a pure habit app. Local LLM for privacy. Happiness as the north star.'
+          tradeoffs: 'Heuristic progress values provide orientation. Reliable predictions of goal attainment require separate validation.'
         }
       },
       cyberSecurityConnector: {
-        eyebrow: '#4 Personal project',
-        title: 'Cyber Security Connector',
-        meta: 'B2B2B and SME surfaces with a connector marketplace and Agentic Connections.',
-        valueLabel: 'Value: HR and QM data into measures · Push into tickets',
-        overview: 'Two surfaces on one connector core: partner portal and SME onboarding. That yields a measure plan with push and status sync.',
-        approachTitle: 'From connectors to automated push',
-        approachText: 'Shared connector framework, multi-source measure plan, Agentic Connections as the operating model in Cursor.',
+        eyebrow: "#5 Personal project",
+        title: 'Lotse · Cyber Security Connector',
+        meta: "Connect company information into a traceable assessment and action plan.",
+        valueLabel: "Goal: Prepare an assessment · Assign measures · Trace decisions",
+        overview: "Which security measures need a decision next? Lotse aims to help companies prepare a NIS2 assessment, assign open decisions and measures, and track progress through internal executive review.",
+        approachTitle: "From company context to an actionable task",
+        approachText: "The research prototype shows views for SMEs and advisory partners. Rule-based suggestions and simulated tickets make the planned path from company context to tasks inspectable.",
         periodLocation: 'Personal research prototype project (Next.js monorepo)',
         imageAlt: 'Collage of the Cyber Security Connector demos: SME onboarding with marketplace and partner portal with customer list',
         mediaAriaLabel: 'Collage of the Cyber Security Connector demos: SME onboarding with marketplace and partner portal with customer list',
-        result: 'Outcome: Runnable dual-demo core from onboarding to status sync.',
+        result: "Status: Research prototype with rule-based measure suggestions and simulated tickets. Document analysis, evidence management and required approvals remain incomplete. The prototype provides no compliance guarantee.",
         contributions: [
           'Two surfaces on one connector core.',
-          'Connector marketplace for HR, QM, ticketing and partner CRM.',
-          'Multi-source measure plan from onboarding and connected sources.',
-          'Push measures as tickets, mirror status via sync.',
-          'Agentic Connections Engineer as the operating model.'
+          'Connector marketplace with demo integrations for HR, QM, ticketing and partner CRM.',
+          'Rule-based measure suggestions from onboarding and demo data.',
+          'Presented ticket handover and status feedback as a simulation.',
+          'Documented AI-assisted connector development as a development approach.'
         ],
         tags: ['Next.js', 'TypeScript', 'Connector Framework', 'Agentic Connections', 'Multi-Source', 'B2B2B'],
         narrative: {
           problem: 'NIS2 and ISO 27001 drive advisory demand. SMEs and partners need structured handoff from HR and QM into a measure plan.',
           users: 'Cyber security partners in a B2B2B model and SMEs in onboarding.',
-          whyAi: 'Cursor owns connector development along API docs and skills. Automation carries push and sync.',
-          ux: 'Partner portal, SME onboarding with marketplace, dashboard with measure plan and ticket push.',
+          whyAi: 'AI supports development. The demonstrated measure suggestions are rule-based and need expert review.',
+          ux: 'Partner portal, SME onboarding and an action plan with simulated tickets. Real ticket handovers and live status updates remain outstanding.',
           architecture: 'Next.js monorepo with shared connector framework and multi-source generator.',
-          evaluation: 'Does the plan emerge from connected sources? Do push and sync work in the dual demo?',
-          metrics: 'Connected connectors, time to measure plan, push success, sync freshness.',
-          tradeoffs: 'Dual surface on one core. Measure plan as core value. Ticketing as push layer. Agentic Connections as operating model.'
+          evaluation: 'Are suggestions traceable, responsibilities clear and open decisions visible? The complete workflow through executive review is a development goal.',
+          metrics: 'Planned: time to a reviewable action plan, traceable assignments and open decisions.',
+          tradeoffs: 'Demo integrations limit the evidence to the demonstrated workflow. Document analysis, evidence management and required approvals need further development and expert review.'
         }
       },
     },
     contact: {
       eyebrow: 'Contact',
       heading: 'LET’S BUILD SOMETHING USEFUL.',
-      text: 'I am looking for senior or mid-senior product roles in Berlin, hybrid or remote in Germany, ideally in energy, hardware or IoT products where software and field devices have to fit together. If that is your gap: get in touch.',
+      text: 'Are you developing AI, connected energy, IoT or complex software and hardware products? I am looking for senior or mid-senior product roles in Berlin, hybrid or remote in Germany. Let us talk about your user questions, growth goals and next product decisions.',
       linkedin: 'LinkedIn',
       linkedinLabel: 'Open LinkedIn profile in a new tab',
       github: 'GitHub',
       githubLabel: 'Open GitHub profile in a new tab'
     },
     footer: {
-      text: '© Yannik Berner. Senior product management for complex products spanning software, hardware and process.',
+      text: '© Yannik Berner. Senior product management for AI, connected energy, IoT and software and hardware products.',
       privacy: 'Privacy',
       backToTop: 'Back to top'
     },
@@ -1024,6 +1092,12 @@ function updateTranslations(language) {
     const value = getByPath(active, element.getAttribute('data-i18n'));
     // Keep HTML fallback when a key is missing (e.g. stale cached script.js).
     setTextContent(element, value);
+  });
+
+  document.querySelectorAll('img[data-src-de][data-src-en]').forEach((image) => {
+    image.src = language === 'en' ? image.dataset.srcEn : image.dataset.srcDe;
+    image.style.removeProperty('display');
+    image.closest('.media-shell')?.classList.remove('image-missing');
   });
 
   document.querySelectorAll('[data-i18n-alt]').forEach((element) => {

@@ -1,0 +1,59 @@
+{
+  "source": "Sibling energie-labor/public, allowlisted static UI and calculation source only. No stores, credentials, caches or API server.",
+  "inputs": {
+    "public/index.html": "3605e65cd49f6c5382b9527765647e775eee786ca50b3b5345a4e253026ac1ed",
+    "public/styles.css": "df5a213a645cf8cb4cf759b3d221064306a7db399eedb9db39b0f16dcbe3ce84",
+    "public/app.mjs": "00c9fa346878124e5f5dc1da3aa4b050c178b1dcecdf9568dac8b9a980024d0d",
+    "public/model.mjs": "3feac0a4a8ccbfb555274ce6544d64ec574989e1076cc19beb5edb01924918ee",
+    "public/equipment-ui.mjs": "fd3a45f2aa9519178df35ef408c11c6c03c5233136210fde8112334df68ddedd",
+    "public/journey.mjs": "d630812eb7f9888503758bc7bf990cf03f03a144c64ccbcf658752e3c81dd5bb"
+  },
+  "capture": "Non-persistent WKWebView. HTTP(S) blocked except loopback capture server at 127.0.0.1:4198. Real application UI and computed values. Table hidden for focused analysis view. English text translated in the capture DOM; the app itself remains German.",
+  "syntheticInputs": {
+    "postalCode": "10115",
+    "annualKwh": 3500,
+    "gridKwh": 3000,
+    "years": 5,
+    "fixedCt": 32,
+    "fixedMonthly": 12,
+    "scenarioMonthly": 12,
+    "paths": [
+      {
+        "ct": 24,
+        "growthPercent": -2
+      },
+      {
+        "ct": 30,
+        "growthPercent": 0
+      },
+      {
+        "ct": 40,
+        "growthPercent": 3
+      }
+    ]
+  },
+  "assets": {
+    "energie-labor-analysis-de.webp": {
+      "sha256": "e06bee00caac1bfc3f07f2e2540ed8de0ded344cf0d5bfc897a1a497598e9988",
+      "bytes": 83298,
+      "dimensions": [
+        1400,
+        1294
+      ],
+      "chunks": [
+        "VP8 "
+      ]
+    },
+    "energie-labor-analysis-en.webp": {
+      "sha256": "8a8f9ea8d6e37653dfa1ff2146bc89c223fd67da9c17f1f33d4b65d7bb13d809",
+      "bytes": 81132,
+      "dimensions": [
+        1400,
+        1294
+      ],
+      "chunks": [
+        "VP8 "
+      ]
+    }
+  }
+}
