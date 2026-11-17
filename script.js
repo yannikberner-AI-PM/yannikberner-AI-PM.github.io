@@ -319,8 +319,6 @@ const translations = {
       intro: 'Die beruflichen Ergebnisse oben stammen aus meinen Produktrollen. Hier zeige ich eigenständige Prototypen mit konkreten Nutzeraufgaben, aktuellem Stand und offenen Prüfzielen. Beschriebene Nutzenpotenziale sind von gemessenen Kundenergebnissen getrennt.',
       research: 'Aktuelles Entwicklungsvorhaben: eine reproduzierbare Evaluation von drei lokalen, informationssicheren LLM-Teamarchitekturen. Verglichen werden sollen Antwortqualität, Zuverlässigkeit, Latenz, Ressourcennutzung und betriebliche Zielkonflikte. Veröffentlichung von Implementierung und Messergebnissen folgt nach reproduzierbaren Läufen mit gekennzeichneten synthetischen Eingaben.',
       common: {
-        showcase: 'Showcase auf GitHub ansehen',
-        showcaseAria: 'Projekt-Showcase auf GitHub ansehen, öffnet in neuem Tab',
         narrativeHeading: 'Produktlogik',
         viewNarrative: 'Produktlogik anzeigen',
         hideNarrative: 'Produktlogik ausblenden',
@@ -823,8 +821,6 @@ const translations = {
       intro: 'The professional outcomes above come from my product roles. Here I present independent prototypes with concrete user tasks, their current state and open evaluation goals. Potential benefits are kept separate from measured customer outcomes.',
       research: 'Current build: a reproducible evaluation of three local, information-secure LLM team architectures. The planned comparison covers answer quality, reliability, latency, resource use and operational trade-offs. Implementation and measurements will be published after reproducible runs with labelled synthetic inputs.',
       common: {
-        showcase: 'View showcase on GitHub',
-        showcaseAria: 'View project showcase on GitHub, opens in a new tab',
         narrativeHeading: 'Product thinking',
         viewNarrative: 'Show product thinking',
         hideNarrative: 'Hide product thinking',
