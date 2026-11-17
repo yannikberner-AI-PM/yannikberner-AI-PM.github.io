@@ -419,6 +419,21 @@ h3 {
   border: 1px solid var(--text);
 }
 
+.energy-lab-media {
+  margin: 0;
+  min-width: 0;
+}
+
+.energy-lab-media .media-shell {
+  aspect-ratio: auto;
+}
+
+.energy-lab-media figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
 .media-shell picture {
   display: contents;
 }
